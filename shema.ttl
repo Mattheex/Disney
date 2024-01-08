@@ -1,0 +1,52 @@
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sh:   <http://www.w3.org/ns/shacl#>
+PREFIX :     <http://projet.fr#>
+
+:Person
+    rdfs:label "person" ;
+    a          owl:Class .
+
+:Fictional
+    a owl:Class .
+
+:Real
+    a owl:Class .
+
+:Actor
+    a                  owl:Class ;
+    owl:intersectionOf ( :Person :Real ) .
+
+:Character
+    a                  owl:Class ;
+    owl:intersectionOf ( :Person :Fictional ) .
+
+:Movie
+    a          owl:Class ;
+    rdfs:label "movie" .
+
+:actor
+    a owl:onProperty .
+
+:character
+    a owl:onProperty .
+
+:CharacterShape
+    a                    sh:NodeShape ;
+    sh:targetClass       :Character ;    # Applies to all persons
+    sh:property          [ sh:path     :actor ;           # constrains the values of ex:ssn
+                           sh:minCount 1 ;
+                           sh:maxCount 1 ;
+                           sh:datatype :Actor ; ] ;
+    sh:closed            true ;
+    sh:ignoredProperties ( rdf:type ) .
+
+:MovieShape
+    a                    sh:NodeShape ;
+    sh:targetClass       :Movie ;    # Applies to all persons
+    sh:property          [ sh:path     :character ;           # constrains the values of ex:ssn
+                           sh:minCount 1 ;
+                           sh:datatype :Character ; ] ;
+    sh:closed            true ;
+    sh:ignoredProperties ( rdf:type ) .
