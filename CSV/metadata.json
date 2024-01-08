@@ -1,0 +1,44 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "url": "disney_movies_total_gross.csv",
+  "tableSchema": {
+    "primaryKey": "uri",
+    "aboutUrl": "http://projet.fr/films_data/{uri}",
+    "columns": [
+      {
+        "titles": "movie_title",
+        "propertyUrl": "http://projet.fr/films/movie_title"
+      },
+      {
+        "titles": "release_date",
+        "propertyUrl": "http://projet.fr/films/release_date",
+        "datatype": "number"
+      },
+      {
+        "titles": "genre",
+        "propertyUrl": "http://projet.fr/films/{genre}",
+        "valueUrl": "skos:Concept"
+      },
+      {
+        "titles": "MPAA_rating",
+        "propertyUrl": "http://projet.fr/films/MPAA_rating"
+      },
+      {
+        "titles": "total_gross",
+        "propertyUrl": "http://projet.fr/films/Total_gross",
+        "datatype": "number"
+      },
+      {
+        "titles": "inflation_adjusted_gross",
+        "propertyUrl": "http://projet.fr/films/Inflation_adjusted_gross",
+        "datatype": "number"
+      },
+      {
+        "titles": "uri",
+        "propertyUrl": "rdf:type",
+        "valueUrl": "http://projet.fr/films/CreativeWork",
+        "required": true
+      }
+    ]
+  }
+}

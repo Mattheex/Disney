@@ -1,0 +1,105 @@
+
+<http://projet.fr/films_data/SnowWhiteandtheSevenDwarfs> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/Inflation_adjusted_gross> 5.228953251E9;
+  <http://projet.fr/films/MPAA_rating> "G";
+  <http://projet.fr/films/Musical> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://projet.fr/films/Total_gross> 1.84925485E8;
+  <http://projet.fr/films/movie_title> "Snow White and the Seven Dwarfs";
+  <http://projet.fr/films/release_date> "1937-12-21" .
+
+<http://projet.fr/films_data/Pinocchio> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/Adventure> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://projet.fr/films/Inflation_adjusted_gross> 2.188229052E9;
+  <http://projet.fr/films/MPAA_rating> "G";
+  <http://projet.fr/films/Total_gross> 8.43E7;
+  <http://projet.fr/films/movie_title> "Pinocchio";
+  <http://projet.fr/films/release_date> "1940-02-09" .
+
+<http://projet.fr/films_data/Fantasia> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/Inflation_adjusted_gross> 2.187090808E9;
+  <http://projet.fr/films/MPAA_rating> "G";
+  <http://projet.fr/films/Musical> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://projet.fr/films/Total_gross> 8.332E7;
+  <http://projet.fr/films/movie_title> "Fantasia";
+  <http://projet.fr/films/release_date> "1940-11-13" .
+
+<http://projet.fr/films_data/SongoftheSouth> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/Adventure> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://projet.fr/films/Inflation_adjusted_gross> 1.078510579E9;
+  <http://projet.fr/films/MPAA_rating> "G";
+  <http://projet.fr/films/Total_gross> 6.5E7;
+  <http://projet.fr/films/movie_title> "Song of the South";
+  <http://projet.fr/films/release_date> "1946-11-12" .
+
+<http://projet.fr/films_data/Cinderella> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/Drama> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://projet.fr/films/Inflation_adjusted_gross> 9.2060873E8;
+  <http://projet.fr/films/MPAA_rating> "G";
+  <http://projet.fr/films/Total_gross> 8.5E7;
+  <http://projet.fr/films/movie_title> "Cinderella";
+  <http://projet.fr/films/release_date> "1950-02-15" .
+
+<http://projet.fr/films_data/20000LeaguesUndertheSea> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/Adventure> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://projet.fr/films/Inflation_adjusted_gross> 5.28279994E8;
+  <http://projet.fr/films/Total_gross> 2.82E7;
+  <http://projet.fr/films/movie_title> "20,000 Leagues Under the Sea";
+  <http://projet.fr/films/release_date> "1954-12-23" .
+
+<http://projet.fr/films_data/LadyandtheTramp> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/Drama> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://projet.fr/films/Inflation_adjusted_gross> 1.236035515E9;
+  <http://projet.fr/films/MPAA_rating> "G";
+  <http://projet.fr/films/Total_gross> 9.36E7;
+  <http://projet.fr/films/movie_title> "Lady and the Tramp";
+  <http://projet.fr/films/release_date> "1955-06-22" .
+
+<http://projet.fr/films_data/SleepingBeauty> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/Drama> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://projet.fr/films/Inflation_adjusted_gross> 2.1505832E7;
+  <http://projet.fr/films/Total_gross> 9.464608E6;
+  <http://projet.fr/films/movie_title> "Sleeping Beauty";
+  <http://projet.fr/films/release_date> "1959-01-29" .
+
+<http://projet.fr/films_data/101Dalmatians> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/Comedy> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://projet.fr/films/Inflation_adjusted_gross> 1.362870985E9;
+  <http://projet.fr/films/MPAA_rating> "G";
+  <http://projet.fr/films/Total_gross> 1.53E8;
+  <http://projet.fr/films/movie_title> "101 Dalmatians";
+  <http://projet.fr/films/release_date> "1961-01-25" .
+
+<http://projet.fr/films_data/TheAbsentMindedProfessor> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/Comedy> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://projet.fr/films/Inflation_adjusted_gross> 3.10094574E8;
+  <http://projet.fr/films/Total_gross> 2.5381407E7;
+  <http://projet.fr/films/movie_title> "The Absent Minded Professor";
+  <http://projet.fr/films/release_date> "1961-03-16" .
+
+<http://projet.fr/films_data/BabesinToyland> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/Inflation_adjusted_gross> 1.2484116E8;
+  <http://projet.fr/films/MPAA_rating> "G";
+  <http://projet.fr/films/Musical> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://projet.fr/films/Total_gross> 1.0218316E7;
+  <http://projet.fr/films/movie_title> "Babes in Toyland";
+  <http://projet.fr/films/release_date> "1961-12-14" .
+
+<http://projet.fr/films_data/BonVoyage> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/Comedy> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://projet.fr/films/Inflation_adjusted_gross> 1.09581646E8;
+  <http://projet.fr/films/MPAA_rating> "Not Rated";
+  <http://projet.fr/films/Total_gross> 9.230769E6;
+  <http://projet.fr/films/movie_title> "Bon Voyage!";
+  <http://projet.fr/films/release_date> "1962-05-17" .
+
+<http://projet.fr/films_data/TheSwordintheStone> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/Adventure> <http://www.w3.org/2004/02/skos/core#Concept>;
+  <http://projet.fr/films/Inflation_adjusted_gross> 1.53870834E8;
+  <http://projet.fr/films/Total_gross> 2.2182353E7;
+  <http://projet.fr/films/movie_title> "The Sword in the Stone";
+  <http://projet.fr/films/release_date> "1963-12-25" .
+
+<http://projet.fr/films_data/TheJungleBook> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/Inflation_adjusted_gross> 7.89612346E8;
+  <http://projet.fr/films/MPAA_rating> "Not Rated";
+  <http://projet.fr/films/Musical> <http://www.w3.org/2004/02/skos/core#Concept>
