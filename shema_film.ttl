@@ -2,35 +2,23 @@ PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sh:   <http://www.w3.org/ns/shacl#>
-PREFIX :     <http://projet.fr#>
+PREFIX :     <http://projet.fr/films#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> .
 
-:Person
-    rdfs:label "person" ;
-    a          owl:Class .
 
-:Fictional
-    a owl:Class .
+:CreativeWork a owl:Class.
 
-:Real
-    a owl:Class .
+:Movie a skos:Concept ;
+    skos:prefLabel "movie" .
 
-:Actor
-    a                  owl:Class ;
-    owl:intersectionOf ( :Person :Real ) .
+:ShortMovie a skos:Concept.
 
-:Character
-    a                  owl:Class ;
-    owl:intersectionOf ( :Person :Fictional ) .
+:TVShow a skos:Concept.
 
-:Movie
-    a          owl:Class ;
-    rdfs:label "movie" .
+:VideoGame a skos:Concept.
 
-:actor
-    a owl:onProperty .
+:AttractionsPark a skos:concept.
 
-:character
-    a owl:onProperty .
 
 :CharacterShape
     a                    sh:NodeShape ;
@@ -50,3 +38,4 @@ PREFIX :     <http://projet.fr#>
                            sh:datatype :Character ; ] ;
     sh:closed            true ;
     sh:ignoredProperties ( rdf:type ) .
+    
