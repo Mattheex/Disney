@@ -1,0 +1,253 @@
+@prefix : <http://projet.fr/perso#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+:Alien a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Alien" .
+
+:Alpha a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Alpha" .
+
+:Amazon a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Amazon" .
+
+:Android a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Android" .
+
+:Animal a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Animal" .
+
+:Asgardian a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Asgardian" .
+
+:Atlantean a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Atlantean" .
+
+:Bizarro a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Bizarro" .
+
+:BlackRacer a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Black Racer" .
+
+:Bolovaxian a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Bolovaxian" .
+
+:Clone a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Clone" .
+
+:CosmicEntity a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Cosmic Entity" .
+
+:Cyborg a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Cyborg" .
+
+:Czarnian a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Czarnian" .
+
+:DathomirianZabrak a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Dathomirian Zabrak" .
+
+:DemiGod a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Demi-God" .
+
+:Demon a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Demon" .
+
+:Eternal a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Eternal" .
+
+
+:FloraColossus a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Flora Colossus" .
+
+:FrostGiant a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Frost Giant" .
+
+:GodEternal a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "God / Eternal" .
+
+:Gorilla a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Gorilla" .
+
+:Gungan a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Gungan" .
+
+:Human a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Human" .
+
+:HumanAltered a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Human / Altered" .
+
+:HumanClone a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Human / Clone" .
+
+:HumanCosmic a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Human / Cosmic" .
+
+:HumanKree a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Human-Kree" .
+
+:HumanRadiation a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Human / Radiation" .
+
+:HumanSpartoi a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Human-Spartoi" .
+
+:HumanVulcan a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Human-Vulcan" .
+
+:HumanVuldarian a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Human-Vuldarian" .
+
+:IcthyoSapien a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Icthyo Sapien" .
+
+:Inhuman a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Inhuman" .
+
+:Kaiju a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Kaiju" .
+
+:Kakarantharaian a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Kakarantharaian" .
+
+:Korugaran a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Korugaran" .
+
+:Kryptonian a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Kryptonian" .
+
+:Luphomoid a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Luphomoid" .
+
+:Maiar a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Maiar" .
+
+:Martian a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Martian" .
+
+:Metahuman a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Metahuman" .
+
+:Mutant a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Mutant" .
+
+:MutantClone a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Mutant / Clone" .
+
+:NewGod a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "New God" .
+
+:Neyaphem a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Neyaphem" .
+
+:Parademon a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Parademon" .
+
+:Planet a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Planet" .
+
+:Rodian a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Rodian" .
+
+:Saiyan a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Saiyan" .
+
+:Spartoi a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Spartoi" .
+
+:Strontian a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Strontian" .
+
+:Symbiote a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Symbiote" .
+
+:Talokite a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Talokite" .
+
+:Tamaranean a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Tamaranean" .
+
+:Ungaran a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Ungaran" .
+
+:Vampire a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Vampire" .
+
+:XenomorphXX121 a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Xenomorph XX121" .
+
+:Yautja a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Yautja" .
+
+:Yoda a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Yoda's species" .
+
+:ZenWhoberian a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Zen-Whoberian" .
+
+:Zombie a skos:Concept ;
+    rdfs:subClassOf :Race ;
+    skos:prefLabel "Zombie" .
+

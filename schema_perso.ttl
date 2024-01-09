@@ -5,23 +5,32 @@ PREFIX sh:   <http://www.w3.org/ns/shacl#>
 PREFIX film: <http://projet.fr/films#>
 PREFIX :     <http://projet.fr/perso#>
 
-:Person
-    rdfs:label "person" ;
-    a          owl:Class .
+:Person a owl:Class;
+    rdfs:label "person".
+     .
 
-:Fictional
-    a owl:Class .
+:Fictional a owl:Class;
+    rdfs:label "fictionnal" .
 
-:Real
-    a owl:Class .
+:Real a owl:Class;
+    rdfs:label "real" .
 
-:Actor
-    a owl:Class ;
+:Actor a owl:Class ;
+    rdfs:label "an actor";
     owl:intersectionOf ( :Person :Real ) .
 
-:Character
-    a owl:Class ;
+:Character a owl:Class ;
+    rdfs:label "a character";
     owl:intersectionOf ( :Person :Fictional ) .
 
-:appearedIn a owl:ObjectProperty;
+:hasImage a owl:ObjectProperty;
+    rdfs:label "has image".
 
+:name a owl:DatatypeProperty;
+    rdfs:label "name";
+
+:secretIdentity a owl:DataObjectProperty;
+    rdfs:label "secret identity".
+    
+:id a owl:DatatypeProperty;
+    rdfs:label "id".
