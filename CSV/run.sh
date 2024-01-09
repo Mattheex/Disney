@@ -1,4 +1,1 @@
-./csv2rdf_v5 \
---mode minimal \
---user-metadata metadata.json \
---output-file countries.ttl
+java -jar csv2rdf-standalone.jar --mode minimal --user-metadata metadata.json --output-file movie.ttl

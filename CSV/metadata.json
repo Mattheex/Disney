@@ -1,40 +1,85 @@
 {
   "@context": "http://www.w3.org/ns/csvw",
-  "url": "disney_movies_total_gross.csv",
+  "url": "mdc.csv",
   "tableSchema": {
-    "primaryKey": "uri",
-    "aboutUrl": "http://projet.fr/films_data/{uri}",
+    "primaryKey": "id",
+    "aboutUrl": "http://projet.fr/films_data/{id}",
     "columns": [
       {
-        "titles": "movie_title",
-        "propertyUrl": "http://projet.fr/films/movie_title"
+        "titles": "title",
+        "propertyUrl": "http://projet.fr/films/title"
       },
       {
-        "titles": "release_date",
-        "propertyUrl": "http://projet.fr/films/release_date",
-        "datatype": "number"
+        "titles": "year",
+        "propertyUrl": "http://projet.fr/films/year",
+        "datetype": "date"
       },
       {
         "titles": "genre",
-        "propertyUrl": "http://projet.fr/films/{genre}",
-        "valueUrl": "skos:Concept"
+        "propertyUrl": "http://projet.fr/films/genre"
       },
       {
-        "titles": "MPAA_rating",
-        "propertyUrl": "http://projet.fr/films/MPAA_rating"
+        "titles": "runtime",
+        "suppressOutput": true
       },
       {
-        "titles": "total_gross",
-        "propertyUrl": "http://projet.fr/films/Total_gross",
+        "titles": "mpa_rating",
+        "suppressOutput": true
+      },
+      {
+        "titles": "imdb",
+        "propertyUrl": "http://projet.fr/films/rating",
         "datatype": "number"
       },
       {
-        "titles": "inflation_adjusted_gross",
-        "propertyUrl": "http://projet.fr/films/Inflation_adjusted_gross",
+        "titles": "imdb_votes",
+        "propertyUrl": "http://projet.fr/films/vote",
         "datatype": "number"
       },
       {
-        "titles": "uri",
+        "titles": "imdb_gross",
+        "propertyUrl": "http://projet.fr/films/gross",
+        "datatype": "number"
+      },
+      {
+        "titles": "director",
+        "propertyUrl": "http://projet.fr/films/director"
+      },
+      {
+        "titles": "star",
+        "propertyUrl": "http://projet.fr/films/stars"
+      },
+      {
+        "titles": "description",
+        "suppressOutput": true
+      },
+      {
+
+        "titles": "crit_consensus",
+        "suppressOutput": true
+      },
+      {
+        "titles": "tomato_meter",
+        "suppressOutput": true
+      },
+      {
+        "titles": "tomato_review",
+        "suppressOutput": true
+      },
+      {
+        "titles": "tom_aud_score",
+        "suppressOutput": true
+      },
+      {
+        "titles": "tom_ratings",
+        "suppressOutput": true
+      },
+      {
+        "titles": "entity",
+        "propertyUrl": "http://projet.fr/films/entity"
+      },
+      {
+        "titles": "id",
         "propertyUrl": "rdf:type",
         "valueUrl": "http://projet.fr/films/CreativeWork",
         "required": true

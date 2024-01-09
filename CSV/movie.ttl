@@ -1,105 +1,990 @@
 
-<http://projet.fr/films_data/SnowWhiteandtheSevenDwarfs> a <http://projet.fr/films/CreativeWork>;
-  <http://projet.fr/films/Inflation_adjusted_gross> 5.228953251E9;
-  <http://projet.fr/films/MPAA_rating> "G";
-  <http://projet.fr/films/Musical> <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://projet.fr/films/Total_gross> 1.84925485E8;
-  <http://projet.fr/films/movie_title> "Snow White and the Seven Dwarfs";
-  <http://projet.fr/films/release_date> "1937-12-21" .
+<http://projet.fr/films_data/1> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Elmer Clifton";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 0.0E0;
+  <http://projet.fr/films/rating> 5.5E0;
+  <http://projet.fr/films/stars> "Elmer Clifton,Dick Purcell,Lorna Gray,Lionel Atwill,Charles Trowbridge";
+  <http://projet.fr/films/title> "Captain America";
+  <http://projet.fr/films/vote> 8.44E2;
+  <http://projet.fr/films/year> "1944" .
 
-<http://projet.fr/films_data/Pinocchio> a <http://projet.fr/films/CreativeWork>;
-  <http://projet.fr/films/Adventure> <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://projet.fr/films/Inflation_adjusted_gross> 2.188229052E9;
-  <http://projet.fr/films/MPAA_rating> "G";
-  <http://projet.fr/films/Total_gross> 8.43E7;
-  <http://projet.fr/films/movie_title> "Pinocchio";
-  <http://projet.fr/films/release_date> "1940-02-09" .
+<http://projet.fr/films_data/2> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Willard Huyck";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Comedy";
+  <http://projet.fr/films/gross> 1.63E7;
+  <http://projet.fr/films/rating> 4.7E0;
+  <http://projet.fr/films/stars> "Willard Huyck,Lea Thompson,Jeffrey Jones,Tim Robbins,Ed Gale";
+  <http://projet.fr/films/title> "Howard the Duck";
+  <http://projet.fr/films/vote> 4.4073E4;
+  <http://projet.fr/films/year> "1986" .
 
-<http://projet.fr/films_data/Fantasia> a <http://projet.fr/films/CreativeWork>;
-  <http://projet.fr/films/Inflation_adjusted_gross> 2.187090808E9;
-  <http://projet.fr/films/MPAA_rating> "G";
-  <http://projet.fr/films/Musical> <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://projet.fr/films/Total_gross> 8.332E7;
-  <http://projet.fr/films/movie_title> "Fantasia";
-  <http://projet.fr/films/release_date> "1940-11-13" .
+<http://projet.fr/films_data/3> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Stephen Norrington";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Horror, Sci-Fi";
+  <http://projet.fr/films/gross> 7.009E7;
+  <http://projet.fr/films/rating> 7.1E0;
+  <http://projet.fr/films/stars> "Stephen Norrington,Wesley Snipes,Stephen Dorff,Kris Kristofferson,N'Bushe Wright";
+  <http://projet.fr/films/title> "Blade";
+  <http://projet.fr/films/vote> 2.51243E5;
+  <http://projet.fr/films/year> "1998" .
 
-<http://projet.fr/films_data/SongoftheSouth> a <http://projet.fr/films/CreativeWork>;
-  <http://projet.fr/films/Adventure> <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://projet.fr/films/Inflation_adjusted_gross> 1.078510579E9;
-  <http://projet.fr/films/MPAA_rating> "G";
-  <http://projet.fr/films/Total_gross> 6.5E7;
-  <http://projet.fr/films/movie_title> "Song of the South";
-  <http://projet.fr/films/release_date> "1946-11-12" .
+<http://projet.fr/films_data/4> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Bryan Singer";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 1.573E8;
+  <http://projet.fr/films/rating> 7.4E0;
+  <http://projet.fr/films/stars> "Bryan Singer,Patrick Stewart,Hugh Jackman,Ian McKellen,Famke Janssen";
+  <http://projet.fr/films/title> "X-Men";
+  <http://projet.fr/films/vote> 5.80354E5;
+  <http://projet.fr/films/year> "2000" .
 
-<http://projet.fr/films_data/Cinderella> a <http://projet.fr/films/CreativeWork>;
-  <http://projet.fr/films/Drama> <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://projet.fr/films/Inflation_adjusted_gross> 9.2060873E8;
-  <http://projet.fr/films/MPAA_rating> "G";
-  <http://projet.fr/films/Total_gross> 8.5E7;
-  <http://projet.fr/films/movie_title> "Cinderella";
-  <http://projet.fr/films/release_date> "1950-02-15" .
+<http://projet.fr/films_data/5> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Guillermo del Toro";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Fantasy, Horror";
+  <http://projet.fr/films/gross> 8.235E7;
+  <http://projet.fr/films/rating> 6.7E0;
+  <http://projet.fr/films/stars> "Guillermo del Toro,Wesley Snipes,Kris Kristofferson,Ron Perlman,Leonor Varela";
+  <http://projet.fr/films/title> "Blade II";
+  <http://projet.fr/films/vote> 2.03813E5;
+  <http://projet.fr/films/year> "2002" .
 
-<http://projet.fr/films_data/20000LeaguesUndertheSea> a <http://projet.fr/films/CreativeWork>;
-  <http://projet.fr/films/Adventure> <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://projet.fr/films/Inflation_adjusted_gross> 5.28279994E8;
-  <http://projet.fr/films/Total_gross> 2.82E7;
-  <http://projet.fr/films/movie_title> "20,000 Leagues Under the Sea";
-  <http://projet.fr/films/release_date> "1954-12-23" .
+<http://projet.fr/films_data/6> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Sam Raimi";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 4.0371E8;
+  <http://projet.fr/films/rating> 7.3E0;
+  <http://projet.fr/films/stars> "Sam Raimi,Tobey Maguire,Kirsten Dunst,Willem Dafoe,James Franco";
+  <http://projet.fr/films/title> "Spider-Man";
+  <http://projet.fr/films/vote> 7.02986E5;
+  <http://projet.fr/films/year> "2002" .
 
-<http://projet.fr/films_data/LadyandtheTramp> a <http://projet.fr/films/CreativeWork>;
-  <http://projet.fr/films/Drama> <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://projet.fr/films/Inflation_adjusted_gross> 1.236035515E9;
-  <http://projet.fr/films/MPAA_rating> "G";
-  <http://projet.fr/films/Total_gross> 9.36E7;
-  <http://projet.fr/films/movie_title> "Lady and the Tramp";
-  <http://projet.fr/films/release_date> "1955-06-22" .
+<http://projet.fr/films_data/7> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Mark Steven Johnson";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Crime";
+  <http://projet.fr/films/gross> 1.0254E8;
+  <http://projet.fr/films/rating> 5.3E0;
+  <http://projet.fr/films/stars> "Mark Steven Johnson,Ben Affleck,Jennifer Garner,Colin Farrell,Michael Clarke Duncan";
+  <http://projet.fr/films/title> "Daredevil";
+  <http://projet.fr/films/vote> 2.08847E5;
+  <http://projet.fr/films/year> "2003" .
 
-<http://projet.fr/films_data/SleepingBeauty> a <http://projet.fr/films/CreativeWork>;
-  <http://projet.fr/films/Drama> <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://projet.fr/films/Inflation_adjusted_gross> 2.1505832E7;
-  <http://projet.fr/films/Total_gross> 9.464608E6;
-  <http://projet.fr/films/movie_title> "Sleeping Beauty";
-  <http://projet.fr/films/release_date> "1959-01-29" .
+<http://projet.fr/films_data/8> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Bryan Singer";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Sci-Fi, Thriller";
+  <http://projet.fr/films/gross> 2.1495E8;
+  <http://projet.fr/films/rating> 7.4E0;
+  <http://projet.fr/films/stars> "Bryan Singer,Patrick Stewart,Hugh Jackman,Halle Berry,Ian McKellen";
+  <http://projet.fr/films/title> "X2: X-Men United";
+  <http://projet.fr/films/vote> 5.19747E5;
+  <http://projet.fr/films/year> "2003" .
 
-<http://projet.fr/films_data/101Dalmatians> a <http://projet.fr/films/CreativeWork>;
-  <http://projet.fr/films/Comedy> <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://projet.fr/films/Inflation_adjusted_gross> 1.362870985E9;
-  <http://projet.fr/films/MPAA_rating> "G";
-  <http://projet.fr/films/Total_gross> 1.53E8;
-  <http://projet.fr/films/movie_title> "101 Dalmatians";
-  <http://projet.fr/films/release_date> "1961-01-25" .
+<http://projet.fr/films_data/9> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Ang Lee";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Sci-Fi";
+  <http://projet.fr/films/gross> 1.3218E8;
+  <http://projet.fr/films/rating> 5.6E0;
+  <http://projet.fr/films/stars> "Ang Lee,Eric Bana,Jennifer Connelly,Sam Elliott,Josh Lucas";
+  <http://projet.fr/films/title> "Hulk";
+  <http://projet.fr/films/vote> 2.55002E5;
+  <http://projet.fr/films/year> "2003" .
 
-<http://projet.fr/films_data/TheAbsentMindedProfessor> a <http://projet.fr/films/CreativeWork>;
-  <http://projet.fr/films/Comedy> <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://projet.fr/films/Inflation_adjusted_gross> 3.10094574E8;
-  <http://projet.fr/films/Total_gross> 2.5381407E7;
-  <http://projet.fr/films/movie_title> "The Absent Minded Professor";
-  <http://projet.fr/films/release_date> "1961-03-16" .
+<http://projet.fr/films_data/10> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Jonathan Hensleigh";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Crime, Drama";
+  <http://projet.fr/films/gross> 3.368E7;
+  <http://projet.fr/films/rating> 6.4E0;
+  <http://projet.fr/films/stars> "Jonathan Hensleigh,Thomas Jane,John Travolta,Samantha Mathis,Laura Harring";
+  <http://projet.fr/films/title> "The Punisher";
+  <http://projet.fr/films/vote> 1.51872E5;
+  <http://projet.fr/films/year> "2004" .
 
-<http://projet.fr/films_data/BabesinToyland> a <http://projet.fr/films/CreativeWork>;
-  <http://projet.fr/films/Inflation_adjusted_gross> 1.2484116E8;
-  <http://projet.fr/films/MPAA_rating> "G";
-  <http://projet.fr/films/Musical> <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://projet.fr/films/Total_gross> 1.0218316E7;
-  <http://projet.fr/films/movie_title> "Babes in Toyland";
-  <http://projet.fr/films/release_date> "1961-12-14" .
+<http://projet.fr/films_data/11> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Sam Raimi";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 3.7359E8;
+  <http://projet.fr/films/rating> 7.3E0;
+  <http://projet.fr/films/stars> "Sam Raimi,Tobey Maguire,Kirsten Dunst,Alfred Molina,James Franco";
+  <http://projet.fr/films/title> "Spider-Man 2";
+  <http://projet.fr/films/vote> 5.5698E5;
+  <http://projet.fr/films/year> "2004" .
 
-<http://projet.fr/films_data/BonVoyage> a <http://projet.fr/films/CreativeWork>;
-  <http://projet.fr/films/Comedy> <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://projet.fr/films/Inflation_adjusted_gross> 1.09581646E8;
-  <http://projet.fr/films/MPAA_rating> "Not Rated";
-  <http://projet.fr/films/Total_gross> 9.230769E6;
-  <http://projet.fr/films/movie_title> "Bon Voyage!";
-  <http://projet.fr/films/release_date> "1962-05-17" .
+<http://projet.fr/films_data/12> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "David S. Goyer";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Fantasy";
+  <http://projet.fr/films/gross> 5.241E7;
+  <http://projet.fr/films/rating> 5.8E0;
+  <http://projet.fr/films/stars> "David S. Goyer,Wesley Snipes,Kris Kristofferson,Parker Posey,Ryan Reynolds";
+  <http://projet.fr/films/title> "Blade: Trinity";
+  <http://projet.fr/films/vote> 1.68363E5;
+  <http://projet.fr/films/year> "2004" .
 
-<http://projet.fr/films_data/TheSwordintheStone> a <http://projet.fr/films/CreativeWork>;
-  <http://projet.fr/films/Adventure> <http://www.w3.org/2004/02/skos/core#Concept>;
-  <http://projet.fr/films/Inflation_adjusted_gross> 1.53870834E8;
-  <http://projet.fr/films/Total_gross> 2.2182353E7;
-  <http://projet.fr/films/movie_title> "The Sword in the Stone";
-  <http://projet.fr/films/release_date> "1963-12-25" .
+<http://projet.fr/films_data/13> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Rob Bowman";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Crime";
+  <http://projet.fr/films/gross> 2.441E7;
+  <http://projet.fr/films/rating> 4.7E0;
+  <http://projet.fr/films/stars> "Rob Bowman,Jennifer Garner,Goran Visnjic,Will Yun Lee,Kirsten Zien";
+  <http://projet.fr/films/title> "Elektra";
+  <http://projet.fr/films/vote> 8.8518E4;
+  <http://projet.fr/films/year> "2005" .
 
-<http://projet.fr/films_data/TheJungleBook> a <http://projet.fr/films/CreativeWork>;
-  <http://projet.fr/films/Inflation_adjusted_gross> 7.89612346E8;
-  <http://projet.fr/films/MPAA_rating> "Not Rated";
-  <http://projet.fr/films/Musical> <http://www.w3.org/2004/02/skos/core#Concept>
+<http://projet.fr/films_data/14> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Tim Story";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Fantasy";
+  <http://projet.fr/films/gross> 1.547E8;
+  <http://projet.fr/films/rating> 5.7E0;
+  <http://projet.fr/films/stars> "Tim Story,Ioan Gruffudd,Michael Chiklis,Chris Evans,Jessica Alba";
+  <http://projet.fr/films/title> "Fantastic Four";
+  <http://projet.fr/films/vote> 3.15297E5;
+  <http://projet.fr/films/year> "2005" .
+
+<http://projet.fr/films_data/15> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Brett Ratner";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 2.3436E8;
+  <http://projet.fr/films/rating> 6.7E0;
+  <http://projet.fr/films/stars> "Brett Ratner,Patrick Stewart,Hugh Jackman,Halle Berry,Famke Janssen";
+  <http://projet.fr/films/title> "X-Men: The Last Stand";
+  <http://projet.fr/films/vote> 4.90269E5;
+  <http://projet.fr/films/year> "2006" .
+
+<http://projet.fr/films_data/16> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Mark Steven Johnson";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Fantasy, Thriller";
+  <http://projet.fr/films/gross> 1.158E8;
+  <http://projet.fr/films/rating> 5.3E0;
+  <http://projet.fr/films/stars> "Mark Steven Johnson,Nicolas Cage,Eva Mendes,Sam Elliott,Matt Long";
+  <http://projet.fr/films/title> "Ghost Rider";
+  <http://projet.fr/films/vote> 2.26797E5;
+  <http://projet.fr/films/year> "2007" .
+
+<http://projet.fr/films_data/17> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Sam Raimi";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 3.3653E8;
+  <http://projet.fr/films/rating> 6.2E0;
+  <http://projet.fr/films/stars> "Sam Raimi,Tobey Maguire,Kirsten Dunst,Topher Grace,Thomas Haden Church";
+  <http://projet.fr/films/title> "Spider-Man 3";
+  <http://projet.fr/films/vote> 5.10723E5;
+  <http://projet.fr/films/year> "2007" .
+
+<http://projet.fr/films_data/18> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Tim Story";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Fantasy";
+  <http://projet.fr/films/gross> 1.3192E8;
+  <http://projet.fr/films/rating> 5.6E0;
+  <http://projet.fr/films/stars> "Tim Story,Ioan Gruffudd,Jessica Alba,Chris Evans,Michael Chiklis";
+  <http://projet.fr/films/title> "Fantastic Four: Rise of the Silver Surfer";
+  <http://projet.fr/films/vote> 2.53897E5;
+  <http://projet.fr/films/year> "2007" .
+
+<http://projet.fr/films_data/19> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Jon Favreau";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 3.1841E8;
+  <http://projet.fr/films/rating> 7.9E0;
+  <http://projet.fr/films/stars> "Jon Favreau,Robert Downey Jr.,Gwyneth Paltrow,Terrence Howard,Jeff Bridges";
+  <http://projet.fr/films/title> "Iron Man";
+  <http://projet.fr/films/vote> 9.64114E5;
+  <http://projet.fr/films/year> "2008" .
+
+<http://projet.fr/films_data/20> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Louis Leterrier";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 1.3452E8;
+  <http://projet.fr/films/rating> 6.7E0;
+  <http://projet.fr/films/stars> "Louis Leterrier,Edward Norton,Liv Tyler,Tim Roth,William Hurt";
+  <http://projet.fr/films/title> "The Incredible Hulk";
+  <http://projet.fr/films/vote> 4.45822E5;
+  <http://projet.fr/films/year> "2008" .
+
+<http://projet.fr/films_data/21> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Lexi Alexander";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Crime, Drama";
+  <http://projet.fr/films/gross> 7.95E6;
+  <http://projet.fr/films/rating> 5.9E0;
+  <http://projet.fr/films/stars> "Lexi Alexander,Ray Stevenson,Dominic West,Julie Benz,Doug Hutchison";
+  <http://projet.fr/films/title> "Punisher: War Zone";
+  <http://projet.fr/films/vote> 6.0767E4;
+  <http://projet.fr/films/year> "2008" .
+
+<http://projet.fr/films_data/22> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Gavin Hood";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Sci-Fi";
+  <http://projet.fr/films/gross> 1.7988E8;
+  <http://projet.fr/films/rating> 6.6E0;
+  <http://projet.fr/films/stars> "Gavin Hood,Hugh Jackman,Liev Schreiber,Ryan Reynolds,Danny Huston";
+  <http://projet.fr/films/title> "X-Men Origins: Wolverine";
+  <http://projet.fr/films/vote> 4.75561E5;
+  <http://projet.fr/films/year> "2009" .
+
+<http://projet.fr/films_data/23> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Jon Favreau";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 3.1243E8;
+  <http://projet.fr/films/rating> 7.0E0;
+  <http://projet.fr/films/stars> "Jon Favreau,Robert Downey Jr.,Mickey Rourke,Gwyneth Paltrow,Don Cheadle";
+  <http://projet.fr/films/title> "Iron Man 2";
+  <http://projet.fr/films/vote> 7.42416E5;
+  <http://projet.fr/films/year> "2010" .
+
+<http://projet.fr/films_data/24> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Kenneth Branagh";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Fantasy";
+  <http://projet.fr/films/gross> 1.8103E8;
+  <http://projet.fr/films/rating> 7.0E0;
+  <http://projet.fr/films/stars> "Kenneth Branagh,Chris Hemsworth,Anthony Hopkins,Natalie Portman,Tom Hiddleston";
+  <http://projet.fr/films/title> "Thor";
+  <http://projet.fr/films/vote> 7.67687E5;
+  <http://projet.fr/films/year> "2011" .
+
+<http://projet.fr/films_data/25> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Matthew Vaughn";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 1.4641E8;
+  <http://projet.fr/films/rating> 7.7E0;
+  <http://projet.fr/films/stars> "Matthew Vaughn,James McAvoy,Michael Fassbender,Jennifer Lawrence,Kevin Bacon";
+  <http://projet.fr/films/title> "X: First Class";
+  <http://projet.fr/films/vote> 6.55399E5;
+  <http://projet.fr/films/year> "2011" .
+
+<http://projet.fr/films_data/26> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Joe Johnston";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 1.7665E8;
+  <http://projet.fr/films/rating> 6.9E0;
+  <http://projet.fr/films/stars> "Joe Johnston,Chris Evans,Hugo Weaving,Samuel L. Jackson,Hayley Atwell";
+  <http://projet.fr/films/title> "Captain America: The First Avenger";
+  <http://projet.fr/films/vote> 7.64786E5;
+  <http://projet.fr/films/year> "2011" .
+
+<http://projet.fr/films_data/27> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Mark Neveldine";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Fantasy, Thriller";
+  <http://projet.fr/films/gross> 5.177E7;
+  <http://projet.fr/films/rating> 4.3E0;
+  <http://projet.fr/films/stars> "Brian Taylor,Nicolas Cage,CiarÃ¡n Hinds,Idris Elba,Violante Placido";
+  <http://projet.fr/films/title> "Ghost Rider: Spirit of Vengeance";
+  <http://projet.fr/films/vote> 1.12898E5;
+  <http://projet.fr/films/year> "2011" .
+
+<http://projet.fr/films_data/28> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Joss Whedon";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 6.2328E8;
+  <http://projet.fr/films/rating> 8.0E0;
+  <http://projet.fr/films/stars> "Joss Whedon,Robert Downey Jr.,Chris Evans,Scarlett Johansson,Jeremy Renner";
+  <http://projet.fr/films/title> "The Avengers";
+  <http://projet.fr/films/vote> 1.286985E6;
+  <http://projet.fr/films/year> "2012" .
+
+<http://projet.fr/films_data/29> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Marc Webb";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Fantasy";
+  <http://projet.fr/films/gross> 2.6203E8;
+  <http://projet.fr/films/rating> 6.9E0;
+  <http://projet.fr/films/stars> "Marc Webb,Andrew Garfield,Emma Stone,Rhys Ifans,Irrfan Khan";
+  <http://projet.fr/films/title> "The Amazing Spider-Man";
+  <http://projet.fr/films/vote> 5.69274E5;
+  <http://projet.fr/films/year> "2012" .
+
+<http://projet.fr/films_data/30> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Shane Black";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 4.0901E8;
+  <http://projet.fr/films/rating> 7.1E0;
+  <http://projet.fr/films/stars> "Shane Black,Robert Downey Jr.,Guy Pearce,Gwyneth Paltrow,Don Cheadle";
+  <http://projet.fr/films/title> "Iron Man Three";
+  <http://projet.fr/films/vote> 7.75425E5;
+  <http://projet.fr/films/year> "2013" .
+
+<http://projet.fr/films_data/31> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "James Mangold";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Sci-Fi";
+  <http://projet.fr/films/gross> 1.3256E8;
+  <http://projet.fr/films/rating> 6.7E0;
+  <http://projet.fr/films/stars> "James Mangold,Hugh Jackman,Will Yun Lee,Tao Okamoto,Rila Fukushima";
+  <http://projet.fr/films/title> "The Wolverine";
+  <http://projet.fr/films/vote> 4.37712E5;
+  <http://projet.fr/films/year> "2013" .
+
+<http://projet.fr/films_data/32> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Alan Taylor";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Fantasy";
+  <http://projet.fr/films/gross> 2.0636E8;
+  <http://projet.fr/films/rating> 6.9E0;
+  <http://projet.fr/films/stars> "Alan Taylor,Chris Hemsworth,Natalie Portman,Tom Hiddleston,Stellan SkarsgÃ¥rd";
+  <http://projet.fr/films/title> "Thor: The Dark World";
+  <http://projet.fr/films/vote> 6.14115E5;
+  <http://projet.fr/films/year> "2013" .
+
+<http://projet.fr/films_data/33> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Anthony Russo";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 2.5977E8;
+  <http://projet.fr/films/rating> 7.7E0;
+  <http://projet.fr/films/stars> "Joe Russo,Chris Evans,Samuel L. Jackson,Scarlett Johansson,Robert Redford";
+  <http://projet.fr/films/title> "Captain America: The Winter Soldier";
+  <http://projet.fr/films/vote> 7.59721E5;
+  <http://projet.fr/films/year> "2014" .
+
+<http://projet.fr/films_data/34> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Marc Webb";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Fantasy";
+  <http://projet.fr/films/gross> 2.0285E8;
+  <http://projet.fr/films/rating> 6.6E0;
+  <http://projet.fr/films/stars> "Marc Webb,Andrew Garfield,Emma Stone,Jamie Foxx,Paul Giamatti";
+  <http://projet.fr/films/title> "The Amazing Spider-Man 2";
+  <http://projet.fr/films/vote> 4.25691E5;
+  <http://projet.fr/films/year> "2014" .
+
+<http://projet.fr/films_data/35> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Bryan Singer";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 2.3392E8;
+  <http://projet.fr/films/rating> 7.9E0;
+  <http://projet.fr/films/stars> "Bryan Singer,Patrick Stewart,Ian McKellen,Hugh Jackman,James McAvoy";
+  <http://projet.fr/films/title> "X-Men: Days of Future Past";
+  <http://projet.fr/films/vote> 6.71146E5;
+  <http://projet.fr/films/year> "2014" .
+
+<http://projet.fr/films_data/36> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "James Gunn";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Comedy";
+  <http://projet.fr/films/gross> 3.3318E8;
+  <http://projet.fr/films/rating> 8.0E0;
+  <http://projet.fr/films/stars> "James Gunn,Chris Pratt,Vin Diesel,Bradley Cooper,Zoe Saldana";
+  <http://projet.fr/films/title> "Guardians of the Galaxy";
+  <http://projet.fr/films/vote> 1.069895E6;
+  <http://projet.fr/films/year> "2014" .
+
+<http://projet.fr/films_data/37> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Joss Whedon";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 4.5901E8;
+  <http://projet.fr/films/rating> 7.3E0;
+  <http://projet.fr/films/stars> "Joss Whedon,Robert Downey Jr.,Chris Evans,Mark Ruffalo,Chris Hemsworth";
+  <http://projet.fr/films/title> "Avengers: Age of Ultron";
+  <http://projet.fr/films/vote> 7.72476E5;
+  <http://projet.fr/films/year> "2015" .
+
+<http://projet.fr/films_data/38> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Peyton Reed";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Comedy";
+  <http://projet.fr/films/gross> 1.802E8;
+  <http://projet.fr/films/rating> 7.3E0;
+  <http://projet.fr/films/stars> "Peyton Reed,Paul Rudd,Michael Douglas,Corey Stoll,Evangeline Lilly";
+  <http://projet.fr/films/title> "Ant-Man";
+  <http://projet.fr/films/vote> 5.90834E5;
+  <http://projet.fr/films/year> "2015" .
+
+<http://projet.fr/films_data/39> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Josh Trank";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 5.612E7;
+  <http://projet.fr/films/rating> 4.2E0;
+  <http://projet.fr/films/stars> "Josh Trank,Miles Teller,Kate Mara,Michael B. Jordan,Jamie Bell";
+  <http://projet.fr/films/title> "Fantastic Four";
+  <http://projet.fr/films/vote> 1.55942E5;
+  <http://projet.fr/films/year> "2015" .
+
+<http://projet.fr/films_data/40> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Tim Miller";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Comedy";
+  <http://projet.fr/films/gross> 3.6307E8;
+  <http://projet.fr/films/rating> 8.0E0;
+  <http://projet.fr/films/stars> "Tim Miller,Ryan Reynolds,Morena Baccarin,T.J. Miller,Ed Skrein";
+  <http://projet.fr/films/title> "Deadpool";
+  <http://projet.fr/films/vote> 9.27737E5;
+  <http://projet.fr/films/year> "2016" .
+
+<http://projet.fr/films_data/41> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Anthony Russo";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 4.0808E8;
+  <http://projet.fr/films/rating> 7.8E0;
+  <http://projet.fr/films/stars> "Joe Russo,Chris Evans,Robert Downey Jr.,Scarlett Johansson,Sebastian Stan";
+  <http://projet.fr/films/title> "Captain America: Civil War";
+  <http://projet.fr/films/vote> 6.89763E5;
+  <http://projet.fr/films/year> "2016" .
+
+<http://projet.fr/films_data/42> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Bryan Singer";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 1.5544E8;
+  <http://projet.fr/films/rating> 6.9E0;
+  <http://projet.fr/films/stars> "Bryan Singer,James McAvoy,Michael Fassbender,Jennifer Lawrence,Nicholas Hoult";
+  <http://projet.fr/films/title> "X-Men: Apocalypse";
+  <http://projet.fr/films/vote> 4.02935E5;
+  <http://projet.fr/films/year> "2016" .
+
+<http://projet.fr/films_data/43> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Scott Derrickson";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Fantasy";
+  <http://projet.fr/films/gross> 2.3264E8;
+  <http://projet.fr/films/rating> 7.5E0;
+  <http://projet.fr/films/stars> "Scott Derrickson,Benedict Cumberbatch,Chiwetel Ejiofor,Rachel McAdams,Benedict Wong";
+  <http://projet.fr/films/title> "Doctor Strange";
+  <http://projet.fr/films/vote> 6.23361E5;
+  <http://projet.fr/films/year> "2016" .
+
+<http://projet.fr/films_data/44> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "James Mangold";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Drama, Sci-Fi";
+  <http://projet.fr/films/gross> 2.2628E8;
+  <http://projet.fr/films/rating> 8.1E0;
+  <http://projet.fr/films/stars> "James Mangold,Hugh Jackman,Patrick Stewart,Dafne Keen,Boyd Holbrook";
+  <http://projet.fr/films/title> "Logan";
+  <http://projet.fr/films/vote> 6.7071E5;
+  <http://projet.fr/films/year> "2017" .
+
+<http://projet.fr/films_data/45> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "James Gunn";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Comedy";
+  <http://projet.fr/films/gross> 3.8981E8;
+  <http://projet.fr/films/rating> 7.6E0;
+  <http://projet.fr/films/stars> "James Gunn,Chris Pratt,Zoe Saldana,Dave Bautista,Vin Diesel";
+  <http://projet.fr/films/title> "Guardians of the Galaxy Vol. 2";
+  <http://projet.fr/films/vote> 5.9226E5;
+  <http://projet.fr/films/year> "2017" .
+
+<http://projet.fr/films_data/46> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Jon Watts";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 3.342E8;
+  <http://projet.fr/films/rating> 7.4E0;
+  <http://projet.fr/films/stars> "Jon Watts,Tom Holland,Michael Keaton,Robert Downey Jr.,Marisa Tomei";
+  <http://projet.fr/films/title> "Spider-Man: Homecoming";
+  <http://projet.fr/films/vote> 5.36012E5;
+  <http://projet.fr/films/year> "2017" .
+
+<http://projet.fr/films_data/47> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Taika Waititi";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Comedy";
+  <http://projet.fr/films/gross> 3.1506E8;
+  <http://projet.fr/films/rating> 7.9E0;
+  <http://projet.fr/films/stars> "Taika Waititi,Chris Hemsworth,Tom Hiddleston,Cate Blanchett,Mark Ruffalo";
+  <http://projet.fr/films/title> "Thor: Ragnarok";
+  <http://projet.fr/films/vote> 6.20623E5;
+  <http://projet.fr/films/year> "2017" .
+
+<http://projet.fr/films_data/48> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Ryan Coogler";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 7.0006E8;
+  <http://projet.fr/films/rating> 7.3E0;
+  <http://projet.fr/films/stars> "Ryan Coogler,Chadwick Boseman,Michael B. Jordan,Lupita Nyong'o,Danai Gurira";
+  <http://projet.fr/films/title> "Black Panther";
+  <http://projet.fr/films/vote> 6.55779E5;
+  <http://projet.fr/films/year> "2018" .
+
+<http://projet.fr/films_data/49> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Anthony Russo";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 6.7882E8;
+  <http://projet.fr/films/rating> 8.4E0;
+  <http://projet.fr/films/stars> "Joe Russo,Robert Downey Jr.,Chris Hemsworth,Mark Ruffalo,Chris Evans";
+  <http://projet.fr/films/title> "Avengers: Infinity War";
+  <http://projet.fr/films/vote> 8.88104E5;
+  <http://projet.fr/films/year> "2018" .
+
+<http://projet.fr/films_data/50> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "David Leitch";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Comedy";
+  <http://projet.fr/films/gross> 3.2459E8;
+  <http://projet.fr/films/rating> 7.7E0;
+  <http://projet.fr/films/stars> "David Leitch,Ryan Reynolds,Josh Brolin,Morena Baccarin,Julian Dennison";
+  <http://projet.fr/films/title> "Deadpool 2";
+  <http://projet.fr/films/vote> 5.01971E5;
+  <http://projet.fr/films/year> "2018" .
+
+<http://projet.fr/films_data/51> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Peyton Reed";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Comedy";
+  <http://projet.fr/films/gross> 2.1665E8;
+  <http://projet.fr/films/rating> 7.0E0;
+  <http://projet.fr/films/stars> "Peyton Reed,Paul Rudd,Evangeline Lilly,Michael PeÃ±a,Walton Goggins";
+  <http://projet.fr/films/title> "Ant-Man and the Wasp";
+  <http://projet.fr/films/vote> 3.296E5;
+  <http://projet.fr/films/year> "2018" .
+
+<http://projet.fr/films_data/52> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Ruben Fleischer";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 2.1352E8;
+  <http://projet.fr/films/rating> 6.7E0;
+  <http://projet.fr/films/stars> "Ruben Fleischer,Tom Hardy,Michelle Williams,Riz Ahmed,Scott Haze";
+  <http://projet.fr/films/title> "Venom";
+  <http://projet.fr/films/vote> 3.83743E5;
+  <http://projet.fr/films/year> "2018" .
+
+<http://projet.fr/films_data/53> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Anna Boden";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 4.2683E8;
+  <http://projet.fr/films/rating> 6.8E0;
+  <http://projet.fr/films/stars> "Anna Boden,Brie Larson,Samuel L. Jackson,Ben Mendelsohn,Jude Law";
+  <http://projet.fr/films/title> "Captain Marvel";
+  <http://projet.fr/films/vote> 4.73437E5;
+  <http://projet.fr/films/year> "2019" .
+
+<http://projet.fr/films_data/54> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Anthony Russo";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Drama";
+  <http://projet.fr/films/gross> 8.5837E8;
+  <http://projet.fr/films/rating> 8.4E0;
+  <http://projet.fr/films/stars> "Joe Russo,Robert Downey Jr.,Chris Evans,Mark Ruffalo,Chris Hemsworth";
+  <http://projet.fr/films/title> "Avengers: Endgame";
+  <http://projet.fr/films/vote> 8.90937E5;
+  <http://projet.fr/films/year> "2019" .
+
+<http://projet.fr/films_data/55> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Simon Kinberg";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 6.585E7;
+  <http://projet.fr/films/rating> 5.7E0;
+  <http://projet.fr/films/stars> "Simon Kinberg,James McAvoy,Michael Fassbender,Jennifer Lawrence,Nicholas Hoult";
+  <http://projet.fr/films/title> "X-Men: Dark Phoenix";
+  <http://projet.fr/films/vote> 1.64427E5;
+  <http://projet.fr/films/year> "2019" .
+
+<http://projet.fr/films_data/56> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Jon Watts";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 3.9053E8;
+  <http://projet.fr/films/rating> 7.5E0;
+  <http://projet.fr/films/stars> "Jon Watts,Tom Holland,Samuel L. Jackson,Jake Gyllenhaal,Marisa Tomei";
+  <http://projet.fr/films/title> "Spider-Man: Far from Home";
+  <http://projet.fr/films/vote> 3.53385E5;
+  <http://projet.fr/films/year> "2019" .
+
+<http://projet.fr/films_data/57> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Josh Boone";
+  <http://projet.fr/films/entity> "MARVEL";
+  <http://projet.fr/films/genre> "Action, Horror, Mystery";
+  <http://projet.fr/films/gross> 0.0E0;
+  <http://projet.fr/films/rating> 5.3E0;
+  <http://projet.fr/films/stars> "Josh Boone,Maisie Williams,Anya Taylor-Joy,Charlie Heaton,Alice Braga";
+  <http://projet.fr/films/title> "The New Mutants";
+  <http://projet.fr/films/vote> 5.9535E4;
+  <http://projet.fr/films/year> "2020" .
+
+<http://projet.fr/films_data/58> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Lee Sholem";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Drama";
+  <http://projet.fr/films/gross> 0.0E0;
+  <http://projet.fr/films/rating> 5.7E0;
+  <http://projet.fr/films/stars> "George Reeves,Phyllis Coates,Jeff Corey,Walter Reed";
+  <http://projet.fr/films/title> "Superman and the Mole-Men";
+  <http://projet.fr/films/vote> 1.828E3;
+  <http://projet.fr/films/year> "1951" .
+
+<http://projet.fr/films_data/59> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Leslie H. Martinson";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Adventure, Comedy, Crime";
+  <http://projet.fr/films/gross> 0.0E0;
+  <http://projet.fr/films/rating> 6.5E0;
+  <http://projet.fr/films/stars> "Adam West,Burt Ward,Lee Meriwether,Cesar Romero";
+  <http://projet.fr/films/title> "Batman: The Movie";
+  <http://projet.fr/films/vote> 3.0289E4;
+  <http://projet.fr/films/year> "1966" .
+
+<http://projet.fr/films_data/60> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Richard Donner";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Drama";
+  <http://projet.fr/films/gross> 1.3422E8;
+  <http://projet.fr/films/rating> 7.3E0;
+  <http://projet.fr/films/stars> "Christopher Reeve,Margot Kidder,Gene Hackman,Marlon Brando";
+  <http://projet.fr/films/title> "Superman";
+  <http://projet.fr/films/vote> 1.62395E5;
+  <http://projet.fr/films/year> "1978" .
+
+<http://projet.fr/films_data/61> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Richard Lester";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 1.0819E8;
+  <http://projet.fr/films/rating> 6.8E0;
+  <http://projet.fr/films/stars> "Gene Hackman,Christopher Reeve,Margot Kidder,Ned Beatty";
+  <http://projet.fr/films/title> "Superman II";
+  <http://projet.fr/films/vote> 1.0003E5;
+  <http://projet.fr/films/year> "1980" .
+
+<http://projet.fr/films_data/62> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Wes Craven";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Horror, Sci-Fi";
+  <http://projet.fr/films/gross> 0.0E0;
+  <http://projet.fr/films/rating> 5.4E0;
+  <http://projet.fr/films/stars> "Louis Jourdan,Adrienne Barbeau,Ray Wise,David Hess";
+  <http://projet.fr/films/title> "Swamp Thing";
+  <http://projet.fr/films/vote> 1.3328E4;
+  <http://projet.fr/films/year> "1982" .
+
+<http://projet.fr/films_data/63> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Richard Lester";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Comedy";
+  <http://projet.fr/films/gross> 5.995E7;
+  <http://projet.fr/films/rating> 5.0E0;
+  <http://projet.fr/films/stars> "Christopher Reeve,Richard Pryor,Margot Kidder,Jackie Cooper";
+  <http://projet.fr/films/title> "Superman III";
+  <http://projet.fr/films/vote> 6.534E4;
+  <http://projet.fr/films/year> "1983" .
+
+<http://projet.fr/films_data/64> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Jeannot Szwarc";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Fantasy";
+  <http://projet.fr/films/gross> 1.36E7;
+  <http://projet.fr/films/rating> 4.4E0;
+  <http://projet.fr/films/stars> "Helen Slater,Faye Dunaway,Peter O'Toole,Mia Farrow";
+  <http://projet.fr/films/title> "Supergirl";
+  <http://projet.fr/films/vote> 1.9361E4;
+  <http://projet.fr/films/year> "1984" .
+
+<http://projet.fr/films_data/65> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Sidney J. Furie";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 1.568E7;
+  <http://projet.fr/films/rating> 3.7E0;
+  <http://projet.fr/films/stars> "Christopher Reeve,Gene Hackman,Margot Kidder,Jackie Cooper";
+  <http://projet.fr/films/title> "Superman IV: The Quest for Peace";
+  <http://projet.fr/films/vote> 4.4082E4;
+  <http://projet.fr/films/year> "1987" .
+
+<http://projet.fr/films_data/66> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Jim Wynorski";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Comedy";
+  <http://projet.fr/films/gross> 1.9E5;
+  <http://projet.fr/films/rating> 4.6E0;
+  <http://projet.fr/films/stars> "Dick Durock,Heather Locklear,Louis Jourdan,Sarah Douglas";
+  <http://projet.fr/films/title> "The Return of Swamp Thing";
+  <http://projet.fr/films/vote> 4.454E3;
+  <http://projet.fr/films/year> "1989" .
+
+<http://projet.fr/films_data/67> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Tim Burton";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure";
+  <http://projet.fr/films/gross> 2.5119E8;
+  <http://projet.fr/films/rating> 7.5E0;
+  <http://projet.fr/films/stars> "Michael Keaton,Jack Nicholson,Kim Basinger,Robert Wuhl";
+  <http://projet.fr/films/title> "Batman";
+  <http://projet.fr/films/vote> 3.44868E5;
+  <http://projet.fr/films/year> "1989" .
+
+<http://projet.fr/films_data/68> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Tim Burton";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Crime, Fantasy";
+  <http://projet.fr/films/gross> 1.6283E8;
+  <http://projet.fr/films/rating> 7.0E0;
+  <http://projet.fr/films/stars> "Michael Keaton,Danny DeVito,Michelle Pfeiffer,Christopher Walken";
+  <http://projet.fr/films/title> "Batman Returns";
+  <http://projet.fr/films/vote> 2.79545E5;
+  <http://projet.fr/films/year> "1992" .
+
+<http://projet.fr/films_data/69> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Joel Schumacher";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure";
+  <http://projet.fr/films/gross> 1.8403E8;
+  <http://projet.fr/films/rating> 5.4E0;
+  <http://projet.fr/films/stars> "Val Kilmer,Tommy Lee Jones,Jim Carrey,Nicole Kidman";
+  <http://projet.fr/films/title> "Batman Forever";
+  <http://projet.fr/films/vote> 2.3823E5;
+  <http://projet.fr/films/year> "1995" .
+
+<http://projet.fr/films_data/70> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Joel Schumacher";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Sci-Fi";
+  <http://projet.fr/films/gross> 1.0733E8;
+  <http://projet.fr/films/rating> 3.8E0;
+  <http://projet.fr/films/stars> "Arnold Schwarzenegger,George Clooney,Chris O'Donnell,Uma Thurman";
+  <http://projet.fr/films/title> "Batman & Robin";
+  <http://projet.fr/films/vote> 2.37759E5;
+  <http://projet.fr/films/year> "1997" .
+
+<http://projet.fr/films_data/71> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Kenneth Johnson";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Crime";
+  <http://projet.fr/films/gross> 1.71E6;
+  <http://projet.fr/films/rating> 2.9E0;
+  <http://projet.fr/films/stars> "Shaquille O'Neal,Annabeth Gish,Judd Nelson,Richard Roundtree";
+  <http://projet.fr/films/title> "Steel";
+  <http://projet.fr/films/vote> 1.1519E4;
+  <http://projet.fr/films/year> "1997" .
+
+<http://projet.fr/films_data/72> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Pitof";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Crime, Fantasy";
+  <http://projet.fr/films/gross> 4.02E7;
+  <http://projet.fr/films/rating> 3.4E0;
+  <http://projet.fr/films/stars> "Halle Berry,Sharon Stone,Benjamin Bratt,Lambert Wilson";
+  <http://projet.fr/films/title> "Catwoman";
+  <http://projet.fr/films/vote> 1.12972E5;
+  <http://projet.fr/films/year> "2004" .
+
+<http://projet.fr/films_data/73> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Francis Lawrence";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Fantasy, Horror";
+  <http://projet.fr/films/gross> 7.598E7;
+  <http://projet.fr/films/rating> 7.0E0;
+  <http://projet.fr/films/stars> "Keanu Reeves,Rachel Weisz,Djimon Hounsou,Shia LaBeouf";
+  <http://projet.fr/films/title> "Constantine";
+  <http://projet.fr/films/vote> 3.15617E5;
+  <http://projet.fr/films/year> "2005" .
+
+<http://projet.fr/films_data/74> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Christopher Nolan";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure";
+  <http://projet.fr/films/gross> 2.0685E8;
+  <http://projet.fr/films/rating> 8.2E0;
+  <http://projet.fr/films/stars> "Christian Bale,Michael Caine,Ken Watanabe,Liam Neeson";
+  <http://projet.fr/films/title> "Batman Begins";
+  <http://projet.fr/films/vote> 1.33814E6;
+  <http://projet.fr/films/year> "2005" .
+
+<http://projet.fr/films_data/75> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Bryan Singer";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Sci-Fi";
+  <http://projet.fr/films/gross> 2.0008E8;
+  <http://projet.fr/films/rating> 6.0E0;
+  <http://projet.fr/films/stars> "Brandon Routh,Kevin Spacey,Kate Bosworth,James Marsden";
+  <http://projet.fr/films/title> "Superman Returns";
+  <http://projet.fr/films/vote> 2.73696E5;
+  <http://projet.fr/films/year> "2006" .
+
+<http://projet.fr/films_data/76> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Christopher Nolan";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Crime, Drama";
+  <http://projet.fr/films/gross> 5.3486E8;
+  <http://projet.fr/films/rating> 9.0E0;
+  <http://projet.fr/films/stars> "Christian Bale,Heath Ledger,Aaron Eckhart,Michael Caine";
+  <http://projet.fr/films/title> "The Dark Knight";
+  <http://projet.fr/films/vote> 2.369304E6;
+  <http://projet.fr/films/year> "2008" .
+
+<http://projet.fr/films_data/77> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Zack Snyder";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Drama, Mystery";
+  <http://projet.fr/films/gross> 1.0751E8;
+  <http://projet.fr/films/rating> 7.6E0;
+  <http://projet.fr/films/stars> "Jackie Earle Haley,Patrick Wilson,Carla Gugino,Malin Akerman";
+  <http://projet.fr/films/title> "Watchmen";
+  <http://projet.fr/films/vote> 5.18415E5;
+  <http://projet.fr/films/year> "2009" .
+
+<http://projet.fr/films_data/78> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Jimmy Hayward";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Drama, Fantasy";
+  <http://projet.fr/films/gross> 1.054E7;
+  <http://projet.fr/films/rating> 4.7E0;
+  <http://projet.fr/films/stars> "Josh Brolin,Megan Fox,John Malkovich,Michael Fassbender";
+  <http://projet.fr/films/title> "Jonah Hex";
+  <http://projet.fr/films/vote> 5.6225E4;
+  <http://projet.fr/films/year> "2010" .
+
+<http://projet.fr/films_data/79> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Martin Campbell";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 1.166E8;
+  <http://projet.fr/films/rating> 5.5E0;
+  <http://projet.fr/films/stars> "Ryan Reynolds,Blake Lively,Peter Sarsgaard,Mark Strong";
+  <http://projet.fr/films/title> "Green Lantern";
+  <http://projet.fr/films/vote> 2.70939E5;
+  <http://projet.fr/films/year> "2011" .
+
+<http://projet.fr/films_data/80> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Christopher Nolan";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure";
+  <http://projet.fr/films/gross> 4.4814E8;
+  <http://projet.fr/films/rating> 8.4E0;
+  <http://projet.fr/films/stars> "Christian Bale,Tom Hardy,Anne Hathaway,Gary Oldman";
+  <http://projet.fr/films/title> "The Dark Knight Rises";
+  <http://projet.fr/films/vote> 1.552223E6;
+  <http://projet.fr/films/year> "2012" .
+
+<http://projet.fr/films_data/81> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Zack Snyder";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 2.9105E8;
+  <http://projet.fr/films/rating> 7.0E0;
+  <http://projet.fr/films/stars> "Henry Cavill,Amy Adams,Michael Shannon,Diane Lane";
+  <http://projet.fr/films/title> "Man of Steel";
+  <http://projet.fr/films/vote> 7.18956E5;
+  <http://projet.fr/films/year> "2013" .
+
+<http://projet.fr/films_data/82> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Zack Snyder";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Sci-Fi";
+  <http://projet.fr/films/gross> 3.3036E8;
+  <http://projet.fr/films/rating> 6.4E0;
+  <http://projet.fr/films/stars> "Ben Affleck,Henry Cavill,Amy Adams,Jesse Eisenberg";
+  <http://projet.fr/films/title> "Batman v Superman: Dawn of Justice";
+  <http://projet.fr/films/vote> 6.5327E5;
+  <http://projet.fr/films/year> "2016" .
+
+<http://projet.fr/films_data/83> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "David Ayer";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Fantasy";
+  <http://projet.fr/films/gross> 3.251E8;
+  <http://projet.fr/films/rating> 5.9E0;
+  <http://projet.fr/films/stars> "Will Smith,Jared Leto,Margot Robbie,Viola Davis";
+  <http://projet.fr/films/title> "Suicide Squad";
+  <http://projet.fr/films/vote> 6.22206E5;
+  <http://projet.fr/films/year> "2016" .
+
+<http://projet.fr/films_data/84> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Patty Jenkins";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Fantasy";
+  <http://projet.fr/films/gross> 4.1256E8;
+  <http://projet.fr/films/rating> 7.4E0;
+  <http://projet.fr/films/stars> "Gal Gadot,Chris Pine,Robin Wright,Lucy Davis";
+  <http://projet.fr/films/title> "Wonder Woman";
+  <http://projet.fr/films/vote> 5.96901E5;
+  <http://projet.fr/films/year> "2017" .
+
+<http://projet.fr/films_data/85> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Zack Snyder";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Fantasy";
+  <http://projet.fr/films/gross> 2.2902E8;
+  <http://projet.fr/films/rating> 6.1E0;
+  <http://projet.fr/films/stars> "Ben Affleck,Gal Gadot,Jason Momoa,Ezra Miller";
+  <http://projet.fr/films/title> "Justice League";
+  <http://projet.fr/films/vote> 4.16837E5;
+  <http://projet.fr/films/year> "2017" .
+
+<http://projet.fr/films_data/86> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "James Wan";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Fantasy";
+  <http://projet.fr/films/gross> 3.3506E8;
+  <http://projet.fr/films/rating> 6.9E0;
+  <http://projet.fr/films/stars> "Jason Momoa,Amber Heard,Willem Dafoe,Patrick Wilson";
+  <http://projet.fr/films/title> "Aquaman";
+  <http://projet.fr/films/vote> 4.00424E5;
+  <http://projet.fr/films/year> "2018" .
+
+<http://projet.fr/films_data/87> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "David F. Sandberg";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Comedy";
+  <http://projet.fr/films/gross> 1.4037E8;
+  <http://projet.fr/films/rating> 7.0E0;
+  <http://projet.fr/films/stars> "Zachary Levi,Mark Strong,Asher Angel,Jack Dylan Grazer";
+  <http://projet.fr/films/title> "Shazam!";
+  <http://projet.fr/films/vote> 2.79604E5;
+  <http://projet.fr/films/year> "2019" .
+
+<http://projet.fr/films_data/88> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Todd Phillips";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Crime, Drama, Thriller";
+  <http://projet.fr/films/gross> 3.3545E8;
+  <http://projet.fr/films/rating> 8.4E0;
+  <http://projet.fr/films/stars> "Joaquin Phoenix,Robert De Niro,Zazie Beetz,Frances Conroy";
+  <http://projet.fr/films/title> "Joker";
+  <http://projet.fr/films/vote> 1.014748E6;
+  <http://projet.fr/films/year> "2019" .
+
+<http://projet.fr/films_data/89> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Cathy Yan";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Comedy";
+  <http://projet.fr/films/gross> 8.416E7;
+  <http://projet.fr/films/rating> 6.1E0;
+  <http://projet.fr/films/stars> "Margot Robbie,Rosie Perez,Mary Elizabeth Winstead,Jurnee Smollett";
+  <http://projet.fr/films/title> "Birds of Prey";
+  <http://projet.fr/films/vote> 1.86805E5;
+  <http://projet.fr/films/year> "2020" .
+
+<http://projet.fr/films_data/90> a <http://projet.fr/films/CreativeWork>;
+  <http://projet.fr/films/director> "Patty Jenkins";
+  <http://projet.fr/films/entity> "DC";
+  <http://projet.fr/films/genre> "Action, Adventure, Fantasy";
+  <http://projet.fr/films/gross> 4.637E7;
+  <http://projet.fr/films/rating> 5.4E0;
+  <http://projet.fr/films/stars> "Gal Gadot,Chris Pine,Kristen Wiig,Pedro Pascal";
+  <http://projet.fr/films/title> "Wonder Woman 1984";
+  <http://projet.fr/films/vote> 2.12554E5;
+  <http://projet.fr/films/year> "2020" .
