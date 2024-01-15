@@ -43,10 +43,84 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#> .
     rdfs:domain :Person ;
     rdfs:range  xsd:string .
 
-:secretIdentity
-    a          owl:DataObjectProperty ;
-    rdfs:label "secret identity" .
-
 :id
     a          owl:DatatypeProperty ;
     rdfs:label "id" .
+
+:heroName a owl:DatatypeProperty;
+    rdfs:label "Full-name";
+    rdfs:comment "Hero/Villain name".
+
+:alias a owl:DatatypeProperty;
+    rdfs:label "Alias".
+
+:alter a owl:DatatypeProperty;
+    rdfs:label "Alter-egos".
+
+:placeOfBirth a owl:DatatypeProperty;
+    rdfs:label "Place of birth".
+
+:Male a owl:Class;
+    rdfs:label "Male".
+
+:Female a owl:Class;
+    rdfs:label "Female".
+
+:eyes a owl:DatatypeProperty;
+    rdfs:label "Color eyes".
+
+:hair a owl:DatatypeProperty;
+    rdfs:label "Color hair".
+
+:apparition a owl:DatatypeProperty;
+    rdfs:label "first apparition".
+
+:Villain a owl:Class;
+    rdfs:label "Villain".
+
+:Hero a owl:Class;
+    rdfs:label "Hero".
+
+:heightF a owl:DatatypeProperty;
+    rdfs:label "height in feet".
+
+:heightCm a owl:DatatypeProperty;
+    rdfs:label "height in cm".
+
+:weightKg a owl:DatatypeProperty;
+    rdfs:label "weight in kg ".
+
+:weightLb a owl:DatatypeProperty;
+    rdfs:label "weight in lb ".
+
+:base a owl:DatatypeProperty;
+    rdfs:label "Base".
+
+:affiliation a owl:DatatypeProperty;
+    rdfs:label "group-affiliation".
+
+:relatives a owl:DatatypeProperty;
+    rdfs:label "relatives".
+
+:intelligence a owl:DatatypeProperty;
+    rdfs:label "intelligence".
+        
+:strength a owl:DatatypeProperty;
+    rdfs:label "strength".
+        
+:speed a owl:DatatypeProperty;
+    rdfs:label "speed".
+        
+:durability a owl:DatatypeProperty;
+    rdfs:label "durability".
+        
+:power a owl:DatatypeProperty;
+    rdfs:label "power".
+        
+:combat a owl:DatatypeProperty;
+    rdfs:label "combat".
+
+:publisher a owl:DatatypeProperty;
+    rdfs:label "publisher".
+
+#publisher occupation
