@@ -5,22 +5,56 @@ PREFIX sh:    <http://www.w3.org/ns/shacl#>
 PREFIX :      <http://projet.fr/films_schema#>
 PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
 PREFIX perso: <http://projet.fr/perso_schema#>
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
 
 
 :CreativeWork
     a owl:Class .
 
-:directed_by
+:title
     a           owl:Property ;
-    rdfs:range  :Person ;
-    rdfs:domain :CreativeWork .
+    rdfs:domain :CreativeWork ;
+    rdfs:range  xsd:string .
 
-:Movie
-    a              skos:Concept ;
-    skos:prefLabel "movie" .
+:year
+    a           owl:Property ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range  xsd:date .
 
-:kind
-    a owl:ObjectProperty .
+:genre
+    a           owl:Property ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range  skos:Concept .
+
+:rating
+    a           owl:Property ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range  xsd:integer .
+
+:vote
+    a           owl:Property ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range  xsd:integer .
+
+:gross
+    a           owl:Property ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range  xsd:integer .
+
+:director
+    a           owl:Property ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range  :Person .
+
+:stars
+    a           owl:Property ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range  :Person .
+
+:entity
+    a           owl:Property ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range  skos:Concept .
 
 
 :CharacterShape
