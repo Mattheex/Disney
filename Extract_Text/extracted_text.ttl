@@ -1,102 +1,105 @@
 @prefix ns1: <http://projet.fr/text/> .
 
-<http://projet.fr/text/Captain_America:_The_First_Avenger> a ns1:Node ;
-    ns1:name "Captain America: The First Avenger" ;
-    ns1:publication_date <http://projet.fr/text/July_19,_2011> .
+ns1:Abraham_Erskine
+    a             ns1:Node ;
+    ns1:name      "Abraham Erskine" ;
+    ns1:performer ns1:Stanley_Tucci .
 
-ns1:Lola a ns1:Node ;
-    ns1:name "Lola" ;
-    ns1:product_or_material_produced ns1:visual_effects .
+ns1:Bucky_Barnes
+    a             ns1:Node ;
+    ns1:conflict  ns1:World_War_II ;
+    ns1:name      "Bucky Barnes" ;
+    ns1:performer ns1:Dominic_Cooper, ns1:Sebastian_Stan .
 
-<http://projet.fr/text/Steve_Rogers_/_Captain_America> a ns1:Node ;
-    ns1:name "Steve Rogers / Captain America" ;
-    ns1:present_in_work ns1:Captain_America .
+ns1:Captain_America
+    a               ns1:Node ;
+    ns1:cast_member ns1:Chris_Evans, ns1:Dominic_Cooper, ns1:Hayley_Atwell, ns1:Hugo_Weaving, ns1:Neal_McDonough,
+                    ns1:Sebastian_Stan, ns1:Tommy_Lee_Jones ;
+    ns1:director    ns1:Joe_Johnston ;
+    ns1:name        "Captain America" .
 
-ns1:Chris_Evans a ns1:Node ;
-    ns1:conflict ns1:World_War_II ;
+ns1:Dum_Dum_Dugan
+    a             ns1:Node ;
+    ns1:conflict  ns1:World_War_II ;
+    ns1:name      "Dum Dum Dugan" ;
+    ns1:performer ns1:Neal_McDonough .
+
+ns1:Gabe_Jones
+    a             ns1:Node ;
+    ns1:name      "Gabe Jones" ;
+    ns1:performer ns1:Derek_Luke .
+
+ns1:Howard_Stark
+    a             ns1:Node ;
+    ns1:conflict  ns1:World_War_II ;
+    ns1:name      "Howard Stark" ;
+    ns1:performer ns1:Dominic_Cooper, ns1:Neal_McDonough .
+
+ns1:Johann_Schmidt
+    a             ns1:Node ;
+    ns1:member_of ns1:HYDRA ;
+    ns1:name      "Johann Schmidt" .
+
+ns1:Peggy_Carter
+    a             ns1:Node ;
+    ns1:name      "Peggy Carter" ;
+    ns1:performer ns1:Hayley_Atwell .
+
+ns1:Red_Skull
+    a             ns1:Node ;
+    ns1:name      "Red Skull" ;
+    ns1:performer ns1:Hugo_Weaving .
+
+ns1:Chris_Evans
+    a        ns1:Node ;
     ns1:name "Chris Evans" .
 
-ns1:Derek_Luke a ns1:Node ;
+ns1:Derek_Luke
+    a        ns1:Node ;
     ns1:name "Derek Luke" .
 
-ns1:Dominic_Cooper a ns1:Node ;
-    ns1:name "Dominic Cooper" .
+ns1:HYDRA
+    a           ns1:Node ;
+    ns1:country ns1:Nazi_Germany ;
+    ns1:name    "HYDRA" .
 
-ns1:Hayley_Atwell a ns1:Node ;
-    ns1:name "Hayley Atwell" .
+ns1:Joe_Johnston
+    a        ns1:Node ;
+    ns1:name "Joe Johnston" .
 
-ns1:Hugo_Weaving a ns1:Node ;
-    ns1:name "Hugo Weaving" .
+ns1:Nazi_Germany
+    a        ns1:Node ;
+    ns1:name "Nazi Germany" .
 
-ns1:Jon_Favreau a ns1:Node ;
-    ns1:name "Jon Favreau" .
-
-<http://projet.fr/text/July_19,_2011> a ns1:Node ;
-    ns1:name "July 19, 2011" .
-
-ns1:Louis_Leterrier a ns1:Node ;
-    ns1:name "Louis Leterrier" .
-
-ns1:Marvel_Comics a ns1:Node ;
-    ns1:name "Marvel Comics" .
-
-ns1:Marvel_Studios a ns1:Node ;
-    ns1:name "Marvel Studios" .
-
-ns1:Neal_McDonough a ns1:Node ;
-    ns1:name "Neal McDonough" .
-
-ns1:Paramount_Pictures a ns1:Node ;
-    ns1:name "Paramount Pictures" .
-
-ns1:Phase_One_of_the_MCU a ns1:Node ;
-    ns1:name "Phase One of the MCU" .
-
-ns1:Sebastian_Stan a ns1:Node ;
-    ns1:name "Sebastian Stan" .
-
-ns1:Stanley_Tucci a ns1:Node ;
+ns1:Stanley_Tucci
+    a        ns1:Node ;
     ns1:name "Stanley Tucci" .
 
-ns1:Steve_Rogers a ns1:Node ;
-    ns1:conflict ns1:World_War_II ;
-    ns1:member_of ns1:Captain_America ;
-    ns1:name "Steve Rogers" .
-
-ns1:Toby_Jones a ns1:Node ;
-    ns1:name "Toby Jones" .
-
-ns1:Tommy_Lee_Jones a ns1:Node ;
+ns1:Tommy_Lee_Jones
+    a        ns1:Node ;
     ns1:name "Tommy Lee Jones" .
 
-ns1:superhero_film a ns1:Node ;
-    ns1:name "superhero film" .
+ns1:Hayley_Atwell
+    a        ns1:Node ;
+    ns1:name "Hayley Atwell" .
 
-ns1:visual_effects a ns1:Node ;
-    ns1:name "visual effects" .
+ns1:Hugo_Weaving
+    a        ns1:Node ;
+    ns1:name "Hugo Weaving" .
 
-ns1:Captain_America a ns1:Node ;
-    ns1:conflict ns1:World_War_II ;
-    ns1:director ns1:Jon_Favreau,
-        ns1:Louis_Leterrier ;
-    ns1:distributed_by ns1:Paramount_Pictures ;
-    ns1:has_part ns1:Steve_Rogers ;
-    ns1:instance_of ns1:superhero_film ;
-    ns1:name "Captain America" ;
-    ns1:part_of ns1:Phase_One_of_the_MCU ;
-    ns1:performer ns1:Chris_Evans,
-        ns1:Derek_Luke,
-        ns1:Dominic_Cooper,
-        ns1:Hayley_Atwell,
-        ns1:Hugo_Weaving,
-        ns1:Neal_McDonough,
-        ns1:Sebastian_Stan,
-        ns1:Stanley_Tucci,
-        ns1:Toby_Jones,
-        ns1:Tommy_Lee_Jones ;
-    ns1:production_company ns1:Marvel_Studios ;
-    ns1:publisher ns1:Marvel_Comics .
+ns1:Sebastian_Stan
+    a        ns1:Node ;
+    ns1:name "Sebastian Stan" .
 
-ns1:World_War_II a ns1:Node ;
+ns1:Dominic_Cooper
+    a        ns1:Node ;
+    ns1:name "Dominic Cooper" .
+
+ns1:Neal_McDonough
+    a        ns1:Node ;
+    ns1:name "Neal McDonough" .
+
+ns1:World_War_II
+    a        ns1:Node ;
     ns1:name "World War II" .
 
