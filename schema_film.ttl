@@ -1,25 +1,26 @@
-PREFIX owl:  <http://www.w3.org/2002/07/owl#>
-PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sh:   <http://www.w3.org/ns/shacl#>
-PREFIX :     <http://projet.fr/films#>
-PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sh:    <http://www.w3.org/ns/shacl#>
+PREFIX :      <http://projet.fr/films_schema#>
+PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
+PREFIX perso: <http://projet.fr/perso_schema#>
 
 
-:CreativeWork a owl:Class.
+:CreativeWork
+    a owl:Class .
 
-:Movie a skos:Concept ;
+:directed_by
+    a           owl:Property ;
+    rdfs:range  :Person ;
+    rdfs:domain :CreativeWork .
+
+:Movie
+    a              skos:Concept ;
     skos:prefLabel "movie" .
 
-:ShortMovie a skos:Concept.
-
-:TVShow a skos:Concept.
-
-:VideoGame a skos:Concept.
-
-:AttractionsPark a skos:concept.
-
-:kind a owl:ObjectProperty.
+:kind
+    a owl:ObjectProperty .
 
 
 :CharacterShape

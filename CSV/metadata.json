@@ -7,16 +7,16 @@
     "columns": [
       {
         "titles": "title",
-        "propertyUrl": "http://projet.fr/films/title"
+        "propertyUrl": "http://projet.fr/films_schema/title"
       },
       {
         "titles": "year",
-        "propertyUrl": "http://projet.fr/films/year",
+        "propertyUrl": "http://projet.fr/films_schema/year",
         "datetype": "date"
       },
       {
         "titles": "genre",
-        "propertyUrl": "http://projet.fr/films/genre"
+        "propertyUrl": "http://projet.fr/films_schema/genre"
       },
       {
         "titles": "runtime",
@@ -28,26 +28,26 @@
       },
       {
         "titles": "imdb",
-        "propertyUrl": "http://projet.fr/films/rating",
+        "propertyUrl": "http://projet.fr/films_schema/rating",
         "datatype": "number"
       },
       {
         "titles": "imdb_votes",
-        "propertyUrl": "http://projet.fr/films/vote",
+        "propertyUrl": "http://projet.fr/films_schema/vote",
         "datatype": "number"
       },
       {
         "titles": "imdb_gross",
-        "propertyUrl": "http://projet.fr/films/gross",
+        "propertyUrl": "http://projet.fr/films_schema/gross",
         "datatype": "number"
       },
       {
         "titles": "director",
-        "propertyUrl": "http://projet.fr/films/director"
+        "propertyUrl": "http://projet.fr/films_schema/director"
       },
       {
         "titles": "star",
-        "propertyUrl": "http://projet.fr/films/stars"
+        "propertyUrl": "http://projet.fr/films_schema/stars"
       },
       {
         "titles": "description",
@@ -76,12 +76,12 @@
       },
       {
         "titles": "entity",
-        "propertyUrl": "http://projet.fr/films/entity"
+        "propertyUrl": "http://projet.fr/films_schema/entity"
       },
       {
         "titles": "id",
         "propertyUrl": "rdf:type",
-        "valueUrl": "http://projet.fr/films/CreativeWork",
+        "valueUrl": "http://projet.fr/films_schema/CreativeWork",
         "required": true
       }
     ]

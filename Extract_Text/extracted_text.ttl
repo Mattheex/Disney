@@ -1,0 +1,94 @@
+@prefix ns1: <http://projet.fr/text/> .
+
+<http://projet.fr/text/Captain_America:_The_First_Avenger>
+    a                    ns1:Node ;
+    ns1:publication_date <http://projet.fr/text/July_19,_2011> .
+
+ns1:Lola
+    a                                ns1:Node ;
+    ns1:product_or_material_produced ns1:visual_effects .
+
+<http://projet.fr/text/Steve_Rogers_/_Captain_America>
+    a                   ns1:Node ;
+    ns1:present_in_work ns1:Captain_America .
+
+ns1:Chris_Evans
+    a            ns1:Node ;
+    ns1:conflict ns1:World_War_II .
+
+ns1:Derek_Luke
+    a ns1:Node .
+
+ns1:Dominic_Cooper
+    a ns1:Node .
+
+ns1:Hayley_Atwell
+    a ns1:Node .
+
+ns1:Hugo_Weaving
+    a ns1:Node .
+
+ns1:Jon_Favreau
+    a ns1:Node .
+
+<http://projet.fr/text/July_19,_2011>
+    a ns1:Node .
+
+ns1:Louis_Leterrier
+    a ns1:Node .
+
+ns1:Marvel_Comics
+    a ns1:Node .
+
+ns1:Marvel_Studios
+    a ns1:Node .
+
+ns1:Neal_McDonough
+    a ns1:Node .
+
+ns1:Paramount_Pictures
+    a ns1:Node .
+
+ns1:Phase_One_of_the_MCU
+    a ns1:Node .
+
+ns1:Sebastian_Stan
+    a ns1:Node .
+
+ns1:Stanley_Tucci
+    a ns1:Node .
+
+ns1:Steve_Rogers
+    a             ns1:Node ;
+    ns1:conflict  ns1:World_War_II ;
+    ns1:member_of ns1:Captain_America .
+
+ns1:Toby_Jones
+    a ns1:Node .
+
+ns1:Tommy_Lee_Jones
+    a ns1:Node .
+
+ns1:superhero_film
+    a ns1:Node .
+
+ns1:visual_effects
+    a ns1:Node .
+
+ns1:Captain_America
+    a                      ns1:Node ;
+    ns1:conflict           ns1:World_War_II ;
+    ns1:director           ns1:Jon_Favreau, ns1:Louis_Leterrier ;
+    ns1:distributed_by     ns1:Paramount_Pictures ;
+    ns1:has_part           ns1:Steve_Rogers ;
+    ns1:instance_of        ns1:superhero_film ;
+    ns1:part_of            ns1:Phase_One_of_the_MCU ;
+    ns1:performer          ns1:Chris_Evans, ns1:Derek_Luke, ns1:Dominic_Cooper, ns1:Hayley_Atwell, ns1:Hugo_Weaving,
+                           ns1:Neal_McDonough, ns1:Sebastian_Stan, ns1:Stanley_Tucci, ns1:Toby_Jones,
+                           ns1:Tommy_Lee_Jones ;
+    ns1:production_company ns1:Marvel_Studios ;
+    ns1:publisher          ns1:Marvel_Comics .
+
+ns1:World_War_II
+    a ns1:Node .
+

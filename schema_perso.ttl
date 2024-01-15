@@ -2,35 +2,51 @@ PREFIX owl:  <http://www.w3.org/2002/07/owl#>
 PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sh:   <http://www.w3.org/ns/shacl#>
-PREFIX film: <http://projet.fr/films#>
-PREFIX :     <http://projet.fr/perso#>
+PREFIX film: <http://projet.fr/films_shema#>
+PREFIX :     <http://projet.fr/perso_shema#>
+PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#> .
 
-:Person a owl:Class;
-    rdfs:label "person".
-     .
+:Person
+    a          owl:Class ;
+    rdfs:label "person" .
 
-:Fictional a owl:Class;
+:Fictional
+    a          owl:Class ;
     rdfs:label "fictionnal" .
 
-:Real a owl:Class;
+:Real
+    a          owl:Class ;
     rdfs:label "real" .
 
-:Actor a owl:Class ;
-    rdfs:label "an actor";
+:Actor
+    a                  owl:Class ;
+    rdfs:label         "an actor" ;
     owl:intersectionOf ( :Person :Real ) .
 
-:Character a owl:Class ;
-    rdfs:label "a character";
+:Director
+    a                  owl:Class ;
+    rdfs:label         "a director" ;
+    owl:intersectionOf ( :Person :Real ) .
+
+:Character
+    a                  owl:Class ;
+    rdfs:label         "a character" ;
     owl:intersectionOf ( :Person :Fictional ) .
 
-:hasImage a owl:ObjectProperty;
-    rdfs:label "has image".
+:hasImage
+    a          owl:ObjectProperty ;
+    rdfs:label "has image" .
 
-:name a owl:DatatypeProperty;
-    rdfs:label "name";
+:name
+    a           owl:DatatypeProperty ;
+    rdfs:label  "name" ;
+    rdfs:domain :Person ;
+    rdfs:range  xsd:string .
 
-:secretIdentity a owl:DataObjectProperty;
-    rdfs:label "secret identity".
-    
-:id a owl:DatatypeProperty;
-    rdfs:label "id".
+:secretIdentity
+    a          owl:DataObjectProperty ;
+    rdfs:label "secret identity" .
+
+:id
+    a          owl:DatatypeProperty ;
+    rdfs:label "id" .
