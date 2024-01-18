@@ -1,0 +1,25 @@
+#global {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+
+  }
+  
+  img {
+    width: 100%;
+    height: 640px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin-bottom: 5px;
+  }
+  
+  div {
+    margin-bottom: 3px;
+  }
+  

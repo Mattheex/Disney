@@ -1,0 +1,18 @@
+<div >  
+    <label for="queryInput">Enter a Name:</label>
+    <input type="text" id="queryInput" [(ngModel)]="userInput">
+    <button (click)="executeQuery()">Execute Query</button>
+    <div id="persos">
+        <app-person-card class="app-person-card"
+                         *ngFor="let result of sparqlResults"
+                         [heroName]="result.heroName"
+                         [image]="result.image"
+                         [name]="result.name"
+                         [height]="result.height"
+                         [weight]="result.weight"
+                         [race]="result.raceName">
+        </app-person-card>
+      </div>
+      
+</div>
+

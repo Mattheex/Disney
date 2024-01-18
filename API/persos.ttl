@@ -1,0 +1,4275 @@
+@prefix ns1: <http://projet.fr/perso#> .
+
+<http://projet.fr/perso_data/H1> a ns1:Character ;
+    ns1:name "A-Bomb" .
+
+<http://projet.fr/perso_data/H10> a ns1:Character ;
+    ns1:name "Agent Bob" .
+
+<http://projet.fr/perso_data/H100> a ns1:Character ;
+    ns1:name "Black Flash" .
+
+<http://projet.fr/perso_data/H101> a ns1:Character ;
+    ns1:name "Black Goliath" .
+
+<http://projet.fr/perso_data/H102> a ns1:Character ;
+    ns1:name "Black Knight III" .
+
+<http://projet.fr/perso_data/H103> a ns1:Character ;
+    ns1:name "Black Lightning" .
+
+<http://projet.fr/perso_data/H104> a ns1:Character ;
+    ns1:name "Black Mamba" .
+
+<http://projet.fr/perso_data/H105> a ns1:Character ;
+    ns1:name "Black Manta" .
+
+<http://projet.fr/perso_data/H106> a ns1:Character ;
+    ns1:name "Black Panther" .
+
+<http://projet.fr/perso_data/H107> a ns1:Character ;
+    ns1:name "Black Widow" .
+
+<http://projet.fr/perso_data/H108> a ns1:Character ;
+    ns1:name "Black Widow II" .
+
+<http://projet.fr/perso_data/H109> a ns1:Character ;
+    ns1:name "Blackout" .
+
+<http://projet.fr/perso_data/H11> a ns1:Character ;
+    ns1:name "Agent Zero" .
+
+<http://projet.fr/perso_data/H110> a ns1:Character ;
+    ns1:name "Blackwing" .
+
+<http://projet.fr/perso_data/H111> a ns1:Character ;
+    ns1:name "Blackwulf" .
+
+<http://projet.fr/perso_data/H112> a ns1:Character ;
+    ns1:name "Blade" .
+
+<http://projet.fr/perso_data/H113> a ns1:Character ;
+    ns1:name "Blaquesmith" .
+
+<http://projet.fr/perso_data/H114> a ns1:Character ;
+    ns1:name "Bling!" .
+
+<http://projet.fr/perso_data/H115> a ns1:Character ;
+    ns1:name "Blink" .
+
+<http://projet.fr/perso_data/H116> a ns1:Character ;
+    ns1:name "Blizzard" .
+
+<http://projet.fr/perso_data/H117> a ns1:Character ;
+    ns1:name "Blizzard" .
+
+<http://projet.fr/perso_data/H118> a ns1:Character ;
+    ns1:name "Blizzard II" .
+
+<http://projet.fr/perso_data/H119> a ns1:Character ;
+    ns1:name "Blob" .
+
+<http://projet.fr/perso_data/H12> a ns1:Character ;
+    ns1:name "Air-Walker" .
+
+<http://projet.fr/perso_data/H120> a ns1:Character ;
+    ns1:name "Bloodaxe" .
+
+<http://projet.fr/perso_data/H121> a ns1:Character ;
+    ns1:name "Bloodhawk" .
+
+<http://projet.fr/perso_data/H122> a ns1:Character ;
+    ns1:name "Bloodwraith" .
+
+<http://projet.fr/perso_data/H123> a ns1:Character ;
+    ns1:name "Blue Beetle" .
+
+<http://projet.fr/perso_data/H124> a ns1:Character ;
+    ns1:name "Blue Beetle" .
+
+<http://projet.fr/perso_data/H125> a ns1:Character ;
+    ns1:name "Blue Beetle II" .
+
+<http://projet.fr/perso_data/H126> a ns1:Character ;
+    ns1:name "Blue Beetle III" .
+
+<http://projet.fr/perso_data/H127> a ns1:Character ;
+    ns1:name "Boba Fett" .
+
+<http://projet.fr/perso_data/H128> a ns1:Character ;
+    ns1:name "Bolt" .
+
+<http://projet.fr/perso_data/H129> a ns1:Character ;
+    ns1:name "Bomb Queen" .
+
+<http://projet.fr/perso_data/H13> a ns1:Character ;
+    ns1:name "Ajax" .
+
+<http://projet.fr/perso_data/H130> a ns1:Character ;
+    ns1:name "Boom-Boom" .
+
+<http://projet.fr/perso_data/H131> a ns1:Character ;
+    ns1:name "Boomer" .
+
+<http://projet.fr/perso_data/H132> a ns1:Character ;
+    ns1:name "Booster Gold" .
+
+<http://projet.fr/perso_data/H133> a ns1:Character ;
+    ns1:name "Box" .
+
+<http://projet.fr/perso_data/H134> a ns1:Character ;
+    ns1:name "Box III" .
+
+<http://projet.fr/perso_data/H135> a ns1:Character ;
+    ns1:name "Box IV" .
+
+<http://projet.fr/perso_data/H136> a ns1:Character ;
+    ns1:name "Brainiac" .
+
+<http://projet.fr/perso_data/H137> a ns1:Character ;
+    ns1:name "Brainiac 5" .
+
+<http://projet.fr/perso_data/H138> a ns1:Character ;
+    ns1:name "Brother Voodoo" .
+
+<http://projet.fr/perso_data/H139> a ns1:Character ;
+    ns1:name "Brundlefly" .
+
+<http://projet.fr/perso_data/H14> a ns1:Character ;
+    ns1:name "Alan Scott" .
+
+<http://projet.fr/perso_data/H140> a ns1:Character ;
+    ns1:name "Buffy" .
+
+<http://projet.fr/perso_data/H141> a ns1:Character ;
+    ns1:name "Bullseye" .
+
+<http://projet.fr/perso_data/H142> a ns1:Character ;
+    ns1:name "Bumblebee" .
+
+<http://projet.fr/perso_data/H143> a ns1:Character ;
+    ns1:name "Bumbleboy" .
+
+<http://projet.fr/perso_data/H144> a ns1:Character ;
+    ns1:name "Bushido" .
+
+<http://projet.fr/perso_data/H145> a ns1:Character ;
+    ns1:name "Cable" .
+
+<http://projet.fr/perso_data/H146> a ns1:Character ;
+    ns1:name "Callisto" .
+
+<http://projet.fr/perso_data/H147> a ns1:Character ;
+    ns1:name "Cameron Hicks" .
+
+<http://projet.fr/perso_data/H148> a ns1:Character ;
+    ns1:name "Cannonball" .
+
+<http://projet.fr/perso_data/H149> a ns1:Character ;
+    ns1:name "Captain America" .
+
+<http://projet.fr/perso_data/H15> a ns1:Character ;
+    ns1:name "Alex Mercer" .
+
+<http://projet.fr/perso_data/H150> a ns1:Character ;
+    ns1:name "Captain Atom" .
+
+<http://projet.fr/perso_data/H151> a ns1:Character ;
+    ns1:name "Captain Britain" .
+
+<http://projet.fr/perso_data/H152> a ns1:Character ;
+    ns1:name "Captain Cold" .
+
+<http://projet.fr/perso_data/H153> a ns1:Character ;
+    ns1:name "Captain Epic" .
+
+<http://projet.fr/perso_data/H154> a ns1:Character ;
+    ns1:name "Captain Hindsight" .
+
+<http://projet.fr/perso_data/H155> a ns1:Character ;
+    ns1:name "Captain Mar-vell" .
+
+<http://projet.fr/perso_data/H156> a ns1:Character ;
+    ns1:name "Captain Marvel" .
+
+<http://projet.fr/perso_data/H157> a ns1:Character ;
+    ns1:name "Captain Marvel" .
+
+<http://projet.fr/perso_data/H158> a ns1:Character ;
+    ns1:name "Captain Marvel II" .
+
+<http://projet.fr/perso_data/H159> a ns1:Character ;
+    ns1:name "Captain Midnight" .
+
+<http://projet.fr/perso_data/H16> a ns1:Character ;
+    ns1:name "Alex Woolsly" .
+
+<http://projet.fr/perso_data/H160> a ns1:Character ;
+    ns1:name "Captain Planet" .
+
+<http://projet.fr/perso_data/H161> a ns1:Character ;
+    ns1:name "Captain Universe" .
+
+<http://projet.fr/perso_data/H162> a ns1:Character ;
+    ns1:name "Carnage" .
+
+<http://projet.fr/perso_data/H163> a ns1:Character ;
+    ns1:name "Cat" .
+
+<http://projet.fr/perso_data/H164> a ns1:Character ;
+    ns1:name "Cat II" .
+
+<http://projet.fr/perso_data/H165> a ns1:Character ;
+    ns1:name "Catwoman" .
+
+<http://projet.fr/perso_data/H166> a ns1:Character ;
+    ns1:name "Cecilia Reyes" .
+
+<http://projet.fr/perso_data/H167> a ns1:Character ;
+    ns1:name "Century" .
+
+<http://projet.fr/perso_data/H168> a ns1:Character ;
+    ns1:name "Cerebra" .
+
+<http://projet.fr/perso_data/H169> a ns1:Character ;
+    ns1:name "Chamber" .
+
+<http://projet.fr/perso_data/H17> a ns1:Character ;
+    ns1:name "Alfred Pennyworth" .
+
+<http://projet.fr/perso_data/H170> a ns1:Character ;
+    ns1:name "Chameleon" .
+
+<http://projet.fr/perso_data/H171> a ns1:Character ;
+    ns1:name "Changeling" .
+
+<http://projet.fr/perso_data/H172> a ns1:Character ;
+    ns1:name "Cheetah" .
+
+<http://projet.fr/perso_data/H173> a ns1:Character ;
+    ns1:name "Cheetah II" .
+
+<http://projet.fr/perso_data/H174> a ns1:Character ;
+    ns1:name "Cheetah III" .
+
+<http://projet.fr/perso_data/H175> a ns1:Character ;
+    ns1:name "Chromos" .
+
+<http://projet.fr/perso_data/H176> a ns1:Character ;
+    ns1:name "Chuck Norris" .
+
+<http://projet.fr/perso_data/H177> a ns1:Character ;
+    ns1:name "Citizen Steel" .
+
+<http://projet.fr/perso_data/H178> a ns1:Character ;
+    ns1:name "Claire Bennet" .
+
+<http://projet.fr/perso_data/H179> a ns1:Character ;
+    ns1:name "Clea" .
+
+<http://projet.fr/perso_data/H18> a ns1:Character ;
+    ns1:name "Alien" .
+
+<http://projet.fr/perso_data/H180> a ns1:Character ;
+    ns1:name "Cloak" .
+
+<http://projet.fr/perso_data/H181> a ns1:Character ;
+    ns1:name "Clock King" .
+
+<http://projet.fr/perso_data/H182> a ns1:Character ;
+    ns1:name "Cogliostro" .
+
+<http://projet.fr/perso_data/H183> a ns1:Character ;
+    ns1:name "Colin Wagner" .
+
+<http://projet.fr/perso_data/H184> a ns1:Character ;
+    ns1:name "Colossal Boy" .
+
+<http://projet.fr/perso_data/H185> a ns1:Character ;
+    ns1:name "Colossus" .
+
+<http://projet.fr/perso_data/H186> a ns1:Character ;
+    ns1:name "Copycat" .
+
+<http://projet.fr/perso_data/H187> a ns1:Character ;
+    ns1:name "Corsair" .
+
+<http://projet.fr/perso_data/H188> a ns1:Character ;
+    ns1:name "Cottonmouth" .
+
+<http://projet.fr/perso_data/H189> a ns1:Character ;
+    ns1:name "Crimson Crusader" .
+
+<http://projet.fr/perso_data/H19> a ns1:Character ;
+    ns1:name "Allan Quatermain" .
+
+<http://projet.fr/perso_data/H190> a ns1:Character ;
+    ns1:name "Crimson Dynamo" .
+
+<http://projet.fr/perso_data/H191> a ns1:Character ;
+    ns1:name "Crystal" .
+
+<http://projet.fr/perso_data/H192> a ns1:Character ;
+    ns1:name "Curse" .
+
+<http://projet.fr/perso_data/H193> a ns1:Character ;
+    ns1:name "Cy-Gor" .
+
+<http://projet.fr/perso_data/H194> a ns1:Character ;
+    ns1:name "Cyborg" .
+
+<http://projet.fr/perso_data/H195> a ns1:Character ;
+    ns1:name "Cyborg Superman" .
+
+<http://projet.fr/perso_data/H196> a ns1:Character ;
+    ns1:name "Cyclops" .
+
+<http://projet.fr/perso_data/H197> a ns1:Character ;
+    ns1:name "Cypher" .
+
+<http://projet.fr/perso_data/H198> a ns1:Character ;
+    ns1:name "Dagger" .
+
+<http://projet.fr/perso_data/H199> a ns1:Character ;
+    ns1:name "Danny Cooper" .
+
+<http://projet.fr/perso_data/H2> a ns1:Character ;
+    ns1:name "Abe Sapien" .
+
+<http://projet.fr/perso_data/H20> a ns1:Character ;
+    ns1:name "Amazo" .
+
+<http://projet.fr/perso_data/H200> a ns1:Character ;
+    ns1:name "Daphne Powell" .
+
+<http://projet.fr/perso_data/H201> a ns1:Character ;
+    ns1:name "Daredevil" .
+
+<http://projet.fr/perso_data/H202> a ns1:Character ;
+    ns1:name "Darkhawk" .
+
+<http://projet.fr/perso_data/H203> a ns1:Character ;
+    ns1:name "Darkman" .
+
+<http://projet.fr/perso_data/H204> a ns1:Character ;
+    ns1:name "Darkseid" .
+
+<http://projet.fr/perso_data/H205> a ns1:Character ;
+    ns1:name "Darkside" .
+
+<http://projet.fr/perso_data/H206> a ns1:Character ;
+    ns1:name "Darkstar" .
+
+<http://projet.fr/perso_data/H207> a ns1:Character ;
+    ns1:name "Darth Maul" .
+
+<http://projet.fr/perso_data/H208> a ns1:Character ;
+    ns1:name "Darth Vader" .
+
+<http://projet.fr/perso_data/H209> a ns1:Character ;
+    ns1:name "Dash" .
+
+<http://projet.fr/perso_data/H21> a ns1:Character ;
+    ns1:name "Ammo" .
+
+<http://projet.fr/perso_data/H210> a ns1:Character ;
+    ns1:name "Data" .
+
+<http://projet.fr/perso_data/H211> a ns1:Character ;
+    ns1:name "Dazzler" .
+
+<http://projet.fr/perso_data/H212> a ns1:Character ;
+    ns1:name "Deadman" .
+
+<http://projet.fr/perso_data/H213> a ns1:Character ;
+    ns1:name "Deadpool" .
+
+<http://projet.fr/perso_data/H214> a ns1:Character ;
+    ns1:name "Deadshot" .
+
+<http://projet.fr/perso_data/H215> a ns1:Character ;
+    ns1:name "Deathlok" .
+
+<http://projet.fr/perso_data/H216> a ns1:Character ;
+    ns1:name "Deathstroke" .
+
+<http://projet.fr/perso_data/H217> a ns1:Character ;
+    ns1:name "Demogoblin" .
+
+<http://projet.fr/perso_data/H218> a ns1:Character ;
+    ns1:name "Destroyer" .
+
+<http://projet.fr/perso_data/H219> a ns1:Character ;
+    ns1:name "Diamondback" .
+
+<http://projet.fr/perso_data/H22> a ns1:Character ;
+    ns1:name "Ando Masahashi" .
+
+<http://projet.fr/perso_data/H220> a ns1:Character ;
+    ns1:name "DL Hawkins" .
+
+<http://projet.fr/perso_data/H221> a ns1:Character ;
+    ns1:name "Doc Samson" .
+
+<http://projet.fr/perso_data/H222> a ns1:Character ;
+    ns1:name "Doctor Doom" .
+
+<http://projet.fr/perso_data/H223> a ns1:Character ;
+    ns1:name "Doctor Doom II" .
+
+<http://projet.fr/perso_data/H224> a ns1:Character ;
+    ns1:name "Doctor Fate" .
+
+<http://projet.fr/perso_data/H225> a ns1:Character ;
+    ns1:name "Doctor Octopus" .
+
+<http://projet.fr/perso_data/H226> a ns1:Character ;
+    ns1:name "Doctor Strange" .
+
+<http://projet.fr/perso_data/H227> a ns1:Character ;
+    ns1:name "Domino" .
+
+<http://projet.fr/perso_data/H228> a ns1:Character ;
+    ns1:name "Donatello" .
+
+<http://projet.fr/perso_data/H229> a ns1:Character ;
+    ns1:name "Donna Troy" .
+
+<http://projet.fr/perso_data/H23> a ns1:Character ;
+    ns1:name "Angel" .
+
+<http://projet.fr/perso_data/H230> a ns1:Character ;
+    ns1:name "Doomsday" .
+
+<http://projet.fr/perso_data/H231> a ns1:Character ;
+    ns1:name "Doppelganger" .
+
+<http://projet.fr/perso_data/H232> a ns1:Character ;
+    ns1:name "Dormammu" .
+
+<http://projet.fr/perso_data/H233> a ns1:Character ;
+    ns1:name "Dr Manhattan" .
+
+<http://projet.fr/perso_data/H234> a ns1:Character ;
+    ns1:name "Drax the Destroyer" .
+
+<http://projet.fr/perso_data/H235> a ns1:Character ;
+    ns1:name "Ego" .
+
+<http://projet.fr/perso_data/H236> a ns1:Character ;
+    ns1:name "Elastigirl" .
+
+<http://projet.fr/perso_data/H237> a ns1:Character ;
+    ns1:name "Electro" .
+
+<http://projet.fr/perso_data/H238> a ns1:Character ;
+    ns1:name "Elektra" .
+
+<http://projet.fr/perso_data/H239> a ns1:Character ;
+    ns1:name "Elle Bishop" .
+
+<http://projet.fr/perso_data/H24> a ns1:Character ;
+    ns1:name "Angel" .
+
+<http://projet.fr/perso_data/H240> a ns1:Character ;
+    ns1:name "Elongated Man" .
+
+<http://projet.fr/perso_data/H241> a ns1:Character ;
+    ns1:name "Emma Frost" .
+
+<http://projet.fr/perso_data/H242> a ns1:Character ;
+    ns1:name "Enchantress" .
+
+<http://projet.fr/perso_data/H243> a ns1:Character ;
+    ns1:name "Energy" .
+
+<http://projet.fr/perso_data/H244> a ns1:Character ;
+    ns1:name "ERG-1" .
+
+<http://projet.fr/perso_data/H245> a ns1:Character ;
+    ns1:name "Ethan Hunt" .
+
+<http://projet.fr/perso_data/H246> a ns1:Character ;
+    ns1:name "Etrigan" .
+
+<http://projet.fr/perso_data/H247> a ns1:Character ;
+    ns1:name "Evil Deadpool" .
+
+<http://projet.fr/perso_data/H248> a ns1:Character ;
+    ns1:name "Evilhawk" .
+
+<http://projet.fr/perso_data/H249> a ns1:Character ;
+    ns1:name "Exodus" .
+
+<http://projet.fr/perso_data/H25> a ns1:Character ;
+    ns1:name "Angel Dust" .
+
+<http://projet.fr/perso_data/H250> a ns1:Character ;
+    ns1:name "Fabian Cortez" .
+
+<http://projet.fr/perso_data/H251> a ns1:Character ;
+    ns1:name "Falcon" .
+
+<http://projet.fr/perso_data/H252> a ns1:Character ;
+    ns1:name "Fallen One II" .
+
+<http://projet.fr/perso_data/H253> a ns1:Character ;
+    ns1:name "Faora" .
+
+<http://projet.fr/perso_data/H254> a ns1:Character ;
+    ns1:name "Feral" .
+
+<http://projet.fr/perso_data/H255> a ns1:Character ;
+    ns1:name "Fighting Spirit" .
+
+<http://projet.fr/perso_data/H256> a ns1:Character ;
+    ns1:name "Fin Fang Foom" .
+
+<http://projet.fr/perso_data/H257> a ns1:Character ;
+    ns1:name "Firebird" .
+
+<http://projet.fr/perso_data/H258> a ns1:Character ;
+    ns1:name "Firelord" .
+
+<http://projet.fr/perso_data/H259> a ns1:Character ;
+    ns1:name "Firestar" .
+
+<http://projet.fr/perso_data/H26> a ns1:Character ;
+    ns1:name "Angel Salvadore" .
+
+<http://projet.fr/perso_data/H260> a ns1:Character ;
+    ns1:name "Firestorm" .
+
+<http://projet.fr/perso_data/H261> a ns1:Character ;
+    ns1:name "Firestorm" .
+
+<http://projet.fr/perso_data/H262> a ns1:Character ;
+    ns1:name "Fixer" .
+
+<http://projet.fr/perso_data/H263> a ns1:Character ;
+    ns1:name "Flash" .
+
+<http://projet.fr/perso_data/H264> a ns1:Character ;
+    ns1:name "Flash Gordon" .
+
+<http://projet.fr/perso_data/H265> a ns1:Character ;
+    ns1:name "Flash II" .
+
+<http://projet.fr/perso_data/H266> a ns1:Character ;
+    ns1:name "Flash III" .
+
+<http://projet.fr/perso_data/H267> a ns1:Character ;
+    ns1:name "Flash IV" .
+
+<http://projet.fr/perso_data/H268> a ns1:Character ;
+    ns1:name "Forge" .
+
+<http://projet.fr/perso_data/H27> a ns1:Character ;
+    ns1:name "Angela" .
+
+<http://projet.fr/perso_data/H270> a ns1:Character ;
+    ns1:name "Franklin Storm" .
+
+<http://projet.fr/perso_data/H271> a ns1:Character ;
+    ns1:name "Frenzy" .
+
+<http://projet.fr/perso_data/H272> a ns1:Character ;
+    ns1:name "Frigga" .
+
+<http://projet.fr/perso_data/H273> a ns1:Character ;
+    ns1:name "Galactus" .
+
+<http://projet.fr/perso_data/H274> a ns1:Character ;
+    ns1:name "Gambit" .
+
+<http://projet.fr/perso_data/H275> a ns1:Character ;
+    ns1:name "Gamora" .
+
+<http://projet.fr/perso_data/H276> a ns1:Character ;
+    ns1:name "Garbage Man" .
+
+<http://projet.fr/perso_data/H277> a ns1:Character ;
+    ns1:name "Gary Bell" .
+
+<http://projet.fr/perso_data/H278> a ns1:Character ;
+    ns1:name "General Zod" .
+
+<http://projet.fr/perso_data/H279> a ns1:Character ;
+    ns1:name "Genesis" .
+
+<http://projet.fr/perso_data/H28> a ns1:Character ;
+    ns1:name "Animal Man" .
+
+<http://projet.fr/perso_data/H280> a ns1:Character ;
+    ns1:name "Ghost Rider" .
+
+<http://projet.fr/perso_data/H281> a ns1:Character ;
+    ns1:name "Ghost Rider II" .
+
+<http://projet.fr/perso_data/H282> a ns1:Character ;
+    ns1:name "Giant-Man" .
+
+<http://projet.fr/perso_data/H283> a ns1:Character ;
+    ns1:name "Giant-Man II" .
+
+<http://projet.fr/perso_data/H284> a ns1:Character ;
+    ns1:name "Giganta" .
+
+<http://projet.fr/perso_data/H285> a ns1:Character ;
+    ns1:name "Gladiator" .
+
+<http://projet.fr/perso_data/H286> a ns1:Character ;
+    ns1:name "Goblin Queen" .
+
+<http://projet.fr/perso_data/H287> a ns1:Character ;
+    ns1:name "Godzilla" .
+
+<http://projet.fr/perso_data/H288> a ns1:Character ;
+    ns1:name "Gog" .
+
+<http://projet.fr/perso_data/H289> a ns1:Character ;
+    ns1:name "Goku" .
+
+<http://projet.fr/perso_data/H29> a ns1:Character ;
+    ns1:name "Annihilus" .
+
+<http://projet.fr/perso_data/H290> a ns1:Character ;
+    ns1:name "Goliath" .
+
+<http://projet.fr/perso_data/H291> a ns1:Character ;
+    ns1:name "Goliath" .
+
+<http://projet.fr/perso_data/H292> a ns1:Character ;
+    ns1:name "Goliath" .
+
+<http://projet.fr/perso_data/H293> a ns1:Character ;
+    ns1:name "Goliath IV" .
+
+<http://projet.fr/perso_data/H294> a ns1:Character ;
+    ns1:name "Gorilla Grodd" .
+
+<http://projet.fr/perso_data/H295> a ns1:Character ;
+    ns1:name "Granny Goodness" .
+
+<http://projet.fr/perso_data/H296> a ns1:Character ;
+    ns1:name "Gravity" .
+
+<http://projet.fr/perso_data/H297> a ns1:Character ;
+    ns1:name "Greedo" .
+
+<http://projet.fr/perso_data/H298> a ns1:Character ;
+    ns1:name "Green Arrow" .
+
+<http://projet.fr/perso_data/H299> a ns1:Character ;
+    ns1:name "Green Goblin" .
+
+<http://projet.fr/perso_data/H3> a ns1:Character ;
+    ns1:name "Abin Sur" .
+
+<http://projet.fr/perso_data/H30> a ns1:Character ;
+    ns1:name "Ant-Man" .
+
+<http://projet.fr/perso_data/H300> a ns1:Character ;
+    ns1:name "Green Goblin II" .
+
+<http://projet.fr/perso_data/H301> a ns1:Character ;
+    ns1:name "Green Goblin III" .
+
+<http://projet.fr/perso_data/H302> a ns1:Character ;
+    ns1:name "Green Goblin IV" .
+
+<http://projet.fr/perso_data/H303> a ns1:Character ;
+    ns1:name "Groot" .
+
+<http://projet.fr/perso_data/H304> a ns1:Character ;
+    ns1:name "Guardian" .
+
+<http://projet.fr/perso_data/H305> a ns1:Character ;
+    ns1:name "Guy Gardner" .
+
+<http://projet.fr/perso_data/H306> a ns1:Character ;
+    ns1:name "Hal Jordan" .
+
+<http://projet.fr/perso_data/H307> a ns1:Character ;
+    ns1:name "Han Solo" .
+
+<http://projet.fr/perso_data/H308> a ns1:Character ;
+    ns1:name "Hancock" .
+
+<http://projet.fr/perso_data/H309> a ns1:Character ;
+    ns1:name "Harley Quinn" .
+
+<http://projet.fr/perso_data/H31> a ns1:Character ;
+    ns1:name "Ant-Man II" .
+
+<http://projet.fr/perso_data/H310> a ns1:Character ;
+    ns1:name "Harry Potter" .
+
+<http://projet.fr/perso_data/H311> a ns1:Character ;
+    ns1:name "Havok" .
+
+<http://projet.fr/perso_data/H312> a ns1:Character ;
+    ns1:name "Hawk" .
+
+<http://projet.fr/perso_data/H313> a ns1:Character ;
+    ns1:name "Hawkeye" .
+
+<http://projet.fr/perso_data/H314> a ns1:Character ;
+    ns1:name "Hawkeye II" .
+
+<http://projet.fr/perso_data/H315> a ns1:Character ;
+    ns1:name "Hawkgirl" .
+
+<http://projet.fr/perso_data/H316> a ns1:Character ;
+    ns1:name "Hawkman" .
+
+<http://projet.fr/perso_data/H317> a ns1:Character ;
+    ns1:name "Hawkwoman" .
+
+<http://projet.fr/perso_data/H318> a ns1:Character ;
+    ns1:name "Hawkwoman II" .
+
+<http://projet.fr/perso_data/H319> a ns1:Character ;
+    ns1:name "Hawkwoman III" .
+
+<http://projet.fr/perso_data/H32> a ns1:Character ;
+    ns1:name "Anti-Monitor" .
+
+<http://projet.fr/perso_data/H320> a ns1:Character ;
+    ns1:name "Heat Wave" .
+
+<http://projet.fr/perso_data/H321> a ns1:Character ;
+    ns1:name "Hela" .
+
+<http://projet.fr/perso_data/H322> a ns1:Character ;
+    ns1:name "Hellboy" .
+
+<http://projet.fr/perso_data/H323> a ns1:Character ;
+    ns1:name "Hellcat" .
+
+<http://projet.fr/perso_data/H325> a ns1:Character ;
+    ns1:name "Hercules" .
+
+<http://projet.fr/perso_data/H326> a ns1:Character ;
+    ns1:name "Hiro Nakamura" .
+
+<http://projet.fr/perso_data/H327> a ns1:Character ;
+    ns1:name "Hit-Girl" .
+
+<http://projet.fr/perso_data/H328> a ns1:Character ;
+    ns1:name "Hobgoblin" .
+
+<http://projet.fr/perso_data/H329> a ns1:Character ;
+    ns1:name "Hollow" .
+
+<http://projet.fr/perso_data/H33> a ns1:Character ;
+    ns1:name "Anti-Spawn" .
+
+<http://projet.fr/perso_data/H330> a ns1:Character ;
+    ns1:name "Hope Summers" .
+
+<http://projet.fr/perso_data/H331> a ns1:Character ;
+    ns1:name "Howard the Duck" .
+
+<http://projet.fr/perso_data/H332> a ns1:Character ;
+    ns1:name "Hulk" .
+
+<http://projet.fr/perso_data/H333> a ns1:Character ;
+    ns1:name "Human Torch" .
+
+<http://projet.fr/perso_data/H334> a ns1:Character ;
+    ns1:name "Huntress" .
+
+<http://projet.fr/perso_data/H335> a ns1:Character ;
+    ns1:name "Husk" .
+
+<http://projet.fr/perso_data/H336> a ns1:Character ;
+    ns1:name "Hybrid" .
+
+<http://projet.fr/perso_data/H337> a ns1:Character ;
+    ns1:name "Hydro-Man" .
+
+<http://projet.fr/perso_data/H338> a ns1:Character ;
+    ns1:name "Hyperion" .
+
+<http://projet.fr/perso_data/H339> a ns1:Character ;
+    ns1:name "Iceman" .
+
+<http://projet.fr/perso_data/H34> a ns1:Character ;
+    ns1:name "Anti-Venom" .
+
+<http://projet.fr/perso_data/H340> a ns1:Character ;
+    ns1:name "Impulse" .
+
+<http://projet.fr/perso_data/H341> a ns1:Character ;
+    ns1:name "Indiana Jones" .
+
+<http://projet.fr/perso_data/H342> a ns1:Character ;
+    ns1:name "Indigo" .
+
+<http://projet.fr/perso_data/H343> a ns1:Character ;
+    ns1:name "Ink" .
+
+<http://projet.fr/perso_data/H344> a ns1:Character ;
+    ns1:name "Invisible Woman" .
+
+<http://projet.fr/perso_data/H345> a ns1:Character ;
+    ns1:name "Iron Fist" .
+
+<http://projet.fr/perso_data/H346> a ns1:Character ;
+    ns1:name "Iron Man" .
+
+<http://projet.fr/perso_data/H347> a ns1:Character ;
+    ns1:name "Iron Monger" .
+
+<http://projet.fr/perso_data/H348> a ns1:Character ;
+    ns1:name "Isis" .
+
+<http://projet.fr/perso_data/H349> a ns1:Character ;
+    ns1:name "Jack Bauer" .
+
+<http://projet.fr/perso_data/H35> a ns1:Character ;
+    ns1:name "Apocalypse" .
+
+<http://projet.fr/perso_data/H350> a ns1:Character ;
+    ns1:name "Jack of Hearts" .
+
+<http://projet.fr/perso_data/H351> a ns1:Character ;
+    ns1:name "Jack-Jack" .
+
+<http://projet.fr/perso_data/H352> a ns1:Character ;
+    ns1:name "James Bond" .
+
+<http://projet.fr/perso_data/H353> a ns1:Character ;
+    ns1:name "James T. Kirk" .
+
+<http://projet.fr/perso_data/H354> a ns1:Character ;
+    ns1:name "Jar Jar Binks" .
+
+<http://projet.fr/perso_data/H355> a ns1:Character ;
+    ns1:name "Jason Bourne" .
+
+<http://projet.fr/perso_data/H356> a ns1:Character ;
+    ns1:name "Jean Grey" .
+
+<http://projet.fr/perso_data/H357> a ns1:Character ;
+    ns1:name "Jean-Luc Picard" .
+
+<http://projet.fr/perso_data/H358> a ns1:Character ;
+    ns1:name "Jennifer Kale" .
+
+<http://projet.fr/perso_data/H359> a ns1:Character ;
+    ns1:name "Jesse Quick" .
+
+<http://projet.fr/perso_data/H36> a ns1:Character ;
+    ns1:name "Aquababy" .
+
+<http://projet.fr/perso_data/H360> a ns1:Character ;
+    ns1:name "Jessica Cruz" .
+
+<http://projet.fr/perso_data/H361> a ns1:Character ;
+    ns1:name "Jessica Jones" .
+
+<http://projet.fr/perso_data/H362> a ns1:Character ;
+    ns1:name "Jessica Sanders" .
+
+<http://projet.fr/perso_data/H363> a ns1:Character ;
+    ns1:name "Jigsaw" .
+
+<http://projet.fr/perso_data/H364> a ns1:Character ;
+    ns1:name "Jim Powell" .
+
+<http://projet.fr/perso_data/H365> a ns1:Character ;
+    ns1:name "JJ Powell" .
+
+<http://projet.fr/perso_data/H366> a ns1:Character ;
+    ns1:name "Johann Krauss" .
+
+<http://projet.fr/perso_data/H367> a ns1:Character ;
+    ns1:name "John Constantine" .
+
+<http://projet.fr/perso_data/H368> a ns1:Character ;
+    ns1:name "John Stewart" .
+
+<http://projet.fr/perso_data/H369> a ns1:Character ;
+    ns1:name "John Wraith" .
+
+<http://projet.fr/perso_data/H37> a ns1:Character ;
+    ns1:name "Aqualad" .
+
+<http://projet.fr/perso_data/H370> a ns1:Character ;
+    ns1:name "Joker" .
+
+<http://projet.fr/perso_data/H371> a ns1:Character ;
+    ns1:name "Jolt" .
+
+<http://projet.fr/perso_data/H372> a ns1:Character ;
+    ns1:name "Jubilee" .
+
+<http://projet.fr/perso_data/H373> a ns1:Character ;
+    ns1:name "Judge Dredd" .
+
+<http://projet.fr/perso_data/H374> a ns1:Character ;
+    ns1:name "Juggernaut" .
+
+<http://projet.fr/perso_data/H375> a ns1:Character ;
+    ns1:name "Junkpile" .
+
+<http://projet.fr/perso_data/H376> a ns1:Character ;
+    ns1:name "Justice" .
+
+<http://projet.fr/perso_data/H377> a ns1:Character ;
+    ns1:name "Jyn Erso" .
+
+<http://projet.fr/perso_data/H378> a ns1:Character ;
+    ns1:name "K-2SO" .
+
+<http://projet.fr/perso_data/H379> a ns1:Character ;
+    ns1:name "Kang" .
+
+<http://projet.fr/perso_data/H38> a ns1:Character ;
+    ns1:name "Aquaman" .
+
+<http://projet.fr/perso_data/H380> a ns1:Character ;
+    ns1:name "Kathryn Janeway" .
+
+<http://projet.fr/perso_data/H381> a ns1:Character ;
+    ns1:name "Katniss Everdeen" .
+
+<http://projet.fr/perso_data/H382> a ns1:Character ;
+    ns1:name "Kevin 11" .
+
+<http://projet.fr/perso_data/H383> a ns1:Character ;
+    ns1:name "Kick-Ass" .
+
+<http://projet.fr/perso_data/H384> a ns1:Character ;
+    ns1:name "Kid Flash" .
+
+<http://projet.fr/perso_data/H385> a ns1:Character ;
+    ns1:name "Kid Flash II" .
+
+<http://projet.fr/perso_data/H386> a ns1:Character ;
+    ns1:name "Killer Croc" .
+
+<http://projet.fr/perso_data/H387> a ns1:Character ;
+    ns1:name "Killer Frost" .
+
+<http://projet.fr/perso_data/H388> a ns1:Character ;
+    ns1:name "Kilowog" .
+
+<http://projet.fr/perso_data/H389> a ns1:Character ;
+    ns1:name "King Kong" .
+
+<http://projet.fr/perso_data/H39> a ns1:Character ;
+    ns1:name "Arachne" .
+
+<http://projet.fr/perso_data/H390> a ns1:Character ;
+    ns1:name "King Shark" .
+
+<http://projet.fr/perso_data/H391> a ns1:Character ;
+    ns1:name "Kingpin" .
+
+<http://projet.fr/perso_data/H392> a ns1:Character ;
+    ns1:name "Klaw" .
+
+<http://projet.fr/perso_data/H393> a ns1:Character ;
+    ns1:name "Kool-Aid Man" .
+
+<http://projet.fr/perso_data/H394> a ns1:Character ;
+    ns1:name "Kraven II" .
+
+<http://projet.fr/perso_data/H395> a ns1:Character ;
+    ns1:name "Kraven the Hunter" .
+
+<http://projet.fr/perso_data/H396> a ns1:Character ;
+    ns1:name "Krypto" .
+
+<http://projet.fr/perso_data/H397> a ns1:Character ;
+    ns1:name "Kyle Rayner" .
+
+<http://projet.fr/perso_data/H398> a ns1:Character ;
+    ns1:name "Kylo Ren" .
+
+<http://projet.fr/perso_data/H399> a ns1:Character ;
+    ns1:name "Lady Bullseye" .
+
+<http://projet.fr/perso_data/H4> a ns1:Character ;
+    ns1:name "Abomination" .
+
+<http://projet.fr/perso_data/H40> a ns1:Character ;
+    ns1:name "Archangel" .
+
+<http://projet.fr/perso_data/H400> a ns1:Character ;
+    ns1:name "Lady Deathstrike" .
+
+<http://projet.fr/perso_data/H401> a ns1:Character ;
+    ns1:name "Leader" .
+
+<http://projet.fr/perso_data/H402> a ns1:Character ;
+    ns1:name "Leech" .
+
+<http://projet.fr/perso_data/H403> a ns1:Character ;
+    ns1:name "Legion" .
+
+<http://projet.fr/perso_data/H404> a ns1:Character ;
+    ns1:name "Leonardo" .
+
+<http://projet.fr/perso_data/H405> a ns1:Character ;
+    ns1:name "Lex Luthor" .
+
+<http://projet.fr/perso_data/H406> a ns1:Character ;
+    ns1:name "Light Lass" .
+
+<http://projet.fr/perso_data/H407> a ns1:Character ;
+    ns1:name "Lightning Lad" .
+
+<http://projet.fr/perso_data/H408> a ns1:Character ;
+    ns1:name "Lightning Lord" .
+
+<http://projet.fr/perso_data/H409> a ns1:Character ;
+    ns1:name "Living Brain" .
+
+<http://projet.fr/perso_data/H41> a ns1:Character ;
+    ns1:name "Arclight" .
+
+<http://projet.fr/perso_data/H410> a ns1:Character ;
+    ns1:name "Living Tribunal" .
+
+<http://projet.fr/perso_data/H411> a ns1:Character ;
+    ns1:name "Liz Sherman" .
+
+<http://projet.fr/perso_data/H412> a ns1:Character ;
+    ns1:name "Lizard" .
+
+<http://projet.fr/perso_data/H413> a ns1:Character ;
+    ns1:name "Lobo" .
+
+<http://projet.fr/perso_data/H414> a ns1:Character ;
+    ns1:name "Loki" .
+
+<http://projet.fr/perso_data/H415> a ns1:Character ;
+    ns1:name "Longshot" .
+
+<http://projet.fr/perso_data/H416> a ns1:Character ;
+    ns1:name "Luke Cage" .
+
+<http://projet.fr/perso_data/H417> a ns1:Character ;
+    ns1:name "Luke Campbell" .
+
+<http://projet.fr/perso_data/H418> a ns1:Character ;
+    ns1:name "Luke Skywalker" .
+
+<http://projet.fr/perso_data/H419> a ns1:Character ;
+    ns1:name "Luna" .
+
+<http://projet.fr/perso_data/H42> a ns1:Character ;
+    ns1:name "Ardina" .
+
+<http://projet.fr/perso_data/H420> a ns1:Character ;
+    ns1:name "Lyja" .
+
+<http://projet.fr/perso_data/H421> a ns1:Character ;
+    ns1:name "Mach-IV" .
+
+<http://projet.fr/perso_data/H422> a ns1:Character ;
+    ns1:name "Machine Man" .
+
+<http://projet.fr/perso_data/H423> a ns1:Character ;
+    ns1:name "Magneto" .
+
+<http://projet.fr/perso_data/H424> a ns1:Character ;
+    ns1:name "Magog" .
+
+<http://projet.fr/perso_data/H425> a ns1:Character ;
+    ns1:name "Magus" .
+
+<http://projet.fr/perso_data/H426> a ns1:Character ;
+    ns1:name "Man of Miracles" .
+
+<http://projet.fr/perso_data/H427> a ns1:Character ;
+    ns1:name "Man-Bat" .
+
+<http://projet.fr/perso_data/H428> a ns1:Character ;
+    ns1:name "Man-Thing" .
+
+<http://projet.fr/perso_data/H429> a ns1:Character ;
+    ns1:name "Man-Wolf" .
+
+<http://projet.fr/perso_data/H43> a ns1:Character ;
+    ns1:name "Ares" .
+
+<http://projet.fr/perso_data/H430> a ns1:Character ;
+    ns1:name "Mandarin" .
+
+<http://projet.fr/perso_data/H431> a ns1:Character ;
+    ns1:name "Mantis" .
+
+<http://projet.fr/perso_data/H432> a ns1:Character ;
+    ns1:name "Martian Manhunter" .
+
+<http://projet.fr/perso_data/H433> a ns1:Character ;
+    ns1:name "Marvel Girl" .
+
+<http://projet.fr/perso_data/H434> a ns1:Character ;
+    ns1:name "Master Brood" .
+
+<http://projet.fr/perso_data/H435> a ns1:Character ;
+    ns1:name "Master Chief" .
+
+<http://projet.fr/perso_data/H436> a ns1:Character ;
+    ns1:name "Match" .
+
+<http://projet.fr/perso_data/H437> a ns1:Character ;
+    ns1:name "Matt Parkman" .
+
+<http://projet.fr/perso_data/H438> a ns1:Character ;
+    ns1:name "Maverick" .
+
+<http://projet.fr/perso_data/H439> a ns1:Character ;
+    ns1:name "Maxima" .
+
+<http://projet.fr/perso_data/H44> a ns1:Character ;
+    ns1:name "Ariel" .
+
+<http://projet.fr/perso_data/H440> a ns1:Character ;
+    ns1:name "Maya Herrera" .
+
+<http://projet.fr/perso_data/H441> a ns1:Character ;
+    ns1:name "Medusa" .
+
+<http://projet.fr/perso_data/H442> a ns1:Character ;
+    ns1:name "Meltdown" .
+
+<http://projet.fr/perso_data/H443> a ns1:Character ;
+    ns1:name "Mephisto" .
+
+<http://projet.fr/perso_data/H444> a ns1:Character ;
+    ns1:name "Mera" .
+
+<http://projet.fr/perso_data/H445> a ns1:Character ;
+    ns1:name "Metallo" .
+
+<http://projet.fr/perso_data/H446> a ns1:Character ;
+    ns1:name "Metamorpho" .
+
+<http://projet.fr/perso_data/H447> a ns1:Character ;
+    ns1:name "Meteorite" .
+
+<http://projet.fr/perso_data/H448> a ns1:Character ;
+    ns1:name "Metron" .
+
+<http://projet.fr/perso_data/H449> a ns1:Character ;
+    ns1:name "Micah Sanders" .
+
+<http://projet.fr/perso_data/H45> a ns1:Character ;
+    ns1:name "Armor" .
+
+<http://projet.fr/perso_data/H450> a ns1:Character ;
+    ns1:name "Michelangelo" .
+
+<http://projet.fr/perso_data/H451> a ns1:Character ;
+    ns1:name "Micro Lad" .
+
+<http://projet.fr/perso_data/H452> a ns1:Character ;
+    ns1:name "Mimic" .
+
+<http://projet.fr/perso_data/H453> a ns1:Character ;
+    ns1:name "Minna Murray" .
+
+<http://projet.fr/perso_data/H454> a ns1:Character ;
+    ns1:name "Misfit" .
+
+<http://projet.fr/perso_data/H455> a ns1:Character ;
+    ns1:name "Miss Martian" .
+
+<http://projet.fr/perso_data/H456> a ns1:Character ;
+    ns1:name "Mister Fantastic" .
+
+<http://projet.fr/perso_data/H457> a ns1:Character ;
+    ns1:name "Mister Freeze" .
+
+<http://projet.fr/perso_data/H458> a ns1:Character ;
+    ns1:name "Mister Knife" .
+
+<http://projet.fr/perso_data/H459> a ns1:Character ;
+    ns1:name "Mister Mxyzptlk" .
+
+<http://projet.fr/perso_data/H46> a ns1:Character ;
+    ns1:name "Arsenal" .
+
+<http://projet.fr/perso_data/H460> a ns1:Character ;
+    ns1:name "Mister Sinister" .
+
+<http://projet.fr/perso_data/H461> a ns1:Character ;
+    ns1:name "Mister Zsasz" .
+
+<http://projet.fr/perso_data/H462> a ns1:Character ;
+    ns1:name "Mockingbird" .
+
+<http://projet.fr/perso_data/H463> a ns1:Character ;
+    ns1:name "MODOK" .
+
+<http://projet.fr/perso_data/H464> a ns1:Character ;
+    ns1:name "Mogo" .
+
+<http://projet.fr/perso_data/H465> a ns1:Character ;
+    ns1:name "Mohinder Suresh" .
+
+<http://projet.fr/perso_data/H466> a ns1:Character ;
+    ns1:name "Moloch" .
+
+<http://projet.fr/perso_data/H467> a ns1:Character ;
+    ns1:name "Molten Man" .
+
+<http://projet.fr/perso_data/H468> a ns1:Character ;
+    ns1:name "Monarch" .
+
+<http://projet.fr/perso_data/H469> a ns1:Character ;
+    ns1:name "Monica Dawson" .
+
+<http://projet.fr/perso_data/H47> a ns1:Character ;
+    ns1:name "Astro Boy" .
+
+<http://projet.fr/perso_data/H470> a ns1:Character ;
+    ns1:name "Moon Knight" .
+
+<http://projet.fr/perso_data/H471> a ns1:Character ;
+    ns1:name "Moonstone" .
+
+<http://projet.fr/perso_data/H472> a ns1:Character ;
+    ns1:name "Morlun" .
+
+<http://projet.fr/perso_data/H473> a ns1:Character ;
+    ns1:name "Morph" .
+
+<http://projet.fr/perso_data/H474> a ns1:Character ;
+    ns1:name "Moses Magnum" .
+
+<http://projet.fr/perso_data/H475> a ns1:Character ;
+    ns1:name "Mr Immortal" .
+
+<http://projet.fr/perso_data/H476> a ns1:Character ;
+    ns1:name "Mr Incredible" .
+
+<http://projet.fr/perso_data/H477> a ns1:Character ;
+    ns1:name "Ms Marvel II" .
+
+<http://projet.fr/perso_data/H478> a ns1:Character ;
+    ns1:name "Multiple Man" .
+
+<http://projet.fr/perso_data/H479> a ns1:Character ;
+    ns1:name "Mysterio" .
+
+<http://projet.fr/perso_data/H48> a ns1:Character ;
+    ns1:name "Atlas" .
+
+<http://projet.fr/perso_data/H480> a ns1:Character ;
+    ns1:name "Mystique" .
+
+<http://projet.fr/perso_data/H481> a ns1:Character ;
+    ns1:name "Namor" .
+
+<http://projet.fr/perso_data/H482> a ns1:Character ;
+    ns1:name "Namor" .
+
+<http://projet.fr/perso_data/H483> a ns1:Character ;
+    ns1:name "Namora" .
+
+<http://projet.fr/perso_data/H484> a ns1:Character ;
+    ns1:name "Namorita" .
+
+<http://projet.fr/perso_data/H485> a ns1:Character ;
+    ns1:name "Naruto Uzumaki" .
+
+<http://projet.fr/perso_data/H486> a ns1:Character ;
+    ns1:name "Nathan Petrelli" .
+
+<http://projet.fr/perso_data/H487> a ns1:Character ;
+    ns1:name "Nebula" .
+
+<http://projet.fr/perso_data/H488> a ns1:Character ;
+    ns1:name "Negasonic Teenage Warhead" .
+
+<http://projet.fr/perso_data/H489> a ns1:Character ;
+    ns1:name "Nick Fury" .
+
+<http://projet.fr/perso_data/H49> a ns1:Character ;
+    ns1:name "Atlas" .
+
+<http://projet.fr/perso_data/H490> a ns1:Character ;
+    ns1:name "Nightcrawler" .
+
+<http://projet.fr/perso_data/H491> a ns1:Character ;
+    ns1:name "Nightwing" .
+
+<http://projet.fr/perso_data/H492> a ns1:Character ;
+    ns1:name "Niki Sanders" .
+
+<http://projet.fr/perso_data/H493> a ns1:Character ;
+    ns1:name "Nina Theroux" .
+
+<http://projet.fr/perso_data/H494> a ns1:Character ;
+    ns1:name "Nite Owl II" .
+
+<http://projet.fr/perso_data/H495> a ns1:Character ;
+    ns1:name "Northstar" .
+
+<http://projet.fr/perso_data/H496> a ns1:Character ;
+    ns1:name "Nova" .
+
+<http://projet.fr/perso_data/H497> a ns1:Character ;
+    ns1:name "Nova" .
+
+<http://projet.fr/perso_data/H498> a ns1:Character ;
+    ns1:name "Odin" .
+
+<http://projet.fr/perso_data/H499> a ns1:Character ;
+    ns1:name "Offspring" .
+
+<http://projet.fr/perso_data/H5> a ns1:Character ;
+    ns1:name "Abraxas" .
+
+<http://projet.fr/perso_data/H50> a ns1:Character ;
+    ns1:name "Atom" .
+
+<http://projet.fr/perso_data/H500> a ns1:Character ;
+    ns1:name "Omega Red" .
+
+<http://projet.fr/perso_data/H501> a ns1:Character ;
+    ns1:name "Omniscient" .
+
+<http://projet.fr/perso_data/H502> a ns1:Character ;
+    ns1:name "One Punch Man" .
+
+<http://projet.fr/perso_data/H503> a ns1:Character ;
+    ns1:name "One-Above-All" .
+
+<http://projet.fr/perso_data/H504> a ns1:Character ;
+    ns1:name "Onslaught" .
+
+<http://projet.fr/perso_data/H505> a ns1:Character ;
+    ns1:name "Oracle" .
+
+<http://projet.fr/perso_data/H506> a ns1:Character ;
+    ns1:name "Osiris" .
+
+<http://projet.fr/perso_data/H507> a ns1:Character ;
+    ns1:name "Overtkill" .
+
+<http://projet.fr/perso_data/H508> a ns1:Character ;
+    ns1:name "Ozymandias" .
+
+<http://projet.fr/perso_data/H509> a ns1:Character ;
+    ns1:name "Parademon" .
+
+<http://projet.fr/perso_data/H51> a ns1:Character ;
+    ns1:name "Atom" .
+
+<http://projet.fr/perso_data/H510> a ns1:Character ;
+    ns1:name "Paul Blart" .
+
+<http://projet.fr/perso_data/H511> a ns1:Character ;
+    ns1:name "Penance" .
+
+<http://projet.fr/perso_data/H512> a ns1:Character ;
+    ns1:name "Penance I" .
+
+<http://projet.fr/perso_data/H513> a ns1:Character ;
+    ns1:name "Penance II" .
+
+<http://projet.fr/perso_data/H514> a ns1:Character ;
+    ns1:name "Penguin" .
+
+<http://projet.fr/perso_data/H515> a ns1:Character ;
+    ns1:name "Phantom" .
+
+<http://projet.fr/perso_data/H516> a ns1:Character ;
+    ns1:name "Phantom Girl" .
+
+<http://projet.fr/perso_data/H517> a ns1:Character ;
+    ns1:name "Phoenix" .
+
+<http://projet.fr/perso_data/H518> a ns1:Character ;
+    ns1:name "Plantman" .
+
+<http://projet.fr/perso_data/H519> a ns1:Character ;
+    ns1:name "Plastic Lad" .
+
+<http://projet.fr/perso_data/H52> a ns1:Character ;
+    ns1:name "Atom Girl" .
+
+<http://projet.fr/perso_data/H520> a ns1:Character ;
+    ns1:name "Plastic Man" .
+
+<http://projet.fr/perso_data/H521> a ns1:Character ;
+    ns1:name "Plastique" .
+
+<http://projet.fr/perso_data/H522> a ns1:Character ;
+    ns1:name "Poison Ivy" .
+
+<http://projet.fr/perso_data/H523> a ns1:Character ;
+    ns1:name "Polaris" .
+
+<http://projet.fr/perso_data/H524> a ns1:Character ;
+    ns1:name "Power Girl" .
+
+<http://projet.fr/perso_data/H525> a ns1:Character ;
+    ns1:name "Power Man" .
+
+<http://projet.fr/perso_data/H526> a ns1:Character ;
+    ns1:name "Predator" .
+
+<http://projet.fr/perso_data/H527> a ns1:Character ;
+    ns1:name "Professor X" .
+
+<http://projet.fr/perso_data/H528> a ns1:Character ;
+    ns1:name "Professor Zoom" .
+
+<http://projet.fr/perso_data/H529> a ns1:Character ;
+    ns1:name "Psylocke" .
+
+<http://projet.fr/perso_data/H53> a ns1:Character ;
+    ns1:name "Atom II" .
+
+<http://projet.fr/perso_data/H530> a ns1:Character ;
+    ns1:name "Punisher" .
+
+<http://projet.fr/perso_data/H531> a ns1:Character ;
+    ns1:name "Purple Man" .
+
+<http://projet.fr/perso_data/H532> a ns1:Character ;
+    ns1:name "Pyro" .
+
+<http://projet.fr/perso_data/H533> a ns1:Character ;
+    ns1:name "Q" .
+
+<http://projet.fr/perso_data/H534> a ns1:Character ;
+    ns1:name "Quantum" .
+
+<http://projet.fr/perso_data/H535> a ns1:Character ;
+    ns1:name "Question" .
+
+<http://projet.fr/perso_data/H536> a ns1:Character ;
+    ns1:name "Quicksilver" .
+
+<http://projet.fr/perso_data/H537> a ns1:Character ;
+    ns1:name "Quill" .
+
+<http://projet.fr/perso_data/H538> a ns1:Character ;
+    ns1:name "Ra's Al Ghul" .
+
+<http://projet.fr/perso_data/H539> a ns1:Character ;
+    ns1:name "Rachel Pirzad" .
+
+<http://projet.fr/perso_data/H54> a ns1:Character ;
+    ns1:name "Atom III" .
+
+<http://projet.fr/perso_data/H540> a ns1:Character ;
+    ns1:name "Rambo" .
+
+<http://projet.fr/perso_data/H541> a ns1:Character ;
+    ns1:name "Raphael" .
+
+<http://projet.fr/perso_data/H542> a ns1:Character ;
+    ns1:name "Raven" .
+
+<http://projet.fr/perso_data/H543> a ns1:Character ;
+    ns1:name "Ray" .
+
+<http://projet.fr/perso_data/H544> a ns1:Character ;
+    ns1:name "Razor-Fist II" .
+
+<http://projet.fr/perso_data/H545> a ns1:Character ;
+    ns1:name "Red Arrow" .
+
+<http://projet.fr/perso_data/H546> a ns1:Character ;
+    ns1:name "Red Hood" .
+
+<http://projet.fr/perso_data/H547> a ns1:Character ;
+    ns1:name "Red Hulk" .
+
+<http://projet.fr/perso_data/H548> a ns1:Character ;
+    ns1:name "Red Mist" .
+
+<http://projet.fr/perso_data/H549> a ns1:Character ;
+    ns1:name "Red Robin" .
+
+<http://projet.fr/perso_data/H55> a ns1:Character ;
+    ns1:name "Atom IV" .
+
+<http://projet.fr/perso_data/H550> a ns1:Character ;
+    ns1:name "Red Skull" .
+
+<http://projet.fr/perso_data/H551> a ns1:Character ;
+    ns1:name "Red Tornado" .
+
+<http://projet.fr/perso_data/H552> a ns1:Character ;
+    ns1:name "Redeemer II" .
+
+<http://projet.fr/perso_data/H553> a ns1:Character ;
+    ns1:name "Redeemer III" .
+
+<http://projet.fr/perso_data/H554> a ns1:Character ;
+    ns1:name "Renata Soliz" .
+
+<http://projet.fr/perso_data/H555> a ns1:Character ;
+    ns1:name "Rey" .
+
+<http://projet.fr/perso_data/H556> a ns1:Character ;
+    ns1:name "Rhino" .
+
+<http://projet.fr/perso_data/H557> a ns1:Character ;
+    ns1:name "Rick Flag" .
+
+<http://projet.fr/perso_data/H558> a ns1:Character ;
+    ns1:name "Riddler" .
+
+<http://projet.fr/perso_data/H559> a ns1:Character ;
+    ns1:name "Rip Hunter" .
+
+<http://projet.fr/perso_data/H56> a ns1:Character ;
+    ns1:name "Aurora" .
+
+<http://projet.fr/perso_data/H560> a ns1:Character ;
+    ns1:name "Ripcord" .
+
+<http://projet.fr/perso_data/H561> a ns1:Character ;
+    ns1:name "Robin" .
+
+<http://projet.fr/perso_data/H562> a ns1:Character ;
+    ns1:name "Robin II" .
+
+<http://projet.fr/perso_data/H563> a ns1:Character ;
+    ns1:name "Robin III" .
+
+<http://projet.fr/perso_data/H564> a ns1:Character ;
+    ns1:name "Robin V" .
+
+<http://projet.fr/perso_data/H565> a ns1:Character ;
+    ns1:name "Robin VI" .
+
+<http://projet.fr/perso_data/H566> a ns1:Character ;
+    ns1:name "Rocket Raccoon" .
+
+<http://projet.fr/perso_data/H567> a ns1:Character ;
+    ns1:name "Rogue" .
+
+<http://projet.fr/perso_data/H568> a ns1:Character ;
+    ns1:name "Ronin" .
+
+<http://projet.fr/perso_data/H569> a ns1:Character ;
+    ns1:name "Rorschach" .
+
+<http://projet.fr/perso_data/H57> a ns1:Character ;
+    ns1:name "Azazel" .
+
+<http://projet.fr/perso_data/H570> a ns1:Character ;
+    ns1:name "Sabretooth" .
+
+<http://projet.fr/perso_data/H571> a ns1:Character ;
+    ns1:name "Sage" .
+
+<http://projet.fr/perso_data/H572> a ns1:Character ;
+    ns1:name "Sandman" .
+
+<http://projet.fr/perso_data/H573> a ns1:Character ;
+    ns1:name "Sasquatch" .
+
+<http://projet.fr/perso_data/H574> a ns1:Character ;
+    ns1:name "Sauron" .
+
+<http://projet.fr/perso_data/H575> a ns1:Character ;
+    ns1:name "Savage Dragon" .
+
+<http://projet.fr/perso_data/H576> a ns1:Character ;
+    ns1:name "Scarecrow" .
+
+<http://projet.fr/perso_data/H577> a ns1:Character ;
+    ns1:name "Scarlet Spider" .
+
+<http://projet.fr/perso_data/H578> a ns1:Character ;
+    ns1:name "Scarlet Spider II" .
+
+<http://projet.fr/perso_data/H579> a ns1:Character ;
+    ns1:name "Scarlet Witch" .
+
+<http://projet.fr/perso_data/H58> a ns1:Character ;
+    ns1:name "Azrael" .
+
+<http://projet.fr/perso_data/H580> a ns1:Character ;
+    ns1:name "Scorpia" .
+
+<http://projet.fr/perso_data/H581> a ns1:Character ;
+    ns1:name "Scorpion" .
+
+<http://projet.fr/perso_data/H582> a ns1:Character ;
+    ns1:name "Sebastian Shaw" .
+
+<http://projet.fr/perso_data/H583> a ns1:Character ;
+    ns1:name "Sentry" .
+
+<http://projet.fr/perso_data/H584> a ns1:Character ;
+    ns1:name "Shadow King" .
+
+<http://projet.fr/perso_data/H585> a ns1:Character ;
+    ns1:name "Shadow Lass" .
+
+<http://projet.fr/perso_data/H586> a ns1:Character ;
+    ns1:name "Shadowcat" .
+
+<http://projet.fr/perso_data/H587> a ns1:Character ;
+    ns1:name "Shang-Chi" .
+
+<http://projet.fr/perso_data/H588> a ns1:Character ;
+    ns1:name "Shatterstar" .
+
+<http://projet.fr/perso_data/H589> a ns1:Character ;
+    ns1:name "She-Hulk" .
+
+<http://projet.fr/perso_data/H59> a ns1:Character ;
+    ns1:name "Aztar" .
+
+<http://projet.fr/perso_data/H590> a ns1:Character ;
+    ns1:name "She-Thing" .
+
+<http://projet.fr/perso_data/H591> a ns1:Character ;
+    ns1:name "Shocker" .
+
+<http://projet.fr/perso_data/H592> a ns1:Character ;
+    ns1:name "Shriek" .
+
+<http://projet.fr/perso_data/H593> a ns1:Character ;
+    ns1:name "Shrinking Violet" .
+
+<http://projet.fr/perso_data/H594> a ns1:Character ;
+    ns1:name "Sif" .
+
+<http://projet.fr/perso_data/H595> a ns1:Character ;
+    ns1:name "Silk" .
+
+<http://projet.fr/perso_data/H596> a ns1:Character ;
+    ns1:name "Silk Spectre" .
+
+<http://projet.fr/perso_data/H597> a ns1:Character ;
+    ns1:name "Silk Spectre II" .
+
+<http://projet.fr/perso_data/H598> a ns1:Character ;
+    ns1:name "Silver Surfer" .
+
+<http://projet.fr/perso_data/H599> a ns1:Character ;
+    ns1:name "Silverclaw" .
+
+<http://projet.fr/perso_data/H6> a ns1:Character ;
+    ns1:name "Absorbing Man" .
+
+<http://projet.fr/perso_data/H60> a ns1:Character ;
+    ns1:name "Bane" .
+
+<http://projet.fr/perso_data/H600> a ns1:Character ;
+    ns1:name "Simon Baz" .
+
+<http://projet.fr/perso_data/H601> a ns1:Character ;
+    ns1:name "Sinestro" .
+
+<http://projet.fr/perso_data/H602> a ns1:Character ;
+    ns1:name "Siren" .
+
+<http://projet.fr/perso_data/H603> a ns1:Character ;
+    ns1:name "Siren II" .
+
+<http://projet.fr/perso_data/H604> a ns1:Character ;
+    ns1:name "Siryn" .
+
+<http://projet.fr/perso_data/H605> a ns1:Character ;
+    ns1:name "Skaar" .
+
+<http://projet.fr/perso_data/H606> a ns1:Character ;
+    ns1:name "Snake-Eyes" .
+
+<http://projet.fr/perso_data/H607> a ns1:Character ;
+    ns1:name "Snowbird" .
+
+<http://projet.fr/perso_data/H608> a ns1:Character ;
+    ns1:name "Sobek" .
+
+<http://projet.fr/perso_data/H609> a ns1:Character ;
+    ns1:name "Solomon Grundy" .
+
+<http://projet.fr/perso_data/H61> a ns1:Character ;
+    ns1:name "Banshee" .
+
+<http://projet.fr/perso_data/H610> a ns1:Character ;
+    ns1:name "Songbird" .
+
+<http://projet.fr/perso_data/H611> a ns1:Character ;
+    ns1:name "Space Ghost" .
+
+<http://projet.fr/perso_data/H612> a ns1:Character ;
+    ns1:name "Spawn" .
+
+<http://projet.fr/perso_data/H613> a ns1:Character ;
+    ns1:name "Spectre" .
+
+<http://projet.fr/perso_data/H614> a ns1:Character ;
+    ns1:name "Speedball" .
+
+<http://projet.fr/perso_data/H615> a ns1:Character ;
+    ns1:name "Speedy" .
+
+<http://projet.fr/perso_data/H616> a ns1:Character ;
+    ns1:name "Speedy" .
+
+<http://projet.fr/perso_data/H617> a ns1:Character ;
+    ns1:name "Spider-Carnage" .
+
+<http://projet.fr/perso_data/H618> a ns1:Character ;
+    ns1:name "Spider-Girl" .
+
+<http://projet.fr/perso_data/H619> a ns1:Character ;
+    ns1:name "Spider-Gwen" .
+
+<http://projet.fr/perso_data/H62> a ns1:Character ;
+    ns1:name "Bantam" .
+
+<http://projet.fr/perso_data/H620> a ns1:Character ;
+    ns1:name "Spider-Man" .
+
+<http://projet.fr/perso_data/H621> a ns1:Character ;
+    ns1:name "Spider-Man" .
+
+<http://projet.fr/perso_data/H622> a ns1:Character ;
+    ns1:name "Spider-Man" .
+
+<http://projet.fr/perso_data/H623> a ns1:Character ;
+    ns1:name "Spider-Woman" .
+
+<http://projet.fr/perso_data/H624> a ns1:Character ;
+    ns1:name "Spider-Woman II" .
+
+<http://projet.fr/perso_data/H625> a ns1:Character ;
+    ns1:name "Spider-Woman III" .
+
+<http://projet.fr/perso_data/H626> a ns1:Character ;
+    ns1:name "Spider-Woman IV" .
+
+<http://projet.fr/perso_data/H627> a ns1:Character ;
+    ns1:name "Spock" .
+
+<http://projet.fr/perso_data/H628> a ns1:Character ;
+    ns1:name "Spyke" .
+
+<http://projet.fr/perso_data/H629> a ns1:Character ;
+    ns1:name "Stacy X" .
+
+<http://projet.fr/perso_data/H63> a ns1:Character ;
+    ns1:name "Batgirl" .
+
+<http://projet.fr/perso_data/H630> a ns1:Character ;
+    ns1:name "Star-Lord" .
+
+<http://projet.fr/perso_data/H631> a ns1:Character ;
+    ns1:name "Stardust" .
+
+<http://projet.fr/perso_data/H632> a ns1:Character ;
+    ns1:name "Starfire" .
+
+<http://projet.fr/perso_data/H633> a ns1:Character ;
+    ns1:name "Stargirl" .
+
+<http://projet.fr/perso_data/H634> a ns1:Character ;
+    ns1:name "Static" .
+
+<http://projet.fr/perso_data/H635> a ns1:Character ;
+    ns1:name "Steel" .
+
+<http://projet.fr/perso_data/H636> a ns1:Character ;
+    ns1:name "Stephanie Powell" .
+
+<http://projet.fr/perso_data/H637> a ns1:Character ;
+    ns1:name "Steppenwolf" .
+
+<http://projet.fr/perso_data/H638> a ns1:Character ;
+    ns1:name "Storm" .
+
+<http://projet.fr/perso_data/H639> a ns1:Character ;
+    ns1:name "Stormtrooper" .
+
+<http://projet.fr/perso_data/H64> a ns1:Character ;
+    ns1:name "Batgirl" .
+
+<http://projet.fr/perso_data/H640> a ns1:Character ;
+    ns1:name "Sunspot" .
+
+<http://projet.fr/perso_data/H641> a ns1:Character ;
+    ns1:name "Superboy" .
+
+<http://projet.fr/perso_data/H642> a ns1:Character ;
+    ns1:name "Superboy-Prime" .
+
+<http://projet.fr/perso_data/H643> a ns1:Character ;
+    ns1:name "Supergirl" .
+
+<http://projet.fr/perso_data/H644> a ns1:Character ;
+    ns1:name "Superman" .
+
+<http://projet.fr/perso_data/H645> a ns1:Character ;
+    ns1:name "Swamp Thing" .
+
+<http://projet.fr/perso_data/H646> a ns1:Character ;
+    ns1:name "Swarm" .
+
+<http://projet.fr/perso_data/H647> a ns1:Character ;
+    ns1:name "Sylar" .
+
+<http://projet.fr/perso_data/H648> a ns1:Character ;
+    ns1:name "Synch" .
+
+<http://projet.fr/perso_data/H649> a ns1:Character ;
+    ns1:name "T-1000" .
+
+<http://projet.fr/perso_data/H65> a ns1:Character ;
+    ns1:name "Batgirl III" .
+
+<http://projet.fr/perso_data/H650> a ns1:Character ;
+    ns1:name "T-800" .
+
+<http://projet.fr/perso_data/H651> a ns1:Character ;
+    ns1:name "T-850" .
+
+<http://projet.fr/perso_data/H652> a ns1:Character ;
+    ns1:name "T-X" .
+
+<http://projet.fr/perso_data/H653> a ns1:Character ;
+    ns1:name "Taskmaster" .
+
+<http://projet.fr/perso_data/H654> a ns1:Character ;
+    ns1:name "Tempest" .
+
+<http://projet.fr/perso_data/H655> a ns1:Character ;
+    ns1:name "Thanos" .
+
+<http://projet.fr/perso_data/H656> a ns1:Character ;
+    ns1:name "The Cape" .
+
+<http://projet.fr/perso_data/H657> a ns1:Character ;
+    ns1:name "The Comedian" .
+
+<http://projet.fr/perso_data/H658> a ns1:Character ;
+    ns1:name "Thing" .
+
+<http://projet.fr/perso_data/H659> a ns1:Character ;
+    ns1:name "Thor" .
+
+<http://projet.fr/perso_data/H66> a ns1:Character ;
+    ns1:name "Batgirl IV" .
+
+<http://projet.fr/perso_data/H660> a ns1:Character ;
+    ns1:name "Thor Girl" .
+
+<http://projet.fr/perso_data/H661> a ns1:Character ;
+    ns1:name "Thunderbird" .
+
+<http://projet.fr/perso_data/H662> a ns1:Character ;
+    ns1:name "Thunderbird II" .
+
+<http://projet.fr/perso_data/H663> a ns1:Character ;
+    ns1:name "Thunderbird III" .
+
+<http://projet.fr/perso_data/H664> a ns1:Character ;
+    ns1:name "Thunderstrike" .
+
+<http://projet.fr/perso_data/H665> a ns1:Character ;
+    ns1:name "Thundra" .
+
+<http://projet.fr/perso_data/H666> a ns1:Character ;
+    ns1:name "Tiger Shark" .
+
+<http://projet.fr/perso_data/H667> a ns1:Character ;
+    ns1:name "Tigra" .
+
+<http://projet.fr/perso_data/H668> a ns1:Character ;
+    ns1:name "Tinkerer" .
+
+<http://projet.fr/perso_data/H669> a ns1:Character ;
+    ns1:name "Titan" .
+
+<http://projet.fr/perso_data/H67> a ns1:Character ;
+    ns1:name "Batgirl V" .
+
+<http://projet.fr/perso_data/H670> a ns1:Character ;
+    ns1:name "Toad" .
+
+<http://projet.fr/perso_data/H671> a ns1:Character ;
+    ns1:name "Toxin" .
+
+<http://projet.fr/perso_data/H672> a ns1:Character ;
+    ns1:name "Toxin" .
+
+<http://projet.fr/perso_data/H673> a ns1:Character ;
+    ns1:name "Tracy Strauss" .
+
+<http://projet.fr/perso_data/H674> a ns1:Character ;
+    ns1:name "Trickster" .
+
+<http://projet.fr/perso_data/H675> a ns1:Character ;
+    ns1:name "Trigon" .
+
+<http://projet.fr/perso_data/H676> a ns1:Character ;
+    ns1:name "Triplicate Girl" .
+
+<http://projet.fr/perso_data/H677> a ns1:Character ;
+    ns1:name "Triton" .
+
+<http://projet.fr/perso_data/H678> a ns1:Character ;
+    ns1:name "Two-Face" .
+
+<http://projet.fr/perso_data/H679> a ns1:Character ;
+    ns1:name "Ultragirl" .
+
+<http://projet.fr/perso_data/H68> a ns1:Character ;
+    ns1:name "Batgirl VI" .
+
+<http://projet.fr/perso_data/H680> a ns1:Character ;
+    ns1:name "Ultron" .
+
+<http://projet.fr/perso_data/H681> a ns1:Character ;
+    ns1:name "Utgard-Loki" .
+
+<http://projet.fr/perso_data/H682> a ns1:Character ;
+    ns1:name "Vagabond" .
+
+<http://projet.fr/perso_data/H683> a ns1:Character ;
+    ns1:name "Valerie Hart" .
+
+<http://projet.fr/perso_data/H684> a ns1:Character ;
+    ns1:name "Valkyrie" .
+
+<http://projet.fr/perso_data/H685> a ns1:Character ;
+    ns1:name "Vanisher" .
+
+<http://projet.fr/perso_data/H686> a ns1:Character ;
+    ns1:name "Vegeta" .
+
+<http://projet.fr/perso_data/H687> a ns1:Character ;
+    ns1:name "Venom" .
+
+<http://projet.fr/perso_data/H688> a ns1:Character ;
+    ns1:name "Venom II" .
+
+<http://projet.fr/perso_data/H689> a ns1:Character ;
+    ns1:name "Venom III" .
+
+<http://projet.fr/perso_data/H69> a ns1:Character ;
+    ns1:name "Batman" .
+
+<http://projet.fr/perso_data/H690> a ns1:Character ;
+    ns1:name "Venompool" .
+
+<http://projet.fr/perso_data/H691> a ns1:Character ;
+    ns1:name "Vertigo II" .
+
+<http://projet.fr/perso_data/H692> a ns1:Character ;
+    ns1:name "Vibe" .
+
+<http://projet.fr/perso_data/H693> a ns1:Character ;
+    ns1:name "Vindicator" .
+
+<http://projet.fr/perso_data/H694> a ns1:Character ;
+    ns1:name "Vindicator" .
+
+<http://projet.fr/perso_data/H695> a ns1:Character ;
+    ns1:name "Violator" .
+
+<http://projet.fr/perso_data/H696> a ns1:Character ;
+    ns1:name "Violet Parr" .
+
+<http://projet.fr/perso_data/H697> a ns1:Character ;
+    ns1:name "Vision" .
+
+<http://projet.fr/perso_data/H698> a ns1:Character ;
+    ns1:name "Vision II" .
+
+<http://projet.fr/perso_data/H699> a ns1:Character ;
+    ns1:name "Vixen" .
+
+<http://projet.fr/perso_data/H7> a ns1:Character ;
+    ns1:name "Adam Monroe" .
+
+<http://projet.fr/perso_data/H70> a ns1:Character ;
+    ns1:name "Batman" .
+
+<http://projet.fr/perso_data/H700> a ns1:Character ;
+    ns1:name "Vulcan" .
+
+<http://projet.fr/perso_data/H701> a ns1:Character ;
+    ns1:name "Vulture" .
+
+<http://projet.fr/perso_data/H702> a ns1:Character ;
+    ns1:name "Walrus" .
+
+<http://projet.fr/perso_data/H703> a ns1:Character ;
+    ns1:name "War Machine" .
+
+<http://projet.fr/perso_data/H704> a ns1:Character ;
+    ns1:name "Warbird" .
+
+<http://projet.fr/perso_data/H705> a ns1:Character ;
+    ns1:name "Warlock" .
+
+<http://projet.fr/perso_data/H706> a ns1:Character ;
+    ns1:name "Warp" .
+
+<http://projet.fr/perso_data/H707> a ns1:Character ;
+    ns1:name "Warpath" .
+
+<http://projet.fr/perso_data/H708> a ns1:Character ;
+    ns1:name "Wasp" .
+
+<http://projet.fr/perso_data/H709> a ns1:Character ;
+    ns1:name "Watcher" .
+
+<http://projet.fr/perso_data/H71> a ns1:Character ;
+    ns1:name "Batman II" .
+
+<http://projet.fr/perso_data/H710> a ns1:Character ;
+    ns1:name "Weapon XI" .
+
+<http://projet.fr/perso_data/H711> a ns1:Character ;
+    ns1:name "White Canary" .
+
+<http://projet.fr/perso_data/H712> a ns1:Character ;
+    ns1:name "White Queen" .
+
+<http://projet.fr/perso_data/H713> a ns1:Character ;
+    ns1:name "Wildfire" .
+
+<http://projet.fr/perso_data/H714> a ns1:Character ;
+    ns1:name "Winter Soldier" .
+
+<http://projet.fr/perso_data/H715> a ns1:Character ;
+    ns1:name "Wiz Kid" .
+
+<http://projet.fr/perso_data/H716> a ns1:Character ;
+    ns1:name "Wolfsbane" .
+
+<http://projet.fr/perso_data/H717> a ns1:Character ;
+    ns1:name "Wolverine" .
+
+<http://projet.fr/perso_data/H718> a ns1:Character ;
+    ns1:name "Wonder Girl" .
+
+<http://projet.fr/perso_data/H719> a ns1:Character ;
+    ns1:name "Wonder Man" .
+
+<http://projet.fr/perso_data/H72> a ns1:Character ;
+    ns1:name "Battlestar" .
+
+<http://projet.fr/perso_data/H720> a ns1:Character ;
+    ns1:name "Wonder Woman" .
+
+<http://projet.fr/perso_data/H721> a ns1:Character ;
+    ns1:name "Wondra" .
+
+<http://projet.fr/perso_data/H722> a ns1:Character ;
+    ns1:name "Wyatt Wingfoot" .
+
+<http://projet.fr/perso_data/H723> a ns1:Character ;
+    ns1:name "X-23" .
+
+<http://projet.fr/perso_data/H724> a ns1:Character ;
+    ns1:name "X-Man" .
+
+<http://projet.fr/perso_data/H725> a ns1:Character ;
+    ns1:name "Yellow Claw" .
+
+<http://projet.fr/perso_data/H726> a ns1:Character ;
+    ns1:name "Yellowjacket" .
+
+<http://projet.fr/perso_data/H727> a ns1:Character ;
+    ns1:name "Yellowjacket II" .
+
+<http://projet.fr/perso_data/H728> a ns1:Character ;
+    ns1:name "Ymir" .
+
+<http://projet.fr/perso_data/H729> a ns1:Character ;
+    ns1:name "Yoda" .
+
+<http://projet.fr/perso_data/H73> a ns1:Character ;
+    ns1:name "Batwoman V" .
+
+<http://projet.fr/perso_data/H730> a ns1:Character ;
+    ns1:name "Zatanna" .
+
+<http://projet.fr/perso_data/H731> a ns1:Character ;
+    ns1:name "Zoom" .
+
+<http://projet.fr/perso_data/H74> a ns1:Character ;
+    ns1:name "Beak" .
+
+<http://projet.fr/perso_data/H75> a ns1:Character ;
+    ns1:name "Beast" .
+
+<http://projet.fr/perso_data/H76> a ns1:Character ;
+    ns1:name "Beast Boy" .
+
+<http://projet.fr/perso_data/H77> a ns1:Character ;
+    ns1:name "Beetle" .
+
+<http://projet.fr/perso_data/H78> a ns1:Character ;
+    ns1:name "Ben 10" .
+
+<http://projet.fr/perso_data/H79> a ns1:Character ;
+    ns1:name "Beta Ray Bill" .
+
+<http://projet.fr/perso_data/H8> a ns1:Character ;
+    ns1:name "Adam Strange" .
+
+<http://projet.fr/perso_data/H80> a ns1:Character ;
+    ns1:name "Beyonder" .
+
+<http://projet.fr/perso_data/H81> a ns1:Character ;
+    ns1:name "Big Barda" .
+
+<http://projet.fr/perso_data/H82> a ns1:Character ;
+    ns1:name "Big Daddy" .
+
+<http://projet.fr/perso_data/H83> a ns1:Character ;
+    ns1:name "Big Man" .
+
+<http://projet.fr/perso_data/H84> a ns1:Character ;
+    ns1:name "Bill Harken" .
+
+<http://projet.fr/perso_data/H85> a ns1:Character ;
+    ns1:name "Billy Kincaid" .
+
+<http://projet.fr/perso_data/H86> a ns1:Character ;
+    ns1:name "Binary" .
+
+<http://projet.fr/perso_data/H87> a ns1:Character ;
+    ns1:name "Bionic Woman" .
+
+<http://projet.fr/perso_data/H88> a ns1:Character ;
+    ns1:name "Bird-Brain" .
+
+<http://projet.fr/perso_data/H89> a ns1:Character ;
+    ns1:name "Bird-Man" .
+
+<http://projet.fr/perso_data/H9> a ns1:Character ;
+    ns1:name "Agent 13" .
+
+<http://projet.fr/perso_data/H90> a ns1:Character ;
+    ns1:name "Bird-Man II" .
+
+<http://projet.fr/perso_data/H91> a ns1:Character ;
+    ns1:name "Birdman" .
+
+<http://projet.fr/perso_data/H92> a ns1:Character ;
+    ns1:name "Bishop" .
+
+<http://projet.fr/perso_data/H93> a ns1:Character ;
+    ns1:name "Bizarro" .
+
+<http://projet.fr/perso_data/H94> a ns1:Character ;
+    ns1:name "Black Abbott" .
+
+<http://projet.fr/perso_data/H95> a ns1:Character ;
+    ns1:name "Black Adam" .
+
+<http://projet.fr/perso_data/H96> a ns1:Character ;
+    ns1:name "Black Bolt" .
+
+<http://projet.fr/perso_data/H97> a ns1:Character ;
+    ns1:name "Black Canary" .
+
+<http://projet.fr/perso_data/H98> a ns1:Character ;
+    ns1:name "Black Canary" .
+
+<http://projet.fr/perso_data/H99> a ns1:Character ;
+    ns1:name "Black Cat" .
+
+<http://projet.fr/perso_data/P1> a ns1:Character ;
+    ns1:name "Richard Milhouse Jones" .
+
+<http://projet.fr/perso_data/P10> a ns1:Character ;
+    ns1:name "Bob" .
+
+<http://projet.fr/perso_data/P100> a ns1:Character .
+
+<http://projet.fr/perso_data/P101> a ns1:Character .
+
+<http://projet.fr/perso_data/P102> a ns1:Character ;
+    ns1:name "Dane Whitman" .
+
+<http://projet.fr/perso_data/P103> a ns1:Character ;
+    ns1:name "Jefferson Pierce" .
+
+<http://projet.fr/perso_data/P104> a ns1:Character ;
+    ns1:name "Tanya Sealy" .
+
+<http://projet.fr/perso_data/P105> a ns1:Character ;
+    ns1:name "David" .
+
+<http://projet.fr/perso_data/P106> a ns1:Character ;
+    ns1:name "T'Challa" .
+
+<http://projet.fr/perso_data/P107> a ns1:Character ;
+    ns1:name "Natasha Romanoff" .
+
+<http://projet.fr/perso_data/P108> a ns1:Character ;
+    ns1:name "Yelena Belova" .
+
+<http://projet.fr/perso_data/P109> a ns1:Character .
+
+<http://projet.fr/perso_data/P11> a ns1:Character ;
+    ns1:name "Christoph Nord" .
+
+<http://projet.fr/perso_data/P110> a ns1:Character ;
+    ns1:name "Joseph Manfredi" .
+
+<http://projet.fr/perso_data/P111> a ns1:Character ;
+    ns1:name "Lucian" .
+
+<http://projet.fr/perso_data/P112> a ns1:Character ;
+    ns1:name "Eric Brooks" .
+
+<http://projet.fr/perso_data/P113> a ns1:Character ;
+    ns1:name "-" .
+
+<http://projet.fr/perso_data/P114> a ns1:Character ;
+    ns1:name "Roxanne Washington" .
+
+<http://projet.fr/perso_data/P115> a ns1:Character ;
+    ns1:name "Clarice Ferguson" .
+
+<http://projet.fr/perso_data/P116> a ns1:Character ;
+    ns1:name "Gregor Shapanka" .
+
+<http://projet.fr/perso_data/P117> a ns1:Character .
+
+<http://projet.fr/perso_data/P118> a ns1:Character ;
+    ns1:name "Donald Gill" .
+
+<http://projet.fr/perso_data/P119> a ns1:Character ;
+    ns1:name "Frederick J. Dukes" .
+
+<http://projet.fr/perso_data/P12> a ns1:Character ;
+    ns1:name "Gabriel Lan" .
+
+<http://projet.fr/perso_data/P120> a ns1:Character ;
+    ns1:name "Jackie Lukus" .
+
+<http://projet.fr/perso_data/P121> a ns1:Character ;
+    ns1:name "Lemuel Krug" .
+
+<http://projet.fr/perso_data/P122> a ns1:Character ;
+    ns1:name "Sean Dolan" .
+
+<http://projet.fr/perso_data/P123> a ns1:Character ;
+    ns1:name "Daniel Garrett" .
+
+<http://projet.fr/perso_data/P124> a ns1:Character .
+
+<http://projet.fr/perso_data/P125> a ns1:Character ;
+    ns1:name "Theodore Kord" .
+
+<http://projet.fr/perso_data/P126> a ns1:Character ;
+    ns1:name "Jaime Reyes" .
+
+<http://projet.fr/perso_data/P127> a ns1:Character .
+
+<http://projet.fr/perso_data/P128> a ns1:Character .
+
+<http://projet.fr/perso_data/P129> a ns1:Character .
+
+<http://projet.fr/perso_data/P13> a ns1:Character ;
+    ns1:name "Francis" .
+
+<http://projet.fr/perso_data/P130> a ns1:Character ;
+    ns1:name "Tabitha Smith" .
+
+<http://projet.fr/perso_data/P131> a ns1:Character .
+
+<http://projet.fr/perso_data/P132> a ns1:Character ;
+    ns1:name "Michael Jon Carter" .
+
+<http://projet.fr/perso_data/P133> a ns1:Character ;
+    ns1:name "Roger Bochs" .
+
+<http://projet.fr/perso_data/P134> a ns1:Character ;
+    ns1:name "Dr. Walter Langowski" .
+
+<http://projet.fr/perso_data/P135> a ns1:Character ;
+    ns1:name "Madison Jeffries" .
+
+<http://projet.fr/perso_data/P136> a ns1:Character ;
+    ns1:name "Vril Dox" .
+
+<http://projet.fr/perso_data/P137> a ns1:Character ;
+    ns1:name "Querl Dox" .
+
+<http://projet.fr/perso_data/P138> a ns1:Character ;
+    ns1:name "Jericho Drumm" .
+
+<http://projet.fr/perso_data/P139> a ns1:Character ;
+    ns1:name "Seth Brundle" .
+
+<http://projet.fr/perso_data/P14> a ns1:Character ;
+    ns1:name "Alan Ladd Wellington Scott" .
+
+<http://projet.fr/perso_data/P140> a ns1:Character ;
+    ns1:name "Buffy Anne Summers" .
+
+<http://projet.fr/perso_data/P141> a ns1:Character ;
+    ns1:name "Lester" .
+
+<http://projet.fr/perso_data/P142> a ns1:Character ;
+    ns1:name "Karen Beecher" .
+
+<http://projet.fr/perso_data/P143> a ns1:Character .
+
+<http://projet.fr/perso_data/P144> a ns1:Character ;
+    ns1:name "Ryuko Orsono" .
+
+<http://projet.fr/perso_data/P145> a ns1:Character ;
+    ns1:name "Nathan Summers" .
+
+<http://projet.fr/perso_data/P146> a ns1:Character ;
+    ns1:name "Callisto" .
+
+<http://projet.fr/perso_data/P147> a ns1:Character .
+
+<http://projet.fr/perso_data/P148> a ns1:Character ;
+    ns1:name "Samuel Zachery Guthrie" .
+
+<http://projet.fr/perso_data/P149> a ns1:Character ;
+    ns1:name "Steve Rogers" .
+
+<http://projet.fr/perso_data/P15> a ns1:Character ;
+    ns1:name "Alexander J. Mercer" .
+
+<http://projet.fr/perso_data/P150> a ns1:Character ;
+    ns1:name "Nathaniel Adam" .
+
+<http://projet.fr/perso_data/P151> a ns1:Character ;
+    ns1:name "Brian Braddock" .
+
+<http://projet.fr/perso_data/P152> a ns1:Character ;
+    ns1:name "Leonard Snart" .
+
+<http://projet.fr/perso_data/P153> a ns1:Character .
+
+<http://projet.fr/perso_data/P154> a ns1:Character ;
+    ns1:name "Jack Brolin" .
+
+<http://projet.fr/perso_data/P155> a ns1:Character ;
+    ns1:name "Mar-Vell" .
+
+<http://projet.fr/perso_data/P156> a ns1:Character ;
+    ns1:name "Billy Batson" .
+
+<http://projet.fr/perso_data/P157> a ns1:Character ;
+    ns1:name "Carol Danvers" .
+
+<http://projet.fr/perso_data/P158> a ns1:Character ;
+    ns1:name "Frederick Christopher Freeman" .
+
+<http://projet.fr/perso_data/P159> a ns1:Character .
+
+<http://projet.fr/perso_data/P16> a ns1:Character ;
+    ns1:name "Alex Woolsly" .
+
+<http://projet.fr/perso_data/P160> a ns1:Character .
+
+<http://projet.fr/perso_data/P161> a ns1:Character .
+
+<http://projet.fr/perso_data/P162> a ns1:Character ;
+    ns1:name "Cletus Kasady" .
+
+<http://projet.fr/perso_data/P163> a ns1:Character ;
+    ns1:name "Shirlee Bryant" .
+
+<http://projet.fr/perso_data/P164> a ns1:Character .
+
+<http://projet.fr/perso_data/P165> a ns1:Character ;
+    ns1:name "Selina Kyle" .
+
+<http://projet.fr/perso_data/P166> a ns1:Character ;
+    ns1:name "Dr. Cecilia Reyes" .
+
+<http://projet.fr/perso_data/P167> a ns1:Character .
+
+<http://projet.fr/perso_data/P168> a ns1:Character ;
+    ns1:name "Shakti Haddad" .
+
+<http://projet.fr/perso_data/P169> a ns1:Character ;
+    ns1:name "Jonothon Evan Starsmore" .
+
+<http://projet.fr/perso_data/P17> a ns1:Character ;
+    ns1:name "Alfred Thaddeus Crane Pennyworth" .
+
+<http://projet.fr/perso_data/P170> a ns1:Character ;
+    ns1:name "Dmitri Anatoly Smerdyakov Kravinoff" .
+
+<http://projet.fr/perso_data/P171> a ns1:Character ;
+    ns1:name "Kevin Sidney" .
+
+<http://projet.fr/perso_data/P172> a ns1:Character ;
+    ns1:name "Priscilla Rich" .
+
+<http://projet.fr/perso_data/P173> a ns1:Character ;
+    ns1:name "Deborah Domaine" .
+
+<http://projet.fr/perso_data/P174> a ns1:Character ;
+    ns1:name "Barbara Minerva" .
+
+<http://projet.fr/perso_data/P175> a ns1:Character ;
+    ns1:name "Bernard Embers" .
+
+<http://projet.fr/perso_data/P176> a ns1:Character ;
+    ns1:name "Carlos Ray Norris" .
+
+<http://projet.fr/perso_data/P177> a ns1:Character ;
+    ns1:name "Nathan Heywood" .
+
+<http://projet.fr/perso_data/P178> a ns1:Character ;
+    ns1:name "Claire Bennet" .
+
+<http://projet.fr/perso_data/P179> a ns1:Character ;
+    ns1:name "Clea" .
+
+<http://projet.fr/perso_data/P18> a ns1:Character ;
+    ns1:name "Xenomorph" .
+
+<http://projet.fr/perso_data/P180> a ns1:Character ;
+    ns1:name "Tyrone Johnson" .
+
+<http://projet.fr/perso_data/P181> a ns1:Character ;
+    ns1:name "William Tockman" .
+
+<http://projet.fr/perso_data/P182> a ns1:Character ;
+    ns1:name "Cain" .
+
+<http://projet.fr/perso_data/P183> a ns1:Character .
+
+<http://projet.fr/perso_data/P184> a ns1:Character .
+
+<http://projet.fr/perso_data/P185> a ns1:Character ;
+    ns1:name "Piotr Nikolaievitch Rasputin" .
+
+<http://projet.fr/perso_data/P186> a ns1:Character ;
+    ns1:name "Vanessa Carlysle" .
+
+<http://projet.fr/perso_data/P187> a ns1:Character ;
+    ns1:name "Christopher Summers" .
+
+<http://projet.fr/perso_data/P188> a ns1:Character ;
+    ns1:name "Burchell Clemens" .
+
+<http://projet.fr/perso_data/P189> a ns1:Character ;
+    ns1:name "Rory Destine" .
+
+<http://projet.fr/perso_data/P19> a ns1:Character .
+
+<http://projet.fr/perso_data/P190> a ns1:Character ;
+    ns1:name "Anton Vanko" .
+
+<http://projet.fr/perso_data/P191> a ns1:Character ;
+    ns1:name "Crystallia Amaquelin" .
+
+<http://projet.fr/perso_data/P192> a ns1:Character ;
+    ns1:name "Phillip Krahn" .
+
+<http://projet.fr/perso_data/P193> a ns1:Character .
+
+<http://projet.fr/perso_data/P194> a ns1:Character ;
+    ns1:name "Victor Stone" .
+
+<http://projet.fr/perso_data/P195> a ns1:Character ;
+    ns1:name "Henry Henshaw" .
+
+<http://projet.fr/perso_data/P196> a ns1:Character ;
+    ns1:name "Scott Summers" .
+
+<http://projet.fr/perso_data/P197> a ns1:Character ;
+    ns1:name "Douglas Aaron Ramsey" .
+
+<http://projet.fr/perso_data/P198> a ns1:Character ;
+    ns1:name "Tandy Bowen" .
+
+<http://projet.fr/perso_data/P199> a ns1:Character .
+
+<http://projet.fr/perso_data/P2> a ns1:Character ;
+    ns1:name "Abraham Sapien" .
+
+<http://projet.fr/perso_data/P20> a ns1:Character .
+
+<http://projet.fr/perso_data/P200> a ns1:Character ;
+    ns1:name "Daphne Powell" .
+
+<http://projet.fr/perso_data/P201> a ns1:Character ;
+    ns1:name "Matt Murdock" .
+
+<http://projet.fr/perso_data/P202> a ns1:Character ;
+    ns1:name "Christopher Powell" .
+
+<http://projet.fr/perso_data/P203> a ns1:Character ;
+    ns1:name "Peyton Westlake" .
+
+<http://projet.fr/perso_data/P204> a ns1:Character ;
+    ns1:name "Uxas" .
+
+<http://projet.fr/perso_data/P205> a ns1:Character .
+
+<http://projet.fr/perso_data/P206> a ns1:Character ;
+    ns1:name "Laynia Petrovna" .
+
+<http://projet.fr/perso_data/P207> a ns1:Character .
+
+<http://projet.fr/perso_data/P208> a ns1:Character ;
+    ns1:name "Anakin Skywalker" .
+
+<http://projet.fr/perso_data/P209> a ns1:Character ;
+    ns1:name "Dashiell Robert Parr" .
+
+<http://projet.fr/perso_data/P21> a ns1:Character .
+
+<http://projet.fr/perso_data/P210> a ns1:Character ;
+    ns1:name "Data" .
+
+<http://projet.fr/perso_data/P211> a ns1:Character ;
+    ns1:name "Alison Blaire" .
+
+<http://projet.fr/perso_data/P212> a ns1:Character ;
+    ns1:name "Boston Brand" .
+
+<http://projet.fr/perso_data/P213> a ns1:Character ;
+    ns1:name "Wade Wilson" .
+
+<http://projet.fr/perso_data/P214> a ns1:Character ;
+    ns1:name "Floyd Lawton" .
+
+<http://projet.fr/perso_data/P215> a ns1:Character ;
+    ns1:name "Luther Manning" .
+
+<http://projet.fr/perso_data/P216> a ns1:Character ;
+    ns1:name "Slade Joseph Wilson" .
+
+<http://projet.fr/perso_data/P217> a ns1:Character .
+
+<http://projet.fr/perso_data/P218> a ns1:Character .
+
+<http://projet.fr/perso_data/P219> a ns1:Character ;
+    ns1:name "Willis Stryker" .
+
+<http://projet.fr/perso_data/P22> a ns1:Character ;
+    ns1:name "Ando Masahashi" .
+
+<http://projet.fr/perso_data/P220> a ns1:Character ;
+    ns1:name "Daniel Lawrence Hawkins" .
+
+<http://projet.fr/perso_data/P221> a ns1:Character ;
+    ns1:name "Leonard Samson" .
+
+<http://projet.fr/perso_data/P222> a ns1:Character ;
+    ns1:name "Victor von Doom" .
+
+<http://projet.fr/perso_data/P223> a ns1:Character ;
+    ns1:name "Kristoff Vernard" .
+
+<http://projet.fr/perso_data/P224> a ns1:Character ;
+    ns1:name "Kent Nelson" .
+
+<http://projet.fr/perso_data/P225> a ns1:Character ;
+    ns1:name "Otto Octavius" .
+
+<http://projet.fr/perso_data/P226> a ns1:Character ;
+    ns1:name "Stephen Strange" .
+
+<http://projet.fr/perso_data/P227> a ns1:Character ;
+    ns1:name "Neena Thurman" .
+
+<http://projet.fr/perso_data/P228> a ns1:Character .
+
+<http://projet.fr/perso_data/P229> a ns1:Character ;
+    ns1:name "Donna Hinckley Stacey Troy" .
+
+<http://projet.fr/perso_data/P23> a ns1:Character ;
+    ns1:name "Liam" .
+
+<http://projet.fr/perso_data/P230> a ns1:Character ;
+    ns1:name "Doomsday" .
+
+<http://projet.fr/perso_data/P231> a ns1:Character .
+
+<http://projet.fr/perso_data/P232> a ns1:Character ;
+    ns1:name "Dormammu" .
+
+<http://projet.fr/perso_data/P233> a ns1:Character ;
+    ns1:name "Jonathan Osterman" .
+
+<http://projet.fr/perso_data/P234> a ns1:Character ;
+    ns1:name "Arthur Sampson Douglas" .
+
+<http://projet.fr/perso_data/P235> a ns1:Character ;
+    ns1:name "Ego" .
+
+<http://projet.fr/perso_data/P236> a ns1:Character ;
+    ns1:name "Helen Parr" .
+
+<http://projet.fr/perso_data/P237> a ns1:Character ;
+    ns1:name "Maxwell Dillon" .
+
+<http://projet.fr/perso_data/P238> a ns1:Character ;
+    ns1:name "Elektra Natchios" .
+
+<http://projet.fr/perso_data/P239> a ns1:Character .
+
+<http://projet.fr/perso_data/P24> a ns1:Character ;
+    ns1:name "Warren Kenneth Worthington III" .
+
+<http://projet.fr/perso_data/P240> a ns1:Character ;
+    ns1:name "Ralph Dibny" .
+
+<http://projet.fr/perso_data/P241> a ns1:Character ;
+    ns1:name "Emma Frost" .
+
+<http://projet.fr/perso_data/P242> a ns1:Character ;
+    ns1:name "June Moone" .
+
+<http://projet.fr/perso_data/P243> a ns1:Character .
+
+<http://projet.fr/perso_data/P244> a ns1:Character .
+
+<http://projet.fr/perso_data/P245> a ns1:Character ;
+    ns1:name "Ethan Hunt" .
+
+<http://projet.fr/perso_data/P246> a ns1:Character ;
+    ns1:name "Jason Blood" .
+
+<http://projet.fr/perso_data/P247> a ns1:Character ;
+    ns1:name "Wade Wilson" .
+
+<http://projet.fr/perso_data/P248> a ns1:Character ;
+    ns1:name "Dargin Bokk" .
+
+<http://projet.fr/perso_data/P249> a ns1:Character ;
+    ns1:name "Bennet du Paris" .
+
+<http://projet.fr/perso_data/P25> a ns1:Character ;
+    ns1:name "Christina" .
+
+<http://projet.fr/perso_data/P250> a ns1:Character ;
+    ns1:name "Fabian Cortez" .
+
+<http://projet.fr/perso_data/P251> a ns1:Character ;
+    ns1:name "Sam Wilson" .
+
+<http://projet.fr/perso_data/P252> a ns1:Character .
+
+<http://projet.fr/perso_data/P253> a ns1:Character ;
+    ns1:name "Faora Hu-Ul" .
+
+<http://projet.fr/perso_data/P254> a ns1:Character ;
+    ns1:name "Maria Callasantos" .
+
+<http://projet.fr/perso_data/P255> a ns1:Character ;
+    ns1:name "Carol Carter" .
+
+<http://projet.fr/perso_data/P256> a ns1:Character .
+
+<http://projet.fr/perso_data/P257> a ns1:Character ;
+    ns1:name "Bonita Juarez" .
+
+<http://projet.fr/perso_data/P258> a ns1:Character ;
+    ns1:name "Pyreus Kril" .
+
+<http://projet.fr/perso_data/P259> a ns1:Character ;
+    ns1:name "Angelica Jones" .
+
+<http://projet.fr/perso_data/P26> a ns1:Character ;
+    ns1:name "Angel Salvadore Bohusk" .
+
+<http://projet.fr/perso_data/P260> a ns1:Character ;
+    ns1:name "Jason Rusch" .
+
+<http://projet.fr/perso_data/P261> a ns1:Character ;
+    ns1:name "Ronald Raymond" .
+
+<http://projet.fr/perso_data/P262> a ns1:Character ;
+    ns1:name "Paul Norbert Ebersol" .
+
+<http://projet.fr/perso_data/P263> a ns1:Character ;
+    ns1:name "Jay Garrick" .
+
+<http://projet.fr/perso_data/P264> a ns1:Character ;
+    ns1:name "Steven Gordon" .
+
+<http://projet.fr/perso_data/P265> a ns1:Character ;
+    ns1:name "Barry Allen" .
+
+<http://projet.fr/perso_data/P266> a ns1:Character ;
+    ns1:name "Wally West" .
+
+<http://projet.fr/perso_data/P267> a ns1:Character ;
+    ns1:name "Bartholomew Allen II" .
+
+<http://projet.fr/perso_data/P268> a ns1:Character .
+
+<http://projet.fr/perso_data/P27> a ns1:Character .
+
+<http://projet.fr/perso_data/P270> a ns1:Character ;
+    ns1:name "Dr. Franklin Storm" .
+
+<http://projet.fr/perso_data/P271> a ns1:Character ;
+    ns1:name "Joanna Cargill" .
+
+<http://projet.fr/perso_data/P272> a ns1:Character ;
+    ns1:name "Frigga" .
+
+<http://projet.fr/perso_data/P273> a ns1:Character ;
+    ns1:name "Galan" .
+
+<http://projet.fr/perso_data/P274> a ns1:Character ;
+    ns1:name "Remy Etienne LeBeau" .
+
+<http://projet.fr/perso_data/P275> a ns1:Character ;
+    ns1:name "Gamora Zen Whoberi Ben Titan" .
+
+<http://projet.fr/perso_data/P276> a ns1:Character ;
+    ns1:name "Richard Ethan Morse" .
+
+<http://projet.fr/perso_data/P277> a ns1:Character ;
+    ns1:name "Gary Bell" .
+
+<http://projet.fr/perso_data/P278> a ns1:Character ;
+    ns1:name "Dru-Zod" .
+
+<http://projet.fr/perso_data/P279> a ns1:Character ;
+    ns1:name "Tyler Dayspring" .
+
+<http://projet.fr/perso_data/P28> a ns1:Character ;
+    ns1:name "Bernhard Baker" .
+
+<http://projet.fr/perso_data/P280> a ns1:Character ;
+    ns1:name "Johnny Blaze" .
+
+<http://projet.fr/perso_data/P281> a ns1:Character ;
+    ns1:name "Daniel Ketch" .
+
+<http://projet.fr/perso_data/P282> a ns1:Character ;
+    ns1:name "Hank Pym" .
+
+<http://projet.fr/perso_data/P283> a ns1:Character .
+
+<http://projet.fr/perso_data/P284> a ns1:Character ;
+    ns1:name "Doris Zuel" .
+
+<http://projet.fr/perso_data/P285> a ns1:Character ;
+    ns1:name "Kallark" .
+
+<http://projet.fr/perso_data/P286> a ns1:Character ;
+    ns1:name "Madelyne Jennifer Pryor" .
+
+<http://projet.fr/perso_data/P287> a ns1:Character ;
+    ns1:name "Gojira" .
+
+<http://projet.fr/perso_data/P288> a ns1:Character .
+
+<http://projet.fr/perso_data/P289> a ns1:Character ;
+    ns1:name "Kakarot" .
+
+<http://projet.fr/perso_data/P29> a ns1:Character ;
+    ns1:name "Annihilus" .
+
+<http://projet.fr/perso_data/P290> a ns1:Character ;
+    ns1:name "Erik Josten" .
+
+<http://projet.fr/perso_data/P291> a ns1:Character ;
+    ns1:name "Clint Barton" .
+
+<http://projet.fr/perso_data/P292> a ns1:Character ;
+    ns1:name "Hank Pym" .
+
+<http://projet.fr/perso_data/P293> a ns1:Character ;
+    ns1:name "William Barrett Foster" .
+
+<http://projet.fr/perso_data/P294> a ns1:Character ;
+    ns1:name "Grodd" .
+
+<http://projet.fr/perso_data/P295> a ns1:Character .
+
+<http://projet.fr/perso_data/P296> a ns1:Character ;
+    ns1:name "Greg Willis" .
+
+<http://projet.fr/perso_data/P297> a ns1:Character ;
+    ns1:name "Greedo" .
+
+<http://projet.fr/perso_data/P298> a ns1:Character ;
+    ns1:name "Oliver Queen" .
+
+<http://projet.fr/perso_data/P299> a ns1:Character ;
+    ns1:name "Norman Osborn" .
+
+<http://projet.fr/perso_data/P3> a ns1:Character .
+
+<http://projet.fr/perso_data/P30> a ns1:Character ;
+    ns1:name "Hank Pym" .
+
+<http://projet.fr/perso_data/P300> a ns1:Character ;
+    ns1:name "Harold Osborn" .
+
+<http://projet.fr/perso_data/P301> a ns1:Character ;
+    ns1:name "Barton Hamilton" .
+
+<http://projet.fr/perso_data/P302> a ns1:Character ;
+    ns1:name "Phillip Benjamin Urich" .
+
+<http://projet.fr/perso_data/P303> a ns1:Character ;
+    ns1:name "Groot" .
+
+<http://projet.fr/perso_data/P304> a ns1:Character ;
+    ns1:name "James Hudson" .
+
+<http://projet.fr/perso_data/P305> a ns1:Character ;
+    ns1:name "Guy Gardner" .
+
+<http://projet.fr/perso_data/P306> a ns1:Character ;
+    ns1:name "Hal Jordan" .
+
+<http://projet.fr/perso_data/P307> a ns1:Character ;
+    ns1:name "Han Solo" .
+
+<http://projet.fr/perso_data/P308> a ns1:Character ;
+    ns1:name "John Hancock" .
+
+<http://projet.fr/perso_data/P309> a ns1:Character ;
+    ns1:name "Harley Quinn" .
+
+<http://projet.fr/perso_data/P31> a ns1:Character ;
+    ns1:name "Scott Lang" .
+
+<http://projet.fr/perso_data/P310> a ns1:Character ;
+    ns1:name "Harry James Potter" .
+
+<http://projet.fr/perso_data/P311> a ns1:Character ;
+    ns1:name "Alexander Summers" .
+
+<http://projet.fr/perso_data/P312> a ns1:Character ;
+    ns1:name "Henry Hall" .
+
+<http://projet.fr/perso_data/P313> a ns1:Character ;
+    ns1:name "Clint Barton" .
+
+<http://projet.fr/perso_data/P314> a ns1:Character ;
+    ns1:name "Katherine Elizabeth Bishop" .
+
+<http://projet.fr/perso_data/P315> a ns1:Character ;
+    ns1:name "Kendra Saunders" .
+
+<http://projet.fr/perso_data/P316> a ns1:Character ;
+    ns1:name "Carter Hall" .
+
+<http://projet.fr/perso_data/P317> a ns1:Character ;
+    ns1:name "Shayera Hol" .
+
+<http://projet.fr/perso_data/P318> a ns1:Character ;
+    ns1:name "Sharon Parker" .
+
+<http://projet.fr/perso_data/P319> a ns1:Character ;
+    ns1:name "Shayera Thal" .
+
+<http://projet.fr/perso_data/P32> a ns1:Character .
+
+<http://projet.fr/perso_data/P320> a ns1:Character ;
+    ns1:name "Mick Rory" .
+
+<http://projet.fr/perso_data/P321> a ns1:Character .
+
+<http://projet.fr/perso_data/P322> a ns1:Character ;
+    ns1:name "Anung Un Rama" .
+
+<http://projet.fr/perso_data/P323> a ns1:Character ;
+    ns1:name "Patricia Walker" .
+
+<http://projet.fr/perso_data/P325> a ns1:Character ;
+    ns1:name "Heracles" .
+
+<http://projet.fr/perso_data/P326> a ns1:Character ;
+    ns1:name "Hiro Nakamura" .
+
+<http://projet.fr/perso_data/P327> a ns1:Character ;
+    ns1:name "Mindy McCready" .
+
+<http://projet.fr/perso_data/P328> a ns1:Character ;
+    ns1:name "Roderick Kingsley" .
+
+<http://projet.fr/perso_data/P329> a ns1:Character ;
+    ns1:name "Monet St. Croix" .
+
+<http://projet.fr/perso_data/P33> a ns1:Character ;
+    ns1:name "Jason Wynn" .
+
+<http://projet.fr/perso_data/P330> a ns1:Character ;
+    ns1:name "Hope Summers" .
+
+<http://projet.fr/perso_data/P331> a ns1:Character ;
+    ns1:name "Howard (Last name unrevealed)" .
+
+<http://projet.fr/perso_data/P332> a ns1:Character ;
+    ns1:name "Bruce Banner" .
+
+<http://projet.fr/perso_data/P333> a ns1:Character ;
+    ns1:name "Johnny Storm" .
+
+<http://projet.fr/perso_data/P334> a ns1:Character ;
+    ns1:name "Helena Rosa Bertinelli" .
+
+<http://projet.fr/perso_data/P335> a ns1:Character ;
+    ns1:name "Paige Elisabeth Guthrie" .
+
+<http://projet.fr/perso_data/P336> a ns1:Character ;
+    ns1:name "Scott Washington" .
+
+<http://projet.fr/perso_data/P337> a ns1:Character ;
+    ns1:name "Morris Bench" .
+
+<http://projet.fr/perso_data/P338> a ns1:Character ;
+    ns1:name "Mark Milton" .
+
+<http://projet.fr/perso_data/P339> a ns1:Character ;
+    ns1:name "Bobby Drake" .
+
+<http://projet.fr/perso_data/P34> a ns1:Character ;
+    ns1:name "Eddie Brock" .
+
+<http://projet.fr/perso_data/P340> a ns1:Character ;
+    ns1:name "Bartholomew Allen II" .
+
+<http://projet.fr/perso_data/P341> a ns1:Character ;
+    ns1:name "Indiana Jones" .
+
+<http://projet.fr/perso_data/P342> a ns1:Character ;
+    ns1:name "Iroque" .
+
+<http://projet.fr/perso_data/P343> a ns1:Character ;
+    ns1:name "Eric Gitter" .
+
+<http://projet.fr/perso_data/P344> a ns1:Character ;
+    ns1:name "Susan Storm Richards" .
+
+<http://projet.fr/perso_data/P345> a ns1:Character ;
+    ns1:name "Danny Rand" .
+
+<http://projet.fr/perso_data/P346> a ns1:Character ;
+    ns1:name "Tony Stark" .
+
+<http://projet.fr/perso_data/P347> a ns1:Character ;
+    ns1:name "Obadiah Stane" .
+
+<http://projet.fr/perso_data/P348> a ns1:Character ;
+    ns1:name "Adrianna Tomaz" .
+
+<http://projet.fr/perso_data/P349> a ns1:Character ;
+    ns1:name "Kiefer Sutherland" .
+
+<http://projet.fr/perso_data/P35> a ns1:Character ;
+    ns1:name "En Sabah Nur" .
+
+<http://projet.fr/perso_data/P350> a ns1:Character ;
+    ns1:name "Jonathan Hart" .
+
+<http://projet.fr/perso_data/P351> a ns1:Character ;
+    ns1:name "Jack-Jack Parr" .
+
+<http://projet.fr/perso_data/P352> a ns1:Character ;
+    ns1:name "James Bond" .
+
+<http://projet.fr/perso_data/P353> a ns1:Character ;
+    ns1:name "James T. Kirk" .
+
+<http://projet.fr/perso_data/P354> a ns1:Character ;
+    ns1:name "Jar Jar Binks" .
+
+<http://projet.fr/perso_data/P355> a ns1:Character ;
+    ns1:name "Jason Bourne" .
+
+<http://projet.fr/perso_data/P356> a ns1:Character ;
+    ns1:name "Jean Grey" .
+
+<http://projet.fr/perso_data/P357> a ns1:Character ;
+    ns1:name "Jean-Luc Picard" .
+
+<http://projet.fr/perso_data/P358> a ns1:Character ;
+    ns1:name "Jennifer Kale" .
+
+<http://projet.fr/perso_data/P359> a ns1:Character ;
+    ns1:name "Jesse Chambers" .
+
+<http://projet.fr/perso_data/P36> a ns1:Character ;
+    ns1:name "Arthur Curry, Jr." .
+
+<http://projet.fr/perso_data/P360> a ns1:Character ;
+    ns1:name "Jessica Cruz" .
+
+<http://projet.fr/perso_data/P361> a ns1:Character ;
+    ns1:name "Jessica Campbell Jones Cage" .
+
+<http://projet.fr/perso_data/P362> a ns1:Character .
+
+<http://projet.fr/perso_data/P363> a ns1:Character ;
+    ns1:name "Billy Russo" .
+
+<http://projet.fr/perso_data/P364> a ns1:Character ;
+    ns1:name "Jim Powell" .
+
+<http://projet.fr/perso_data/P365> a ns1:Character ;
+    ns1:name "JJ Powell" .
+
+<http://projet.fr/perso_data/P366> a ns1:Character ;
+    ns1:name "Johann Krauss" .
+
+<http://projet.fr/perso_data/P367> a ns1:Character ;
+    ns1:name "John Constantine" .
+
+<http://projet.fr/perso_data/P368> a ns1:Character ;
+    ns1:name "John Stewart" .
+
+<http://projet.fr/perso_data/P369> a ns1:Character ;
+    ns1:name "John Wraith" .
+
+<http://projet.fr/perso_data/P37> a ns1:Character ;
+    ns1:name "Garth" .
+
+<http://projet.fr/perso_data/P370> a ns1:Character ;
+    ns1:name "Jack Napier" .
+
+<http://projet.fr/perso_data/P371> a ns1:Character ;
+    ns1:name "Helen Takahama" .
+
+<http://projet.fr/perso_data/P372> a ns1:Character ;
+    ns1:name "Jubilation Lee" .
+
+<http://projet.fr/perso_data/P373> a ns1:Character ;
+    ns1:name "Joseph Dredd" .
+
+<http://projet.fr/perso_data/P374> a ns1:Character ;
+    ns1:name "Cain Marko" .
+
+<http://projet.fr/perso_data/P375> a ns1:Character .
+
+<http://projet.fr/perso_data/P376> a ns1:Character ;
+    ns1:name "Vance Astrovik" .
+
+<http://projet.fr/perso_data/P377> a ns1:Character ;
+    ns1:name "Jyn Erso" .
+
+<http://projet.fr/perso_data/P378> a ns1:Character .
+
+<http://projet.fr/perso_data/P379> a ns1:Character ;
+    ns1:name "Nathaniel Richards" .
+
+<http://projet.fr/perso_data/P38> a ns1:Character ;
+    ns1:name "Orin" .
+
+<http://projet.fr/perso_data/P380> a ns1:Character ;
+    ns1:name "Kathryn Janeway" .
+
+<http://projet.fr/perso_data/P381> a ns1:Character ;
+    ns1:name "Katniss Everdeen" .
+
+<http://projet.fr/perso_data/P382> a ns1:Character ;
+    ns1:name "Kevin Ethan Levin" .
+
+<http://projet.fr/perso_data/P383> a ns1:Character ;
+    ns1:name "Dave Lizewski" .
+
+<http://projet.fr/perso_data/P384> a ns1:Character ;
+    ns1:name "Wallace Rudolph West" .
+
+<http://projet.fr/perso_data/P385> a ns1:Character ;
+    ns1:name "Bartholomew Allen II" .
+
+<http://projet.fr/perso_data/P386> a ns1:Character ;
+    ns1:name "Waylon Jones" .
+
+<http://projet.fr/perso_data/P387> a ns1:Character ;
+    ns1:name "Caitlin Snow" .
+
+<http://projet.fr/perso_data/P388> a ns1:Character .
+
+<http://projet.fr/perso_data/P389> a ns1:Character ;
+    ns1:name "King Kong" .
+
+<http://projet.fr/perso_data/P39> a ns1:Character ;
+    ns1:name "Julia Carpenter" .
+
+<http://projet.fr/perso_data/P390> a ns1:Character ;
+    ns1:name "Nanaue" .
+
+<http://projet.fr/perso_data/P391> a ns1:Character ;
+    ns1:name "Wilson Grant Fisk" .
+
+<http://projet.fr/perso_data/P392> a ns1:Character ;
+    ns1:name "Ulysses Klaw" .
+
+<http://projet.fr/perso_data/P393> a ns1:Character .
+
+<http://projet.fr/perso_data/P394> a ns1:Character ;
+    ns1:name "Alyosha Kravinoff" .
+
+<http://projet.fr/perso_data/P395> a ns1:Character ;
+    ns1:name "Sergei Kravinoff" .
+
+<http://projet.fr/perso_data/P396> a ns1:Character ;
+    ns1:name "Krypto the Superdog" .
+
+<http://projet.fr/perso_data/P397> a ns1:Character ;
+    ns1:name "Kyle Rayner" .
+
+<http://projet.fr/perso_data/P398> a ns1:Character ;
+    ns1:name "Ben Solo" .
+
+<http://projet.fr/perso_data/P399> a ns1:Character .
+
+<http://projet.fr/perso_data/P4> a ns1:Character ;
+    ns1:name "Emil Blonsky" .
+
+<http://projet.fr/perso_data/P40> a ns1:Character ;
+    ns1:name "Warren Kenneth Worthington III" .
+
+<http://projet.fr/perso_data/P400> a ns1:Character ;
+    ns1:name "Yuriko Oyama" .
+
+<http://projet.fr/perso_data/P401> a ns1:Character ;
+    ns1:name "Samuel Sterns" .
+
+<http://projet.fr/perso_data/P402> a ns1:Character .
+
+<http://projet.fr/perso_data/P403> a ns1:Character ;
+    ns1:name "David Haller" .
+
+<http://projet.fr/perso_data/P404> a ns1:Character ;
+    ns1:name "Leonardo" .
+
+<http://projet.fr/perso_data/P405> a ns1:Character ;
+    ns1:name "Lex Luthor" .
+
+<http://projet.fr/perso_data/P406> a ns1:Character ;
+    ns1:name "Ayla Ranzz" .
+
+<http://projet.fr/perso_data/P407> a ns1:Character ;
+    ns1:name "Garth Ranzz" .
+
+<http://projet.fr/perso_data/P408> a ns1:Character ;
+    ns1:name "Mekt Ranzz" .
+
+<http://projet.fr/perso_data/P409> a ns1:Character .
+
+<http://projet.fr/perso_data/P41> a ns1:Character ;
+    ns1:name "Philippa Sontag" .
+
+<http://projet.fr/perso_data/P410> a ns1:Character .
+
+<http://projet.fr/perso_data/P411> a ns1:Character ;
+    ns1:name "Elizabeth Anne Sherman" .
+
+<http://projet.fr/perso_data/P412> a ns1:Character ;
+    ns1:name "Curtis Connors" .
+
+<http://projet.fr/perso_data/P413> a ns1:Character ;
+    ns1:name "Lobo" .
+
+<http://projet.fr/perso_data/P414> a ns1:Character ;
+    ns1:name "Loki Laufeyson" .
+
+<http://projet.fr/perso_data/P415> a ns1:Character .
+
+<http://projet.fr/perso_data/P416> a ns1:Character ;
+    ns1:name "Luke Cage" .
+
+<http://projet.fr/perso_data/P417> a ns1:Character ;
+    ns1:name "Luke Campbell" .
+
+<http://projet.fr/perso_data/P418> a ns1:Character ;
+    ns1:name "Luke Skywalker" .
+
+<http://projet.fr/perso_data/P419> a ns1:Character ;
+    ns1:name "Luna Maximoff" .
+
+<http://projet.fr/perso_data/P42> a ns1:Character ;
+    ns1:name "Ardina" .
+
+<http://projet.fr/perso_data/P420> a ns1:Character ;
+    ns1:name "Lyja" .
+
+<http://projet.fr/perso_data/P421> a ns1:Character ;
+    ns1:name "Abner Jenkins" .
+
+<http://projet.fr/perso_data/P422> a ns1:Character ;
+    ns1:name "X-51, Aaron Stack" .
+
+<http://projet.fr/perso_data/P423> a ns1:Character ;
+    ns1:name "Erik Magnus Lensherr" .
+
+<http://projet.fr/perso_data/P424> a ns1:Character ;
+    ns1:name "David Reid" .
+
+<http://projet.fr/perso_data/P425> a ns1:Character .
+
+<http://projet.fr/perso_data/P426> a ns1:Character .
+
+<http://projet.fr/perso_data/P427> a ns1:Character ;
+    ns1:name "Robert Kirkland Langstrom" .
+
+<http://projet.fr/perso_data/P428> a ns1:Character ;
+    ns1:name "Dr. Theodore Sallis" .
+
+<http://projet.fr/perso_data/P429> a ns1:Character ;
+    ns1:name "John Jameson" .
+
+<http://projet.fr/perso_data/P43> a ns1:Character .
+
+<http://projet.fr/perso_data/P430> a ns1:Character ;
+    ns1:name "Khan" .
+
+<http://projet.fr/perso_data/P431> a ns1:Character .
+
+<http://projet.fr/perso_data/P432> a ns1:Character ;
+    ns1:name "J'onn J'onzz" .
+
+<http://projet.fr/perso_data/P433> a ns1:Character ;
+    ns1:name "Rachel Anne Summers" .
+
+<http://projet.fr/perso_data/P434> a ns1:Character ;
+    ns1:name "Currently Colin Wood" .
+
+<http://projet.fr/perso_data/P435> a ns1:Character ;
+    ns1:name "John-117" .
+
+<http://projet.fr/perso_data/P436> a ns1:Character ;
+    ns1:name "Kent Connor" .
+
+<http://projet.fr/perso_data/P437> a ns1:Character ;
+    ns1:name "Matthew Parkman" .
+
+<http://projet.fr/perso_data/P438> a ns1:Character ;
+    ns1:name "Christopher Bradley" .
+
+<http://projet.fr/perso_data/P439> a ns1:Character .
+
+<http://projet.fr/perso_data/P44> a ns1:Character ;
+    ns1:name "Ariel" .
+
+<http://projet.fr/perso_data/P440> a ns1:Character ;
+    ns1:name "Maya Herrera" .
+
+<http://projet.fr/perso_data/P441> a ns1:Character ;
+    ns1:name "Medusalith Amaquelin Boltagon" .
+
+<http://projet.fr/perso_data/P442> a ns1:Character ;
+    ns1:name "Tabitha Smith" .
+
+<http://projet.fr/perso_data/P443> a ns1:Character .
+
+<http://projet.fr/perso_data/P444> a ns1:Character ;
+    ns1:name "Mera" .
+
+<http://projet.fr/perso_data/P445> a ns1:Character ;
+    ns1:name "John Corben" .
+
+<http://projet.fr/perso_data/P446> a ns1:Character ;
+    ns1:name "Rex Mason" .
+
+<http://projet.fr/perso_data/P447> a ns1:Character .
+
+<http://projet.fr/perso_data/P448> a ns1:Character ;
+    ns1:name "Metron" .
+
+<http://projet.fr/perso_data/P449> a ns1:Character ;
+    ns1:name "Micah Sanders" .
+
+<http://projet.fr/perso_data/P45> a ns1:Character ;
+    ns1:name "Hisako Ichiki" .
+
+<http://projet.fr/perso_data/P450> a ns1:Character .
+
+<http://projet.fr/perso_data/P451> a ns1:Character ;
+    ns1:name "Gim Allon" .
+
+<http://projet.fr/perso_data/P452> a ns1:Character ;
+    ns1:name "Calvin Montgomery Rankin" .
+
+<http://projet.fr/perso_data/P453> a ns1:Character ;
+    ns1:name "Wilhelmina Harker" .
+
+<http://projet.fr/perso_data/P454> a ns1:Character ;
+    ns1:name "Charlotte Gage-Radcliffe" .
+
+<http://projet.fr/perso_data/P455> a ns1:Character ;
+    ns1:name "M'gann M'orzz" .
+
+<http://projet.fr/perso_data/P456> a ns1:Character ;
+    ns1:name "Reed Richards" .
+
+<http://projet.fr/perso_data/P457> a ns1:Character ;
+    ns1:name "Victor Fries" .
+
+<http://projet.fr/perso_data/P458> a ns1:Character ;
+    ns1:name "J'son" .
+
+<http://projet.fr/perso_data/P459> a ns1:Character ;
+    ns1:name "Mr. Mxyzptlk" .
+
+<http://projet.fr/perso_data/P46> a ns1:Character ;
+    ns1:name "Roy William Harper, Jr." .
+
+<http://projet.fr/perso_data/P460> a ns1:Character ;
+    ns1:name "Nathaniel Essex" .
+
+<http://projet.fr/perso_data/P461> a ns1:Character ;
+    ns1:name "Victor Zsasz" .
+
+<http://projet.fr/perso_data/P462> a ns1:Character ;
+    ns1:name "Barbara Morse" .
+
+<http://projet.fr/perso_data/P463> a ns1:Character ;
+    ns1:name "George Tarleton" .
+
+<http://projet.fr/perso_data/P464> a ns1:Character ;
+    ns1:name "Mogo" .
+
+<http://projet.fr/perso_data/P465> a ns1:Character ;
+    ns1:name "Mohinder Suresh" .
+
+<http://projet.fr/perso_data/P466> a ns1:Character ;
+    ns1:name "Edgar William Jacobi" .
+
+<http://projet.fr/perso_data/P467> a ns1:Character ;
+    ns1:name "Mark Raxton" .
+
+<http://projet.fr/perso_data/P468> a ns1:Character ;
+    ns1:name "Nathaniel Christopher Adam" .
+
+<http://projet.fr/perso_data/P469> a ns1:Character ;
+    ns1:name "Monica Dawson" .
+
+<http://projet.fr/perso_data/P47> a ns1:Character ;
+    ns1:name "Atom" .
+
+<http://projet.fr/perso_data/P470> a ns1:Character ;
+    ns1:name "Marc Spector" .
+
+<http://projet.fr/perso_data/P471> a ns1:Character ;
+    ns1:name "Karla Sofen" .
+
+<http://projet.fr/perso_data/P472> a ns1:Character ;
+    ns1:name "Morlun" .
+
+<http://projet.fr/perso_data/P473> a ns1:Character ;
+    ns1:name "Kevin Sydney" .
+
+<http://projet.fr/perso_data/P474> a ns1:Character ;
+    ns1:name "Moses Magnum" .
+
+<http://projet.fr/perso_data/P475> a ns1:Character ;
+    ns1:name "Craig Hollis" .
+
+<http://projet.fr/perso_data/P476> a ns1:Character ;
+    ns1:name "Robert Parr" .
+
+<http://projet.fr/perso_data/P477> a ns1:Character ;
+    ns1:name "Sharon Ventura" .
+
+<http://projet.fr/perso_data/P478> a ns1:Character ;
+    ns1:name "James Arthur" .
+
+<http://projet.fr/perso_data/P479> a ns1:Character ;
+    ns1:name "Quentin Beck" .
+
+<http://projet.fr/perso_data/P48> a ns1:Character ;
+    ns1:name "Erik Josten" .
+
+<http://projet.fr/perso_data/P480> a ns1:Character ;
+    ns1:name "Raven Darkholme" .
+
+<http://projet.fr/perso_data/P481> a ns1:Character ;
+    ns1:name "Namor McKenzie" .
+
+<http://projet.fr/perso_data/P482> a ns1:Character .
+
+<http://projet.fr/perso_data/P483> a ns1:Character ;
+    ns1:name "Aquaria Nautica Neptunia" .
+
+<http://projet.fr/perso_data/P484> a ns1:Character ;
+    ns1:name "Namorita Prentiss" .
+
+<http://projet.fr/perso_data/P485> a ns1:Character .
+
+<http://projet.fr/perso_data/P486> a ns1:Character ;
+    ns1:name "Nathan Petrelli" .
+
+<http://projet.fr/perso_data/P487> a ns1:Character .
+
+<http://projet.fr/perso_data/P488> a ns1:Character ;
+    ns1:name "Ellie Phimister" .
+
+<http://projet.fr/perso_data/P489> a ns1:Character ;
+    ns1:name "Nicholas Joseph Fury" .
+
+<http://projet.fr/perso_data/P49> a ns1:Character .
+
+<http://projet.fr/perso_data/P490> a ns1:Character ;
+    ns1:name "Kurt Wagner" .
+
+<http://projet.fr/perso_data/P491> a ns1:Character ;
+    ns1:name "Dick Grayson" .
+
+<http://projet.fr/perso_data/P492> a ns1:Character ;
+    ns1:name "Nicole Sanders" .
+
+<http://projet.fr/perso_data/P493> a ns1:Character .
+
+<http://projet.fr/perso_data/P494> a ns1:Character ;
+    ns1:name "Daniel Dreiberg" .
+
+<http://projet.fr/perso_data/P495> a ns1:Character ;
+    ns1:name "Jean-Paul Beaubier" .
+
+<http://projet.fr/perso_data/P496> a ns1:Character ;
+    ns1:name "Richard Rider" .
+
+<http://projet.fr/perso_data/P497> a ns1:Character ;
+    ns1:name "Frankie Raye" .
+
+<http://projet.fr/perso_data/P498> a ns1:Character ;
+    ns1:name "Odin Borson" .
+
+<http://projet.fr/perso_data/P499> a ns1:Character ;
+    ns1:name "Luke O'Brian" .
+
+<http://projet.fr/perso_data/P5> a ns1:Character ;
+    ns1:name "Abraxas" .
+
+<http://projet.fr/perso_data/P50> a ns1:Character ;
+    ns1:name "Albert Pratt" .
+
+<http://projet.fr/perso_data/P500> a ns1:Character ;
+    ns1:name "Arkady Gregorivich" .
+
+<http://projet.fr/perso_data/P501> a ns1:Character ;
+    ns1:name "Omniscient is the closest English word that compares to his alien tongue." .
+
+<http://projet.fr/perso_data/P502> a ns1:Character ;
+    ns1:name "Saitama" .
+
+<http://projet.fr/perso_data/P503> a ns1:Character .
+
+<http://projet.fr/perso_data/P504> a ns1:Character ;
+    ns1:name "Onslaught" .
+
+<http://projet.fr/perso_data/P505> a ns1:Character ;
+    ns1:name "Barbara Gordon" .
+
+<http://projet.fr/perso_data/P506> a ns1:Character ;
+    ns1:name "Amon Tomaz" .
+
+<http://projet.fr/perso_data/P507> a ns1:Character ;
+    ns1:name "Nicholas Rocca" .
+
+<http://projet.fr/perso_data/P508> a ns1:Character ;
+    ns1:name "Adrian Veidt" .
+
+<http://projet.fr/perso_data/P509> a ns1:Character .
+
+<http://projet.fr/perso_data/P51> a ns1:Character .
+
+<http://projet.fr/perso_data/P510> a ns1:Character ;
+    ns1:name "Paul Blart" .
+
+<http://projet.fr/perso_data/P511> a ns1:Character .
+
+<http://projet.fr/perso_data/P512> a ns1:Character .
+
+<http://projet.fr/perso_data/P513> a ns1:Character ;
+    ns1:name "Robert Baldwin" .
+
+<http://projet.fr/perso_data/P514> a ns1:Character ;
+    ns1:name "Oswald Chesterfield Cobblepot" .
+
+<http://projet.fr/perso_data/P515> a ns1:Character ;
+    ns1:name "Christopher Walker" .
+
+<http://projet.fr/perso_data/P516> a ns1:Character ;
+    ns1:name "Tinya Wazzo" .
+
+<http://projet.fr/perso_data/P517> a ns1:Character ;
+    ns1:name "Jean Grey" .
+
+<http://projet.fr/perso_data/P518> a ns1:Character ;
+    ns1:name "Samuel Smithers" .
+
+<http://projet.fr/perso_data/P519> a ns1:Character ;
+    ns1:name "Luke O'Brian" .
+
+<http://projet.fr/perso_data/P52> a ns1:Character ;
+    ns1:name "Salu Digby" .
+
+<http://projet.fr/perso_data/P520> a ns1:Character ;
+    ns1:name "Patrick O'Brian" .
+
+<http://projet.fr/perso_data/P521> a ns1:Character ;
+    ns1:name "Bette Sans Souci" .
+
+<http://projet.fr/perso_data/P522> a ns1:Character ;
+    ns1:name "Pamela Isley" .
+
+<http://projet.fr/perso_data/P523> a ns1:Character ;
+    ns1:name "Lorna Dane" .
+
+<http://projet.fr/perso_data/P524> a ns1:Character ;
+    ns1:name "Kara Zor-L" .
+
+<http://projet.fr/perso_data/P525> a ns1:Character ;
+    ns1:name "Luke Cage" .
+
+<http://projet.fr/perso_data/P526> a ns1:Character ;
+    ns1:name "Yautja" .
+
+<http://projet.fr/perso_data/P527> a ns1:Character ;
+    ns1:name "Charles Francis Xavier" .
+
+<http://projet.fr/perso_data/P528> a ns1:Character ;
+    ns1:name "Eobard Thawne" .
+
+<http://projet.fr/perso_data/P529> a ns1:Character ;
+    ns1:name "Elizabeth Braddock" .
+
+<http://projet.fr/perso_data/P53> a ns1:Character ;
+    ns1:name "Ray Palmer" .
+
+<http://projet.fr/perso_data/P530> a ns1:Character ;
+    ns1:name "Frank Castle" .
+
+<http://projet.fr/perso_data/P531> a ns1:Character ;
+    ns1:name "Zebediah Killgrave" .
+
+<http://projet.fr/perso_data/P532> a ns1:Character ;
+    ns1:name "St. John Allerdyce" .
+
+<http://projet.fr/perso_data/P533> a ns1:Character ;
+    ns1:name "Q" .
+
+<http://projet.fr/perso_data/P534> a ns1:Character .
+
+<http://projet.fr/perso_data/P535> a ns1:Character ;
+    ns1:name "Charles Victor Szasz" .
+
+<http://projet.fr/perso_data/P536> a ns1:Character ;
+    ns1:name "Pietro Django Maximoff" .
+
+<http://projet.fr/perso_data/P537> a ns1:Character ;
+    ns1:name "Maxwell Jordan" .
+
+<http://projet.fr/perso_data/P538> a ns1:Character ;
+    ns1:name "Ra's Al Ghul" .
+
+<http://projet.fr/perso_data/P539> a ns1:Character .
+
+<http://projet.fr/perso_data/P54> a ns1:Character ;
+    ns1:name "Adam Cray" .
+
+<http://projet.fr/perso_data/P540> a ns1:Character ;
+    ns1:name "John Rambo" .
+
+<http://projet.fr/perso_data/P541> a ns1:Character .
+
+<http://projet.fr/perso_data/P542> a ns1:Character ;
+    ns1:name "Rachel Roth" .
+
+<http://projet.fr/perso_data/P543> a ns1:Character ;
+    ns1:name "Ray Terrill" .
+
+<http://projet.fr/perso_data/P544> a ns1:Character ;
+    ns1:name "Douglas Scott" .
+
+<http://projet.fr/perso_data/P545> a ns1:Character ;
+    ns1:name "Roy Harper" .
+
+<http://projet.fr/perso_data/P546> a ns1:Character ;
+    ns1:name "Jason Todd" .
+
+<http://projet.fr/perso_data/P547> a ns1:Character ;
+    ns1:name "Thaddeus E. Ross" .
+
+<http://projet.fr/perso_data/P548> a ns1:Character ;
+    ns1:name "Chris Genovese" .
+
+<http://projet.fr/perso_data/P549> a ns1:Character ;
+    ns1:name "Tim Drake" .
+
+<http://projet.fr/perso_data/P55> a ns1:Character ;
+    ns1:name "Ryan Choi" .
+
+<http://projet.fr/perso_data/P550> a ns1:Character ;
+    ns1:name "Johann Shmidt" .
+
+<http://projet.fr/perso_data/P551> a ns1:Character ;
+    ns1:name "John Smith" .
+
+<http://projet.fr/perso_data/P552> a ns1:Character ;
+    ns1:name "Phil Timper" .
+
+<http://projet.fr/perso_data/P553> a ns1:Character ;
+    ns1:name "Eddie Frank" .
+
+<http://projet.fr/perso_data/P554> a ns1:Character .
+
+<http://projet.fr/perso_data/P555> a ns1:Character .
+
+<http://projet.fr/perso_data/P556> a ns1:Character ;
+    ns1:name "Aleksei Mikhailovich Sytsevich" .
+
+<http://projet.fr/perso_data/P557> a ns1:Character ;
+    ns1:name "Richard Rogers Flag" .
+
+<http://projet.fr/perso_data/P558> a ns1:Character ;
+    ns1:name "Edward Nigma" .
+
+<http://projet.fr/perso_data/P559> a ns1:Character ;
+    ns1:name "Richard Hunter" .
+
+<http://projet.fr/perso_data/P56> a ns1:Character ;
+    ns1:name "Jeanne-Marie Beaubier" .
+
+<http://projet.fr/perso_data/P560> a ns1:Character ;
+    ns1:name "Miranda Leevald" .
+
+<http://projet.fr/perso_data/P561> a ns1:Character ;
+    ns1:name "Dick Grayson" .
+
+<http://projet.fr/perso_data/P562> a ns1:Character ;
+    ns1:name "Jason Todd" .
+
+<http://projet.fr/perso_data/P563> a ns1:Character ;
+    ns1:name "Tim Drake" .
+
+<http://projet.fr/perso_data/P564> a ns1:Character ;
+    ns1:name "Damian Wayne" .
+
+<http://projet.fr/perso_data/P565> a ns1:Character ;
+    ns1:name "Carrie Kelley" .
+
+<http://projet.fr/perso_data/P566> a ns1:Character ;
+    ns1:name "Rocket Raccoon" .
+
+<http://projet.fr/perso_data/P567> a ns1:Character ;
+    ns1:name "Anna Marie" .
+
+<http://projet.fr/perso_data/P568> a ns1:Character ;
+    ns1:name "Clint Barton" .
+
+<http://projet.fr/perso_data/P569> a ns1:Character ;
+    ns1:name "Walter Joseph Kovacs" .
+
+<http://projet.fr/perso_data/P57> a ns1:Character .
+
+<http://projet.fr/perso_data/P570> a ns1:Character ;
+    ns1:name "Victor Creed" .
+
+<http://projet.fr/perso_data/P571> a ns1:Character ;
+    ns1:name "Tessa" .
+
+<http://projet.fr/perso_data/P572> a ns1:Character ;
+    ns1:name "William Baker" .
+
+<http://projet.fr/perso_data/P573> a ns1:Character ;
+    ns1:name "Walter Langkowski" .
+
+<http://projet.fr/perso_data/P574> a ns1:Character ;
+    ns1:name "Sauron" .
+
+<http://projet.fr/perso_data/P575> a ns1:Character ;
+    ns1:name "Kurr" .
+
+<http://projet.fr/perso_data/P576> a ns1:Character ;
+    ns1:name "Jonathan Crane" .
+
+<http://projet.fr/perso_data/P577> a ns1:Character ;
+    ns1:name "Benjamin Reilly" .
+
+<http://projet.fr/perso_data/P578> a ns1:Character ;
+    ns1:name "Kaine Parker" .
+
+<http://projet.fr/perso_data/P579> a ns1:Character ;
+    ns1:name "Wanda Maximoff" .
+
+<http://projet.fr/perso_data/P58> a ns1:Character ;
+    ns1:name "Michael Washington Lane" .
+
+<http://projet.fr/perso_data/P580> a ns1:Character ;
+    ns1:name "Elaine Coll" .
+
+<http://projet.fr/perso_data/P581> a ns1:Character ;
+    ns1:name "MacDonald Gargan" .
+
+<http://projet.fr/perso_data/P582> a ns1:Character ;
+    ns1:name "Sebastian Hiram Shaw" .
+
+<http://projet.fr/perso_data/P583> a ns1:Character ;
+    ns1:name "Robert Reynolds" .
+
+<http://projet.fr/perso_data/P584> a ns1:Character ;
+    ns1:name "Amahl Farouk" .
+
+<http://projet.fr/perso_data/P585> a ns1:Character ;
+    ns1:name "Tasmia Mallor" .
+
+<http://projet.fr/perso_data/P586> a ns1:Character ;
+    ns1:name "Kitty Pryde" .
+
+<http://projet.fr/perso_data/P587> a ns1:Character ;
+    ns1:name "Shang-Chi" .
+
+<http://projet.fr/perso_data/P588> a ns1:Character ;
+    ns1:name "Gaveedra Seven" .
+
+<http://projet.fr/perso_data/P589> a ns1:Character ;
+    ns1:name "Jennifer Walters" .
+
+<http://projet.fr/perso_data/P59> a ns1:Character ;
+    ns1:name "Aztar" .
+
+<http://projet.fr/perso_data/P590> a ns1:Character ;
+    ns1:name "Sharon Ventura" .
+
+<http://projet.fr/perso_data/P591> a ns1:Character ;
+    ns1:name "Herman Schultz" .
+
+<http://projet.fr/perso_data/P592> a ns1:Character ;
+    ns1:name "Frances Louise Barrison" .
+
+<http://projet.fr/perso_data/P593> a ns1:Character .
+
+<http://projet.fr/perso_data/P594> a ns1:Character ;
+    ns1:name "Sif" .
+
+<http://projet.fr/perso_data/P595> a ns1:Character ;
+    ns1:name "Cindy Moon" .
+
+<http://projet.fr/perso_data/P596> a ns1:Character ;
+    ns1:name "Sally Juspeczyk" .
+
+<http://projet.fr/perso_data/P597> a ns1:Character ;
+    ns1:name "Laurie Juspeczyk" .
+
+<http://projet.fr/perso_data/P598> a ns1:Character ;
+    ns1:name "Norrin Radd" .
+
+<http://projet.fr/perso_data/P599> a ns1:Character ;
+    ns1:name "Maria de Guadalupe Santiago" .
+
+<http://projet.fr/perso_data/P6> a ns1:Character ;
+    ns1:name "Carl Creel" .
+
+<http://projet.fr/perso_data/P60> a ns1:Character .
+
+<http://projet.fr/perso_data/P600> a ns1:Character ;
+    ns1:name "Simoon Baz" .
+
+<http://projet.fr/perso_data/P601> a ns1:Character ;
+    ns1:name "Thaal Sinestro" .
+
+<http://projet.fr/perso_data/P602> a ns1:Character ;
+    ns1:name "Hila" .
+
+<http://projet.fr/perso_data/P603> a ns1:Character ;
+    ns1:name "La Sirene la Bailene" .
+
+<http://projet.fr/perso_data/P604> a ns1:Character ;
+    ns1:name "Theresa Rourke Cassidy" .
+
+<http://projet.fr/perso_data/P605> a ns1:Character .
+
+<http://projet.fr/perso_data/P606> a ns1:Character .
+
+<http://projet.fr/perso_data/P607> a ns1:Character ;
+    ns1:name "Narya" .
+
+<http://projet.fr/perso_data/P608> a ns1:Character ;
+    ns1:name "Yurrd the Unknown" .
+
+<http://projet.fr/perso_data/P609> a ns1:Character ;
+    ns1:name "Cyrus Gold" .
+
+<http://projet.fr/perso_data/P61> a ns1:Character ;
+    ns1:name "Sean Cassidy" .
+
+<http://projet.fr/perso_data/P610> a ns1:Character ;
+    ns1:name "Melissa Joan Gold" .
+
+<http://projet.fr/perso_data/P611> a ns1:Character ;
+    ns1:name "Thaddeus Bach" .
+
+<http://projet.fr/perso_data/P612> a ns1:Character ;
+    ns1:name "Al Simmons" .
+
+<http://projet.fr/perso_data/P613> a ns1:Character ;
+    ns1:name "Aztar" .
+
+<http://projet.fr/perso_data/P614> a ns1:Character ;
+    ns1:name "Robert Baldwin" .
+
+<http://projet.fr/perso_data/P615> a ns1:Character ;
+    ns1:name "Thea Queen" .
+
+<http://projet.fr/perso_data/P616> a ns1:Character ;
+    ns1:name "Roy William Harper, Jr." .
+
+<http://projet.fr/perso_data/P617> a ns1:Character ;
+    ns1:name "Benjamin Reilly" .
+
+<http://projet.fr/perso_data/P618> a ns1:Character ;
+    ns1:name "May 'Mayday' Parker" .
+
+<http://projet.fr/perso_data/P619> a ns1:Character ;
+    ns1:name "Gwen Stacy" .
+
+<http://projet.fr/perso_data/P62> a ns1:Character ;
+    ns1:name "Roberto Velasquez" .
+
+<http://projet.fr/perso_data/P620> a ns1:Character ;
+    ns1:name "Peter Parker" .
+
+<http://projet.fr/perso_data/P621> a ns1:Character ;
+    ns1:name "Miguel O'Hara" .
+
+<http://projet.fr/perso_data/P622> a ns1:Character ;
+    ns1:name "Miles Morales" .
+
+<http://projet.fr/perso_data/P623> a ns1:Character ;
+    ns1:name "Jessica Drew" .
+
+<http://projet.fr/perso_data/P624> a ns1:Character .
+
+<http://projet.fr/perso_data/P625> a ns1:Character ;
+    ns1:name "Martha Franklin" .
+
+<http://projet.fr/perso_data/P626> a ns1:Character ;
+    ns1:name "Charlotte Witter" .
+
+<http://projet.fr/perso_data/P627> a ns1:Character ;
+    ns1:name "S'chn T'gai Spock" .
+
+<http://projet.fr/perso_data/P628> a ns1:Character ;
+    ns1:name "Evan Daniels" .
+
+<http://projet.fr/perso_data/P629> a ns1:Character .
+
+<http://projet.fr/perso_data/P63> a ns1:Character ;
+    ns1:name "Barbara Gordon" .
+
+<http://projet.fr/perso_data/P630> a ns1:Character ;
+    ns1:name "Peter Jason Quill" .
+
+<http://projet.fr/perso_data/P631> a ns1:Character .
+
+<http://projet.fr/perso_data/P632> a ns1:Character ;
+    ns1:name "Koriand'r" .
+
+<http://projet.fr/perso_data/P633> a ns1:Character ;
+    ns1:name "Courtney Whitmore" .
+
+<http://projet.fr/perso_data/P634> a ns1:Character ;
+    ns1:name "Virgil Hawkins" .
+
+<http://projet.fr/perso_data/P635> a ns1:Character ;
+    ns1:name "John Henry Irons" .
+
+<http://projet.fr/perso_data/P636> a ns1:Character ;
+    ns1:name "Stephanie Powell" .
+
+<http://projet.fr/perso_data/P637> a ns1:Character .
+
+<http://projet.fr/perso_data/P638> a ns1:Character ;
+    ns1:name "Ororo Munroe" .
+
+<http://projet.fr/perso_data/P639> a ns1:Character .
+
+<http://projet.fr/perso_data/P64> a ns1:Character ;
+    ns1:name "Mary Elizabeth Kane" .
+
+<http://projet.fr/perso_data/P640> a ns1:Character ;
+    ns1:name "Roberto DaCosta" .
+
+<http://projet.fr/perso_data/P641> a ns1:Character ;
+    ns1:name "Kon-El / Conner Kent" .
+
+<http://projet.fr/perso_data/P642> a ns1:Character ;
+    ns1:name "Kal-El" .
+
+<http://projet.fr/perso_data/P643> a ns1:Character ;
+    ns1:name "Kara Zor-El" .
+
+<http://projet.fr/perso_data/P644> a ns1:Character ;
+    ns1:name "Clark Kent" .
+
+<http://projet.fr/perso_data/P645> a ns1:Character ;
+    ns1:name "Alec Holland" .
+
+<http://projet.fr/perso_data/P646> a ns1:Character ;
+    ns1:name "Fritz von Meyer" .
+
+<http://projet.fr/perso_data/P647> a ns1:Character ;
+    ns1:name "Gabriel Gray" .
+
+<http://projet.fr/perso_data/P648> a ns1:Character ;
+    ns1:name "Everett Thomas" .
+
+<http://projet.fr/perso_data/P649> a ns1:Character ;
+    ns1:name "Cyberdyne Systems Series 1000 Terminator" .
+
+<http://projet.fr/perso_data/P65> a ns1:Character ;
+    ns1:name "Helena Rosa Bertinelli" .
+
+<http://projet.fr/perso_data/P650> a ns1:Character ;
+    ns1:name "Cyberdyne Systems Series 800 Terminator Model 101" .
+
+<http://projet.fr/perso_data/P651> a ns1:Character ;
+    ns1:name "Cyberdyne Systems Series 850 Terminator" .
+
+<http://projet.fr/perso_data/P652> a ns1:Character ;
+    ns1:name "Cyberdyne Systems Series X Terminator" .
+
+<http://projet.fr/perso_data/P653> a ns1:Character ;
+    ns1:name "Tony Masters" .
+
+<http://projet.fr/perso_data/P654> a ns1:Character ;
+    ns1:name "Angel Salvadore Bohusk" .
+
+<http://projet.fr/perso_data/P655> a ns1:Character ;
+    ns1:name "Thanos" .
+
+<http://projet.fr/perso_data/P656> a ns1:Character ;
+    ns1:name "Vince Faraday" .
+
+<http://projet.fr/perso_data/P657> a ns1:Character ;
+    ns1:name "Edward Morgen Blake" .
+
+<http://projet.fr/perso_data/P658> a ns1:Character ;
+    ns1:name "Ben Grimm" .
+
+<http://projet.fr/perso_data/P659> a ns1:Character ;
+    ns1:name "Thor Odinson" .
+
+<http://projet.fr/perso_data/P66> a ns1:Character ;
+    ns1:name "Cassandra Cain" .
+
+<http://projet.fr/perso_data/P660> a ns1:Character ;
+    ns1:name "Tarene" .
+
+<http://projet.fr/perso_data/P661> a ns1:Character ;
+    ns1:name "John Proudstar" .
+
+<http://projet.fr/perso_data/P662> a ns1:Character ;
+    ns1:name "James Proudstar" .
+
+<http://projet.fr/perso_data/P663> a ns1:Character ;
+    ns1:name "Neal Shaara" .
+
+<http://projet.fr/perso_data/P664> a ns1:Character ;
+    ns1:name "Eric Kevin Masterson" .
+
+<http://projet.fr/perso_data/P665> a ns1:Character ;
+    ns1:name "Thundra" .
+
+<http://projet.fr/perso_data/P666> a ns1:Character ;
+    ns1:name "Todd Arliss" .
+
+<http://projet.fr/perso_data/P667> a ns1:Character ;
+    ns1:name "Greer Grant Nelson" .
+
+<http://projet.fr/perso_data/P668> a ns1:Character ;
+    ns1:name "Phineas Mason" .
+
+<http://projet.fr/perso_data/P669> a ns1:Character .
+
+<http://projet.fr/perso_data/P67> a ns1:Character ;
+    ns1:name "Charlotte Gage-Radcliffe" .
+
+<http://projet.fr/perso_data/P670> a ns1:Character ;
+    ns1:name "Mortimer Toynbee" .
+
+<http://projet.fr/perso_data/P671> a ns1:Character ;
+    ns1:name "Patrick Mulligan" .
+
+<http://projet.fr/perso_data/P672> a ns1:Character ;
+    ns1:name "Eddie Brock" .
+
+<http://projet.fr/perso_data/P673> a ns1:Character ;
+    ns1:name "Tracy Strauss" .
+
+<http://projet.fr/perso_data/P674> a ns1:Character ;
+    ns1:name "Giovanni Giuseppe" .
+
+<http://projet.fr/perso_data/P675> a ns1:Character .
+
+<http://projet.fr/perso_data/P676> a ns1:Character ;
+    ns1:name "Luornu Durgo" .
+
+<http://projet.fr/perso_data/P677> a ns1:Character ;
+    ns1:name "Triton" .
+
+<http://projet.fr/perso_data/P678> a ns1:Character ;
+    ns1:name "Harvey Dent" .
+
+<http://projet.fr/perso_data/P679> a ns1:Character ;
+    ns1:name "Tsu-Zana" .
+
+<http://projet.fr/perso_data/P68> a ns1:Character ;
+    ns1:name "Stephanie Brown" .
+
+<http://projet.fr/perso_data/P680> a ns1:Character ;
+    ns1:name "Ultron" .
+
+<http://projet.fr/perso_data/P681> a ns1:Character .
+
+<http://projet.fr/perso_data/P682> a ns1:Character ;
+    ns1:name "Priscilla Lyons" .
+
+<http://projet.fr/perso_data/P683> a ns1:Character .
+
+<http://projet.fr/perso_data/P684> a ns1:Character ;
+    ns1:name "Brunnhilde (also spelled Brunnhilda)" .
+
+<http://projet.fr/perso_data/P685> a ns1:Character .
+
+<http://projet.fr/perso_data/P686> a ns1:Character ;
+    ns1:name "Vegeta" .
+
+<http://projet.fr/perso_data/P687> a ns1:Character ;
+    ns1:name "Eddie Brock" .
+
+<http://projet.fr/perso_data/P688> a ns1:Character ;
+    ns1:name "Angelo Fortunato" .
+
+<http://projet.fr/perso_data/P689> a ns1:Character ;
+    ns1:name "MacDonald Gargan" .
+
+<http://projet.fr/perso_data/P69> a ns1:Character ;
+    ns1:name "Terry McGinnis" .
+
+<http://projet.fr/perso_data/P690> a ns1:Character ;
+    ns1:name "Wade Wilson" .
+
+<http://projet.fr/perso_data/P691> a ns1:Character ;
+    ns1:name "-" .
+
+<http://projet.fr/perso_data/P692> a ns1:Character ;
+    ns1:name "Cisco Ramon" .
+
+<http://projet.fr/perso_data/P693> a ns1:Character ;
+    ns1:name "Heather Hudson" .
+
+<http://projet.fr/perso_data/P694> a ns1:Character ;
+    ns1:name "Dr. James McDonald Hudson" .
+
+<http://projet.fr/perso_data/P695> a ns1:Character .
+
+<http://projet.fr/perso_data/P696> a ns1:Character ;
+    ns1:name "Violet Parr" .
+
+<http://projet.fr/perso_data/P697> a ns1:Character ;
+    ns1:name "Vision" .
+
+<http://projet.fr/perso_data/P698> a ns1:Character ;
+    ns1:name "Vision" .
+
+<http://projet.fr/perso_data/P699> a ns1:Character ;
+    ns1:name "Mari McCabe" .
+
+<http://projet.fr/perso_data/P7> a ns1:Character .
+
+<http://projet.fr/perso_data/P70> a ns1:Character ;
+    ns1:name "Bruce Wayne" .
+
+<http://projet.fr/perso_data/P700> a ns1:Character ;
+    ns1:name "Gabriel Summers" .
+
+<http://projet.fr/perso_data/P701> a ns1:Character ;
+    ns1:name "Adrian Toomes" .
+
+<http://projet.fr/perso_data/P702> a ns1:Character ;
+    ns1:name "Hubert Carpent" .
+
+<http://projet.fr/perso_data/P703> a ns1:Character ;
+    ns1:name "James Rupert Rhodes" .
+
+<http://projet.fr/perso_data/P704> a ns1:Character ;
+    ns1:name "Carol Danvers" .
+
+<http://projet.fr/perso_data/P705> a ns1:Character ;
+    ns1:name "Adam Warlock" .
+
+<http://projet.fr/perso_data/P706> a ns1:Character ;
+    ns1:name "Emil LaSalle" .
+
+<http://projet.fr/perso_data/P707> a ns1:Character ;
+    ns1:name "James Proudstar" .
+
+<http://projet.fr/perso_data/P708> a ns1:Character ;
+    ns1:name "Janet Van Dyne" .
+
+<http://projet.fr/perso_data/P709> a ns1:Character ;
+    ns1:name "Uatu" .
+
+<http://projet.fr/perso_data/P71> a ns1:Character ;
+    ns1:name "Dick Grayson" .
+
+<http://projet.fr/perso_data/P710> a ns1:Character ;
+    ns1:name "Weapon XI" .
+
+<http://projet.fr/perso_data/P711> a ns1:Character .
+
+<http://projet.fr/perso_data/P712> a ns1:Character ;
+    ns1:name "Emma Grace Frost" .
+
+<http://projet.fr/perso_data/P713> a ns1:Character ;
+    ns1:name "Drake Burroughs" .
+
+<http://projet.fr/perso_data/P714> a ns1:Character ;
+    ns1:name "Bucky Barnes" .
+
+<http://projet.fr/perso_data/P715> a ns1:Character ;
+    ns1:name "Takashi Matsuya" .
+
+<http://projet.fr/perso_data/P716> a ns1:Character ;
+    ns1:name "Rahne Sinclair" .
+
+<http://projet.fr/perso_data/P717> a ns1:Character ;
+    ns1:name "Logan" .
+
+<http://projet.fr/perso_data/P718> a ns1:Character ;
+    ns1:name "Cassandra Elizabeth Sandsmark" .
+
+<http://projet.fr/perso_data/P719> a ns1:Character ;
+    ns1:name "Simon Williams" .
+
+<http://projet.fr/perso_data/P72> a ns1:Character ;
+    ns1:name "Lemar Hoskins" .
+
+<http://projet.fr/perso_data/P720> a ns1:Character ;
+    ns1:name "Diana Prince" .
+
+<http://projet.fr/perso_data/P721> a ns1:Character .
+
+<http://projet.fr/perso_data/P722> a ns1:Character ;
+    ns1:name "Wyatt Wingfoot" .
+
+<http://projet.fr/perso_data/P723> a ns1:Character ;
+    ns1:name "Laura Kinney" .
+
+<http://projet.fr/perso_data/P724> a ns1:Character ;
+    ns1:name "Nate Grey" .
+
+<http://projet.fr/perso_data/P725> a ns1:Character .
+
+<http://projet.fr/perso_data/P726> a ns1:Character ;
+    ns1:name "Hank Pym" .
+
+<http://projet.fr/perso_data/P727> a ns1:Character ;
+    ns1:name "Rita DeMara" .
+
+<http://projet.fr/perso_data/P728> a ns1:Character ;
+    ns1:name "Ymir" .
+
+<http://projet.fr/perso_data/P729> a ns1:Character ;
+    ns1:name "Yoda" .
+
+<http://projet.fr/perso_data/P73> a ns1:Character ;
+    ns1:name "Katherine Rebecca Kane" .
+
+<http://projet.fr/perso_data/P730> a ns1:Character ;
+    ns1:name "Zatanna Zatara" .
+
+<http://projet.fr/perso_data/P731> a ns1:Character ;
+    ns1:name "Hunter Zolomon" .
+
+<http://projet.fr/perso_data/P74> a ns1:Character ;
+    ns1:name "Barnell Bohusk" .
+
+<http://projet.fr/perso_data/P75> a ns1:Character ;
+    ns1:name "Henry Philip McCoy" .
+
+<http://projet.fr/perso_data/P76> a ns1:Character ;
+    ns1:name "Garfield Mark Logan" .
+
+<http://projet.fr/perso_data/P77> a ns1:Character .
+
+<http://projet.fr/perso_data/P78> a ns1:Character ;
+    ns1:name "Benjamin Kirby Tennyson" .
+
+<http://projet.fr/perso_data/P79> a ns1:Character ;
+    ns1:name "Beta Ray Bill (translation of his Korbinite name)" .
+
+<http://projet.fr/perso_data/P8> a ns1:Character ;
+    ns1:name "Adam Strange" .
+
+<http://projet.fr/perso_data/P80> a ns1:Character .
+
+<http://projet.fr/perso_data/P81> a ns1:Character ;
+    ns1:name "Barda Free" .
+
+<http://projet.fr/perso_data/P82> a ns1:Character ;
+    ns1:name "Damon Macready" .
+
+<http://projet.fr/perso_data/P83> a ns1:Character ;
+    ns1:name "Frederick Foswell" .
+
+<http://projet.fr/perso_data/P84> a ns1:Character .
+
+<http://projet.fr/perso_data/P85> a ns1:Character ;
+    ns1:name "Billy Kincaid" .
+
+<http://projet.fr/perso_data/P86> a ns1:Character ;
+    ns1:name "Carol Danvers" .
+
+<http://projet.fr/perso_data/P87> a ns1:Character ;
+    ns1:name "Jamie Sommers" .
+
+<http://projet.fr/perso_data/P88> a ns1:Character .
+
+<http://projet.fr/perso_data/P89> a ns1:Character ;
+    ns1:name "Henry Hawk" .
+
+<http://projet.fr/perso_data/P9> a ns1:Character ;
+    ns1:name "Sharon Carter" .
+
+<http://projet.fr/perso_data/P90> a ns1:Character ;
+    ns1:name "Achille DiBacco" .
+
+<http://projet.fr/perso_data/P91> a ns1:Character ;
+    ns1:name "Ray Randal" .
+
+<http://projet.fr/perso_data/P92> a ns1:Character ;
+    ns1:name "Lucas Bishop" .
+
+<http://projet.fr/perso_data/P93> a ns1:Character ;
+    ns1:name "Bizarro" .
+
+<http://projet.fr/perso_data/P94> a ns1:Character .
+
+<http://projet.fr/perso_data/P95> a ns1:Character ;
+    ns1:name "Teth-Adam" .
+
+<http://projet.fr/perso_data/P96> a ns1:Character ;
+    ns1:name "Blackagar Boltagon" .
+
+<http://projet.fr/perso_data/P97> a ns1:Character ;
+    ns1:name "Laurel Lance" .
+
+<http://projet.fr/perso_data/P98> a ns1:Character ;
+    ns1:name "Dinah Drake Lance" .
+
+<http://projet.fr/perso_data/P99> a ns1:Character ;
+    ns1:name "Felicia Hardy" .
+

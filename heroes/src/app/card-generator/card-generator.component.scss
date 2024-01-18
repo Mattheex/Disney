@@ -1,0 +1,21 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  text-align: center;
+}
+
+#persos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 15px;
+  
+}
+
+app-person-card{
+  height: 750px;
+  margin-bottom: 10px;
+}

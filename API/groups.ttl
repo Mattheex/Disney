@@ -1,0 +1,4075 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://projet.fr/perso#> a owl:Class,
+        skos:Concept ;
+    rdfs:label "-" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group>,
+        <http://projet.fr/perso#Occupation>,
+        <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "",
+        "-" .
+
+<http://projet.fr/perso#198> a owl:Class ;
+    rdfs:label "198" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#abesapien> a owl:Class ;
+    rdfs:label "abe sapien" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#absorbingman> a owl:Class ;
+    rdfs:label "absorbing man" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#acolytes> a owl:Class ;
+    rdfs:label "acolytes" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#acolytesattimeofdeath> a owl:Class ;
+    rdfs:label "acolytes at time of death" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#activememberofthexmen> a owl:Class ;
+    rdfs:label "active member of the x-men" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#actsofvengeanceprimemovers> a owl:Class ;
+    rdfs:label "\"acts of vengeance\" prime movers",
+        "acts of vengeance prime movers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#affiliationfinfangfour> a owl:Class ;
+    rdfs:label "affiliation \"fin fang four" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#agencyx> a owl:Class ;
+    rdfs:label "agency x" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#agentofapocalypse> a owl:Class ;
+    rdfs:label "agent of apocalypse" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#agentofhydra> a owl:Class ;
+    rdfs:label "agent of hydra" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#agentofmajorbarrington> a owl:Class ;
+    rdfs:label "agent of major barrington" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#agentofonslaughtandsledge> a owl:Class ;
+    rdfs:label "agent of onslaught and sledge" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#agentofroxxonoilcorporation> a owl:Class ;
+    rdfs:label "agent of roxxon oil corporation" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#agentofshield> a owl:Class,
+        skos:Concept ;
+    rdfs:label "agent of shield." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group>,
+        <http://projet.fr/perso#Occupation> ;
+    skos:prefLabel "agent of s.h.i.e.l.d.",
+        "agent of shield" .
+
+<http://projet.fr/perso#agentofstrike> a owl:Class ;
+    rdfs:label "agent of s.t.r.i.k.e." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#agentoftheywhowieldpower> a owl:Class ;
+    rdfs:label "agent of they who wield power" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#agentsofatlas> a owl:Class ;
+    rdfs:label "agents of atlas" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#aim> a owl:Class ;
+    rdfs:label "a.i.m.",
+        "aim" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#aliasinvestigations> a owl:Class ;
+    rdfs:label "alias investigations" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allianceofevil> a owl:Class ;
+    rdfs:label "alliance of evil" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allianceoffreeplanets> a owl:Class ;
+    rdfs:label "alliance of free planets" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#alliancetorestoretherepublic> a owl:Class ;
+    rdfs:label "alliance to restore the republic" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#alliedwithsilvermane> a owl:Class ;
+    rdfs:label "allied with silvermane" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#alliedwithumar> a owl:Class ;
+    rdfs:label "allied with umar" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allstarsquadron> a owl:Class ;
+    rdfs:label "all-star squadron" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allwinnerssquad> a owl:Class ;
+    rdfs:label "all winners squad",
+        "all-winners squad" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyandcompanionofthefantasticfour> a owl:Class ;
+    rdfs:label "ally and companion of the fantastic four" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyo> a owl:Class ;
+    rdfs:label "ally o" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofadamwarlockandpipthetroll> a owl:Class ;
+    rdfs:label "ally of adam warlock and pip the troll" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofexiles> a owl:Class ;
+    rdfs:label "ally of exiles" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofgodwulfsredeemers> a owl:Class ;
+    rdfs:label "ally of godwulf's redeemers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofrcx> a owl:Class ;
+    rdfs:label "ally of r.c.x." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofreverendwilliamstryker> a owl:Class ;
+    rdfs:label "ally of reverend william stryker" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofrom> a owl:Class ;
+    rdfs:label "ally of rom" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofsecretwarriors> a owl:Class ;
+    rdfs:label "ally of secret warriors" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofsolarr> a owl:Class ;
+    rdfs:label "ally of solarr" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofspidermanandblackcat> a owl:Class ;
+    rdfs:label "ally of spider-man and black cat" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyoftheabominationsandforgotten> a owl:Class ;
+    rdfs:label "ally of the abominations and forgotten" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyoftheasgardians> a owl:Class ;
+    rdfs:label "ally of the asgardians" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofthefantasticfour> a owl:Class ;
+    rdfs:label "ally of the fantastic four" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofthehavoksbrotherhood> a owl:Class ;
+    rdfs:label "ally of the havok's brotherhood" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofthelegionofsuperheroes> a owl:Class ;
+    rdfs:label "ally of the legion of super-heroes." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofthemandaim> a owl:Class ;
+    rdfs:label "ally of them and a.i.m." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofthemandarin> a owl:Class ;
+    rdfs:label "\" ally of the mandarin" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyoftheoriginalmastersofevil> a owl:Class ;
+    rdfs:label "ally of the original masters of evil" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofwizard> a owl:Class ;
+    rdfs:label "ally of wizard." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#allyofxmen> a owl:Class ;
+    rdfs:label "ally of x-men" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#alphaflight> a owl:Class ;
+    rdfs:label "alpha flight" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#alphalanterncorps> a owl:Class ;
+    rdfs:label "alpha lantern corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#alphas> a owl:Class ;
+    rdfs:label "alphas" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#alphasquadron> a owl:Class ;
+    rdfs:label "alpha squadron" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#alternatefantasticfour> a owl:Class ;
+    rdfs:label "alternate fantastic four" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#amongotherearthheroes> a owl:Class ;
+    rdfs:label "among other earth heroes" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#andasc> a owl:Class ;
+    rdfs:label "and a.s.c." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#anddoctordoom> a owl:Class ;
+    rdfs:label "and doctor doom" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#andfrightfulfour> a owl:Class ;
+    rdfs:label "and frightful four" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#andhellionandstudentofthewhitequeen> a owl:Class ;
+    rdfs:label "and hellion and student of the white queen" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#andladykiller> a owl:Class ;
+    rdfs:label "and ladykiller." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#andmatsuotsurayaba> a owl:Class ;
+    rdfs:label "and matsu'o tsurayaba" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#animate> a owl:Class ;
+    rdfs:label "ani-mate" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#animen> a owl:Class ;
+    rdfs:label "ani-men" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#annihilators> a owl:Class ;
+    rdfs:label "annihilators" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#antmansecuritysolutions> a owl:Class ;
+    rdfs:label "ant-man security solutions" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#antoniotonytwisttwistelli> a owl:Class ;
+    rdfs:label "antonio'tony twist' twistelli" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#apocalypse> a owl:Class ;
+    rdfs:label "apocalypse" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#apokolips> a owl:Class ;
+    rdfs:label "apokolips" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#apokolipsandsinestrocorps> a owl:Class ;
+    rdfs:label "apokolips and sinestro corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#aquamanfamily> a owl:Class ;
+    rdfs:label "aquaman family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#architect> a owl:Class,
+        skos:Concept ;
+    rdfs:label "architect" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group>,
+        <http://projet.fr/perso#Occupation> ;
+    skos:prefLabel "architect" .
+
+<http://projet.fr/perso#argonauts> a owl:Class ;
+    rdfs:label "argonauts" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#arsenal> a owl:Class ;
+    rdfs:label "arsenal" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#asgardians> a owl:Class ;
+    rdfs:label "asgardians" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#associatedpartnerofbatmanandrobinofearthone> a owl:Class ;
+    rdfs:label "associated partner of batman and robin of earth-one" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#associateofdrwilmacalvin> a owl:Class ;
+    rdfs:label "associate of dr. wilma calvin" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#associateofgideon> a owl:Class ;
+    rdfs:label "associate of gideon" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#associateofthemaggiaundercountnefaria> a owl:Class ;
+    rdfs:label "associate of the maggia under count nefaria" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#associateofthesecretsocietyofsupervillains> a owl:Class ;
+    rdfs:label "associate of the secret society of super-villains" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#assortedbatmanrogues> a owl:Class ;
+    rdfs:label "assorted batman rogues" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#atlanteanroyalfamily> a owl:Class ;
+    rdfs:label "atlantean royal family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#atlantis> a owl:Class ;
+    rdfs:label "atlantis" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#atonetimeoranotherwaspartneredwithfbiagentjimmywoo> a owl:Class ;
+    rdfs:label "at one time or another was partnered with fbi agent jimmy woo" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#attumasdeepsix> a owl:Class ;
+    rdfs:label "attuma's deep six" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#avenger> a owl:Class,
+        skos:Concept ;
+    rdfs:label "avenger" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group>,
+        <http://projet.fr/perso#Occupation> ;
+    skos:prefLabel "avenger" .
+
+<http://projet.fr/perso#avengers> a owl:Class ;
+    rdfs:label "avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#avengers3> a owl:Class ;
+    rdfs:label "avengers[3]" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#avengersacademy> a owl:Class ;
+    rdfs:label "avengers academy" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#avengersallofhishomereality> a owl:Class ;
+    rdfs:label "avengers all of his home reality" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#avengersassociate> a owl:Class ;
+    rdfs:label "avengers associate" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#avengersreservist> a owl:Class ;
+    rdfs:label "avengers reservist" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#avengerssupportcrew> a owl:Class ;
+    rdfs:label "avengers support crew" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#avengerswestcoast> a owl:Class ;
+    rdfs:label "avengers west coast" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#badgirls> a owl:Class ;
+    rdfs:label "bad girls" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#batman> a owl:Class ;
+    rdfs:label "batman" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#batmanfamily> a owl:Class ;
+    rdfs:label "batman family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#batmanfamilyandthejla> a owl:Class ;
+    rdfs:label "batman family and the jla" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#batmaninc> a owl:Class ;
+    rdfs:label "batman inc." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#batmanincorporated> a owl:Class ;
+    rdfs:label "batman incorporated" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#batmansbrothereyeattackgroup> a owl:Class ;
+    rdfs:label "batman's brother eye attack group" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#batroc> a owl:Class ;
+    rdfs:label "batroc" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#betaflight> a owl:Class ;
+    rdfs:label "beta flight" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#beyonder> a owl:Class ;
+    rdfs:label "beyonder" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#birdsofprey> a owl:Class ;
+    rdfs:label "birds of prey" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#bizarrosofbizarroworld> a owl:Class ;
+    rdfs:label "bizarros of bizarro world" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#blackcanary> a owl:Class ;
+    rdfs:label "black canary" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#blackcatsgang> a owl:Class ;
+    rdfs:label "black cat's gang" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#blackglove> a owl:Class ;
+    rdfs:label "black glove" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#blacklanterncorps> a owl:Class ;
+    rdfs:label "black lantern corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#blackmarvelfamily> a owl:Class ;
+    rdfs:label "black marvel family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#blacktomcassidy> a owl:Class ;
+    rdfs:label "black tom cassidy" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#blackwidow> a owl:Class ;
+    rdfs:label "black widow" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#bloodcadrealliance> a owl:Class ;
+    rdfs:label "blood cadre alliance" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#bloods> a owl:Class ;
+    rdfs:label "bloods" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#bloodshadowsgang> a owl:Class ;
+    rdfs:label "bloodshadows gang" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#bludhavenpolicedepartment> a owl:Class ;
+    rdfs:label "bludhaven police department" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#bluelanterncorps> a owl:Class ;
+    rdfs:label "blue lantern corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#bobcat> a owl:Class ;
+    rdfs:label "bobcat" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#bodyguardofpsiborg> a owl:Class ;
+    rdfs:label "bodyguard of psi-borg" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#boldurbancommandos> a owl:Class ;
+    rdfs:label "bold urban commandos" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#bombsquad> a owl:Class ;
+    rdfs:label "bomb squad" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#boostergoldinternational> a owl:Class ;
+    rdfs:label "booster gold international" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#boristurgenov> a owl:Class ;
+    rdfs:label "boris turgenov" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#bprd> a owl:Class ;
+    rdfs:label "b.p.r.d." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#braddockacademy> a owl:Class ;
+    rdfs:label "braddock academy" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#bratpack> a owl:Class ;
+    rdfs:label "bratpack" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#bridesofset> a owl:Class ;
+    rdfs:label "brides of set" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#brighttreevillage> a owl:Class ;
+    rdfs:label "bright tree village" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#brotherhood> a owl:Class ;
+    rdfs:label "brotherhood" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#brotherhoodandmarauders> a owl:Class ;
+    rdfs:label "brotherhood and marauders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#brotherhoodofevil> a owl:Class ;
+    rdfs:label "brotherhood of evil" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#brotherhoodofevilmutants> a owl:Class ;
+    rdfs:label "brotherhood of evil mutants" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#brotherhoodofevilmutantsi> a owl:Class ;
+    rdfs:label "brotherhood of evil mutants i" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#brotherhoodofevilmutantsiandii> a owl:Class ;
+    rdfs:label "brotherhood of evil mutants i and ii" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#brotherhoodofmutants> a owl:Class ;
+    rdfs:label "brotherhood of mutants" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#brothersgrimm> a owl:Class ;
+    rdfs:label "brothers grimm" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#bulletbiker> a owl:Class ;
+    rdfs:label "bullet biker" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#bureauforparanormalresearchanddefense> a owl:Class ;
+    rdfs:label "bureau for paranormal research and defense" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#burtoncanyonpolicedepartment> a owl:Class ;
+    rdfs:label "burton canyon police department" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#cabal> a owl:Class ;
+    rdfs:label "cabal" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#cable> a owl:Class ;
+    rdfs:label "cable" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#cablesunderground> a owl:Class ;
+    rdfs:label "cable�s underground" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#cadrek> a owl:Class ;
+    rdfs:label "cadre k" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#canadianarmy> a owl:Class ;
+    rdfs:label "canadian army" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#captainamerica> a owl:Class ;
+    rdfs:label "captain america" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#captainamericaandcaptainmarvel> a owl:Class ;
+    rdfs:label "captain america and captain marvel" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#captainbritaincorps> a owl:Class ;
+    rdfs:label "captain britain corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#carsoncarnivaloftravelingwonders> a owl:Class ;
+    rdfs:label "carson carnival of traveling wonders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#catholicchurch> a owl:Class ;
+    rdfs:label "catholic church" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#catslaughing> a owl:Class ;
+    rdfs:label "cat's laughing" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#cellcombattre> a owl:Class ;
+    rdfs:label "cell combattre" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#cellsix> a owl:Class ;
+    rdfs:label "cell six" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#centralbureauofinvestigations> a owl:Class ;
+    rdfs:label "central bureau of investigations" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#centralintelligenceagency> a owl:Class ;
+    rdfs:label "central intelligence agency" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#chaingang> a owl:Class ;
+    rdfs:label "chain gang" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#chaingang421011> a owl:Class ;
+    rdfs:label "chain gang 421-011" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#challengersfrombeyond> a owl:Class ;
+    rdfs:label "challengers from beyond" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#champions> a owl:Class ;
+    rdfs:label "\" champions",
+        "champions" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#championsoflosangeles> a owl:Class ;
+    rdfs:label "champions of los angeles" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#championsofxandar> a owl:Class ;
+    rdfs:label "champions of xandar" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#chaste> a owl:Class ;
+    rdfs:label "chaste" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#checkmate> a owl:Class ;
+    rdfs:label "checkmate" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#chevaliers> a owl:Class ;
+    rdfs:label "chevaliers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#chicagopolicedepartment> a owl:Class ;
+    rdfs:label "chicago police department" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#childrenofthevault> a owl:Class ;
+    rdfs:label "children of the vault" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#chosen> a owl:Class ;
+    rdfs:label "chosen" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#cia> a owl:Class ;
+    rdfs:label "c.i.a.",
+        "cia" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#circusofcrime> a owl:Class ;
+    rdfs:label "circus of crime" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#clanakkaba> a owl:Class ;
+    rdfs:label "clan akkaba" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#clanaskani> a owl:Class ;
+    rdfs:label "clan askani" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#clanchosen> a owl:Class ;
+    rdfs:label "clan chosen" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#clandestine> a owl:Class ;
+    rdfs:label "clandestine" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#clanrebellion> a owl:Class ;
+    rdfs:label "clan rebellion" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#clanyashida> a owl:Class ;
+    rdfs:label "clan yashida" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#cleancity> a owl:Class ;
+    rdfs:label "\"clean city\"" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#cloakanddagger> a owl:Class ;
+    rdfs:label "cloak and dagger" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#clockwatchers> a owl:Class ;
+    rdfs:label "clockwatchers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#clubofheroes> a owl:Class ;
+    rdfs:label "club of heroes" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#cobra> a owl:Class ;
+    rdfs:label "cobra" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#codered> a owl:Class ;
+    rdfs:label "code red" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#commissiononsuperhumanactivities> a owl:Class ;
+    rdfs:label "commission on superhuman activities" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#companiontothexmen> a owl:Class ;
+    rdfs:label "companion to the x-men" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#conglomerate> a owl:Class ;
+    rdfs:label "conglomerate" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#connorhawke> a owl:Class ;
+    rdfs:label "connor hawke" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#corsairs> a owl:Class ;
+    rdfs:label "corsairs" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#cosmicbeings> a owl:Class ;
+    rdfs:label "cosmic beings" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#councilofgodheads> a owl:Class ;
+    rdfs:label "council of godheads" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#countnefariaslethallegi> a owl:Class ;
+    rdfs:label "count nefaria's lethal legi" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#courtofotherworld> a owl:Class ;
+    rdfs:label "court of otherworld" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#crazysues> a owl:Class ;
+    rdfs:label "crazy s.u.e.s." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#crew> a owl:Class ;
+    rdfs:label "crew" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#crimebusters> a owl:Class ;
+    rdfs:label "crimebusters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#crimemaster> a owl:Class ;
+    rdfs:label "crime master" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#crimewave> a owl:Class ;
+    rdfs:label "crime wave" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#crimsonpirates> a owl:Class ;
+    rdfs:label "crimson pirates" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#croatoans> a owl:Class ;
+    rdfs:label "croatoans" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#crossfire> a owl:Class ;
+    rdfs:label "crossfire" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#crosstechnologicalenterprises> a owl:Class ;
+    rdfs:label "cross technological enterprises" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#crosstimekangs> a owl:Class ;
+    rdfs:label "cross-time kangs" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#currentceoofprometheuscorporation> a owl:Class ;
+    rdfs:label "current ceo of prometheus corporation" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#currentlyavengers> a owl:Class ;
+    rdfs:label "currently avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#currentlygenerationx> a owl:Class ;
+    rdfs:label "currently generation x" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#currentlynone> a owl:Class ;
+    rdfs:label "currently none" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#currentlyxcorps> a owl:Class ;
+    rdfs:label "currently x-corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#currentmemberofthewestcoastavengers> a owl:Class ;
+    rdfs:label "current member of the west coast avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#dailybugle> a owl:Class ;
+    rdfs:label "daily bugle" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#damagecontrol> a owl:Class ;
+    rdfs:label "damage control" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#daredevilsunnamedsuperheroteam> a owl:Class ;
+    rdfs:label "daredevil's unnamed super-hero team" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#darkavengers> a owl:Class ;
+    rdfs:label "dark avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#darkdescendants> a owl:Class ;
+    rdfs:label "dark descendants" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#darkriders> a owl:Class ;
+    rdfs:label "dark riders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#darkseid> a owl:Class ;
+    rdfs:label "darkseid" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#darkseidselite> a owl:Class ;
+    rdfs:label "darkseid's elite" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#darkstars> a owl:Class ;
+    rdfs:label "darkstars" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#daydreamers> a owl:Class ;
+    rdfs:label "daydreamers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#deadpool> a owl:Class ;
+    rdfs:label "deadpool" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#deadpoolcorps> a owl:Class ;
+    rdfs:label "deadpool corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#deathschampions> a owl:Class ;
+    rdfs:label "death's champions" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#deaththrows> a owl:Class ;
+    rdfs:label "death-throws" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#deathwatch> a owl:Class ;
+    rdfs:label "deathwatch" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#deepsix> a owl:Class ;
+    rdfs:label "deep six" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#defender> a owl:Class ;
+    rdfs:label "defender" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#defenderforaday> a owl:Class ;
+    rdfs:label "defender for a day" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#defenders> a owl:Class ;
+    rdfs:label "defenders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#defendersforaday> a owl:Class ;
+    rdfs:label "\"defenders for a day",
+        "defenders for a day" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#defendersimpersonators> a owl:Class ;
+    rdfs:label "defenders impersonators" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#demolitionmanandnomad> a owl:Class ;
+    rdfs:label "demolition-man and nomad" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#deo> a owl:Class ;
+    rdfs:label "d.e.o" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#departmenth> a owl:Class ;
+    rdfs:label "department h" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#departmentk> a owl:Class ;
+    rdfs:label "department k" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#devilsbrigade> a owl:Class ;
+    rdfs:label "devil's brigade" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#dictatorofnewportcity> a owl:Class ;
+    rdfs:label "dictator of new port city" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#directoroflasvegashydrafaction> a owl:Class ;
+    rdfs:label "director of las vegas hydra faction." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#discipleoftheancientone> a owl:Class ;
+    rdfs:label "disciple of the ancient one" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#divisionleaderofhydra> a owl:Class ;
+    rdfs:label "division leader of hydra" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#doctordoom> a owl:Class ;
+    rdfs:label "doctor doom" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#doctorfaustus> a owl:Class ;
+    rdfs:label "doctor faustus" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#donnatroy> a owl:Class ;
+    rdfs:label "donna troy" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#doompatrol> a owl:Class ;
+    rdfs:label "doom patrol" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#dormammu> a owl:Class ;
+    rdfs:label "dormammu" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#dpinc> a owl:Class ;
+    rdfs:label "dp inc." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#drdorcas> a owl:Class ;
+    rdfs:label "dr. dorcas" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#eddiefyers> a owl:Class ;
+    rdfs:label "eddie fyers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#ednamode> a owl:Class ;
+    rdfs:label "edna mode" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#eighthcircleofhell> a owl:Class ;
+    rdfs:label "eighth circle of hell" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#emissariesofevil> a owl:Class ;
+    rdfs:label "emissaries of evil" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#emmafrost> a owl:Class ;
+    rdfs:label "emma frost" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#employeeofjustinhammer> a owl:Class ;
+    rdfs:label "employee of justin hammer" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#employeeofkingpin> a owl:Class ;
+    rdfs:label "employee of kingpin" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#employeeofsabretooth> a owl:Class ;
+    rdfs:label "employee of sabretooth" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#employerofapocalypseshorsemen> a owl:Class ;
+    rdfs:label "employer of apocalypse's horsemen" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#employeroftheallianceofevil> a owl:Class ;
+    rdfs:label "employer of the alliance of evil" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#employeroftheenforcers> a owl:Class ;
+    rdfs:label "employer of the enforcers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#employeroftheterribletrio> a owl:Class ;
+    rdfs:label "employer of the terrible trio" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#empressofthesisterhood> a owl:Class ;
+    rdfs:label "empress of the sisterhood" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#enchantress> a owl:Class ;
+    rdfs:label "enchantress" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#ericslaughter> a owl:Class ;
+    rdfs:label "eric slaughter" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#eskimogods> a owl:Class ;
+    rdfs:label "eskimo gods" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#evildeadpoolcorps> a owl:Class ;
+    rdfs:label "evil deadpool corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#excalibur> a owl:Class ;
+    rdfs:label "excalibur" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#excelsior> a owl:Class ;
+    rdfs:label "excelsior" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#excelsiors> a owl:Class ;
+    rdfs:label "excelsiors" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#executioner> a owl:Class ;
+    rdfs:label "executioner" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#exemplars> a owl:Class ;
+    rdfs:label "exemplars" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#exiles> a owl:Class ;
+    rdfs:label "exiles" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#exterminators> a owl:Class ;
+    rdfs:label "exterminators" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#extinctionteam> a owl:Class ;
+    rdfs:label "extinction team" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#extremejustice> a owl:Class ;
+    rdfs:label "extreme justice" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#ezekielsims> a owl:Class ;
+    rdfs:label "ezekiel sims" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#factchannelnews> a owl:Class ;
+    rdfs:label "fact channel news" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#factorthree> a owl:Class ;
+    rdfs:label "factor three" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#falcon> a owl:Class ;
+    rdfs:label "falcon" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#fallenangels> a owl:Class ;
+    rdfs:label "fallen angels" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#fantasticforcefinancier> a owl:Class ;
+    rdfs:label "fantastic force financier" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#fantasticfour> a owl:Class ;
+    rdfs:label "fantastic four" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#fantasticfouravengerswestcoast> a owl:Class ;
+    rdfs:label "fantastic four avengers west coast" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#fbi> a owl:Class ;
+    rdfs:label "f.b.i." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#fearsomefoursome> a owl:Class ;
+    rdfs:label "fearsome foursome" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#federation> a owl:Class ;
+    rdfs:label "federation" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#femalefuries> a owl:Class ;
+    rdfs:label "female furies" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#femizons> a owl:Class ;
+    rdfs:label "femizons" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#fightingyanki> a owl:Class ;
+    rdfs:label "fighting yank i" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#firestormmatrix> a owl:Class ;
+    rdfs:label "firestorm matrix" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#firstcelestialchurchofthetriplefishgod> a owl:Class ;
+    rdfs:label "first celestial church of the triple fish-god" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#flashfamily> a owl:Class ;
+    rdfs:label "flash family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#forceworks> a owl:Class ;
+    rdfs:label "force works" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#forgesresistance> a owl:Class ;
+    rdfs:label "forge's resistance" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#forgottenheroes> a owl:Class ;
+    rdfs:label "forgotten heroes" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#forgottenvillains> a owl:Class ;
+    rdfs:label "forgotten villains" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formallyjusticeleague> a owl:Class ;
+    rdfs:label "formally justice league" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerallyunitedstatesmarinecorps> a owl:Class ;
+    rdfs:label "formerally united states marine corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerly> a owl:Class ;
+    rdfs:label "formerly" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyalaskanbasedinitiativeagent> a owl:Class ;
+    rdfs:label "formerly alaskan-based initiative agent" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyallstarsquadron> a owl:Class ;
+    rdfs:label "formerly all-star squadron" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyanimalmasters> a owl:Class ;
+    rdfs:label "formerly animal masters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlybatmanfamily> a owl:Class ;
+    rdfs:label "formerly batman family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyblacklanterncorps> a owl:Class ;
+    rdfs:label "formerly black lantern corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlybrotherhoodofmutants> a owl:Class ;
+    rdfs:label "formerly brotherhood of mutants" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlycarnagefamily> a owl:Class ;
+    rdfs:label "formerly carnage family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlycouncilofthree> a owl:Class ;
+    rdfs:label "formerly council of three" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlycrimebusters> a owl:Class ;
+    rdfs:label "formerly crimebusters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlydarkavengers> a owl:Class ;
+    rdfs:label "formerly dark avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlydarkriders> a owl:Class ;
+    rdfs:label "formerly dark riders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyexcalibur> a owl:Class ;
+    rdfs:label "formerly excalibur" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyfantasticfour> a owl:Class ;
+    rdfs:label "formerly fantastic four" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyfreedomforce> a owl:Class ;
+    rdfs:label "formerly freedom force" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlygatheringofthefive> a owl:Class ;
+    rdfs:label "formerly gathering of the five" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlygodsquad> a owl:Class ;
+    rdfs:label "formerly god squad" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyguardiansofthegalaxy> a owl:Class ;
+    rdfs:label "formerly guardians of the galaxy" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyheroesforhire> a owl:Class ;
+    rdfs:label "formerly heroes for hire" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyhorsemenofdeath> a owl:Class ;
+    rdfs:label "formerly horsemen of death" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyinjusticegang> a owl:Class ;
+    rdfs:label "formerly injustice gang" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyjusticeleagueofamerica> a owl:Class ;
+    rdfs:label "formerly justice league of america" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyjusticesocietyofamerica> a owl:Class ;
+    rdfs:label "formerly justice society of america" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlylaw> a owl:Class ;
+    rdfs:label "formerly l.a.w." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyleaderofthetimemasters> a owl:Class ;
+    rdfs:label "formerly leader of the time masters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlylegion> a owl:Class ;
+    rdfs:label "formerly legion" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyloners> a owl:Class ;
+    rdfs:label "formerly loners" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlymastersofevil> a owl:Class ;
+    rdfs:label "formerly masters of evil" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlymorlocks> a owl:Class ;
+    rdfs:label "formerly morlocks" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlynewavengers> a owl:Class ;
+    rdfs:label "formerly new avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlynewwarriors> a owl:Class ;
+    rdfs:label "formerly new warriors" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlynextwave> a owl:Class ;
+    rdfs:label "formerly nextwave" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlynoahvanhelsingsvampirehunters> a owl:Class ;
+    rdfs:label "formerly noah van helsing's vampire hunters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlynovacorps> a owl:Class ;
+    rdfs:label "formerly nova corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlypartnerofblackwidow> a owl:Class ;
+    rdfs:label "formerly: partner of black widow" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlypurplechildren> a owl:Class ;
+    rdfs:label "formerly purple children" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyrebels> a owl:Class ;
+    rdfs:label "formerly r.e.b.e.l.s." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlysecretavengers> a owl:Class ;
+    rdfs:label "formerly secret avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlysecretsocietyofsupervillains> a owl:Class ;
+    rdfs:label "formerly secret society of super-villains" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlysentinelsquadone> a owl:Class ;
+    rdfs:label "formerly: sentinel squad o*n*e" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlysinistertwelve> a owl:Class ;
+    rdfs:label "formerly sinister twelve" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyspiritsquad> a owl:Class ;
+    rdfs:label "formerly spirit squad" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlysuicidesquad> a owl:Class ;
+    rdfs:label "formerly suicide squad" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlythecouncilofkangs> a owl:Class ;
+    rdfs:label "formerly the council of kangs" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlythecrimebusters> a owl:Class ;
+    rdfs:label "formerly the crimebusters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlythequintets> a owl:Class ;
+    rdfs:label "formerly the quintets" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlythesecretsocietyofsupervillains> a owl:Class ;
+    rdfs:label "formerly the secret society of super villains" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlythesinistersix> a owl:Class ;
+    rdfs:label "formerly the sinister six" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlythunderbolts> a owl:Class ;
+    rdfs:label "formerly thunderbolts" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyunitedstatesarmy> a owl:Class ;
+    rdfs:label "formerly: united states army" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyusmarinecorps> a owl:Class ;
+    rdfs:label "formerly: us marine corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyutopians> a owl:Class ;
+    rdfs:label "formerly utopians" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyweaponx> a owl:Class ;
+    rdfs:label "formerly weapon x" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlywildpack> a owl:Class ;
+    rdfs:label "formerly wild pack" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyworthy> a owl:Class ;
+    rdfs:label "formerly worthy" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyxavierinstitutestudentbody> a owl:Class ;
+    rdfs:label "formerly: xavier institute student body" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyxhumed> a owl:Class ;
+    rdfs:label "formerly x-humed" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#formerlyxmen> a owl:Class ;
+    rdfs:label "formerly x-men",
+        "formerly: x-men" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#founderandleaderofthethirdbrotherhoodofevilmutants> a owl:Class ;
+    rdfs:label "founder and leader of the third brotherhood of evil mutants" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#foundingmemberofavengerswestcoastandfirstchairman> a owl:Class ;
+    rdfs:label "founding member of avengers west coast and first chairman" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#fourhorsemen> a owl:Class ;
+    rdfs:label "four horsemen" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#freedomfighters> a owl:Class ;
+    rdfs:label "freedom fighters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#freedomforce> a owl:Class ;
+    rdfs:label "freedom force" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#freelancerestorations> a owl:Class ;
+    rdfs:label "freelance restorations" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#frequentlyteamedwiththesecondflashandtheoriginalgreenarrow> a owl:Class ;
+    rdfs:label "frequently teamed with the second flash and the original green arrow" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#friendandallyofthefantasticfour> a owl:Class ;
+    rdfs:label "friend and ally of the fantastic four" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#frightfulfour> a owl:Class ;
+    rdfs:label "frightful four" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#frightfulfouragentoflokiandtheywhowieldpower> a owl:Class ;
+    rdfs:label "frightful four: agent of loki and they who wield power" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#frightfulfourandsinistertwelve> a owl:Class ;
+    rdfs:label "frightful four and sinister twelve" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#frontdelibrationduqubec> a owl:Class ;
+    rdfs:label "front de lib�ration du qu�bec" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#frostgiants> a owl:Class ;
+    rdfs:label "frost giants" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#frozone> a owl:Class ;
+    rdfs:label "frozone" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#futurefoundation> a owl:Class ;
+    rdfs:label "future foundation" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#futureironmansteam> a owl:Class ;
+    rdfs:label "future iron man's team" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#galacticcouncil> a owl:Class ;
+    rdfs:label "galactic council" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#galacticempire> a owl:Class ;
+    rdfs:label "galactic empire" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#galacticheroes> a owl:Class ;
+    rdfs:label "galactic heroes" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#galacticrepublic> a owl:Class ;
+    rdfs:label "galactic republic" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#gammaflight> a owl:Class ;
+    rdfs:label "gamma flight" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#genenation> a owl:Class ;
+    rdfs:label "gene nation" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#generationx> a owl:Class ;
+    rdfs:label "generation x" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#genoshancabinet> a owl:Class ;
+    rdfs:label "genoshan cabinet" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#genoshanexcalibur> a owl:Class ;
+    rdfs:label "genoshan excalibur" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#genoshanmagistrates> a owl:Class ;
+    rdfs:label "genoshan magistrates" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#genoshanmutates> a owl:Class ;
+    rdfs:label "genoshan mutates" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#gentek> a owl:Class ;
+    rdfs:label "gentek" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#ghost> a owl:Class ;
+    rdfs:label "ghost" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#giantsofjotunheim> a owl:Class ;
+    rdfs:label "giants of jotunheim" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#gladiators> a owl:Class ;
+    rdfs:label "gladiators" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#godsatasgard> a owl:Class ;
+    rdfs:label "gods at asgard" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#godsofasgard> a owl:Class ;
+    rdfs:label "gods of asgard" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#godsquad> a owl:Class ;
+    rdfs:label "god squad" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#goldengirl> a owl:Class ;
+    rdfs:label "golden girl" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#goodman> a owl:Class ;
+    rdfs:label "goodman" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#gothamcitypolicedepartment> a owl:Class ;
+    rdfs:label "gotham city police department" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#graces> a owl:Class ;
+    rdfs:label "graces" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#grapplers> a owl:Class ;
+    rdfs:label "grapplers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#greatlakesavengers> a owl:Class ;
+    rdfs:label "great lakes avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#greatlakesinitiative> a owl:Class ;
+    rdfs:label "great lakes initiative" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#greenarrowsoftheworld> a owl:Class ;
+    rdfs:label "green arrows of the world" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#greenberets> a owl:Class ;
+    rdfs:label "green berets" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#greenlanterncorps> a owl:Class ;
+    rdfs:label "green lantern corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#greenlanternhaljordan> a owl:Class ;
+    rdfs:label "green lantern hal jordan" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#grimreaperslethallegion> a owl:Class ;
+    rdfs:label "grim reaper's lethal legion" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#guardiansofthegalaxy> a owl:Class ;
+    rdfs:label "guardians of the galaxy" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#guardsmen> a owl:Class ;
+    rdfs:label "guardsmen" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#halocityprotectorate> a owl:Class ;
+    rdfs:label "halo city protectorate" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hammer> a owl:Class ;
+    rdfs:label "h.a.m.m.e.r." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hammerindustries> a owl:Class ;
+    rdfs:label "hammer industries" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hand> a owl:Class ;
+    rdfs:label "hand" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#handleader> a owl:Class ;
+    rdfs:label "hand leader." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#harleyquinn> a owl:Class ;
+    rdfs:label "harley quinn" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hasemployedtheavatars> a owl:Class ;
+    rdfs:label "has employed the avatars" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hawkanddove> a owl:Class ;
+    rdfs:label "hawk and dove" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hawkeye> a owl:Class ;
+    rdfs:label "hawkeye" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#headbangers> a owl:Class ;
+    rdfs:label "headbangers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#headofthegladiatorsandthecairosthievesquarter> a owl:Class ;
+    rdfs:label "head of the gladiators and the cairo�s thieves quarter" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#headofuniversalchurchoftruthinanalternatefuture> a owl:Class ;
+    rdfs:label "head of universal church of truth in an alternate future" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#heavyhitters> a owl:Class ;
+    rdfs:label "heavy hitters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#heavymettle> a owl:Class ;
+    rdfs:label "heavy mettle" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hela> a owl:Class ;
+    rdfs:label "hela" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hellfireclub> a owl:Class ;
+    rdfs:label "hellfire club" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hellfireclubinnercircle> a owl:Class ;
+    rdfs:label "hellfire club inner circle" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hellions> a owl:Class ;
+    rdfs:label "hellions" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hellionscontroller> a owl:Class ;
+    rdfs:label "hellions controller" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#helllords> a owl:Class ;
+    rdfs:label "hell-lords" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hellskitchenmob> a owl:Class ;
+    rdfs:label "hells kitchen mob" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#heraldsofgalactus> a owl:Class ;
+    rdfs:label "heralds of galactus" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#heroes> a owl:Class ;
+    rdfs:label "heroes" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#heroesforhire> a owl:Class ;
+    rdfs:label "heroes for hire" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hisownbandofcriminals> a owl:Class ;
+    rdfs:label "his own band of criminals" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#holliway> a owl:Class ;
+    rdfs:label "& holliway" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hoodsgang> a owl:Class ;
+    rdfs:label "hood's gang" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#horsemenofapocalypse> a owl:Class ;
+    rdfs:label "horsemen of apocalypse" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#howlingcommandos> a owl:Class ;
+    rdfs:label "howling commandos" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hulk> a owl:Class ;
+    rdfs:label "hulk" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hulkbustersofcounterearthfranklin> a owl:Class ;
+    rdfs:label "hulkbusters of counter-earth-franklin" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hulkfamily> a owl:Class ;
+    rdfs:label "hulk family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#hydra> a owl:Class ;
+    rdfs:label "hydra" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#igron> a owl:Class ;
+    rdfs:label "igron" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#illuminati> a owl:Class ;
+    rdfs:label "illuminati" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#imperialguard> a owl:Class ;
+    rdfs:label "imperial guard" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#inc> a owl:Class,
+        skos:Concept ;
+    rdfs:label "inc",
+        "inc." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group>,
+        <http://projet.fr/perso#Occupation> ;
+    skos:prefLabel "inc." .
+
+<http://projet.fr/perso#incrediblefamily> a owl:Class ;
+    rdfs:label "incredible family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#indigotribe> a owl:Class ;
+    rdfs:label "indigo tribe" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#infinity> a owl:Class ;
+    rdfs:label "infinity" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#infinitywatch> a owl:Class ;
+    rdfs:label "infinity watch" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#inhumanroyalfamily> a owl:Class ;
+    rdfs:label "inhuman royal family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#inhumans> a owl:Class ;
+    rdfs:label "inhumans" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#initiative> a owl:Class ;
+    rdfs:label "initiative" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#injusticegang> a owl:Class ;
+    rdfs:label "injustice gang" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#injusticeleague> a owl:Class ;
+    rdfs:label "injustice league" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#injusticesociety> a owl:Class ;
+    rdfs:label "injustice society" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#injusticeunlimited> a owl:Class ;
+    rdfs:label "injustice unlimited" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#inquisitor> a owl:Class ;
+    rdfs:label "inquisitor" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#instructorforgenerationx> a owl:Class ;
+    rdfs:label "instructor for generation x" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#invaders> a owl:Class ;
+    rdfs:label "invaders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#ivanpushkin> a owl:Class ;
+    rdfs:label "ivan pushkin" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#jasonwynn> a owl:Class ;
+    rdfs:label "jason wynn" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#jedihighcounsl> a owl:Class ;
+    rdfs:label "jedi high counsl" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#jediorder> a owl:Class ;
+    rdfs:label "jedi order" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#jla> a owl:Class ;
+    rdfs:label "jla" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#jokerleagueofanarchy> a owl:Class ;
+    rdfs:label "joker league of anarchy" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#jsareserves> a owl:Class ;
+    rdfs:label "jsa reserves" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justiceleague> a owl:Class ;
+    rdfs:label "justice league" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justiceleagueantarctica> a owl:Class ;
+    rdfs:label "justice league antarctica" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justiceleaguedark> a owl:Class ;
+    rdfs:label "justice league dark" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justiceleaguedetroit> a owl:Class ;
+    rdfs:label "justice league detroit" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justiceleagueelite> a owl:Class ;
+    rdfs:label "justice league elite" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justiceleagueeurope> a owl:Class ;
+    rdfs:label "justice league europe" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justiceleagueinternationa> a owl:Class ;
+    rdfs:label "justice league internationa" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justiceleagueinternational> a owl:Class ;
+    rdfs:label "justice league international" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justiceleagueofaliens> a owl:Class ;
+    rdfs:label "justice league of aliens" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justiceleagueofamazons> a owl:Class ;
+    rdfs:label "justice league of amazons" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justiceleagueofamerica> a owl:Class ;
+    rdfs:label "justice league of america" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justiceleagueofapostles> a owl:Class ;
+    rdfs:label "justice league of apostles" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justiceleaguereserve> a owl:Class ;
+    rdfs:label "justice league reserve" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justiceleaguetaskforce> a owl:Class ;
+    rdfs:label "justice league task force" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justiceleagueunlimited> a owl:Class ;
+    rdfs:label "justice league unlimited" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justicesocietyofamerica> a owl:Class ;
+    rdfs:label "justice society of america" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#justinhammershitsquad> a owl:Class ;
+    rdfs:label "justin hammer's hit squad" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#karnilla> a owl:Class ;
+    rdfs:label "karnilla" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#kentfamily> a owl:Class ;
+    rdfs:label "kent family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#keystonepolicedepartment> a owl:Class ;
+    rdfs:label "keystone police department" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#kgb> a owl:Class ;
+    rdfs:label "kgb" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#kidcommandos> a owl:Class ;
+    rdfs:label "kid commandos" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#kingrichardsarmy> a owl:Class ;
+    rdfs:label "king richard's army" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#knightsofpendragonsally> a owl:Class ;
+    rdfs:label "knights of pendragon's ally" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#knightsoftheatomictable> a owl:Class ;
+    rdfs:label "knights of the atomic table" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#knightsofwundagore> a owl:Class ;
+    rdfs:label "knights of wundagore" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#kryptonianscienceguild> a owl:Class ;
+    rdfs:label "kryptonian science guild" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#kurtzberg> a owl:Class ;
+    rdfs:label "kurtzberg" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#l> a owl:Class ;
+    rdfs:label "l" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#ladyliberators> a owl:Class ;
+    rdfs:label "lady liberators" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#lateramemberofthemarauders> a owl:Class ;
+    rdfs:label "later a member of the marauders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#law> a owl:Class ;
+    rdfs:label "l.a.w." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leaderofabandoffollowers> a owl:Class ;
+    rdfs:label "leader of a band of followers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leaderofacoalitionofeastcoastnonmaggiacriminalorganizations> a owl:Class ;
+    rdfs:label "leader of a coalition of east coast non-maggia criminal organizations" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leaderofamercenaryband> a owl:Class ;
+    rdfs:label "leader of a mercenary band" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leaderoffreehold> a owl:Class ;
+    rdfs:label "leader of freehold" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leaderofmostcurrentlyactivenazisubversivesthroughouttheworld> a owl:Class ;
+    rdfs:label "leader of most currently active nazi subversives throughout the world" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leaderofstarkenterprises> a owl:Class ;
+    rdfs:label "leader of stark enterprises" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leaderoftheacolytes> a owl:Class,
+        skos:Concept ;
+    rdfs:label "leader of the acolytes" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group>,
+        <http://projet.fr/perso#Occupation> ;
+    skos:prefLabel "leader of the acolytes" .
+
+<http://projet.fr/perso#leaderoftheallnewsinistersix> a owl:Class ;
+    rdfs:label "leader of the all-new sinister six" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leaderofthedarkavengers> a owl:Class ;
+    rdfs:label "leader of the dark avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leaderofthehand> a owl:Class ;
+    rdfs:label "leader of the hand" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leaderofthenevadabasedfragmentofhydra> a owl:Class ;
+    rdfs:label "leader of the nevada-based fragment of hydra" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leaderofthenewhulkbusters> a owl:Class ;
+    rdfs:label "leader of the new hulkbusters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leaderofthepeoplesmilitia> a owl:Class ;
+    rdfs:label "leader of the people's militia" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leaderofthesinistersixandthemastersofevilv> a owl:Class ;
+    rdfs:label "leader of the sinister six and the masters of evil v" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leaderofthesinistertwelve> a owl:Class ;
+    rdfs:label "leader of the sinister twelve" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leaderofthewildboys> a owl:Class ;
+    rdfs:label "leader of the wildboys" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leagueofassassins> a owl:Class ;
+    rdfs:label "league of assassins" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leagueofextraordinarygentlemen> a owl:Class ;
+    rdfs:label "league of extraordinary gentlemen" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leagueoflosers> a owl:Class ;
+    rdfs:label "league of losers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#legion> a owl:Class ;
+    rdfs:label "l.e.g.i.o.n." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#legionofdoom> a owl:Class ;
+    rdfs:label "legion of doom" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#legionofmonsters> a owl:Class ;
+    rdfs:label "legion of monsters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#legionofsuperheroes> a owl:Class ;
+    rdfs:label "legion of super-heroes" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#legionofsupervillains> a owl:Class ;
+    rdfs:label "legion of super-villains" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#legionofthenight> a owl:Class ;
+    rdfs:label "legion of the night" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#legionoftheunliving> a owl:Class ;
+    rdfs:label "legion of the unliving" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#lethallegion> a owl:Class ;
+    rdfs:label "lethal legion" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#lexcorp> a owl:Class ;
+    rdfs:label "lexcorp" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#lexluthor> a owl:Class ;
+    rdfs:label "lex luthor" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#leymen> a owl:Class ;
+    rdfs:label "leymen" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#liaisontomi5> a owl:Class ;
+    rdfs:label "liaison to mi-5" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#libertyleague> a owl:Class ;
+    rdfs:label "liberty league" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#libertylegion> a owl:Class ;
+    rdfs:label "liberty legion" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#lieber> a owl:Class ;
+    rdfs:label "lieber" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#lighterthanairsociety> a owl:Class ;
+    rdfs:label "lighter than air society" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#lights> a owl:Class ;
+    rdfs:label "lights" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#lilin> a owl:Class ;
+    rdfs:label "lilin" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#livingassaultweapons> a owl:Class ;
+    rdfs:label "living assault weapons" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#livinglaser> a owl:Class ;
+    rdfs:label "living laser" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#lizsherman> a owl:Class ;
+    rdfs:label "liz sherman" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#lobsterjohnson> a owl:Class ;
+    rdfs:label "lobster johnson" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#logan> a owl:Class ;
+    rdfs:label "logan" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#loki> a owl:Class ;
+    rdfs:label "loki" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#longtimeallyofnamor> a owl:Class ;
+    rdfs:label "long-time ally of namor" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#lordscardinalofthehellfireclub> a owl:Class ;
+    rdfs:label "lords cardinal of the hellfire club" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#lordsofthenetherworlds> a owl:Class ;
+    rdfs:label "lords of the netherworlds" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#lordsofthesplinterrealms> a owl:Class ;
+    rdfs:label "lords of the splinter realms" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#lorelei> a owl:Class ;
+    rdfs:label "lorelei" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#loverofpaibok> a owl:Class ;
+    rdfs:label "lover of paibok" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#lukecage> a owl:Class ;
+    rdfs:label "luke cage" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#maddog> a owl:Class ;
+    rdfs:label "mad dog" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#mafia> a owl:Class ;
+    rdfs:label "mafia" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#maggia> a owl:Class ;
+    rdfs:label "maggia" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#magnetosarmy> a owl:Class ;
+    rdfs:label "magneto's army" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#magnumforce> a owl:Class ;
+    rdfs:label "magnum force" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#magusdoppelgangers> a owl:Class ;
+    rdfs:label "magus' doppelgangers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#mandarinsminions> a owl:Class ;
+    rdfs:label "mandarin's minions" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#manhunters> a owl:Class ;
+    rdfs:label "manhunters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#manipulatorofthesixfingeredhand> a owl:Class ;
+    rdfs:label "manipulator of the six-fingered hand" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#marauders> a owl:Class ;
+    rdfs:label "marauders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#maraudersformerly> a owl:Class ;
+    rdfs:label "marauders formerly" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#martians> a owl:Class ;
+    rdfs:label "martians" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#marvelfamily> a owl:Class ;
+    rdfs:label "marvel family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#marvelknights> a owl:Class ;
+    rdfs:label "\"marvel knights\"",
+        "marvel knights" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#maryjanes> a owl:Class ;
+    rdfs:label "mary janes" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#mastersofevil> a owl:Class ;
+    rdfs:label "masters of evil" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#maximumcarnage> a owl:Class ;
+    rdfs:label "maximum carnage:" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberofdefenders> a owl:Class ;
+    rdfs:label "member of defenders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberofnovacorps> a owl:Class ;
+    rdfs:label "member of nova corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberofoutlaws> a owl:Class ;
+    rdfs:label "member of outlaws" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberofshield> a owl:Class,
+        skos:Concept ;
+    rdfs:label "member of s.h.i.e.l.d." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group>,
+        <http://projet.fr/perso#Occupation> ;
+    skos:prefLabel "member of s.h.i.e.l.d." .
+
+<http://projet.fr/perso#memberofstarshipcrew> a owl:Class ;
+    rdfs:label "member of starship crew" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberoftheavengers> a owl:Class ;
+    rdfs:label "member of the avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberofthecia> a owl:Class ;
+    rdfs:label "member of the cia" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberofthecrewoftheandromedastarship> a owl:Class ;
+    rdfs:label "member of the crew of the andromeda starship" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberoftheeastcoastavengers> a owl:Class ;
+    rdfs:label "member of the east coast avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberofthefantasticfour> a owl:Class,
+        skos:Concept ;
+    rdfs:label "member of the fantastic four" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group>,
+        <http://projet.fr/perso#Occupation> ;
+    skos:prefLabel "member of the fantastic four" .
+
+<http://projet.fr/perso#memberofthefemmeforce> a owl:Class ;
+    rdfs:label "member of the femme force" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberoftheforgottenheroes> a owl:Class ;
+    rdfs:label "member of the forgotten heroes" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberofthejsa> a owl:Class ;
+    rdfs:label "member of the jsa" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberofthekryptoniandefensecouncil> a owl:Class ;
+    rdfs:label "member of the kryptonian defense council" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberofthelinearmen> a owl:Class ;
+    rdfs:label "member of the linear men" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberofthemastersofevil> a owl:Class ;
+    rdfs:label "member of the masters of evil" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberoftheorganizationforecologicalsanitymemberofthesecretsocietyofsupervillains> a owl:Class ;
+    rdfs:label "member of the organization for ecological sanity · member of the secret society of super-villains" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberoftheoriginaldoompatrol> a owl:Class ;
+    rdfs:label "member of the original doom patrol" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberofthesavagelandmutates> a owl:Class ;
+    rdfs:label "member of the savage land mutates" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberofthestarjammers> a owl:Class ;
+    rdfs:label "member of the starjammers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberofthestarmasters> a owl:Class ;
+    rdfs:label "member of the star masters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#memberofxmen> a owl:Class ;
+    rdfs:label "member of x-men" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#mi13> a owl:Class ;
+    rdfs:label "mi-13" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#mi5> a owl:Class ;
+    rdfs:label "mi-5" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#mi6> a owl:Class ;
+    rdfs:label "mi-6",
+        "mi6" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#miadearden> a owl:Class ;
+    rdfs:label "mia dearden" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#midnightsons> a owl:Class ;
+    rdfs:label "midnight sons" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#mightyavengers> a owl:Class ;
+    rdfs:label "mighty avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#minionofthanos> a owl:Class ;
+    rdfs:label "minion of thanos" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#minutemen> a owl:Class ;
+    rdfs:label "minutemen" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#mirage> a owl:Class ;
+    rdfs:label "mirage" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#misfits> a owl:Class ;
+    rdfs:label "misfits" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#misterhyde> a owl:Class ;
+    rdfs:label "mister hyde" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#mistykilgore> a owl:Class ;
+    rdfs:label "misty kilgore" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#mistyknight> a owl:Class ;
+    rdfs:label "misty knight" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#mlf> a owl:Class ;
+    rdfs:label "mlf" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#mojoverserebellion> a owl:Class ;
+    rdfs:label "mojoverse rebellion" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#moleculeman> a owl:Class ;
+    rdfs:label "molecule man" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#monarchsarmy> a owl:Class ;
+    rdfs:label "monarch's army" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#monsterhunters> a owl:Class ;
+    rdfs:label "monster hunters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#morlocks> a owl:Class ;
+    rdfs:label "morlocks" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#muirislandxmen> a owl:Class ;
+    rdfs:label "muir island x-men" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#murdercircus> a owl:Class ;
+    rdfs:label "murder circus" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#mutantessansfrontires> a owl:Class ;
+    rdfs:label "mutantes sans fronti�res" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#mutantliberationfront> a owl:Class ;
+    rdfs:label "mutant liberation front" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#mysterio> a owl:Class ;
+    rdfs:label "mysterio" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#namorsdeepsix> a owl:Class ;
+    rdfs:label "namor's deep six" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#nasa> a owl:Class ;
+    rdfs:label "n.a.s.a",
+        "nasa" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#nastyboys> a owl:Class ;
+    rdfs:label "nasty boys" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#nationalsupersagency> a owl:Class ;
+    rdfs:label "national supers agency" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#navy> a owl:Class ;
+    rdfs:label "navy" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#naziparty> a owl:Class ;
+    rdfs:label "nazi party" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#newavengers> a owl:Class ;
+    rdfs:label "new avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#newcanaanites> a owl:Class ;
+    rdfs:label "new canaanites" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#newenforcers> a owl:Class ;
+    rdfs:label "new enforcers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#newgods> a owl:Class ;
+    rdfs:label "new gods" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#newgodsofapokolips> a owl:Class ;
+    rdfs:label "new gods of apokolips" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#newguardians> a owl:Class ;
+    rdfs:label "new guardians" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#newinhumanelite> a owl:Class ;
+    rdfs:label "new inhuman elite" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#newjediorder> a owl:Class ;
+    rdfs:label "new jedi order" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#newmutants> a owl:Class ;
+    rdfs:label "new mutants" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#newrepublic> a owl:Class ;
+    rdfs:label "new republic" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#newteentitans> a owl:Class ;
+    rdfs:label "new teen titans" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#newwarriors> a owl:Class ;
+    rdfs:label "new warriors" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#newwarriorsreservist> a owl:Class ;
+    rdfs:label "new warriors reservist" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#newworldorder> a owl:Class ;
+    rdfs:label "new world order" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#newxmen> a owl:Class ;
+    rdfs:label "new x-men" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#nextwave> a owl:Class ;
+    rdfs:label "nextwave" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#nickfury> a owl:Class ;
+    rdfs:label "nick fury" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#nightstalkers> a owl:Class ;
+    rdfs:label "nightstalkers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#nightwingrestorations> a owl:Class ;
+    rdfs:label "nightwing restorations" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#noknowngroupaffiliation> a owl:Class ;
+    rdfs:label "no known group affiliation" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#none> a owl:Class ;
+    rdfs:label "none" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#novacorpsformelyunitedfront> a owl:Class ;
+    rdfs:label "nova corps formely united front" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#nowknownasfreedomforce> a owl:Class ;
+    rdfs:label "now known as freedom force" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#nypd> a owl:Class ;
+    rdfs:label "nypd" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#oasis> a owl:Class ;
+    rdfs:label "oasis" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#offenders> a owl:Class ;
+    rdfs:label "offenders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#officeofnationalemergency> a owl:Class ;
+    rdfs:label "office of national emergency" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#ogunstrongsvampirehunters> a owl:Class ;
+    rdfs:label "ogun strong's vampire hunters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#olympiacorp> a owl:Class ;
+    rdfs:label "olympia corp." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#olympiangods> a owl:Class ;
+    rdfs:label "olympian gods" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#olympicpantheon> a owl:Class ;
+    rdfs:label "olympic pantheon" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#omegaflight> a owl:Class ;
+    rdfs:label "omega flight" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#omegamen> a owl:Class ;
+    rdfs:label "omega men" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#oneworldchurch> a owl:Class ;
+    rdfs:label "one world church" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#operativeofdemogoblin> a owl:Class ;
+    rdfs:label "operative of demogoblin" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#operativeofthecommissiononsuperhumanactivities> a owl:Class ;
+    rdfs:label "operative of the commission on superhuman activities" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#oracleinc> a owl:Class ;
+    rdfs:label "oracle inc." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#order> a owl:Class ;
+    rdfs:label "order" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#orderofstdumas> a owl:Class ;
+    rdfs:label "order of st. dumas" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#osbornsavengers> a owl:Class ;
+    rdfs:label "osborn's avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#osbornscabal> a owl:Class ;
+    rdfs:label "osborn's cabal" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#osbornsxmen> a owl:Class ;
+    rdfs:label "osborn's x-men" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#oss> a owl:Class ;
+    rdfs:label "o.s.s." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#others> a owl:Class,
+        skos:Concept ;
+    rdfs:label "others" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group>,
+        <http://projet.fr/perso#Occupation> ;
+    skos:prefLabel "others" .
+
+<http://projet.fr/perso#outercircleofenforcersii> a owl:Class ;
+    rdfs:label "outer circle of enforcers ii" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#outsiders> a owl:Class ;
+    rdfs:label "outsiders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#outsidersandteentitans> a owl:Class ;
+    rdfs:label "outsiders and teen titans." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#painkillerjane> a owl:Class ;
+    rdfs:label "painkiller jane" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#paladinssquad> a owl:Class ;
+    rdfs:label "paladins squad" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#pantheon> a owl:Class ;
+    rdfs:label "pantheon" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#parliamentofvapors> a owl:Class ;
+    rdfs:label "parliament of vapors" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofbatzarro> a owl:Class ;
+    rdfs:label "partner of batzarro" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofblacklashandmelter> a owl:Class ;
+    rdfs:label "partner of blacklash and melter" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofblackout> a owl:Class ;
+    rdfs:label "partner of blackout" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofbucky> a owl:Class ;
+    rdfs:label "partner of bucky" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofcaptainamerica> a owl:Class ;
+    rdfs:label "partner of captain america" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofcaptainuk> a owl:Class ;
+    rdfs:label "partner of captain u.k." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofcitizenvandswordsman> a owl:Class ;
+    rdfs:label "partner of citizen v  and swordsman" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofdaredevil> a owl:Class ;
+    rdfs:label "partner of daredevil" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofdaredevilanddeadpool> a owl:Class ;
+    rdfs:label "partner of daredevil and deadpool" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofelectro> a owl:Class ;
+    rdfs:label "partner of electro" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partneroffirestar> a owl:Class ;
+    rdfs:label "partner of firestar" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofgreengoblin> a owl:Class ;
+    rdfs:label "partner of green goblin" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofhawkeye> a owl:Class ;
+    rdfs:label "partner of hawkeye" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofjeanpaulduchamp> a owl:Class ;
+    rdfs:label "partner of jean-paul du champ" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofkatherinekane> a owl:Class ;
+    rdfs:label "partner of katherine kane" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofmendellstromm> a owl:Class ;
+    rdfs:label "partner of mendell stromm" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofmidnight> a owl:Class ;
+    rdfs:label "partner of midnight" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofnamor> a owl:Class ;
+    rdfs:label "partner of namor" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofnastirh> a owl:Class ;
+    rdfs:label "partner of n'astirh" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofnomad> a owl:Class ;
+    rdfs:label "partner of nomad" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofraoulbushman> a owl:Class ;
+    rdfs:label "partner of raoul bushman" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofredwing> a owl:Class ;
+    rdfs:label "partner of redwing" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofscout> a owl:Class ;
+    rdfs:label "partner of scout" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofship> a owl:Class ;
+    rdfs:label "partner of ship" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofspiderman> a owl:Class ;
+    rdfs:label "partner of spider-man" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partneroftheblackwidow> a owl:Class ;
+    rdfs:label "partner of the black widow" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofthehulk> a owl:Class ;
+    rdfs:label "partner of the hulk" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofunus> a owl:Class ;
+    rdfs:label "partner of unus" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofusagent> a owl:Class ;
+    rdfs:label "partner of u.s.agent" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerofvengeance> a owl:Class ;
+    rdfs:label "partner of vengeance" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#partnerswithmisterhydeanddelilah> a owl:Class ;
+    rdfs:label "partners with mister hyde and delilah" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#pawnofdoctorvault> a owl:Class ;
+    rdfs:label "pawn of doctor vault" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#pawnsofdeath> a owl:Class ;
+    rdfs:label "pawns of death" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#pendragons> a owl:Class ;
+    rdfs:label "pendragons" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#phalanx> a owl:Class ;
+    rdfs:label "phalanx" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#phalanxsselects> a owl:Class ;
+    rdfs:label "phalanx's selects" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#phantomzonecriminals> a owl:Class ;
+    rdfs:label "phantom zone criminals" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#phoenixfive> a owl:Class ;
+    rdfs:label "phoenix five" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#poisonivy> a owl:Class ;
+    rdfs:label "poison ivy" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#posse> a owl:Class ;
+    rdfs:label "posse" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#possiblyheraldsofgalactus> a owl:Class ;
+    rdfs:label "possibly heralds of galactus" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#powercompany> a owl:Class ;
+    rdfs:label "power company" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#powerman> a owl:Class ;
+    rdfs:label "power man" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#presidentialcabinet> a owl:Class ;
+    rdfs:label "presidential cabinet" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#primalforce> a owl:Class ;
+    rdfs:label "primal force" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#projectalphamech> a owl:Class ;
+    rdfs:label "project: alpha-mech" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#projectcadmus> a owl:Class ;
+    rdfs:label "project cadmus" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#projectpegasus> a owl:Class ;
+    rdfs:label "project: pegasus" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#proregistrationforces> a owl:Class ;
+    rdfs:label "pro-registration forces" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#provisionalmemberoftheavengerswestcoast> a owl:Class ;
+    rdfs:label "provisional member of the avengers west coast" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#purpleman> a owl:Class ;
+    rdfs:label "purple man" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#queensvengeance> a owl:Class ;
+    rdfs:label "queen's vengeance",
+        "queen�s vengeance" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#quentincarnivalmidnightsons> a owl:Class ;
+    rdfs:label "quentin carnival midnight sons" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#quincyharkersvampirehunters> a owl:Class ;
+    rdfs:label "quincy harker's vampire hunters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#ravencroftinsitutestaff> a owl:Class ;
+    rdfs:label "ravencroft insitute staff" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#ravers> a owl:Class ;
+    rdfs:label "ravers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#reavers> a owl:Class ;
+    rdfs:label "reavers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#rebelforcesonhishomeworld> a owl:Class ;
+    rdfs:label "rebel forces on his homeworld" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#rebels> a owl:Class ;
+    rdfs:label "r.e.b.e.l.s." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#redeemers> a owl:Class ;
+    rdfs:label "redeemers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#redlanterncorps> a owl:Class ;
+    rdfs:label "red lantern corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#redmafia> a owl:Class ;
+    rdfs:label "red mafia" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#rejects> a owl:Class ;
+    rdfs:label "rejects" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#renegades> a owl:Class ;
+    rdfs:label "renegades" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#reservememberoftheavengers> a owl:Class ;
+    rdfs:label "reserve member of the avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#reservememberofthejusticeleagueofamerica> a owl:Class ;
+    rdfs:label "reserve member of the justice league of america" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#resistence> a owl:Class ;
+    rdfs:label "resistence" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#revengers> a owl:Class ;
+    rdfs:label "revengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#rickjones> a owl:Class ;
+    rdfs:label "rick jones" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#roche> a owl:Class ;
+    rdfs:label "roche" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#rogerthehomunculus> a owl:Class ;
+    rdfs:label "roger the homunculus" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#rogues> a owl:Class ;
+    rdfs:label "rogues" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#royalcanadianmountedpolice> a owl:Class ;
+    rdfs:label "royal canadian mounted police" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#royalguard> a owl:Class ;
+    rdfs:label "royal guard" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#royalnavy> a owl:Class ;
+    rdfs:label "royal navy" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#rulerofthespartoiempire> a owl:Class ;
+    rdfs:label "ruler of the spartoi empire" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#saiyajin> a owl:Class ;
+    rdfs:label "saiyajin" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sandman> a owl:Class ;
+    rdfs:label "sandman" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sapphirestyx> a owl:Class ;
+    rdfs:label "sapphire styx" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#savagedragon> a owl:Class ;
+    rdfs:label "savage dragon" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#savagesix> a owl:Class ;
+    rdfs:label "savage six" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#scarletspidervolunteeratfeast> a owl:Class ;
+    rdfs:label "scarlet spider. volunteer at f.e.a.s.t." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#scoobygang> a owl:Class ;
+    rdfs:label "scooby gang" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#secretavengers> a owl:Class ;
+    rdfs:label "secret avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#secretdefenders> a owl:Class ;
+    rdfs:label "secret defenders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#secretdefenderstheredeemers> a owl:Class ;
+    rdfs:label "secret defenders the redeemers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#secretintelligenceservice> a owl:Class ;
+    rdfs:label "secret intelligence service" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#secretsix> a owl:Class ;
+    rdfs:label "secret six" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#secretsociety> a owl:Class ;
+    rdfs:label "secret society" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#secretsocietyofsupervillains> a owl:Class ;
+    rdfs:label "secret society of super villains",
+        "secret society of super-villains",
+        "secret society of supervillains" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#securityrecon> a owl:Class ;
+    rdfs:label "security recon" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#selectsofthephalanx> a owl:Class ;
+    rdfs:label "selects of the phalanx" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#selenesinnercircle> a owl:Class ;
+    rdfs:label "selene's inner circle" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sentinelsofmagic> a owl:Class ;
+    rdfs:label "sentinels of magic" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#serpentsociety> a owl:Class ;
+    rdfs:label "serpent society" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#serpentsquad> a owl:Class ;
+    rdfs:label "serpent squad" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#servantofahab> a owl:Class ;
+    rdfs:label "servant of ahab" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#servantofeliasbogan> a owl:Class ;
+    rdfs:label "servant of elias bogan" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#servantofstryfe> a owl:Class ;
+    rdfs:label "servant of stryfe" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sevenbridesofset> a owl:Class ;
+    rdfs:label "seven brides of set" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sevensoldiersofvictory> a owl:Class ;
+    rdfs:label "seven soldiers of victory" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#shado> a owl:Class ;
+    rdfs:label "shado" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#shadowcabinet> a owl:Class ;
+    rdfs:label "shadow cabinet" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#shadowdemons> a owl:Class ;
+    rdfs:label "shadow demons" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#shadowmob> a owl:Class ;
+    rdfs:label "shadow mob" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#shadowpact> a owl:Class ;
+    rdfs:label "shadowpact" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#shadows> a owl:Class ;
+    rdfs:label "shadows" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sharesbodywithagentpreston> a owl:Class ;
+    rdfs:label "shares body with agent preston" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#shiararmyelitecorpsimperialguardcitationneeded> a owl:Class ;
+    rdfs:label "shi'ar army elite corps & imperial guard[citation needed]" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#shield> a owl:Class ;
+    rdfs:label "s.h.i.e.l.d.",
+        "shield" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#shielddeltiteconspiracy> a owl:Class ;
+    rdfs:label "s.h.i.e.l.d. deltite conspiracy" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#shieldsuperagents> a owl:Class ;
+    rdfs:label "s.h.i.e.l.d. super-agents" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#shoc> a owl:Class ;
+    rdfs:label "shoc" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sifan> a owl:Class ;
+    rdfs:label "si-fan" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sinestrocorps> a owl:Class ;
+    rdfs:label "sinestro corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sinisterseven> a owl:Class ;
+    rdfs:label "sinister seven" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sinistersix> a owl:Class ;
+    rdfs:label "sinister six" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sinistersixemissariesofevil> a owl:Class ;
+    rdfs:label "sinister six emissaries of evil" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sinistersyndicate> a owl:Class ;
+    rdfs:label "sinister syndicate" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sinistertwelve> a owl:Class ;
+    rdfs:label "sinister twelve" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sith> a owl:Class ;
+    rdfs:label "sith" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#six> a owl:Class ;
+    rdfs:label "six" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sixpack> a owl:Class ;
+    rdfs:label "six pack" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#skeletoncrew> a owl:Class ;
+    rdfs:label "skeleton crew" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#skurgetheexecutioner> a owl:Class ;
+    rdfs:label "skurge the executioner" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#skynet> a owl:Class ;
+    rdfs:label "skynet" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#slaughterlords> a owl:Class ;
+    rdfs:label "slaughter lords" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#slayerarmy> a owl:Class ;
+    rdfs:label "slayer army" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#smash> a owl:Class ;
+    rdfs:label "smash" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#snugporter> a owl:Class ;
+    rdfs:label "snug porter" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#societyofsupervillains> a owl:Class ;
+    rdfs:label "society of supervillains" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#societyofvillains> a owl:Class ;
+    rdfs:label "society of villains" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#soldiersofmisfortune> a owl:Class ;
+    rdfs:label "soldiers of misfortune" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sometimeallyofblastaar> a owl:Class ;
+    rdfs:label "sometime ally of blastaar" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sonfamily> a owl:Class ;
+    rdfs:label "son family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sonsofyinsen> a owl:Class ;
+    rdfs:label "sons of yinsen" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sovereignseven> a owl:Class ;
+    rdfs:label "sovereign seven" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sovietsupersoldiers> a owl:Class ;
+    rdfs:label "soviet super soldiers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#specialclass> a owl:Class ;
+    rdfs:label "special class" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#specialoperationsstrikeforce> a owl:Class ;
+    rdfs:label "special operations strikeforce" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#specialoperativeinthegovernmentofgermanysthirdreich> a owl:Class ;
+    rdfs:label "special operative in the government of germany's third reich" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#spiderarmy> a owl:Class ;
+    rdfs:label "spider-army" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#spiderman> a owl:Class ;
+    rdfs:label "spider-man" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#spidermanrevengeleague> a owl:Class ;
+    rdfs:label "\"spider-man revenge league\"" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#spiritsquad> a owl:Class ;
+    rdfs:label "spirit squad" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#squadronsupreme> a owl:Class ;
+    rdfs:label "squadron supreme" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#staneinternational> a owl:Class ;
+    rdfs:label "stane international" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#starfleet> a owl:Class ;
+    rdfs:label "starfleet" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#starjammers> a owl:Class ;
+    rdfs:label "starjammers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#starkenterprises> a owl:Class ;
+    rdfs:label "stark enterprises" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#starkindustries> a owl:Class ;
+    rdfs:label "stark industries" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#starkresilient> a owl:Class ;
+    rdfs:label "stark resilient" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#starkwest> a owl:Class ;
+    rdfs:label "stark west" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#starlabs> a owl:Class ;
+    rdfs:label "s.t.a.r. labs" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#starlordsunnamedcommandoteam> a owl:Class ;
+    rdfs:label "star-lord's unnamed commando team" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#starman> a owl:Class ;
+    rdfs:label "starman" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#starmasters> a owl:Class ;
+    rdfs:label "star masters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#stormgiants> a owl:Class ;
+    rdfs:label "storm giants" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#stryfe> a owl:Class ;
+    rdfs:label "stryfe" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#suicidesquad> a owl:Class ;
+    rdfs:label "suicide squad" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sungirl> a owl:Class ;
+    rdfs:label "sun girl" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#superbuddies> a owl:Class ;
+    rdfs:label "super buddies" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#superman> a owl:Class ;
+    rdfs:label "superman" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#supermanfamily> a owl:Class ;
+    rdfs:label "superman family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#supermanrevengesquad> a owl:Class ;
+    rdfs:label "superman revenge squad" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#supermenofamerica> a owl:Class ;
+    rdfs:label "supermen of america" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#sword> a owl:Class ;
+    rdfs:label "s.w.o.r.d." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#swordsman> a owl:Class ;
+    rdfs:label "swordsman" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#syndicate> a owl:Class ;
+    rdfs:label "syndicate" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#tartarus> a owl:Class ;
+    rdfs:label "tartarus" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#taskforcex> a owl:Class ;
+    rdfs:label "task force x" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#taskmasterscircus> a owl:Class ;
+    rdfs:label "taskmaster's circus" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#teacherofthenewmutants> a owl:Class ;
+    rdfs:label "teacher of the new mutants" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#team7> a owl:Class ;
+    rdfs:label "team 7" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#teamarrow> a owl:Class ;
+    rdfs:label "team arrow" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#teamdeadpool> a owl:Class ;
+    rdfs:label "team deadpool" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#teamepic> a owl:Class ;
+    rdfs:label "team epic" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#teamsuperman> a owl:Class ;
+    rdfs:label "team superman" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#teamvalkyrie> a owl:Class ;
+    rdfs:label "team valkyrie" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#teamweaponx> a owl:Class ;
+    rdfs:label "team_weapon_x" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#teamx> a owl:Class ;
+    rdfs:label "team x" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#teenbrigade> a owl:Class ;
+    rdfs:label "teen brigade" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#teentitans> a owl:Class ;
+    rdfs:label "teen titans" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#temporarilyxmenwhilecontrolledbyjeangrey> a owl:Class ;
+    rdfs:label "temporarily x-men while controlled by jean grey" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#temporarypartnerofagentvenom> a owl:Class ;
+    rdfs:label "temporary partner of agent venom" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theagenda> a owl:Class ;
+    rdfs:label "the agenda" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theallstarsquadronandthefreedomfighters> a owl:Class ;
+    rdfs:label "the all-star squadron and the freedom fighters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theavengers> a owl:Class ;
+    rdfs:label "the avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thebatmanfamily> a owl:Class ;
+    rdfs:label "the batman family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thebirdsofprey> a owl:Class ;
+    rdfs:label "the birds of prey" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theblackmarvelfamily> a owl:Class ;
+    rdfs:label "the black marvel family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thecabal> a owl:Class ;
+    rdfs:label "the cabal" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thecanadianshieldalliance> a owl:Class ;
+    rdfs:label "the canadian shield alliance" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thechampions> a owl:Class ;
+    rdfs:label "the champions" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thecorporation> a owl:Class ;
+    rdfs:label "the corporation" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thecostacrimefamily> a owl:Class ;
+    rdfs:label "the costa crime family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theenforcers> a owl:Class ;
+    rdfs:label "the enforcers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theexterminators> a owl:Class ;
+    rdfs:label "the exterminators" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thefacility> a owl:Class ;
+    rdfs:label "the facility" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thefbi> a owl:Class ;
+    rdfs:label "the fbi" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theflight> a owl:Class ;
+    rdfs:label "the flight" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thefourqueens> a owl:Class ;
+    rdfs:label "the four queens" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thefrightfulfour> a owl:Class ;
+    rdfs:label "the frightful four" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thegeneral> a owl:Class ;
+    rdfs:label "the general" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thegodsofasgard> a owl:Class ;
+    rdfs:label "the gods of asgard" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thegoon> a owl:Class ;
+    rdfs:label "the goon" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theguardianvillainsward> a owl:Class ;
+    rdfs:label "the guardian villain�s ward" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theinfected> a owl:Class ;
+    rdfs:label "the infected" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theinitiative> a owl:Class ;
+    rdfs:label "the initiative" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theinjusticeleague> a owl:Class ;
+    rdfs:label "the injustice league" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theinnercircleofthehellfireclub> a owl:Class ;
+    rdfs:label "the inner circle of the hellfire club" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theinvaders> a owl:Class ;
+    rdfs:label "the invaders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thejoker> a owl:Class ;
+    rdfs:label "the joker" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thejusticeleagueofamerica> a owl:Class ;
+    rdfs:label "the justice league of america" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thelaw> a owl:Class ;
+    rdfs:label "the l.a.w." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thelegionofdoom> a owl:Class ;
+    rdfs:label "the legion of doom" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thelegionofsuperheroes> a owl:Class ;
+    rdfs:label "the legion of super-heroes" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theloners> a owl:Class ;
+    rdfs:label "the loners" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#themaggiacrimefamily> a owl:Class ;
+    rdfs:label "the maggia crime family" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#themyscira> a owl:Class ;
+    rdfs:label "themyscira" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thenetwork> a owl:Class ;
+    rdfs:label "the network" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thenewguardians> a owl:Class ;
+    rdfs:label "the new guardians" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thenewtitans> a owl:Class ;
+    rdfs:label "the new titans" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thenine> a owl:Class ;
+    rdfs:label "the nine" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theorder> a owl:Class ;
+    rdfs:label "the order" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theoutlawsandthewildpack> a owl:Class ;
+    rdfs:label "the outlaws and the wild pack" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theoutsiders> a owl:Class ;
+    rdfs:label "the outsiders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theparliamentofworlds> a owl:Class ;
+    rdfs:label "the parliament of worlds" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theplaneteers> a owl:Class ;
+    rdfs:label "the planeteers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thepresence> a owl:Class ;
+    rdfs:label "the presence" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theproregistrationsuperherounit> a owl:Class ;
+    rdfs:label "the pro-registration superhero unit" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#therangers> a owl:Class ;
+    rdfs:label "the rangers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thesecretavengers> a owl:Class ;
+    rdfs:label "the secret avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thesecretsocietyofsupervillains> a owl:Class ;
+    rdfs:label "the secret society of super villains" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thesentinelsofmagic> a owl:Class ;
+    rdfs:label "the sentinels of magic" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thesinistersix> a owl:Class ;
+    rdfs:label "the sinister six" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thesociety> a owl:Class ;
+    rdfs:label "the society" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theteentitans> a owl:Class ;
+    rdfs:label "the teen titans" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thetitansandtheoutsiders> a owl:Class ;
+    rdfs:label "the titans and the outsiders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thetwelve> a owl:Class ;
+    rdfs:label "the twelve" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#theunderground> a owl:Class ;
+    rdfs:label "the underground" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thewanderers> a owl:Class ;
+    rdfs:label "the wanderers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thewatchers> a owl:Class ;
+    rdfs:label "the watchers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thewestcoastavengers> a owl:Class ;
+    rdfs:label "the west coast avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thievesunifiedguildsofneworleans> a owl:Class ;
+    rdfs:label "thieves & unified guild's of new orleans" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thirdreich> a owl:Class ;
+    rdfs:label "third reich" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thorcorps> a owl:Class ;
+    rdfs:label "thor corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#threeghostsofbatman> a owl:Class ;
+    rdfs:label "three ghosts of batman" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thunderbolts> a owl:Class ;
+    rdfs:label "thunderbolts" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thunderboltsarmy> a owl:Class ;
+    rdfs:label "thunderbolts army" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thunderersofqward> a owl:Class ;
+    rdfs:label "thunderers of qward" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#thunderiders> a owl:Class ;
+    rdfs:label "thunderiders" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#ti> a owl:Class ;
+    rdfs:label "ti" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#timdrake> a owl:Class ;
+    rdfs:label "tim drake" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#timefoes> a owl:Class ;
+    rdfs:label "time foes" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#timemasters> a owl:Class ;
+    rdfs:label "time masters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#titans> a owl:Class ;
+    rdfs:label "titans" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#titanseast> a owl:Class ;
+    rdfs:label "titans east" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#titansofmyth> a owl:Class ;
+    rdfs:label "titans of myth" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#titansthree> a owl:Class ;
+    rdfs:label "titans three" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#titanswest> a owl:Class ;
+    rdfs:label "titans west" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#tokyoarena> a owl:Class ;
+    rdfs:label "tokyo arena" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#tomorrow> a owl:Class ;
+    rdfs:label "t.o. morrow" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#torchofliberty> a owl:Class ;
+    rdfs:label "torch of liberty" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#triuneunderstanding> a owl:Class ;
+    rdfs:label "triune understanding" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#tyr> a owl:Class ;
+    rdfs:label "tyr" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#ulik> a owl:Class ;
+    rdfs:label "ulik" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#ultraforce> a owl:Class ;
+    rdfs:label "ultraforce" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#ultramarines> a owl:Class ;
+    rdfs:label "ultramarines" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#un> a owl:Class ;
+    rdfs:label "u.n." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#uncannyavengers> a owl:Class ;
+    rdfs:label "uncanny avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#underchild> a owl:Class ;
+    rdfs:label "underchild" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#undergroundavengers> a owl:Class ;
+    rdfs:label "underground avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#undergroundlegion> a owl:Class ;
+    rdfs:label "underground legion" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#unitedfront> a owl:Class ;
+    rdfs:label "united front" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#unitednationsspacecommand> a owl:Class ;
+    rdfs:label "united nations space command" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#unitedstatesairforce> a owl:Class ;
+    rdfs:label "united states air force" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#unitedstatesarmy> a owl:Class ;
+    rdfs:label "united states army" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#unitedstatesdepartmentofdefense> a owl:Class ;
+    rdfs:label "united states department of defense." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#universalinhumans> a owl:Class ;
+    rdfs:label "universal inhumans" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#unknowns> a owl:Class ;
+    rdfs:label "unknowns" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#unlimitedclasswrestlingfederation> a owl:Class ;
+    rdfs:label "unlimited class wrestling federation" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#unnamedcommandoteam> a owl:Class ;
+    rdfs:label "unnamed commando team" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#unnamedkreecovertopsteam> a owl:Class ;
+    rdfs:label "unnamed kree covert ops team" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#unofficialmemberoftheroyalfamilyoftheinhumans> a owl:Class ;
+    rdfs:label "unofficial member of the royal family of the inhumans" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#upstarts> a owl:Class ;
+    rdfs:label "upstarts" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#usaf> a owl:Class ;
+    rdfs:label "u.s.a.f.",
+        "usaf" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#usarmy> a owl:Class ;
+    rdfs:label "u.s. army",
+        "us army" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#usmarinecorp> a owl:Class ;
+    rdfs:label "us marine corp" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#usmarinecorps> a owl:Class ;
+    rdfs:label "u.s. marine corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#usmilitary> a owl:Class ;
+    rdfs:label "u.s. military" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#ussecretservice> a owl:Class ;
+    rdfs:label "u.s. secret service" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#valkyrior> a owl:Class ;
+    rdfs:label "valkyrior" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#venus> a owl:Class ;
+    rdfs:label "venus" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#villainsequity> a owl:Class ;
+    rdfs:label "villain�s equity" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#villainsforhire> a owl:Class ;
+    rdfs:label "villains for hire" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#villainy> a owl:Class ;
+    rdfs:label "villainy" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#villainyinc> a owl:Class ;
+    rdfs:label "villainy inc" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#warhawks> a owl:Class ;
+    rdfs:label "warhawks" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#warriorsofthegreatweb> a owl:Class ;
+    rdfs:label "warriors of the great web" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#warworld> a owl:Class ;
+    rdfs:label "warworld" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#wasonceinamergedformwiththemoleculemanbutisnolongermergedwithhim> a owl:Class ;
+    rdfs:label "was once in a merged form with the molecule man but is no longer merged with him." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#watcherscouncil> a owl:Class ;
+    rdfs:label "watchers council" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#watchmen> a owl:Class ;
+    rdfs:label "watchmen" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#waterchildren> a owl:Class ;
+    rdfs:label "water children" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#wayneenterprises> a owl:Class ;
+    rdfs:label "wayne enterprises" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#weaponersofqward> a owl:Class ;
+    rdfs:label "weaponers of qward" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#weaponplus> a owl:Class ;
+    rdfs:label "weapon plus" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#weaponplusandsixpack> a owl:Class ;
+    rdfs:label "weapon plus and six pack" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#weaponx> a owl:Class ;
+    rdfs:label "weapon x" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#weaponxprogram> a owl:Class ;
+    rdfs:label "weapon x program" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#westcoastavengers> a owl:Class ;
+    rdfs:label "west coast avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#whitelanterncorps> a owl:Class ;
+    rdfs:label "white lantern corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#wifeofthehumantorch> a owl:Class ;
+    rdfs:label "wife of the human torch" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#winterguard> a owl:Class ;
+    rdfs:label "winter guard" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#witches> a owl:Class ;
+    rdfs:label "witches" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#worldcounterterrorismagency> a owl:Class ;
+    rdfs:label "world counterterrorism agency" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#worldwatch> a owl:Class ;
+    rdfs:label "worldwatch" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#worthy> a owl:Class ;
+    rdfs:label "worthy" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xavierinstitutefaculty> a owl:Class ;
+    rdfs:label "xavier institute faculty" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xavierinstitutestudentbody> a owl:Class ;
+    rdfs:label "xavier institute student body" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xbabies> a owl:Class ;
+    rdfs:label "x-babies" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xcell> a owl:Class ;
+    rdfs:label "x-cell" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xclub> a owl:Class ;
+    rdfs:label "x-club" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xcorp> a owl:Class ;
+    rdfs:label "x-corp" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xcorporation> a owl:Class ;
+    rdfs:label "x-corporation" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xcorps> a owl:Class ;
+    rdfs:label "x-corps" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xcorpschampions> a owl:Class ;
+    rdfs:label "x-corps  champions" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xfactor> a owl:Class ;
+    rdfs:label "x-factor" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xfactorallyofblacktomandthejuggernaut> a owl:Class ;
+    rdfs:label "x-factor  ally of black tom and the juggernaut" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xfactorii> a owl:Class ;
+    rdfs:label "x-factor ii" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xfactorinvestigations> a owl:Class ;
+    rdfs:label "x-factor investigations" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xfactorinvestigationsxfactor> a owl:Class ;
+    rdfs:label "x-factor investigations  x-factor" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xforce> a owl:Class ;
+    rdfs:label "x-force" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xforceandnewmutants> a owl:Class ;
+    rdfs:label "x-force and new mutants" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xmen> a owl:Class ;
+    rdfs:label "x-men" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xmengenerationxheadmistress> a owl:Class ;
+    rdfs:label "x-men generation x headmistress" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xnation> a owl:Class ;
+    rdfs:label "x-nation" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xpeditioners> a owl:Class ;
+    rdfs:label "x-peditioners" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xse> a owl:Class ;
+    rdfs:label "x.s.e." ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xterminators> a owl:Class ;
+    rdfs:label "x-terminators" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xtremesanctionsexecutive> a owl:Class ;
+    rdfs:label "x-treme sanctions executive" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#xtremexmen> a owl:Class ;
+    rdfs:label "x-treme x-men" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#youngallies> a owl:Class ;
+    rdfs:label "young allies" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#youngavengers> a owl:Class ;
+    rdfs:label "young avengers" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#youngjustice> a owl:Class ;
+    rdfs:label "young justice" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#youngxmen> a owl:Class ;
+    rdfs:label "young x-men" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#zfighters> a owl:Class ;
+    rdfs:label "z-fighters" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+
+<http://projet.fr/perso#zodiac> a owl:Class ;
+    rdfs:label "zodiac" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group> .
+

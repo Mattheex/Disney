@@ -1,0 +1,10 @@
+<div id="global" *ngIf="heroName !== ''">
+    <img src="{{ image }}" />
+    <div>
+        <h2>{{ heroName }}</h2>
+        <div *ngIf="name !== ''">real name: {{ name }}</div>
+        <div *ngIf="height !== ''">height: {{ height }} cm</div>
+        <div *ngIf="weight !== ''">weight: {{ weight }} kg</div>
+        <div *ngIf="race !== ''">race: {{ race }} </div>
+    </div>
+</div>

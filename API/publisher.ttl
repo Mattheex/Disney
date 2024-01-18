@@ -1,0 +1,369 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://projet.fr/perso#> a owl:Class,
+        skos:Concept ;
+    rdfs:label "-" ;
+    rdfs:subClassOf <http://projet.fr/perso#Group>,
+        <http://projet.fr/perso#Occupation>,
+        <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "",
+        "-" .
+
+<http://projet.fr/perso#ABCStudios> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "ABC Studios" .
+
+<http://projet.fr/perso#Angel> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Angel" .
+
+<http://projet.fr/perso#AngelSalvadore> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Angel Salvadore" .
+
+<http://projet.fr/perso#AntMan> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Ant-Man" .
+
+<http://projet.fr/perso#AntiVenom> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Anti-Venom" .
+
+<http://projet.fr/perso#AntiVision> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Anti-Vision" .
+
+<http://projet.fr/perso#Archangel> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Archangel" .
+
+<http://projet.fr/perso#Arsenal> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Arsenal" .
+
+<http://projet.fr/perso#Atlas> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Atlas" .
+
+<http://projet.fr/perso#Aztar> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Aztar" .
+
+<http://projet.fr/perso#Batgirl> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Batgirl" .
+
+<http://projet.fr/perso#BatgirlIII> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Batgirl III" .
+
+<http://projet.fr/perso#BatgirlV> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Batgirl V" .
+
+<http://projet.fr/perso#BatmanII> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Batman II" .
+
+<http://projet.fr/perso#Binary> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Binary" .
+
+<http://projet.fr/perso#BlackRacer> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Black Racer" .
+
+<http://projet.fr/perso#Blaquesmith> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Blaquesmith" .
+
+<http://projet.fr/perso#BoomBoom> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Boom-Boom" .
+
+<http://projet.fr/perso#CaptainMarvel> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Captain Marvel" .
+
+<http://projet.fr/perso#DCComics> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "DC Comics" .
+
+<http://projet.fr/perso#DarkHorseComics> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Dark Horse Comics" .
+
+<http://projet.fr/perso#Deadpool> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Deadpool" .
+
+<http://projet.fr/perso#EvilDeadpool> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Evil Deadpool" .
+
+<http://projet.fr/perso#FlashIV> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Flash IV" .
+
+<http://projet.fr/perso#GeminiV> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Gemini V" .
+
+<http://projet.fr/perso#GeorgeLucas> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "George Lucas" .
+
+<http://projet.fr/perso#GiantMan> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Giant-Man" .
+
+<http://projet.fr/perso#Goliath> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Goliath" .
+
+<http://projet.fr/perso#HannaBarbera> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Hanna-Barbera" .
+
+<http://projet.fr/perso#HarperCollins> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "HarperCollins" .
+
+<http://projet.fr/perso#Hawkeye> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Hawkeye" .
+
+<http://projet.fr/perso#Hawkfire> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Hawkfire" .
+
+<http://projet.fr/perso#Huntress> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Huntress" .
+
+<http://projet.fr/perso#IDWPublishing> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "IDW Publishing" .
+
+<http://projet.fr/perso#IconComics> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Icon Comics" .
+
+<http://projet.fr/perso#ImageComics> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Image Comics" .
+
+<http://projet.fr/perso#Impulse> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Impulse" .
+
+<http://projet.fr/perso#IronLad> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Iron Lad" .
+
+<http://projet.fr/perso#JKRowling> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "J. K. Rowling" .
+
+<http://projet.fr/perso#JRRTolkien> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "J. R. R. Tolkien" .
+
+<http://projet.fr/perso#JeanGrey> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Jean Grey" .
+
+<http://projet.fr/perso#LibertyBelleII> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Liberty Belle II" .
+
+<http://projet.fr/perso#LukeCage> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Luke Cage" .
+
+<http://projet.fr/perso#MarvelComics> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Marvel Comics" .
+
+<http://projet.fr/perso#Meltdown> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Meltdown" .
+
+<http://projet.fr/perso#Microsoft> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Microsoft" .
+
+<http://projet.fr/perso#Misfit> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Misfit" .
+
+<http://projet.fr/perso#MsMarvelII> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Ms Marvel II" .
+
+<http://projet.fr/perso#NBCHeroes> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "NBC - Heroes" .
+
+<http://projet.fr/perso#Nightwing> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Nightwing" .
+
+<http://projet.fr/perso#Oracle> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Oracle" .
+
+<http://projet.fr/perso#PenanceII> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Penance II" .
+
+<http://projet.fr/perso#Phoenix> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Phoenix" .
+
+<http://projet.fr/perso#PowerMan> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Power Man" .
+
+<http://projet.fr/perso#PowerWoman> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Power Woman" .
+
+<http://projet.fr/perso#Rebellion> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Rebellion" .
+
+<http://projet.fr/perso#RedHood> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Red Hood" .
+
+<http://projet.fr/perso#RedRobin> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Red Robin" .
+
+<http://projet.fr/perso#RobinII> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Robin II" .
+
+<http://projet.fr/perso#RobinIII> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Robin III" .
+
+<http://projet.fr/perso#RuneKingThor> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Rune King Thor" .
+
+<http://projet.fr/perso#ScarletSpider> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Scarlet Spider" .
+
+<http://projet.fr/perso#Scorpion> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Scorpion" .
+
+<http://projet.fr/perso#SharonCarter> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Sharon Carter" .
+
+<http://projet.fr/perso#SheThing> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "She-Thing" .
+
+<http://projet.fr/perso#Shueisha> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Shueisha" .
+
+<http://projet.fr/perso#SonyPictures> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Sony Pictures" .
+
+<http://projet.fr/perso#SouthPark> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "South Park" .
+
+<http://projet.fr/perso#Spectre> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Spectre" .
+
+<http://projet.fr/perso#SpeedDemon> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Speed Demon" .
+
+<http://projet.fr/perso#Speedball> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Speedball" .
+
+<http://projet.fr/perso#Speedy> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Speedy" .
+
+<http://projet.fr/perso#SpiderCarnage> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Spider-Carnage" .
+
+<http://projet.fr/perso#Spoiler> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Spoiler" .
+
+<http://projet.fr/perso#StarTrek> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Star Trek" .
+
+<http://projet.fr/perso#SupermanPrimeOneMillion> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Superman Prime One-Million" .
+
+<http://projet.fr/perso#SyFy> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "SyFy" .
+
+<http://projet.fr/perso#TeamEpicTV> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Team Epic TV" .
+
+<http://projet.fr/perso#Tempest> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Tempest" .
+
+<http://projet.fr/perso#ThunderbirdII> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Thunderbird II" .
+
+<http://projet.fr/perso#TitanBooks> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Titan Books" .
+
+<http://projet.fr/perso#Toxin> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Toxin" .
+
+<http://projet.fr/perso#UniversalStudios> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Universal Studios" .
+
+<http://projet.fr/perso#VenomIII> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Venom III" .
+
+<http://projet.fr/perso#VertigoII> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Vertigo II" .
+
+<http://projet.fr/perso#VindicatorII> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Vindicator II" .
+
+<http://projet.fr/perso#Warpath> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Warpath" .
+
+<http://projet.fr/perso#Wildstorm> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "Wildstorm" .
+
+<http://projet.fr/perso#null> a skos:Concept ;
+    rdfs:subClassOf <http://projet.fr/perso#Publisher> ;
+    skos:prefLabel "null" .
+
