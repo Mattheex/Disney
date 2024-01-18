@@ -1,2358 +1,2753 @@
-@prefix :     <http://projet.fr/films_data/> .
-@prefix ns1:  <http://projet.fr/films_schema/> .
-@prefix ns2:  <http://projet.fr/perso_data/> .
+@prefix : <http://projet.fr/films_data/> .
+@prefix ns1: <http://projet.fr/films_schema/> .
+@prefix ns2: <http://projet.fr/perso_data/> .
+@prefix p_schema: <http://projet.fr/perso_schema/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-:1
-    a            ns1:CreativeWork ;
+:1 a ns1:CreativeWork ;
     ns1:director :Elmer_Clifton ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    0e+00 ;
-    ns1:rating   5.5e+00 ;
-    ns1:stars    :Charles_Trowbridge, :Dick_Purcell, :Elmer_Clifton, :Lionel_Atwill, :Lorna_Gray ;
-    ns1:title    "Captain America" ;
-    ns1:vote     8.44e+02 ;
-    ns1:year     "1944" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 0e+00 ;
+    ns1:rating 5.5e+00 ;
+    ns1:stars :Charles_Trowbridge,
+        :Dick_Purcell,
+        :Elmer_Clifton,
+        :Lionel_Atwill,
+        :Lorna_Gray ;
+    ns1:title "Captain America" ;
+    ns1:vote 8.44e+02 ;
+    ns1:year "1944" .
 
-:10
-    a            ns1:CreativeWork ;
+:10 a ns1:CreativeWork ;
     ns1:director :Jonathan_Hensleigh ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Crime, ns1:Drama ;
-    ns1:gross    3.368e+07 ;
-    ns1:rating   6.4e+00 ;
-    ns1:stars    :John_Travolta, :Jonathan_Hensleigh, :Laura_Harring, :Samantha_Mathis, :Thomas_Jane ;
-    ns1:title    "The Punisher" ;
-    ns1:vote     1.51872e+05 ;
-    ns1:year     "2004" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Crime,
+        ns1:Drama ;
+    ns1:gross 3.368e+07 ;
+    ns1:rating 6.4e+00 ;
+    ns1:stars :John_Travolta,
+        :Jonathan_Hensleigh,
+        :Laura_Harring,
+        :Samantha_Mathis,
+        :Thomas_Jane ;
+    ns1:title "The Punisher" ;
+    ns1:vote 1.51872e+05 ;
+    ns1:year "2004" .
 
-:11
-    a            ns1:CreativeWork ;
+:11 a ns1:CreativeWork ;
     ns1:director :Sam_Raimi ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    3.7359e+08 ;
-    ns1:rating   7.3e+00 ;
-    ns1:stars    :Alfred_Molina, :James_Franco, :Kirsten_Dunst, :Sam_Raimi, :Tobey_Maguire ;
-    ns1:title    "Spider-Man 2" ;
-    ns1:vote     5.5698e+05 ;
-    ns1:year     "2004" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 3.7359e+08 ;
+    ns1:rating 7.3e+00 ;
+    ns1:stars :Alfred_Molina,
+        :James_Franco,
+        :Kirsten_Dunst,
+        :Sam_Raimi,
+        :Tobey_Maguire ;
+    ns1:title "Spider-Man 2" ;
+    ns1:vote 5.5698e+05 ;
+    ns1:year "2004" .
 
-:12
-    a            ns1:CreativeWork ;
+:12 a ns1:CreativeWork ;
     ns1:director :David_S_Goyer ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Fantasy ;
-    ns1:gross    5.241e+07 ;
-    ns1:rating   5.8e+00 ;
-    ns1:stars    :David_S_Goyer, :Kris_Kristofferson, :Parker_Posey, :Ryan_Reynolds, :Wesley_Snipes ;
-    ns1:title    "Blade: Trinity" ;
-    ns1:vote     1.68363e+05 ;
-    ns1:year     "2004" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Fantasy ;
+    ns1:gross 5.241e+07 ;
+    ns1:rating 5.8e+00 ;
+    ns1:stars :David_S_Goyer,
+        :Kris_Kristofferson,
+        :Parker_Posey,
+        :Ryan_Reynolds,
+        :Wesley_Snipes ;
+    ns1:title "Blade: Trinity" ;
+    ns1:vote 1.68363e+05 ;
+    ns1:year "2004" .
 
-:13
-    a            ns1:CreativeWork ;
+:13 a ns1:CreativeWork ;
     ns1:director :Rob_Bowman ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Crime ;
-    ns1:gross    2.441e+07 ;
-    ns1:rating   4.7e+00 ;
-    ns1:stars    :Goran_Visnjic, :Jennifer_Garner, :Kirsten_Zien, :Rob_Bowman, :Will_Yun_Lee ;
-    ns1:title    "Elektra" ;
-    ns1:vote     8.8518e+04 ;
-    ns1:year     "2005" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Crime ;
+    ns1:gross 2.441e+07 ;
+    ns1:rating 4.7e+00 ;
+    ns1:stars :Goran_Visnjic,
+        :Jennifer_Garner,
+        :Kirsten_Zien,
+        :Rob_Bowman,
+        :Will_Yun_Lee ;
+    ns1:title "Elektra" ;
+    ns1:vote 8.8518e+04 ;
+    ns1:year "2005" .
 
-:14
-    a            ns1:CreativeWork ;
+:14 a ns1:CreativeWork ;
     ns1:director :Tim_Story ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Fantasy ;
-    ns1:gross    1.547e+08 ;
-    ns1:rating   5.7e+00 ;
-    ns1:stars    :Chris_Evans, :Ioan_Gruffudd, :Jessica_Alba, :Michael_Chiklis, :Tim_Story ;
-    ns1:title    "Fantastic Four" ;
-    ns1:vote     3.15297e+05 ;
-    ns1:year     "2005" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Fantasy ;
+    ns1:gross 1.547e+08 ;
+    ns1:rating 5.7e+00 ;
+    ns1:stars :Chris_Evans,
+        :Ioan_Gruffudd,
+        :Jessica_Alba,
+        :Michael_Chiklis,
+        :Tim_Story ;
+    ns1:title "Fantastic Four" ;
+    ns1:vote 3.15297e+05 ;
+    ns1:year "2005" .
 
-:15
-    a            ns1:CreativeWork ;
+:15 a ns1:CreativeWork ;
     ns1:director :Brett_Ratner ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    2.3436e+08 ;
-    ns1:rating   6.7e+00 ;
-    ns1:stars    :Brett_Ratner, :Famke_Janssen, :Halle_Berry, :Hugh_Jackman, :Patrick_Stewart ;
-    ns1:title    "X-Men: The Last Stand" ;
-    ns1:vote     4.90269e+05 ;
-    ns1:year     "2006" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 2.3436e+08 ;
+    ns1:rating 6.7e+00 ;
+    ns1:stars :Brett_Ratner,
+        :Famke_Janssen,
+        :Halle_Berry,
+        :Hugh_Jackman,
+        :Patrick_Stewart ;
+    ns1:title "X-Men: The Last Stand" ;
+    ns1:vote 4.90269e+05 ;
+    ns1:year "2006" .
 
-:16
-    a            ns1:CreativeWork ;
+:16 a ns1:CreativeWork ;
     ns1:director :Mark_Steven_Johnson ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Fantasy, ns1:Thriller ;
-    ns1:gross    1.158e+08 ;
-    ns1:rating   5.3e+00 ;
-    ns1:stars    :Eva_Mendes, :Mark_Steven_Johnson, :Matt_Long, :Nicolas_Cage, :Sam_Elliott ;
-    ns1:title    "Ghost Rider" ;
-    ns1:vote     2.26797e+05 ;
-    ns1:year     "2007" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Fantasy,
+        ns1:Thriller ;
+    ns1:gross 1.158e+08 ;
+    ns1:rating 5.3e+00 ;
+    ns1:stars :Eva_Mendes,
+        :Mark_Steven_Johnson,
+        :Matt_Long,
+        :Nicolas_Cage,
+        :Sam_Elliott ;
+    ns1:title "Ghost Rider" ;
+    ns1:vote 2.26797e+05 ;
+    ns1:year "2007" .
 
-:17
-    a            ns1:CreativeWork ;
+:17 a ns1:CreativeWork ;
     ns1:director :Sam_Raimi ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    3.3653e+08 ;
-    ns1:rating   6.2e+00 ;
-    ns1:stars    :Kirsten_Dunst, :Sam_Raimi, :Thomas_Haden_Church, :Tobey_Maguire, :Topher_Grace ;
-    ns1:title    "Spider-Man 3" ;
-    ns1:vote     5.10723e+05 ;
-    ns1:year     "2007" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 3.3653e+08 ;
+    ns1:rating 6.2e+00 ;
+    ns1:stars :Kirsten_Dunst,
+        :Sam_Raimi,
+        :Thomas_Haden_Church,
+        :Tobey_Maguire,
+        :Topher_Grace ;
+    ns1:title "Spider-Man 3" ;
+    ns1:vote 5.10723e+05 ;
+    ns1:year "2007" .
 
-:18
-    a            ns1:CreativeWork ;
+:18 a ns1:CreativeWork ;
     ns1:director :Tim_Story ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Fantasy ;
-    ns1:gross    1.3192e+08 ;
-    ns1:rating   5.6e+00 ;
-    ns1:stars    :Chris_Evans, :Ioan_Gruffudd, :Jessica_Alba, :Michael_Chiklis, :Tim_Story ;
-    ns1:title    "Fantastic Four: Rise of the Silver Surfer" ;
-    ns1:vote     2.53897e+05 ;
-    ns1:year     "2007" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Fantasy ;
+    ns1:gross 1.3192e+08 ;
+    ns1:rating 5.6e+00 ;
+    ns1:stars :Chris_Evans,
+        :Ioan_Gruffudd,
+        :Jessica_Alba,
+        :Michael_Chiklis,
+        :Tim_Story ;
+    ns1:title "Fantastic Four: Rise of the Silver Surfer" ;
+    ns1:vote 2.53897e+05 ;
+    ns1:year "2007" .
 
-:19
-    a            ns1:CreativeWork ;
+:19 a ns1:CreativeWork ;
     ns1:director :Jon_Favreau ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    3.1841e+08 ;
-    ns1:rating   7.9e+00 ;
-    ns1:stars    :Gwyneth_Paltrow, :Jeff_Bridges, :Jon_Favreau, :Robert_Downey_Jr, :Terrence_Howard ;
-    ns1:title    "Iron Man" ;
-    ns1:vote     9.64114e+05 ;
-    ns1:year     "2008" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 3.1841e+08 ;
+    ns1:rating 7.9e+00 ;
+    ns1:stars :Gwyneth_Paltrow,
+        :Jeff_Bridges,
+        :Jon_Favreau,
+        :Robert_Downey_Jr,
+        :Terrence_Howard ;
+    ns1:title "Iron Man" ;
+    ns1:vote 9.64114e+05 ;
+    ns1:year "2008" .
 
-:2
-    a            ns1:CreativeWork ;
+:2 a ns1:CreativeWork ;
     ns1:director :Willard_Huyck ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Comedy ;
-    ns1:gross    1.63e+07 ;
-    ns1:rating   4.7e+00 ;
-    ns1:stars    :Ed_Gale, :Jeffrey_Jones, :Lea_Thompson, :Tim_Robbins, :Willard_Huyck ;
-    ns1:title    "Howard the Duck" ;
-    ns1:vote     4.4073e+04 ;
-    ns1:year     "1986" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Comedy ;
+    ns1:gross 1.63e+07 ;
+    ns1:rating 4.7e+00 ;
+    ns1:stars :Ed_Gale,
+        :Jeffrey_Jones,
+        :Lea_Thompson,
+        :Tim_Robbins,
+        :Willard_Huyck ;
+    ns1:title "Howard the Duck" ;
+    ns1:vote 4.4073e+04 ;
+    ns1:year "1986" .
 
-:20
-    a            ns1:CreativeWork ;
+:20 a ns1:CreativeWork ;
     ns1:director :Louis_Leterrier ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    1.3452e+08 ;
-    ns1:rating   6.7e+00 ;
-    ns1:stars    :Edward_Norton, :Liv_Tyler, :Louis_Leterrier, :Tim_Roth, :William_Hurt ;
-    ns1:title    "The Incredible Hulk" ;
-    ns1:vote     4.45822e+05 ;
-    ns1:year     "2008" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 1.3452e+08 ;
+    ns1:rating 6.7e+00 ;
+    ns1:stars :Edward_Norton,
+        :Liv_Tyler,
+        :Louis_Leterrier,
+        :Tim_Roth,
+        :William_Hurt ;
+    ns1:title "The Incredible Hulk" ;
+    ns1:vote 4.45822e+05 ;
+    ns1:year "2008" .
 
-:21
-    a            ns1:CreativeWork ;
+:21 a ns1:CreativeWork ;
     ns1:director :Lexi_Alexander ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Crime, ns1:Drama ;
-    ns1:gross    7.95e+06 ;
-    ns1:rating   5.9e+00 ;
-    ns1:stars    :Dominic_West, :Doug_Hutchison, :Julie_Benz, :Lexi_Alexander, :Ray_Stevenson ;
-    ns1:title    "Punisher: War Zone" ;
-    ns1:vote     6.0767e+04 ;
-    ns1:year     "2008" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Crime,
+        ns1:Drama ;
+    ns1:gross 7.95e+06 ;
+    ns1:rating 5.9e+00 ;
+    ns1:stars :Dominic_West,
+        :Doug_Hutchison,
+        :Julie_Benz,
+        :Lexi_Alexander,
+        :Ray_Stevenson ;
+    ns1:title "Punisher: War Zone" ;
+    ns1:vote 6.0767e+04 ;
+    ns1:year "2008" .
 
-:22
-    a            ns1:CreativeWork ;
+:22 a ns1:CreativeWork ;
     ns1:director :Gavin_Hood ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Sci-Fi ;
-    ns1:gross    1.7988e+08 ;
-    ns1:rating   6.6e+00 ;
-    ns1:stars    :Danny_Huston, :Gavin_Hood, :Hugh_Jackman, :Liev_Schreiber, :Ryan_Reynolds ;
-    ns1:title    "X-Men Origins: Wolverine" ;
-    ns1:vote     4.75561e+05 ;
-    ns1:year     "2009" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Sci-Fi ;
+    ns1:gross 1.7988e+08 ;
+    ns1:rating 6.6e+00 ;
+    ns1:stars :Danny_Huston,
+        :Gavin_Hood,
+        :Hugh_Jackman,
+        :Liev_Schreiber,
+        :Ryan_Reynolds ;
+    ns1:title "X-Men Origins: Wolverine" ;
+    ns1:vote 4.75561e+05 ;
+    ns1:year "2009" .
 
-:23
-    a            ns1:CreativeWork ;
+:23 a ns1:CreativeWork ;
     ns1:director :Jon_Favreau ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    3.1243e+08 ;
-    ns1:rating   7e+00 ;
-    ns1:stars    :Don_Cheadle, :Gwyneth_Paltrow, :Jon_Favreau, :Mickey_Rourke, :Robert_Downey_Jr ;
-    ns1:title    "Iron Man 2" ;
-    ns1:vote     7.42416e+05 ;
-    ns1:year     "2010" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 3.1243e+08 ;
+    ns1:rating 7e+00 ;
+    ns1:stars :Don_Cheadle,
+        :Gwyneth_Paltrow,
+        :Jon_Favreau,
+        :Mickey_Rourke,
+        :Robert_Downey_Jr ;
+    ns1:title "Iron Man 2" ;
+    ns1:vote 7.42416e+05 ;
+    ns1:year "2010" .
 
-:24
-    a            ns1:CreativeWork ;
+:24 a ns1:CreativeWork ;
     ns1:director :Kenneth_Branagh ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Fantasy ;
-    ns1:gross    1.8103e+08 ;
-    ns1:rating   7e+00 ;
-    ns1:stars    :Anthony_Hopkins, :Chris_Hemsworth, :Kenneth_Branagh, :Natalie_Portman, :Tom_Hiddleston ;
-    ns1:title    "Thor" ;
-    ns1:vote     7.67687e+05 ;
-    ns1:year     "2011" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Fantasy ;
+    ns1:gross 1.8103e+08 ;
+    ns1:rating 7e+00 ;
+    ns1:stars :Anthony_Hopkins,
+        :Chris_Hemsworth,
+        :Kenneth_Branagh,
+        :Natalie_Portman,
+        :Tom_Hiddleston ;
+    ns1:title "Thor" ;
+    ns1:vote 7.67687e+05 ;
+    ns1:year "2011" .
 
-:25
-    a            ns1:CreativeWork ;
+:25 a ns1:CreativeWork ;
     ns1:director :Matthew_Vaughn ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    1.4641e+08 ;
-    ns1:rating   7.7e+00 ;
-    ns1:stars    :James_McAvoy, :Jennifer_Lawrence, :Kevin_Bacon, :Matthew_Vaughn, :Michael_Fassbender ;
-    ns1:title    "X: First Class" ;
-    ns1:vote     6.55399e+05 ;
-    ns1:year     "2011" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 1.4641e+08 ;
+    ns1:rating 7.7e+00 ;
+    ns1:stars :James_McAvoy,
+        :Jennifer_Lawrence,
+        :Kevin_Bacon,
+        :Matthew_Vaughn,
+        :Michael_Fassbender ;
+    ns1:title "X: First Class" ;
+    ns1:vote 6.55399e+05 ;
+    ns1:year "2011" .
 
-:26
-    a            ns1:CreativeWork ;
+:26 a ns1:CreativeWork ;
     ns1:director :Joe_Johnston ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    1.7665e+08 ;
-    ns1:rating   6.9e+00 ;
-    ns1:stars    :Chris_Evans, :Hayley_Atwell, :Hugo_Weaving, :Joe_Johnston, :Samuel_L_Jackson ;
-    ns1:title    "Captain America: The First Avenger" ;
-    ns1:vote     7.64786e+05 ;
-    ns1:year     "2011" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 1.7665e+08 ;
+    ns1:rating 6.9e+00 ;
+    ns1:stars :Chris_Evans,
+        :Hayley_Atwell,
+        :Hugo_Weaving,
+        :Joe_Johnston,
+        :Samuel_L_Jackson ;
+    ns1:title "Captain America: The First Avenger" ;
+    ns1:vote 7.64786e+05 ;
+    ns1:year "2011" .
 
-:27
-    a            ns1:CreativeWork ;
+:27 a ns1:CreativeWork ;
     ns1:director :Mark_Neveldine ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Fantasy, ns1:Thriller ;
-    ns1:gross    5.177e+07 ;
-    ns1:rating   4.3e+00 ;
-    ns1:stars    :Brian_Taylor, :Ciarán_Hinds, :Idris_Elba, :Nicolas_Cage, :Violante_Placido ;
-    ns1:title    "Ghost Rider: Spirit of Vengeance" ;
-    ns1:vote     1.12898e+05 ;
-    ns1:year     "2011" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Fantasy,
+        ns1:Thriller ;
+    ns1:gross 5.177e+07 ;
+    ns1:rating 4.3e+00 ;
+    ns1:stars :Brian_Taylor,
+        :Ciarán_Hinds,
+        :Idris_Elba,
+        :Nicolas_Cage,
+        :Violante_Placido ;
+    ns1:title "Ghost Rider: Spirit of Vengeance" ;
+    ns1:vote 1.12898e+05 ;
+    ns1:year "2011" .
 
-:28
-    a            ns1:CreativeWork ;
+:28 a ns1:CreativeWork ;
     ns1:director :Joss_Whedon ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    6.2328e+08 ;
-    ns1:rating   8e+00 ;
-    ns1:stars    :Chris_Evans, :Jeremy_Renner, :Joss_Whedon, :Robert_Downey_Jr, :Scarlett_Johansson ;
-    ns1:title    "The Avengers" ;
-    ns1:vote     1.286985e+06 ;
-    ns1:year     "2012" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 6.2328e+08 ;
+    ns1:rating 8e+00 ;
+    ns1:stars :Chris_Evans,
+        :Jeremy_Renner,
+        :Joss_Whedon,
+        :Robert_Downey_Jr,
+        :Scarlett_Johansson ;
+    ns1:title "The Avengers" ;
+    ns1:vote 1.286985e+06 ;
+    ns1:year "2012" .
 
-:29
-    a            ns1:CreativeWork ;
+:29 a ns1:CreativeWork ;
     ns1:director :Marc_Webb ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Fantasy ;
-    ns1:gross    2.6203e+08 ;
-    ns1:rating   6.9e+00 ;
-    ns1:stars    :Andrew_Garfield, :Emma_Stone, :Irrfan_Khan, :Marc_Webb, :Rhys_Ifans ;
-    ns1:title    "The Amazing Spider-Man" ;
-    ns1:vote     5.69274e+05 ;
-    ns1:year     "2012" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Fantasy ;
+    ns1:gross 2.6203e+08 ;
+    ns1:rating 6.9e+00 ;
+    ns1:stars :Andrew_Garfield,
+        :Emma_Stone,
+        :Irrfan_Khan,
+        :Marc_Webb,
+        :Rhys_Ifans ;
+    ns1:title "The Amazing Spider-Man" ;
+    ns1:vote 5.69274e+05 ;
+    ns1:year "2012" .
 
-:3
-    a            ns1:CreativeWork ;
+:3 a ns1:CreativeWork ;
     ns1:director :Stephen_Norrington ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Horror, ns1:Sci-Fi ;
-    ns1:gross    7.009e+07 ;
-    ns1:rating   7.1e+00 ;
-    ns1:stars    :Kris_Kristofferson, :N_Bushe_Wright, :Stephen_Dorff, :Stephen_Norrington, :Wesley_Snipes ;
-    ns1:title    "Blade" ;
-    ns1:vote     2.51243e+05 ;
-    ns1:year     "1998" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Horror,
+        ns1:Sci-Fi ;
+    ns1:gross 7.009e+07 ;
+    ns1:rating 7.1e+00 ;
+    ns1:stars :Kris_Kristofferson,
+        :N_Bushe_Wright,
+        :Stephen_Dorff,
+        :Stephen_Norrington,
+        :Wesley_Snipes ;
+    ns1:title "Blade" ;
+    ns1:vote 2.51243e+05 ;
+    ns1:year "1998" .
 
-:30
-    a            ns1:CreativeWork ;
+:30 a ns1:CreativeWork ;
     ns1:director :Shane_Black ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    4.0901e+08 ;
-    ns1:rating   7.1e+00 ;
-    ns1:stars    :Don_Cheadle, :Guy_Pearce, :Gwyneth_Paltrow, :Robert_Downey_Jr, :Shane_Black ;
-    ns1:title    "Iron Man Three" ;
-    ns1:vote     7.75425e+05 ;
-    ns1:year     "2013" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 4.0901e+08 ;
+    ns1:rating 7.1e+00 ;
+    ns1:stars :Don_Cheadle,
+        :Guy_Pearce,
+        :Gwyneth_Paltrow,
+        :Robert_Downey_Jr,
+        :Shane_Black ;
+    ns1:title "Iron Man Three" ;
+    ns1:vote 7.75425e+05 ;
+    ns1:year "2013" .
 
-:31
-    a            ns1:CreativeWork ;
+:31 a ns1:CreativeWork ;
     ns1:director :James_Mangold ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Sci-Fi ;
-    ns1:gross    1.3256e+08 ;
-    ns1:rating   6.7e+00 ;
-    ns1:stars    :Hugh_Jackman, :James_Mangold, :Rila_Fukushima, :Tao_Okamoto, :Will_Yun_Lee ;
-    ns1:title    "The Wolverine" ;
-    ns1:vote     4.37712e+05 ;
-    ns1:year     "2013" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Sci-Fi ;
+    ns1:gross 1.3256e+08 ;
+    ns1:rating 6.7e+00 ;
+    ns1:stars :Hugh_Jackman,
+        :James_Mangold,
+        :Rila_Fukushima,
+        :Tao_Okamoto,
+        :Will_Yun_Lee ;
+    ns1:title "The Wolverine" ;
+    ns1:vote 4.37712e+05 ;
+    ns1:year "2013" .
 
-:32
-    a            ns1:CreativeWork ;
+:32 a ns1:CreativeWork ;
     ns1:director :Alan_Taylor ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Fantasy ;
-    ns1:gross    2.0636e+08 ;
-    ns1:rating   6.9e+00 ;
-    ns1:stars    :Alan_Taylor, :Chris_Hemsworth, :Natalie_Portman, :Stellan_Skarsgård, :Tom_Hiddleston ;
-    ns1:title    "Thor: The Dark World" ;
-    ns1:vote     6.14115e+05 ;
-    ns1:year     "2013" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Fantasy ;
+    ns1:gross 2.0636e+08 ;
+    ns1:rating 6.9e+00 ;
+    ns1:stars :Alan_Taylor,
+        :Chris_Hemsworth,
+        :Natalie_Portman,
+        :Stellan_Skarsgård,
+        :Tom_Hiddleston ;
+    ns1:title "Thor: The Dark World" ;
+    ns1:vote 6.14115e+05 ;
+    ns1:year "2013" .
 
-:33
-    a            ns1:CreativeWork ;
+:33 a ns1:CreativeWork ;
     ns1:director :Anthony_Russo ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    2.5977e+08 ;
-    ns1:rating   7.7e+00 ;
-    ns1:stars    :Chris_Evans, :Joe_Russo, :Robert_Redford, :Samuel_L_Jackson, :Scarlett_Johansson ;
-    ns1:title    "Captain America: The Winter Soldier" ;
-    ns1:vote     7.59721e+05 ;
-    ns1:year     "2014" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 2.5977e+08 ;
+    ns1:rating 7.7e+00 ;
+    ns1:stars :Chris_Evans,
+        :Joe_Russo,
+        :Robert_Redford,
+        :Samuel_L_Jackson,
+        :Scarlett_Johansson ;
+    ns1:title "Captain America: The Winter Soldier" ;
+    ns1:vote 7.59721e+05 ;
+    ns1:year "2014" .
 
-:34
-    a            ns1:CreativeWork ;
+:34 a ns1:CreativeWork ;
     ns1:director :Marc_Webb ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Fantasy ;
-    ns1:gross    2.0285e+08 ;
-    ns1:rating   6.6e+00 ;
-    ns1:stars    :Andrew_Garfield, :Emma_Stone, :Jamie_Foxx, :Marc_Webb, :Paul_Giamatti ;
-    ns1:title    "The Amazing Spider-Man 2" ;
-    ns1:vote     4.25691e+05 ;
-    ns1:year     "2014" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Fantasy ;
+    ns1:gross 2.0285e+08 ;
+    ns1:rating 6.6e+00 ;
+    ns1:stars :Andrew_Garfield,
+        :Emma_Stone,
+        :Jamie_Foxx,
+        :Marc_Webb,
+        :Paul_Giamatti ;
+    ns1:title "The Amazing Spider-Man 2" ;
+    ns1:vote 4.25691e+05 ;
+    ns1:year "2014" .
 
-:35
-    a            ns1:CreativeWork ;
+:35 a ns1:CreativeWork ;
     ns1:director :Bryan_Singer ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    2.3392e+08 ;
-    ns1:rating   7.9e+00 ;
-    ns1:stars    :Bryan_Singer, :Hugh_Jackman, :Ian_McKellen, :James_McAvoy, :Patrick_Stewart ;
-    ns1:title    "X-Men: Days of Future Past" ;
-    ns1:vote     6.71146e+05 ;
-    ns1:year     "2014" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 2.3392e+08 ;
+    ns1:rating 7.9e+00 ;
+    ns1:stars :Bryan_Singer,
+        :Hugh_Jackman,
+        :Ian_McKellen,
+        :James_McAvoy,
+        :Patrick_Stewart ;
+    ns1:title "X-Men: Days of Future Past" ;
+    ns1:vote 6.71146e+05 ;
+    ns1:year "2014" .
 
-:36
-    a            ns1:CreativeWork ;
+:36 a ns1:CreativeWork ;
     ns1:director :James_Gunn ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Comedy ;
-    ns1:gross    3.3318e+08 ;
-    ns1:rating   8e+00 ;
-    ns1:stars    :Bradley_Cooper, :Chris_Pratt, :James_Gunn, :Vin_Diesel, :Zoe_Saldana ;
-    ns1:title    "Guardians of the Galaxy" ;
-    ns1:vote     1.069895e+06 ;
-    ns1:year     "2014" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Comedy ;
+    ns1:gross 3.3318e+08 ;
+    ns1:rating 8e+00 ;
+    ns1:stars :Bradley_Cooper,
+        :Chris_Pratt,
+        :James_Gunn,
+        :Vin_Diesel,
+        :Zoe_Saldana ;
+    ns1:title "Guardians of the Galaxy" ;
+    ns1:vote 1.069895e+06 ;
+    ns1:year "2014" .
 
-:37
-    a            ns1:CreativeWork ;
+:37 a ns1:CreativeWork ;
     ns1:director :Joss_Whedon ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    4.5901e+08 ;
-    ns1:rating   7.3e+00 ;
-    ns1:stars    :Chris_Evans, :Chris_Hemsworth, :Joss_Whedon, :Mark_Ruffalo, :Robert_Downey_Jr ;
-    ns1:title    "Avengers: Age of Ultron" ;
-    ns1:vote     7.72476e+05 ;
-    ns1:year     "2015" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 4.5901e+08 ;
+    ns1:rating 7.3e+00 ;
+    ns1:stars :Chris_Evans,
+        :Chris_Hemsworth,
+        :Joss_Whedon,
+        :Mark_Ruffalo,
+        :Robert_Downey_Jr ;
+    ns1:title "Avengers: Age of Ultron" ;
+    ns1:vote 7.72476e+05 ;
+    ns1:year "2015" .
 
-:38
-    a            ns1:CreativeWork ;
+:38 a ns1:CreativeWork ;
     ns1:director :Peyton_Reed ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Comedy ;
-    ns1:gross    1.802e+08 ;
-    ns1:rating   7.3e+00 ;
-    ns1:stars    :Corey_Stoll, :Evangeline_Lilly, :Michael_Douglas, :Paul_Rudd, :Peyton_Reed ;
-    ns1:title    "Ant-Man" ;
-    ns1:vote     5.90834e+05 ;
-    ns1:year     "2015" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Comedy ;
+    ns1:gross 1.802e+08 ;
+    ns1:rating 7.3e+00 ;
+    ns1:stars :Corey_Stoll,
+        :Evangeline_Lilly,
+        :Michael_Douglas,
+        :Paul_Rudd,
+        :Peyton_Reed ;
+    ns1:title "Ant-Man" ;
+    ns1:vote 5.90834e+05 ;
+    ns1:year "2015" .
 
-:39
-    a            ns1:CreativeWork ;
+:39 a ns1:CreativeWork ;
     ns1:director :Josh_Trank ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    5.612e+07 ;
-    ns1:rating   4.2e+00 ;
-    ns1:stars    :Jamie_Bell, :Josh_Trank, :Kate_Mara, :Michael_B_Jordan, :Miles_Teller ;
-    ns1:title    "Fantastic Four" ;
-    ns1:vote     1.55942e+05 ;
-    ns1:year     "2015" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 5.612e+07 ;
+    ns1:rating 4.2e+00 ;
+    ns1:stars :Jamie_Bell,
+        :Josh_Trank,
+        :Kate_Mara,
+        :Michael_B_Jordan,
+        :Miles_Teller ;
+    ns1:title "Fantastic Four" ;
+    ns1:vote 1.55942e+05 ;
+    ns1:year "2015" .
 
-:4
-    a            ns1:CreativeWork ;
+:4 a ns1:CreativeWork ;
     ns1:director :Bryan_Singer ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    1.573e+08 ;
-    ns1:rating   7.4e+00 ;
-    ns1:stars    :Bryan_Singer, :Famke_Janssen, :Hugh_Jackman, :Ian_McKellen, :Patrick_Stewart ;
-    ns1:title    "X-Men" ;
-    ns1:vote     5.80354e+05 ;
-    ns1:year     "2000" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 1.573e+08 ;
+    ns1:rating 7.4e+00 ;
+    ns1:stars :Bryan_Singer,
+        :Famke_Janssen,
+        :Hugh_Jackman,
+        :Ian_McKellen,
+        :Patrick_Stewart ;
+    ns1:title "X-Men" ;
+    ns1:vote 5.80354e+05 ;
+    ns1:year "2000" .
 
-:40
-    a            ns1:CreativeWork ;
+:40 a ns1:CreativeWork ;
     ns1:director :Tim_Miller ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Comedy ;
-    ns1:gross    3.6307e+08 ;
-    ns1:rating   8e+00 ;
-    ns1:stars    :Ed_Skrein, :Morena_Baccarin, :Ryan_Reynolds, :TJ_Miller, :Tim_Miller ;
-    ns1:title    "Deadpool" ;
-    ns1:vote     9.27737e+05 ;
-    ns1:year     "2016" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Comedy ;
+    ns1:gross 3.6307e+08 ;
+    ns1:rating 8e+00 ;
+    ns1:stars :Ed_Skrein,
+        :Morena_Baccarin,
+        :Ryan_Reynolds,
+        :TJ_Miller,
+        :Tim_Miller ;
+    ns1:title "Deadpool" ;
+    ns1:vote 9.27737e+05 ;
+    ns1:year "2016" .
 
-:41
-    a            ns1:CreativeWork ;
+:41 a ns1:CreativeWork ;
     ns1:director :Anthony_Russo ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    4.0808e+08 ;
-    ns1:rating   7.8e+00 ;
-    ns1:stars    :Chris_Evans, :Joe_Russo, :Robert_Downey_Jr, :Scarlett_Johansson, :Sebastian_Stan ;
-    ns1:title    "Captain America: Civil War" ;
-    ns1:vote     6.89763e+05 ;
-    ns1:year     "2016" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 4.0808e+08 ;
+    ns1:rating 7.8e+00 ;
+    ns1:stars :Chris_Evans,
+        :Joe_Russo,
+        :Robert_Downey_Jr,
+        :Scarlett_Johansson,
+        :Sebastian_Stan ;
+    ns1:title "Captain America: Civil War" ;
+    ns1:vote 6.89763e+05 ;
+    ns1:year "2016" .
 
-:42
-    a            ns1:CreativeWork ;
+:42 a ns1:CreativeWork ;
     ns1:director :Bryan_Singer ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    1.5544e+08 ;
-    ns1:rating   6.9e+00 ;
-    ns1:stars    :Bryan_Singer, :James_McAvoy, :Jennifer_Lawrence, :Michael_Fassbender, :Nicholas_Hoult ;
-    ns1:title    "X-Men: Apocalypse" ;
-    ns1:vote     4.02935e+05 ;
-    ns1:year     "2016" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 1.5544e+08 ;
+    ns1:rating 6.9e+00 ;
+    ns1:stars :Bryan_Singer,
+        :James_McAvoy,
+        :Jennifer_Lawrence,
+        :Michael_Fassbender,
+        :Nicholas_Hoult ;
+    ns1:title "X-Men: Apocalypse" ;
+    ns1:vote 4.02935e+05 ;
+    ns1:year "2016" .
 
-:43
-    a            ns1:CreativeWork ;
+:43 a ns1:CreativeWork ;
     ns1:director :Scott_Derrickson ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Fantasy ;
-    ns1:gross    2.3264e+08 ;
-    ns1:rating   7.5e+00 ;
-    ns1:stars    :Benedict_Cumberbatch, :Benedict_Wong, :Chiwetel_Ejiofor, :Rachel_McAdams, :Scott_Derrickson ;
-    ns1:title    "Doctor Strange" ;
-    ns1:vote     6.23361e+05 ;
-    ns1:year     "2016" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Fantasy ;
+    ns1:gross 2.3264e+08 ;
+    ns1:rating 7.5e+00 ;
+    ns1:stars :Benedict_Cumberbatch,
+        :Benedict_Wong,
+        :Chiwetel_Ejiofor,
+        :Rachel_McAdams,
+        :Scott_Derrickson ;
+    ns1:title "Doctor Strange" ;
+    ns1:vote 6.23361e+05 ;
+    ns1:year "2016" .
 
-:44
-    a            ns1:CreativeWork ;
+:44 a ns1:CreativeWork ;
     ns1:director :James_Mangold ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Drama, ns1:Sci-Fi ;
-    ns1:gross    2.2628e+08 ;
-    ns1:rating   8.1e+00 ;
-    ns1:stars    :Boyd_Holbrook, :Dafne_Keen, :Hugh_Jackman, :James_Mangold, :Patrick_Stewart ;
-    ns1:title    "Logan" ;
-    ns1:vote     6.7071e+05 ;
-    ns1:year     "2017" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Drama,
+        ns1:Sci-Fi ;
+    ns1:gross 2.2628e+08 ;
+    ns1:rating 8.1e+00 ;
+    ns1:stars :Boyd_Holbrook,
+        :Dafne_Keen,
+        :Hugh_Jackman,
+        :James_Mangold,
+        :Patrick_Stewart ;
+    ns1:title "Logan" ;
+    ns1:vote 6.7071e+05 ;
+    ns1:year "2017" .
 
-:45
-    a            ns1:CreativeWork ;
+:45 a ns1:CreativeWork ;
     ns1:director :James_Gunn ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Comedy ;
-    ns1:gross    3.8981e+08 ;
-    ns1:rating   7.6e+00 ;
-    ns1:stars    :Chris_Pratt, :Dave_Bautista, :James_Gunn, :Vin_Diesel, :Zoe_Saldana ;
-    ns1:title    "Guardians of the Galaxy Vol. 2" ;
-    ns1:vote     5.9226e+05 ;
-    ns1:year     "2017" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Comedy ;
+    ns1:gross 3.8981e+08 ;
+    ns1:rating 7.6e+00 ;
+    ns1:stars :Chris_Pratt,
+        :Dave_Bautista,
+        :James_Gunn,
+        :Vin_Diesel,
+        :Zoe_Saldana ;
+    ns1:title "Guardians of the Galaxy Vol. 2" ;
+    ns1:vote 5.9226e+05 ;
+    ns1:year "2017" .
 
-:46
-    a            ns1:CreativeWork ;
+:46 a ns1:CreativeWork ;
     ns1:director :Jon_Watts ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    3.342e+08 ;
-    ns1:rating   7.4e+00 ;
-    ns1:stars    :Jon_Watts, :Marisa_Tomei, :Michael_Keaton, :Robert_Downey_Jr, :Tom_Holland ;
-    ns1:title    "Spider-Man: Homecoming" ;
-    ns1:vote     5.36012e+05 ;
-    ns1:year     "2017" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 3.342e+08 ;
+    ns1:rating 7.4e+00 ;
+    ns1:stars :Jon_Watts,
+        :Marisa_Tomei,
+        :Michael_Keaton,
+        :Robert_Downey_Jr,
+        :Tom_Holland ;
+    ns1:title "Spider-Man: Homecoming" ;
+    ns1:vote 5.36012e+05 ;
+    ns1:year "2017" .
 
-:47
-    a            ns1:CreativeWork ;
+:47 a ns1:CreativeWork ;
     ns1:director :Taika_Waititi ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Comedy ;
-    ns1:gross    3.1506e+08 ;
-    ns1:rating   7.9e+00 ;
-    ns1:stars    :Cate_Blanchett, :Chris_Hemsworth, :Mark_Ruffalo, :Taika_Waititi, :Tom_Hiddleston ;
-    ns1:title    "Thor: Ragnarok" ;
-    ns1:vote     6.20623e+05 ;
-    ns1:year     "2017" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Comedy ;
+    ns1:gross 3.1506e+08 ;
+    ns1:rating 7.9e+00 ;
+    ns1:stars :Cate_Blanchett,
+        :Chris_Hemsworth,
+        :Mark_Ruffalo,
+        :Taika_Waititi,
+        :Tom_Hiddleston ;
+    ns1:title "Thor: Ragnarok" ;
+    ns1:vote 6.20623e+05 ;
+    ns1:year "2017" .
 
-:48
-    a            ns1:CreativeWork ;
+:48 a ns1:CreativeWork ;
     ns1:director :Ryan_Coogler ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    7.0006e+08 ;
-    ns1:rating   7.3e+00 ;
-    ns1:stars    :Chadwick_Boseman, :Danai_Gurira, :Lupita_Nyong_o, :Michael_B_Jordan, :Ryan_Coogler ;
-    ns1:title    "Black Panther" ;
-    ns1:vote     6.55779e+05 ;
-    ns1:year     "2018" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 7.0006e+08 ;
+    ns1:rating 7.3e+00 ;
+    ns1:stars :Chadwick_Boseman,
+        :Danai_Gurira,
+        :Lupita_Nyong_o,
+        :Michael_B_Jordan,
+        :Ryan_Coogler ;
+    ns1:title "Black Panther" ;
+    ns1:vote 6.55779e+05 ;
+    ns1:year "2018" .
 
-:49
-    a            ns1:CreativeWork ;
+:49 a ns1:CreativeWork ;
     ns1:director :Anthony_Russo ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    6.7882e+08 ;
-    ns1:rating   8.4e+00 ;
-    ns1:stars    :Chris_Evans, :Chris_Hemsworth, :Joe_Russo, :Mark_Ruffalo, :Robert_Downey_Jr ;
-    ns1:title    "Avengers: Infinity War" ;
-    ns1:vote     8.88104e+05 ;
-    ns1:year     "2018" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 6.7882e+08 ;
+    ns1:rating 8.4e+00 ;
+    ns1:stars :Chris_Evans,
+        :Chris_Hemsworth,
+        :Joe_Russo,
+        :Mark_Ruffalo,
+        :Robert_Downey_Jr ;
+    ns1:title "Avengers: Infinity War" ;
+    ns1:vote 8.88104e+05 ;
+    ns1:year "2018" .
 
-:5
-    a            ns1:CreativeWork ;
+:5 a ns1:CreativeWork ;
     ns1:director :Guillermo_del_Toro ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Fantasy, ns1:Horror ;
-    ns1:gross    8.235e+07 ;
-    ns1:rating   6.7e+00 ;
-    ns1:stars    :Guillermo_del_Toro, :Kris_Kristofferson, :Leonor_Varela, :Ron_Perlman, :Wesley_Snipes ;
-    ns1:title    "Blade II" ;
-    ns1:vote     2.03813e+05 ;
-    ns1:year     "2002" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Fantasy,
+        ns1:Horror ;
+    ns1:gross 8.235e+07 ;
+    ns1:rating 6.7e+00 ;
+    ns1:stars :Guillermo_del_Toro,
+        :Kris_Kristofferson,
+        :Leonor_Varela,
+        :Ron_Perlman,
+        :Wesley_Snipes ;
+    ns1:title "Blade II" ;
+    ns1:vote 2.03813e+05 ;
+    ns1:year "2002" .
 
-:50
-    a            ns1:CreativeWork ;
+:50 a ns1:CreativeWork ;
     ns1:director :David_Leitch ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Comedy ;
-    ns1:gross    3.2459e+08 ;
-    ns1:rating   7.7e+00 ;
-    ns1:stars    :David_Leitch, :Josh_Brolin, :Julian_Dennison, :Morena_Baccarin, :Ryan_Reynolds ;
-    ns1:title    "Deadpool 2" ;
-    ns1:vote     5.01971e+05 ;
-    ns1:year     "2018" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Comedy ;
+    ns1:gross 3.2459e+08 ;
+    ns1:rating 7.7e+00 ;
+    ns1:stars :David_Leitch,
+        :Josh_Brolin,
+        :Julian_Dennison,
+        :Morena_Baccarin,
+        :Ryan_Reynolds ;
+    ns1:title "Deadpool 2" ;
+    ns1:vote 5.01971e+05 ;
+    ns1:year "2018" .
 
-:51
-    a            ns1:CreativeWork ;
+:51 a ns1:CreativeWork ;
     ns1:director :Peyton_Reed ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Comedy ;
-    ns1:gross    2.1665e+08 ;
-    ns1:rating   7e+00 ;
-    ns1:stars    :Evangeline_Lilly, :Michael_Peña, :Paul_Rudd, :Peyton_Reed, :Walton_Goggins ;
-    ns1:title    "Ant-Man and the Wasp" ;
-    ns1:vote     3.296e+05 ;
-    ns1:year     "2018" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Comedy ;
+    ns1:gross 2.1665e+08 ;
+    ns1:rating 7e+00 ;
+    ns1:stars :Evangeline_Lilly,
+        :Michael_Peña,
+        :Paul_Rudd,
+        :Peyton_Reed,
+        :Walton_Goggins ;
+    ns1:title "Ant-Man and the Wasp" ;
+    ns1:vote 3.296e+05 ;
+    ns1:year "2018" .
 
-:52
-    a            ns1:CreativeWork ;
+:52 a ns1:CreativeWork ;
     ns1:director :Ruben_Fleischer ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    2.1352e+08 ;
-    ns1:rating   6.7e+00 ;
-    ns1:stars    :Michelle_Williams, :Riz_Ahmed, :Ruben_Fleischer, :Scott_Haze, :Tom_Hardy ;
-    ns1:title    "Venom" ;
-    ns1:vote     3.83743e+05 ;
-    ns1:year     "2018" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 2.1352e+08 ;
+    ns1:rating 6.7e+00 ;
+    ns1:stars :Michelle_Williams,
+        :Riz_Ahmed,
+        :Ruben_Fleischer,
+        :Scott_Haze,
+        :Tom_Hardy ;
+    ns1:title "Venom" ;
+    ns1:vote 3.83743e+05 ;
+    ns1:year "2018" .
 
-:53
-    a            ns1:CreativeWork ;
+:53 a ns1:CreativeWork ;
     ns1:director :Anna_Boden ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    4.2683e+08 ;
-    ns1:rating   6.8e+00 ;
-    ns1:stars    :Anna_Boden, :Ben_Mendelsohn, :Brie_Larson, :Jude_Law, :Samuel_L_Jackson ;
-    ns1:title    "Captain Marvel" ;
-    ns1:vote     4.73437e+05 ;
-    ns1:year     "2019" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 4.2683e+08 ;
+    ns1:rating 6.8e+00 ;
+    ns1:stars :Anna_Boden,
+        :Ben_Mendelsohn,
+        :Brie_Larson,
+        :Jude_Law,
+        :Samuel_L_Jackson ;
+    ns1:title "Captain Marvel" ;
+    ns1:vote 4.73437e+05 ;
+    ns1:year "2019" .
 
-:54
-    a            ns1:CreativeWork ;
+:54 a ns1:CreativeWork ;
     ns1:director :Anthony_Russo ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Drama ;
-    ns1:gross    8.5837e+08 ;
-    ns1:rating   8.4e+00 ;
-    ns1:stars    :Chris_Evans, :Chris_Hemsworth, :Joe_Russo, :Mark_Ruffalo, :Robert_Downey_Jr ;
-    ns1:title    "Avengers: Endgame" ;
-    ns1:vote     8.90937e+05 ;
-    ns1:year     "2019" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Drama ;
+    ns1:gross 8.5837e+08 ;
+    ns1:rating 8.4e+00 ;
+    ns1:stars :Chris_Evans,
+        :Chris_Hemsworth,
+        :Joe_Russo,
+        :Mark_Ruffalo,
+        :Robert_Downey_Jr ;
+    ns1:title "Avengers: Endgame" ;
+    ns1:vote 8.90937e+05 ;
+    ns1:year "2019" .
 
-:55
-    a            ns1:CreativeWork ;
+:55 a ns1:CreativeWork ;
     ns1:director :Simon_Kinberg ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    6.585e+07 ;
-    ns1:rating   5.7e+00 ;
-    ns1:stars    :James_McAvoy, :Jennifer_Lawrence, :Michael_Fassbender, :Nicholas_Hoult, :Simon_Kinberg ;
-    ns1:title    "X-Men: Dark Phoenix" ;
-    ns1:vote     1.64427e+05 ;
-    ns1:year     "2019" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 6.585e+07 ;
+    ns1:rating 5.7e+00 ;
+    ns1:stars :James_McAvoy,
+        :Jennifer_Lawrence,
+        :Michael_Fassbender,
+        :Nicholas_Hoult,
+        :Simon_Kinberg ;
+    ns1:title "X-Men: Dark Phoenix" ;
+    ns1:vote 1.64427e+05 ;
+    ns1:year "2019" .
 
-:56
-    a            ns1:CreativeWork ;
+:56 a ns1:CreativeWork ;
     ns1:director :Jon_Watts ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    3.9053e+08 ;
-    ns1:rating   7.5e+00 ;
-    ns1:stars    :Jake_Gyllenhaal, :Jon_Watts, :Marisa_Tomei, :Samuel_L_Jackson, :Tom_Holland ;
-    ns1:title    "Spider-Man: Far from Home" ;
-    ns1:vote     3.53385e+05 ;
-    ns1:year     "2019" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 3.9053e+08 ;
+    ns1:rating 7.5e+00 ;
+    ns1:stars :Jake_Gyllenhaal,
+        :Jon_Watts,
+        :Marisa_Tomei,
+        :Samuel_L_Jackson,
+        :Tom_Holland ;
+    ns1:title "Spider-Man: Far from Home" ;
+    ns1:vote 3.53385e+05 ;
+    ns1:year "2019" .
 
-:57
-    a            ns1:CreativeWork ;
+:57 a ns1:CreativeWork ;
     ns1:director :Josh_Boone ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Horror, ns1:Mystery ;
-    ns1:gross    0e+00 ;
-    ns1:rating   5.3e+00 ;
-    ns1:stars    :Alice_Braga, :Anya_Taylor-Joy, :Charlie_Heaton, :Josh_Boone, :Maisie_Williams ;
-    ns1:title    "The New Mutants" ;
-    ns1:vote     5.9535e+04 ;
-    ns1:year     "2020" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Horror,
+        ns1:Mystery ;
+    ns1:gross 0e+00 ;
+    ns1:rating 5.3e+00 ;
+    ns1:stars :Alice_Braga,
+        :Anya_Taylor-Joy,
+        :Charlie_Heaton,
+        :Josh_Boone,
+        :Maisie_Williams ;
+    ns1:title "The New Mutants" ;
+    ns1:vote 5.9535e+04 ;
+    ns1:year "2020" .
 
-:58
-    a            ns1:CreativeWork ;
+:58 a ns1:CreativeWork ;
     ns1:director :Lee_Sholem ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Drama ;
-    ns1:gross    0e+00 ;
-    ns1:rating   5.7e+00 ;
-    ns1:stars    :George_Reeves, :Jeff_Corey, :Phyllis_Coates, :Walter_Reed ;
-    ns1:title    "Superman and the Mole-Men" ;
-    ns1:vote     1.828e+03 ;
-    ns1:year     "1951" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Drama ;
+    ns1:gross 0e+00 ;
+    ns1:rating 5.7e+00 ;
+    ns1:stars :George_Reeves,
+        :Jeff_Corey,
+        :Phyllis_Coates,
+        :Walter_Reed ;
+    ns1:title "Superman and the Mole-Men" ;
+    ns1:vote 1.828e+03 ;
+    ns1:year "1951" .
 
-:59
-    a            ns1:CreativeWork ;
+:59 a ns1:CreativeWork ;
     ns1:director :Leslie_H_Martinson ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Adventure, ns1:Comedy, ns1:Crime ;
-    ns1:gross    0e+00 ;
-    ns1:rating   6.5e+00 ;
-    ns1:stars    :Adam_West, :Burt_Ward, :Cesar_Romero, :Lee_Meriwether ;
-    ns1:title    "Batman: The Movie" ;
-    ns1:vote     3.0289e+04 ;
-    ns1:year     "1966" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Adventure,
+        ns1:Comedy,
+        ns1:Crime ;
+    ns1:gross 0e+00 ;
+    ns1:rating 6.5e+00 ;
+    ns1:stars :Adam_West,
+        :Burt_Ward,
+        :Cesar_Romero,
+        :Lee_Meriwether ;
+    ns1:title "Batman: The Movie" ;
+    ns1:vote 3.0289e+04 ;
+    ns1:year "1966" .
 
-:6
-    a            ns1:CreativeWork ;
+:6 a ns1:CreativeWork ;
     ns1:director :Sam_Raimi ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    4.0371e+08 ;
-    ns1:rating   7.3e+00 ;
-    ns1:stars    :James_Franco, :Kirsten_Dunst, :Sam_Raimi, :Tobey_Maguire, :Willem_Dafoe ;
-    ns1:title    "Spider-Man" ;
-    ns1:vote     7.02986e+05 ;
-    ns1:year     "2002" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 4.0371e+08 ;
+    ns1:rating 7.3e+00 ;
+    ns1:stars :James_Franco,
+        :Kirsten_Dunst,
+        :Sam_Raimi,
+        :Tobey_Maguire,
+        :Willem_Dafoe ;
+    ns1:title "Spider-Man" ;
+    ns1:vote 7.02986e+05 ;
+    ns1:year "2002" .
 
-:60
-    a            ns1:CreativeWork ;
+:60 a ns1:CreativeWork ;
     ns1:director :Richard_Donner ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Drama ;
-    ns1:gross    1.3422e+08 ;
-    ns1:rating   7.3e+00 ;
-    ns1:stars    :Christopher_Reeve, :Gene_Hackman, :Margot_Kidder, :Marlon_Brando ;
-    ns1:title    "Superman" ;
-    ns1:vote     1.62395e+05 ;
-    ns1:year     "1978" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Drama ;
+    ns1:gross 1.3422e+08 ;
+    ns1:rating 7.3e+00 ;
+    ns1:stars :Christopher_Reeve,
+        :Gene_Hackman,
+        :Margot_Kidder,
+        :Marlon_Brando ;
+    ns1:title "Superman" ;
+    ns1:vote 1.62395e+05 ;
+    ns1:year "1978" .
 
-:61
-    a            ns1:CreativeWork ;
+:61 a ns1:CreativeWork ;
     ns1:director :Richard_Lester ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    1.0819e+08 ;
-    ns1:rating   6.8e+00 ;
-    ns1:stars    :Christopher_Reeve, :Gene_Hackman, :Margot_Kidder, :Ned_Beatty ;
-    ns1:title    "Superman II" ;
-    ns1:vote     1.0003e+05 ;
-    ns1:year     "1980" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 1.0819e+08 ;
+    ns1:rating 6.8e+00 ;
+    ns1:stars :Christopher_Reeve,
+        :Gene_Hackman,
+        :Margot_Kidder,
+        :Ned_Beatty ;
+    ns1:title "Superman II" ;
+    ns1:vote 1.0003e+05 ;
+    ns1:year "1980" .
 
-:62
-    a            ns1:CreativeWork ;
+:62 a ns1:CreativeWork ;
     ns1:director :Wes_Craven ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Horror, ns1:Sci-Fi ;
-    ns1:gross    0e+00 ;
-    ns1:rating   5.4e+00 ;
-    ns1:stars    :Adrienne_Barbeau, :David_Hess, :Louis_Jourdan, :Ray_Wise ;
-    ns1:title    "Swamp Thing" ;
-    ns1:vote     1.3328e+04 ;
-    ns1:year     "1982" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Horror,
+        ns1:Sci-Fi ;
+    ns1:gross 0e+00 ;
+    ns1:rating 5.4e+00 ;
+    ns1:stars :Adrienne_Barbeau,
+        :David_Hess,
+        :Louis_Jourdan,
+        :Ray_Wise ;
+    ns1:title "Swamp Thing" ;
+    ns1:vote 1.3328e+04 ;
+    ns1:year "1982" .
 
-:63
-    a            ns1:CreativeWork ;
+:63 a ns1:CreativeWork ;
     ns1:director :Richard_Lester ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Comedy ;
-    ns1:gross    5.995e+07 ;
-    ns1:rating   5e+00 ;
-    ns1:stars    :Christopher_Reeve, :Jackie_Cooper, :Margot_Kidder, :Richard_Pryor ;
-    ns1:title    "Superman III" ;
-    ns1:vote     6.534e+04 ;
-    ns1:year     "1983" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Comedy ;
+    ns1:gross 5.995e+07 ;
+    ns1:rating 5e+00 ;
+    ns1:stars :Christopher_Reeve,
+        :Jackie_Cooper,
+        :Margot_Kidder,
+        :Richard_Pryor ;
+    ns1:title "Superman III" ;
+    ns1:vote 6.534e+04 ;
+    ns1:year "1983" .
 
-:64
-    a            ns1:CreativeWork ;
+:64 a ns1:CreativeWork ;
     ns1:director :Jeannot_Szwarc ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Fantasy ;
-    ns1:gross    1.36e+07 ;
-    ns1:rating   4.4e+00 ;
-    ns1:stars    :Faye_Dunaway, :Helen_Slater, :Mia_Farrow, :Peter_O_Toole ;
-    ns1:title    "Supergirl" ;
-    ns1:vote     1.9361e+04 ;
-    ns1:year     "1984" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Fantasy ;
+    ns1:gross 1.36e+07 ;
+    ns1:rating 4.4e+00 ;
+    ns1:stars :Faye_Dunaway,
+        :Helen_Slater,
+        :Mia_Farrow,
+        :Peter_O_Toole ;
+    ns1:title "Supergirl" ;
+    ns1:vote 1.9361e+04 ;
+    ns1:year "1984" .
 
-:65
-    a            ns1:CreativeWork ;
+:65 a ns1:CreativeWork ;
     ns1:director :Sidney_J_Furie ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    1.568e+07 ;
-    ns1:rating   3.7e+00 ;
-    ns1:stars    :Christopher_Reeve, :Gene_Hackman, :Jackie_Cooper, :Margot_Kidder ;
-    ns1:title    "Superman IV: The Quest for Peace" ;
-    ns1:vote     4.4082e+04 ;
-    ns1:year     "1987" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 1.568e+07 ;
+    ns1:rating 3.7e+00 ;
+    ns1:stars :Christopher_Reeve,
+        :Gene_Hackman,
+        :Jackie_Cooper,
+        :Margot_Kidder ;
+    ns1:title "Superman IV: The Quest for Peace" ;
+    ns1:vote 4.4082e+04 ;
+    ns1:year "1987" .
 
-:66
-    a            ns1:CreativeWork ;
+:66 a ns1:CreativeWork ;
     ns1:director :Jim_Wynorski ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Comedy ;
-    ns1:gross    1.9e+05 ;
-    ns1:rating   4.6e+00 ;
-    ns1:stars    :Dick_Durock, :Heather_Locklear, :Louis_Jourdan, :Sarah_Douglas ;
-    ns1:title    "The Return of Swamp Thing" ;
-    ns1:vote     4.454e+03 ;
-    ns1:year     "1989" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Comedy ;
+    ns1:gross 1.9e+05 ;
+    ns1:rating 4.6e+00 ;
+    ns1:stars :Dick_Durock,
+        :Heather_Locklear,
+        :Louis_Jourdan,
+        :Sarah_Douglas ;
+    ns1:title "The Return of Swamp Thing" ;
+    ns1:vote 4.454e+03 ;
+    ns1:year "1989" .
 
-:67
-    a            ns1:CreativeWork ;
+:67 a ns1:CreativeWork ;
     ns1:director :Tim_Burton ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure ;
-    ns1:gross    2.5119e+08 ;
-    ns1:rating   7.5e+00 ;
-    ns1:stars    :Jack_Nicholson, :Kim_Basinger, :Michael_Keaton, :Robert_Wuhl ;
-    ns1:title    "Batman" ;
-    ns1:vote     3.44868e+05 ;
-    ns1:year     "1989" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure ;
+    ns1:gross 2.5119e+08 ;
+    ns1:rating 7.5e+00 ;
+    ns1:stars :Jack_Nicholson,
+        :Kim_Basinger,
+        :Michael_Keaton,
+        :Robert_Wuhl ;
+    ns1:title "Batman" ;
+    ns1:vote 3.44868e+05 ;
+    ns1:year "1989" .
 
-:68
-    a            ns1:CreativeWork ;
+:68 a ns1:CreativeWork ;
     ns1:director :Tim_Burton ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Crime, ns1:Fantasy ;
-    ns1:gross    1.6283e+08 ;
-    ns1:rating   7e+00 ;
-    ns1:stars    :Christopher_Walken, :Danny_DeVito, :Michael_Keaton, :Michelle_Pfeiffer ;
-    ns1:title    "Batman Returns" ;
-    ns1:vote     2.79545e+05 ;
-    ns1:year     "1992" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Crime,
+        ns1:Fantasy ;
+    ns1:gross 1.6283e+08 ;
+    ns1:rating 7e+00 ;
+    ns1:stars :Christopher_Walken,
+        :Danny_DeVito,
+        :Michael_Keaton,
+        :Michelle_Pfeiffer ;
+    ns1:title "Batman Returns" ;
+    ns1:vote 2.79545e+05 ;
+    ns1:year "1992" .
 
-:69
-    a            ns1:CreativeWork ;
+:69 a ns1:CreativeWork ;
     ns1:director :Joel_Schumacher ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure ;
-    ns1:gross    1.8403e+08 ;
-    ns1:rating   5.4e+00 ;
-    ns1:stars    :Jim_Carrey, :Nicole_Kidman, :Tommy_Lee_Jones, :Val_Kilmer ;
-    ns1:title    "Batman Forever" ;
-    ns1:vote     2.3823e+05 ;
-    ns1:year     "1995" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure ;
+    ns1:gross 1.8403e+08 ;
+    ns1:rating 5.4e+00 ;
+    ns1:stars :Jim_Carrey,
+        :Nicole_Kidman,
+        :Tommy_Lee_Jones,
+        :Val_Kilmer ;
+    ns1:title "Batman Forever" ;
+    ns1:vote 2.3823e+05 ;
+    ns1:year "1995" .
 
-:7
-    a            ns1:CreativeWork ;
+:7 a ns1:CreativeWork ;
     ns1:director :Mark_Steven_Johnson ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Crime ;
-    ns1:gross    1.0254e+08 ;
-    ns1:rating   5.3e+00 ;
-    ns1:stars    :Ben_Affleck, :Colin_Farrell, :Jennifer_Garner, :Mark_Steven_Johnson, :Michael_Clarke_Duncan ;
-    ns1:title    "Daredevil" ;
-    ns1:vote     2.08847e+05 ;
-    ns1:year     "2003" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Crime ;
+    ns1:gross 1.0254e+08 ;
+    ns1:rating 5.3e+00 ;
+    ns1:stars :Ben_Affleck,
+        :Colin_Farrell,
+        :Jennifer_Garner,
+        :Mark_Steven_Johnson,
+        :Michael_Clarke_Duncan ;
+    ns1:title "Daredevil" ;
+    ns1:vote 2.08847e+05 ;
+    ns1:year "2003" .
 
-:70
-    a            ns1:CreativeWork ;
+:70 a ns1:CreativeWork ;
     ns1:director :Joel_Schumacher ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Sci-Fi ;
-    ns1:gross    1.0733e+08 ;
-    ns1:rating   3.8e+00 ;
-    ns1:stars    :Arnold_Schwarzenegger, :Chris_O_Donnell, :George_Clooney, :Uma_Thurman ;
-    ns1:title    "Batman & Robin" ;
-    ns1:vote     2.37759e+05 ;
-    ns1:year     "1997" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Sci-Fi ;
+    ns1:gross 1.0733e+08 ;
+    ns1:rating 3.8e+00 ;
+    ns1:stars :Arnold_Schwarzenegger,
+        :Chris_O_Donnell,
+        :George_Clooney,
+        :Uma_Thurman ;
+    ns1:title "Batman & Robin" ;
+    ns1:vote 2.37759e+05 ;
+    ns1:year "1997" .
 
-:71
-    a            ns1:CreativeWork ;
+:71 a ns1:CreativeWork ;
     ns1:director :Kenneth_Johnson ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Crime ;
-    ns1:gross    1.71e+06 ;
-    ns1:rating   2.9e+00 ;
-    ns1:stars    :Annabeth_Gish, :Judd_Nelson, :Richard_Roundtree, :Shaquille_O_Neal ;
-    ns1:title    "Steel" ;
-    ns1:vote     1.1519e+04 ;
-    ns1:year     "1997" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Crime ;
+    ns1:gross 1.71e+06 ;
+    ns1:rating 2.9e+00 ;
+    ns1:stars :Annabeth_Gish,
+        :Judd_Nelson,
+        :Richard_Roundtree,
+        :Shaquille_O_Neal ;
+    ns1:title "Steel" ;
+    ns1:vote 1.1519e+04 ;
+    ns1:year "1997" .
 
-:72
-    a            ns1:CreativeWork ;
+:72 a ns1:CreativeWork ;
     ns1:director :Pitof ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Crime, ns1:Fantasy ;
-    ns1:gross    4.02e+07 ;
-    ns1:rating   3.4e+00 ;
-    ns1:stars    :Benjamin_Bratt, :Halle_Berry, :Lambert_Wilson, :Sharon_Stone ;
-    ns1:title    "Catwoman" ;
-    ns1:vote     1.12972e+05 ;
-    ns1:year     "2004" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Crime,
+        ns1:Fantasy ;
+    ns1:gross 4.02e+07 ;
+    ns1:rating 3.4e+00 ;
+    ns1:stars :Benjamin_Bratt,
+        :Halle_Berry,
+        :Lambert_Wilson,
+        :Sharon_Stone ;
+    ns1:title "Catwoman" ;
+    ns1:vote 1.12972e+05 ;
+    ns1:year "2004" .
 
-:73
-    a            ns1:CreativeWork ;
+:73 a ns1:CreativeWork ;
     ns1:director :Francis_Lawrence ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Fantasy, ns1:Horror ;
-    ns1:gross    7.598e+07 ;
-    ns1:rating   7e+00 ;
-    ns1:stars    :Djimon_Hounsou, :Keanu_Reeves, :Rachel_Weisz, :Shia_LaBeouf ;
-    ns1:title    "Constantine" ;
-    ns1:vote     3.15617e+05 ;
-    ns1:year     "2005" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Fantasy,
+        ns1:Horror ;
+    ns1:gross 7.598e+07 ;
+    ns1:rating 7e+00 ;
+    ns1:stars :Djimon_Hounsou,
+        :Keanu_Reeves,
+        :Rachel_Weisz,
+        :Shia_LaBeouf ;
+    ns1:title "Constantine" ;
+    ns1:vote 3.15617e+05 ;
+    ns1:year "2005" .
 
-:74
-    a            ns1:CreativeWork ;
+:74 a ns1:CreativeWork ;
     ns1:director :Christopher_Nolan ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure ;
-    ns1:gross    2.0685e+08 ;
-    ns1:rating   8.2e+00 ;
-    ns1:stars    :Christian_Bale, :Ken_Watanabe, :Liam_Neeson, :Michael_Caine ;
-    ns1:title    "Batman Begins" ;
-    ns1:vote     1.33814e+06 ;
-    ns1:year     "2005" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure ;
+    ns1:gross 2.0685e+08 ;
+    ns1:rating 8.2e+00 ;
+    ns1:stars :Christian_Bale,
+        :Ken_Watanabe,
+        :Liam_Neeson,
+        :Michael_Caine ;
+    ns1:title "Batman Begins" ;
+    ns1:vote 1.33814e+06 ;
+    ns1:year "2005" .
 
-:75
-    a            ns1:CreativeWork ;
+:75 a ns1:CreativeWork ;
     ns1:director :Bryan_Singer ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Sci-Fi ;
-    ns1:gross    2.0008e+08 ;
-    ns1:rating   6e+00 ;
-    ns1:stars    :Brandon_Routh, :James_Marsden, :Kate_Bosworth, :Kevin_Spacey ;
-    ns1:title    "Superman Returns" ;
-    ns1:vote     2.73696e+05 ;
-    ns1:year     "2006" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Sci-Fi ;
+    ns1:gross 2.0008e+08 ;
+    ns1:rating 6e+00 ;
+    ns1:stars :Brandon_Routh,
+        :James_Marsden,
+        :Kate_Bosworth,
+        :Kevin_Spacey ;
+    ns1:title "Superman Returns" ;
+    ns1:vote 2.73696e+05 ;
+    ns1:year "2006" .
 
-:76
-    a            ns1:CreativeWork ;
+:76 a ns1:CreativeWork ;
     ns1:director :Christopher_Nolan ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Crime, ns1:Drama ;
-    ns1:gross    5.3486e+08 ;
-    ns1:rating   9e+00 ;
-    ns1:stars    :Aaron_Eckhart, :Christian_Bale, :Heath_Ledger, :Michael_Caine ;
-    ns1:title    "The Dark Knight" ;
-    ns1:vote     2.369304e+06 ;
-    ns1:year     "2008" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Crime,
+        ns1:Drama ;
+    ns1:gross 5.3486e+08 ;
+    ns1:rating 9e+00 ;
+    ns1:stars :Aaron_Eckhart,
+        :Christian_Bale,
+        :Heath_Ledger,
+        :Michael_Caine ;
+    ns1:title "The Dark Knight" ;
+    ns1:vote 2.369304e+06 ;
+    ns1:year "2008" .
 
-:77
-    a            ns1:CreativeWork ;
+:77 a ns1:CreativeWork ;
     ns1:director :Zack_Snyder ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Drama, ns1:Mystery ;
-    ns1:gross    1.0751e+08 ;
-    ns1:rating   7.6e+00 ;
-    ns1:stars    :Carla_Gugino, :Jackie_Earle_Haley, :Malin_Akerman, :Patrick_Wilson ;
-    ns1:title    "Watchmen" ;
-    ns1:vote     5.18415e+05 ;
-    ns1:year     "2009" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Drama,
+        ns1:Mystery ;
+    ns1:gross 1.0751e+08 ;
+    ns1:rating 7.6e+00 ;
+    ns1:stars :Carla_Gugino,
+        :Jackie_Earle_Haley,
+        :Malin_Akerman,
+        :Patrick_Wilson ;
+    ns1:title "Watchmen" ;
+    ns1:vote 5.18415e+05 ;
+    ns1:year "2009" .
 
-:78
-    a            ns1:CreativeWork ;
+:78 a ns1:CreativeWork ;
     ns1:director :Jimmy_Hayward ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Drama, ns1:Fantasy ;
-    ns1:gross    1.054e+07 ;
-    ns1:rating   4.7e+00 ;
-    ns1:stars    :John_Malkovich, :Josh_Brolin, :Megan_Fox, :Michael_Fassbender ;
-    ns1:title    "Jonah Hex" ;
-    ns1:vote     5.6225e+04 ;
-    ns1:year     "2010" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Drama,
+        ns1:Fantasy ;
+    ns1:gross 1.054e+07 ;
+    ns1:rating 4.7e+00 ;
+    ns1:stars :John_Malkovich,
+        :Josh_Brolin,
+        :Megan_Fox,
+        :Michael_Fassbender ;
+    ns1:title "Jonah Hex" ;
+    ns1:vote 5.6225e+04 ;
+    ns1:year "2010" .
 
-:79
-    a            ns1:CreativeWork ;
+:79 a ns1:CreativeWork ;
     ns1:director :Martin_Campbell ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    1.166e+08 ;
-    ns1:rating   5.5e+00 ;
-    ns1:stars    :Blake_Lively, :Mark_Strong, :Peter_Sarsgaard, :Ryan_Reynolds ;
-    ns1:title    "Green Lantern" ;
-    ns1:vote     2.70939e+05 ;
-    ns1:year     "2011" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 1.166e+08 ;
+    ns1:rating 5.5e+00 ;
+    ns1:stars :Blake_Lively,
+        :Mark_Strong,
+        :Peter_Sarsgaard,
+        :Ryan_Reynolds ;
+    ns1:title "Green Lantern" ;
+    ns1:vote 2.70939e+05 ;
+    ns1:year "2011" .
 
-:8
-    a            ns1:CreativeWork ;
+:8 a ns1:CreativeWork ;
     ns1:director :Bryan_Singer ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Sci-Fi, ns1:Thriller ;
-    ns1:gross    2.1495e+08 ;
-    ns1:rating   7.4e+00 ;
-    ns1:stars    :Bryan_Singer, :Halle_Berry, :Hugh_Jackman, :Ian_McKellen, :Patrick_Stewart ;
-    ns1:title    "X2: X-Men United" ;
-    ns1:vote     5.19747e+05 ;
-    ns1:year     "2003" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Sci-Fi,
+        ns1:Thriller ;
+    ns1:gross 2.1495e+08 ;
+    ns1:rating 7.4e+00 ;
+    ns1:stars :Bryan_Singer,
+        :Halle_Berry,
+        :Hugh_Jackman,
+        :Ian_McKellen,
+        :Patrick_Stewart ;
+    ns1:title "X2: X-Men United" ;
+    ns1:vote 5.19747e+05 ;
+    ns1:year "2003" .
 
-:80
-    a            ns1:CreativeWork ;
+:80 a ns1:CreativeWork ;
     ns1:director :Christopher_Nolan ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure ;
-    ns1:gross    4.4814e+08 ;
-    ns1:rating   8.4e+00 ;
-    ns1:stars    :Anne_Hathaway, :Christian_Bale, :Gary_Oldman, :Tom_Hardy ;
-    ns1:title    "The Dark Knight Rises" ;
-    ns1:vote     1.552223e+06 ;
-    ns1:year     "2012" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure ;
+    ns1:gross 4.4814e+08 ;
+    ns1:rating 8.4e+00 ;
+    ns1:stars :Anne_Hathaway,
+        :Christian_Bale,
+        :Gary_Oldman,
+        :Tom_Hardy ;
+    ns1:title "The Dark Knight Rises" ;
+    ns1:vote 1.552223e+06 ;
+    ns1:year "2012" .
 
-:81
-    a            ns1:CreativeWork ;
+:81 a ns1:CreativeWork ;
     ns1:director :Zack_Snyder ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    2.9105e+08 ;
-    ns1:rating   7e+00 ;
-    ns1:stars    :Amy_Adams, :Diane_Lane, :Henry_Cavill, :Michael_Shannon ;
-    ns1:title    "Man of Steel" ;
-    ns1:vote     7.18956e+05 ;
-    ns1:year     "2013" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 2.9105e+08 ;
+    ns1:rating 7e+00 ;
+    ns1:stars :Amy_Adams,
+        :Diane_Lane,
+        :Henry_Cavill,
+        :Michael_Shannon ;
+    ns1:title "Man of Steel" ;
+    ns1:vote 7.18956e+05 ;
+    ns1:year "2013" .
 
-:82
-    a            ns1:CreativeWork ;
+:82 a ns1:CreativeWork ;
     ns1:director :Zack_Snyder ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Sci-Fi ;
-    ns1:gross    3.3036e+08 ;
-    ns1:rating   6.4e+00 ;
-    ns1:stars    :Amy_Adams, :Ben_Affleck, :Henry_Cavill, :Jesse_Eisenberg ;
-    ns1:title    "Batman v Superman: Dawn of Justice" ;
-    ns1:vote     6.5327e+05 ;
-    ns1:year     "2016" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Sci-Fi ;
+    ns1:gross 3.3036e+08 ;
+    ns1:rating 6.4e+00 ;
+    ns1:stars :Amy_Adams,
+        :Ben_Affleck,
+        :Henry_Cavill,
+        :Jesse_Eisenberg ;
+    ns1:title "Batman v Superman: Dawn of Justice" ;
+    ns1:vote 6.5327e+05 ;
+    ns1:year "2016" .
 
-:83
-    a            ns1:CreativeWork ;
+:83 a ns1:CreativeWork ;
     ns1:director :David_Ayer ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Fantasy ;
-    ns1:gross    3.251e+08 ;
-    ns1:rating   5.9e+00 ;
-    ns1:stars    :Jared_Leto, :Margot_Robbie, :Viola_Davis, :Will_Smith ;
-    ns1:title    "Suicide Squad" ;
-    ns1:vote     6.22206e+05 ;
-    ns1:year     "2016" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Fantasy ;
+    ns1:gross 3.251e+08 ;
+    ns1:rating 5.9e+00 ;
+    ns1:stars :Jared_Leto,
+        :Margot_Robbie,
+        :Viola_Davis,
+        :Will_Smith ;
+    ns1:title "Suicide Squad" ;
+    ns1:vote 6.22206e+05 ;
+    ns1:year "2016" .
 
-:84
-    a            ns1:CreativeWork ;
+:84 a ns1:CreativeWork ;
     ns1:director :Patty_Jenkins ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Fantasy ;
-    ns1:gross    4.1256e+08 ;
-    ns1:rating   7.4e+00 ;
-    ns1:stars    :Chris_Pine, :Gal_Gadot, :Lucy_Davis, :Robin_Wright ;
-    ns1:title    "Wonder Woman" ;
-    ns1:vote     5.96901e+05 ;
-    ns1:year     "2017" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Fantasy ;
+    ns1:gross 4.1256e+08 ;
+    ns1:rating 7.4e+00 ;
+    ns1:stars :Chris_Pine,
+        :Gal_Gadot,
+        :Lucy_Davis,
+        :Robin_Wright ;
+    ns1:title "Wonder Woman" ;
+    ns1:vote 5.96901e+05 ;
+    ns1:year "2017" .
 
-:85
-    a            ns1:CreativeWork ;
+:85 a ns1:CreativeWork ;
     ns1:director :Zack_Snyder ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Fantasy ;
-    ns1:gross    2.2902e+08 ;
-    ns1:rating   6.1e+00 ;
-    ns1:stars    :Ben_Affleck, :Ezra_Miller, :Gal_Gadot, :Jason_Momoa ;
-    ns1:title    "Justice League" ;
-    ns1:vote     4.16837e+05 ;
-    ns1:year     "2017" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Fantasy ;
+    ns1:gross 2.2902e+08 ;
+    ns1:rating 6.1e+00 ;
+    ns1:stars :Ben_Affleck,
+        :Ezra_Miller,
+        :Gal_Gadot,
+        :Jason_Momoa ;
+    ns1:title "Justice League" ;
+    ns1:vote 4.16837e+05 ;
+    ns1:year "2017" .
 
-:86
-    a            ns1:CreativeWork ;
+:86 a ns1:CreativeWork ;
     ns1:director :James_Wan ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Fantasy ;
-    ns1:gross    3.3506e+08 ;
-    ns1:rating   6.9e+00 ;
-    ns1:stars    :Amber_Heard, :Jason_Momoa, :Patrick_Wilson, :Willem_Dafoe ;
-    ns1:title    "Aquaman" ;
-    ns1:vote     4.00424e+05 ;
-    ns1:year     "2018" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Fantasy ;
+    ns1:gross 3.3506e+08 ;
+    ns1:rating 6.9e+00 ;
+    ns1:stars :Amber_Heard,
+        :Jason_Momoa,
+        :Patrick_Wilson,
+        :Willem_Dafoe ;
+    ns1:title "Aquaman" ;
+    ns1:vote 4.00424e+05 ;
+    ns1:year "2018" .
 
-:87
-    a            ns1:CreativeWork ;
+:87 a ns1:CreativeWork ;
     ns1:director :David_F_Sandberg ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Comedy ;
-    ns1:gross    1.4037e+08 ;
-    ns1:rating   7e+00 ;
-    ns1:stars    :Asher_Angel, :Jack_Dylan_Grazer, :Mark_Strong, :Zachary_Levi ;
-    ns1:title    "Shazam!" ;
-    ns1:vote     2.79604e+05 ;
-    ns1:year     "2019" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Comedy ;
+    ns1:gross 1.4037e+08 ;
+    ns1:rating 7e+00 ;
+    ns1:stars :Asher_Angel,
+        :Jack_Dylan_Grazer,
+        :Mark_Strong,
+        :Zachary_Levi ;
+    ns1:title "Shazam!" ;
+    ns1:vote 2.79604e+05 ;
+    ns1:year "2019" .
 
-:88
-    a            ns1:CreativeWork ;
+:88 a ns1:CreativeWork ;
     ns1:director :Todd_Phillips ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Crime, ns1:Drama, ns1:Thriller ;
-    ns1:gross    3.3545e+08 ;
-    ns1:rating   8.4e+00 ;
-    ns1:stars    :Frances_Conroy, :Joaquin_Phoenix, :Robert_De_Niro, :Zazie_Beetz ;
-    ns1:title    "Joker" ;
-    ns1:vote     1.014748e+06 ;
-    ns1:year     "2019" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Crime,
+        ns1:Drama,
+        ns1:Thriller ;
+    ns1:gross 3.3545e+08 ;
+    ns1:rating 8.4e+00 ;
+    ns1:stars :Frances_Conroy,
+        :Joaquin_Phoenix,
+        :Robert_De_Niro,
+        :Zazie_Beetz ;
+    ns1:title "Joker" ;
+    ns1:vote 1.014748e+06 ;
+    ns1:year "2019" .
 
-:89
-    a            ns1:CreativeWork ;
+:89 a ns1:CreativeWork ;
     ns1:director :Cathy_Yan ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Comedy ;
-    ns1:gross    8.416e+07 ;
-    ns1:rating   6.1e+00 ;
-    ns1:stars    :Jurnee_Smollett, :Margot_Robbie, :Mary_Elizabeth_Winstead, :Rosie_Perez ;
-    ns1:title    "Birds of Prey" ;
-    ns1:vote     1.86805e+05 ;
-    ns1:year     "2020" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Comedy ;
+    ns1:gross 8.416e+07 ;
+    ns1:rating 6.1e+00 ;
+    ns1:stars :Jurnee_Smollett,
+        :Margot_Robbie,
+        :Mary_Elizabeth_Winstead,
+        :Rosie_Perez ;
+    ns1:title "Birds of Prey" ;
+    ns1:vote 1.86805e+05 ;
+    ns1:year "2020" .
 
-:9
-    a            ns1:CreativeWork ;
+:9 a ns1:CreativeWork ;
     ns1:director :Ang_Lee ;
-    ns1:entity   ns1:MARVEL ;
-    ns1:genre    ns1:Action, ns1:Sci-Fi ;
-    ns1:gross    1.3218e+08 ;
-    ns1:rating   5.6e+00 ;
-    ns1:stars    :Ang_Lee, :Eric_Bana, :Jennifer_Connelly, :Josh_Lucas, :Sam_Elliott ;
-    ns1:title    "Hulk" ;
-    ns1:vote     2.55002e+05 ;
-    ns1:year     "2003" .
+    ns1:entity ns1:MARVEL ;
+    ns1:genre ns1:Action,
+        ns1:Sci-Fi ;
+    ns1:gross 1.3218e+08 ;
+    ns1:rating 5.6e+00 ;
+    ns1:stars :Ang_Lee,
+        :Eric_Bana,
+        :Jennifer_Connelly,
+        :Josh_Lucas,
+        :Sam_Elliott ;
+    ns1:title "Hulk" ;
+    ns1:vote 2.55002e+05 ;
+    ns1:year "2003" .
 
-:90
-    a            ns1:CreativeWork ;
+:90 a ns1:CreativeWork ;
     ns1:director :Patty_Jenkins ;
-    ns1:entity   ns1:DC ;
-    ns1:genre    ns1:Action, ns1:Adventure, ns1:Fantasy ;
-    ns1:gross    4.637e+07 ;
-    ns1:rating   5.4e+00 ;
-    ns1:stars    :Chris_Pine, :Gal_Gadot, :Kristen_Wiig, :Pedro_Pascal ;
-    ns1:title    "Wonder Woman 1984" ;
-    ns1:vote     2.12554e+05 ;
-    ns1:year     "2020" .
+    ns1:entity ns1:DC ;
+    ns1:genre ns1:Action,
+        ns1:Adventure,
+        ns1:Fantasy ;
+    ns1:gross 4.637e+07 ;
+    ns1:rating 5.4e+00 ;
+    ns1:stars :Chris_Pine,
+        :Gal_Gadot,
+        :Kristen_Wiig,
+        :Pedro_Pascal ;
+    ns1:title "Wonder Woman 1984" ;
+    ns1:vote 2.12554e+05 ;
+    ns1:year "2020" .
 
-:Aaron_Eckhart
-    a        ns2:Person, ns2:Real ;
+:Aaron_Eckhart a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Aaron Eckhart" .
 
-:Adam_West
-    a        ns2:Person, ns2:Real ;
+:Adam_West a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Adam West" .
 
-:Adrienne_Barbeau
-    a        ns2:Person, ns2:Real ;
+:Adrienne_Barbeau a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Adrienne Barbeau" .
 
-:Alfred_Molina
-    a        ns2:Person, ns2:Real ;
+:Alfred_Molina a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Alfred Molina" .
 
-:Alice_Braga
-    a        ns2:Person, ns2:Real ;
+:Alice_Braga a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Alice Braga" .
 
-:Amber_Heard
-    a        ns2:Person, ns2:Real ;
+:Amber_Heard a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Amber Heard" .
 
-:Annabeth_Gish
-    a        ns2:Person, ns2:Real ;
+:Annabeth_Gish a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Annabeth Gish" .
 
-:Anne_Hathaway
-    a        ns2:Person, ns2:Real ;
+:Anne_Hathaway a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Anne Hathaway" .
 
-:Anthony_Hopkins
-    a        ns2:Person, ns2:Real ;
+:Anthony_Hopkins a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Anthony Hopkins" .
 
-:Anya_Taylor-Joy
-    a        ns2:Person, ns2:Real ;
+:Anya_Taylor-Joy a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Anya Taylor-Joy" .
 
-:Arnold_Schwarzenegger
-    a        ns2:Person, ns2:Real ;
+:Arnold_Schwarzenegger a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Arnold Schwarzenegger" .
 
-:Asher_Angel
-    a        ns2:Person, ns2:Real ;
+:Asher_Angel a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Asher Angel" .
 
-:Ben_Mendelsohn
-    a        ns2:Person, ns2:Real ;
+:Ben_Mendelsohn a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ben Mendelsohn" .
 
-:Benedict_Cumberbatch
-    a        ns2:Person, ns2:Real ;
+:Benedict_Cumberbatch a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Benedict Cumberbatch" .
 
-:Benedict_Wong
-    a        ns2:Person, ns2:Real ;
+:Benedict_Wong a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Benedict Wong" .
 
-:Benjamin_Bratt
-    a        ns2:Person, ns2:Real ;
+:Benjamin_Bratt a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Benjamin Bratt" .
 
-:Blake_Lively
-    a        ns2:Person, ns2:Real ;
+:Blake_Lively a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Blake Lively" .
 
-:Boyd_Holbrook
-    a        ns2:Person, ns2:Real ;
+:Boyd_Holbrook a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Boyd Holbrook" .
 
-:Bradley_Cooper
-    a        ns2:Person, ns2:Real ;
+:Bradley_Cooper a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Bradley Cooper" .
 
-:Brandon_Routh
-    a        ns2:Person, ns2:Real ;
+:Brandon_Routh a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Brandon Routh" .
 
-:Brian_Taylor
-    a        ns2:Person, ns2:Real ;
+:Brian_Taylor a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Brian Taylor" .
 
-:Brie_Larson
-    a        ns2:Person, ns2:Real ;
+:Brie_Larson a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Brie Larson" .
 
-:Burt_Ward
-    a        ns2:Person, ns2:Real ;
+:Burt_Ward a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Burt Ward" .
 
-:Carla_Gugino
-    a        ns2:Person, ns2:Real ;
+:Carla_Gugino a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Carla Gugino" .
 
-:Cate_Blanchett
-    a        ns2:Person, ns2:Real ;
+:Cate_Blanchett a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Cate Blanchett" .
 
-:Cathy_Yan
-    a        ns2:Person, ns2:Real ;
+:Cathy_Yan a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Cathy Yan" .
 
-:Cesar_Romero
-    a        ns2:Person, ns2:Real ;
+:Cesar_Romero a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Cesar Romero" .
 
-:Chadwick_Boseman
-    a        ns2:Person, ns2:Real ;
+:Chadwick_Boseman a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Chadwick Boseman" .
 
-:Charles_Trowbridge
-    a        ns2:Person, ns2:Real ;
+:Charles_Trowbridge a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Charles Trowbridge" .
 
-:Charlie_Heaton
-    a        ns2:Person, ns2:Real ;
+:Charlie_Heaton a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Charlie Heaton" .
 
-:Chiwetel_Ejiofor
-    a        ns2:Person, ns2:Real ;
+:Chiwetel_Ejiofor a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Chiwetel Ejiofor" .
 
-:Chris_O_Donnell
-    a        ns2:Person, ns2:Real ;
+:Chris_O_Donnell a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Chris O'Donnell" .
 
-:Christopher_Walken
-    a        ns2:Person, ns2:Real ;
+:Christopher_Walken a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Christopher Walken" .
 
-:Ciarán_Hinds
-    a        ns2:Person, ns2:Real ;
+:Ciarán_Hinds a p_schema:Person,
+        p_schema:Real ;
     ns2:name "CiarÃ¡n Hinds" .
 
-:Colin_Farrell
-    a        ns2:Person, ns2:Real ;
+:Colin_Farrell a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Colin Farrell" .
 
-:Corey_Stoll
-    a        ns2:Person, ns2:Real ;
+:Corey_Stoll a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Corey Stoll" .
 
-:Dafne_Keen
-    a        ns2:Person, ns2:Real ;
+:Dafne_Keen a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Dafne Keen" .
 
-:Danai_Gurira
-    a        ns2:Person, ns2:Real ;
+:Danai_Gurira a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Danai Gurira" .
 
-:Danny_DeVito
-    a        ns2:Person, ns2:Real ;
+:Danny_DeVito a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Danny DeVito" .
 
-:Danny_Huston
-    a        ns2:Person, ns2:Real ;
+:Danny_Huston a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Danny Huston" .
 
-:Dave_Bautista
-    a        ns2:Person, ns2:Real ;
+:Dave_Bautista a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Dave Bautista" .
 
-:David_Ayer
-    a        ns2:Person, ns2:Real ;
+:David_Ayer a p_schema:Person,
+        p_schema:Real ;
     ns2:name "David Ayer" .
 
-:David_F_Sandberg
-    a        ns2:Person, ns2:Real ;
+:David_F_Sandberg a p_schema:Person,
+        p_schema:Real ;
     ns2:name "David F. Sandberg" .
 
-:David_Hess
-    a        ns2:Person, ns2:Real ;
+:David_Hess a p_schema:Person,
+        p_schema:Real ;
     ns2:name "David Hess" .
 
-:Diane_Lane
-    a        ns2:Person, ns2:Real ;
+:Diane_Lane a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Diane Lane" .
 
-:Dick_Durock
-    a        ns2:Person, ns2:Real ;
+:Dick_Durock a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Dick Durock" .
 
-:Dick_Purcell
-    a        ns2:Person, ns2:Real ;
+:Dick_Purcell a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Dick Purcell" .
 
-:Djimon_Hounsou
-    a        ns2:Person, ns2:Real ;
+:Djimon_Hounsou a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Djimon Hounsou" .
 
-:Dominic_West
-    a        ns2:Person, ns2:Real ;
+:Dominic_West a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Dominic West" .
 
-:Doug_Hutchison
-    a        ns2:Person, ns2:Real ;
+:Doug_Hutchison a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Doug Hutchison" .
 
-:Ed_Gale
-    a        ns2:Person, ns2:Real ;
+:Ed_Gale a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ed Gale" .
 
-:Ed_Skrein
-    a        ns2:Person, ns2:Real ;
+:Ed_Skrein a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ed Skrein" .
 
-:Edward_Norton
-    a        ns2:Person, ns2:Real ;
+:Edward_Norton a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Edward Norton" .
 
-:Eric_Bana
-    a        ns2:Person, ns2:Real ;
+:Eric_Bana a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Eric Bana" .
 
-:Eva_Mendes
-    a        ns2:Person, ns2:Real ;
+:Eva_Mendes a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Eva Mendes" .
 
-:Ezra_Miller
-    a        ns2:Person, ns2:Real ;
+:Ezra_Miller a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ezra Miller" .
 
-:Faye_Dunaway
-    a        ns2:Person, ns2:Real ;
+:Faye_Dunaway a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Faye Dunaway" .
 
-:Frances_Conroy
-    a        ns2:Person, ns2:Real ;
+:Frances_Conroy a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Frances Conroy" .
 
-:Francis_Lawrence
-    a        ns2:Person, ns2:Real ;
+:Francis_Lawrence a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Francis Lawrence" .
 
-:Gary_Oldman
-    a        ns2:Person, ns2:Real ;
+:Gary_Oldman a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Gary Oldman" .
 
-:George_Clooney
-    a        ns2:Person, ns2:Real ;
+:George_Clooney a p_schema:Person,
+        p_schema:Real ;
     ns2:name "George Clooney" .
 
-:George_Reeves
-    a        ns2:Person, ns2:Real ;
+:George_Reeves a p_schema:Person,
+        p_schema:Real ;
     ns2:name "George Reeves" .
 
-:Goran_Visnjic
-    a        ns2:Person, ns2:Real ;
+:Goran_Visnjic a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Goran Visnjic" .
 
-:Guy_Pearce
-    a        ns2:Person, ns2:Real ;
+:Guy_Pearce a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Guy Pearce" .
 
-:Hayley_Atwell
-    a        ns2:Person, ns2:Real ;
+:Hayley_Atwell a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Hayley Atwell" .
 
-:Heath_Ledger
-    a        ns2:Person, ns2:Real ;
+:Heath_Ledger a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Heath Ledger" .
 
-:Heather_Locklear
-    a        ns2:Person, ns2:Real ;
+:Heather_Locklear a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Heather Locklear" .
 
-:Helen_Slater
-    a        ns2:Person, ns2:Real ;
+:Helen_Slater a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Helen Slater" .
 
-:Hugo_Weaving
-    a        ns2:Person, ns2:Real ;
+:Hugo_Weaving a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Hugo Weaving" .
 
-:Idris_Elba
-    a        ns2:Person, ns2:Real ;
+:Idris_Elba a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Idris Elba" .
 
-:Irrfan_Khan
-    a        ns2:Person, ns2:Real ;
+:Irrfan_Khan a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Irrfan Khan" .
 
-:Jack_Dylan_Grazer
-    a        ns2:Person, ns2:Real ;
+:Jack_Dylan_Grazer a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jack Dylan Grazer" .
 
-:Jack_Nicholson
-    a        ns2:Person, ns2:Real ;
+:Jack_Nicholson a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jack Nicholson" .
 
-:Jackie_Earle_Haley
-    a        ns2:Person, ns2:Real ;
+:Jackie_Earle_Haley a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jackie Earle Haley" .
 
-:Jake_Gyllenhaal
-    a        ns2:Person, ns2:Real ;
+:Jake_Gyllenhaal a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jake Gyllenhaal" .
 
-:James_Marsden
-    a        ns2:Person, ns2:Real ;
+:James_Marsden a p_schema:Person,
+        p_schema:Real ;
     ns2:name "James Marsden" .
 
-:James_Wan
-    a        ns2:Person, ns2:Real ;
+:James_Wan a p_schema:Person,
+        p_schema:Real ;
     ns2:name "James Wan" .
 
-:Jamie_Bell
-    a        ns2:Person, ns2:Real ;
+:Jamie_Bell a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jamie Bell" .
 
-:Jamie_Foxx
-    a        ns2:Person, ns2:Real ;
+:Jamie_Foxx a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jamie Foxx" .
 
-:Jared_Leto
-    a        ns2:Person, ns2:Real ;
+:Jared_Leto a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jared Leto" .
 
-:Jeannot_Szwarc
-    a        ns2:Person, ns2:Real ;
+:Jeannot_Szwarc a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jeannot Szwarc" .
 
-:Jeff_Bridges
-    a        ns2:Person, ns2:Real ;
+:Jeff_Bridges a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jeff Bridges" .
 
-:Jeff_Corey
-    a        ns2:Person, ns2:Real ;
+:Jeff_Corey a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jeff Corey" .
 
-:Jeffrey_Jones
-    a        ns2:Person, ns2:Real ;
+:Jeffrey_Jones a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jeffrey Jones" .
 
-:Jennifer_Connelly
-    a        ns2:Person, ns2:Real ;
+:Jennifer_Connelly a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jennifer Connelly" .
 
-:Jeremy_Renner
-    a        ns2:Person, ns2:Real ;
+:Jeremy_Renner a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jeremy Renner" .
 
-:Jesse_Eisenberg
-    a        ns2:Person, ns2:Real ;
+:Jesse_Eisenberg a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jesse Eisenberg" .
 
-:Jim_Carrey
-    a        ns2:Person, ns2:Real ;
+:Jim_Carrey a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jim Carrey" .
 
-:Jim_Wynorski
-    a        ns2:Person, ns2:Real ;
+:Jim_Wynorski a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jim Wynorski" .
 
-:Jimmy_Hayward
-    a        ns2:Person, ns2:Real ;
+:Jimmy_Hayward a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jimmy Hayward" .
 
-:Joaquin_Phoenix
-    a        ns2:Person, ns2:Real ;
+:Joaquin_Phoenix a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Joaquin Phoenix" .
 
-:John_Malkovich
-    a        ns2:Person, ns2:Real ;
+:John_Malkovich a p_schema:Person,
+        p_schema:Real ;
     ns2:name "John Malkovich" .
 
-:John_Travolta
-    a        ns2:Person, ns2:Real ;
+:John_Travolta a p_schema:Person,
+        p_schema:Real ;
     ns2:name "John Travolta" .
 
-:Josh_Lucas
-    a        ns2:Person, ns2:Real ;
+:Josh_Lucas a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Josh Lucas" .
 
-:Judd_Nelson
-    a        ns2:Person, ns2:Real ;
+:Judd_Nelson a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Judd Nelson" .
 
-:Jude_Law
-    a        ns2:Person, ns2:Real ;
+:Jude_Law a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jude Law" .
 
-:Julian_Dennison
-    a        ns2:Person, ns2:Real ;
+:Julian_Dennison a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Julian Dennison" .
 
-:Julie_Benz
-    a        ns2:Person, ns2:Real ;
+:Julie_Benz a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Julie Benz" .
 
-:Jurnee_Smollett
-    a        ns2:Person, ns2:Real ;
+:Jurnee_Smollett a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jurnee Smollett" .
 
-:Kate_Bosworth
-    a        ns2:Person, ns2:Real ;
+:Kate_Bosworth a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Kate Bosworth" .
 
-:Kate_Mara
-    a        ns2:Person, ns2:Real ;
+:Kate_Mara a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Kate Mara" .
 
-:Keanu_Reeves
-    a        ns2:Person, ns2:Real ;
+:Keanu_Reeves a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Keanu Reeves" .
 
-:Ken_Watanabe
-    a        ns2:Person, ns2:Real ;
+:Ken_Watanabe a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ken Watanabe" .
 
-:Kenneth_Johnson
-    a        ns2:Person, ns2:Real ;
+:Kenneth_Johnson a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Kenneth Johnson" .
 
-:Kevin_Bacon
-    a        ns2:Person, ns2:Real ;
+:Kevin_Bacon a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Kevin Bacon" .
 
-:Kevin_Spacey
-    a        ns2:Person, ns2:Real ;
+:Kevin_Spacey a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Kevin Spacey" .
 
-:Kim_Basinger
-    a        ns2:Person, ns2:Real ;
+:Kim_Basinger a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Kim Basinger" .
 
-:Kirsten_Zien
-    a        ns2:Person, ns2:Real ;
+:Kirsten_Zien a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Kirsten Zien" .
 
-:Kristen_Wiig
-    a        ns2:Person, ns2:Real ;
+:Kristen_Wiig a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Kristen Wiig" .
 
-:Lambert_Wilson
-    a        ns2:Person, ns2:Real ;
+:Lambert_Wilson a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Lambert Wilson" .
 
-:Laura_Harring
-    a        ns2:Person, ns2:Real ;
+:Laura_Harring a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Laura Harring" .
 
-:Lea_Thompson
-    a        ns2:Person, ns2:Real ;
+:Lea_Thompson a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Lea Thompson" .
 
-:Lee_Meriwether
-    a        ns2:Person, ns2:Real ;
+:Lee_Meriwether a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Lee Meriwether" .
 
-:Lee_Sholem
-    a        ns2:Person, ns2:Real ;
+:Lee_Sholem a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Lee Sholem" .
 
-:Leonor_Varela
-    a        ns2:Person, ns2:Real ;
+:Leonor_Varela a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Leonor Varela" .
 
-:Leslie_H_Martinson
-    a        ns2:Person, ns2:Real ;
+:Leslie_H_Martinson a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Leslie H. Martinson" .
 
-:Liam_Neeson
-    a        ns2:Person, ns2:Real ;
+:Liam_Neeson a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Liam Neeson" .
 
-:Liev_Schreiber
-    a        ns2:Person, ns2:Real ;
+:Liev_Schreiber a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Liev Schreiber" .
 
-:Lionel_Atwill
-    a        ns2:Person, ns2:Real ;
+:Lionel_Atwill a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Lionel Atwill" .
 
-:Liv_Tyler
-    a        ns2:Person, ns2:Real ;
+:Liv_Tyler a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Liv Tyler" .
 
-:Lorna_Gray
-    a        ns2:Person, ns2:Real ;
+:Lorna_Gray a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Lorna Gray" .
 
-:Lucy_Davis
-    a        ns2:Person, ns2:Real ;
+:Lucy_Davis a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Lucy Davis" .
 
-:Lupita_Nyong_o
-    a        ns2:Person, ns2:Real ;
+:Lupita_Nyong_o a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Lupita Nyong'o" .
 
-:Maisie_Williams
-    a        ns2:Person, ns2:Real ;
+:Maisie_Williams a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Maisie Williams" .
 
-:Malin_Akerman
-    a        ns2:Person, ns2:Real ;
+:Malin_Akerman a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Malin Akerman" .
 
-:Mark_Neveldine
-    a        ns2:Person, ns2:Real ;
+:Mark_Neveldine a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Mark Neveldine" .
 
-:Marlon_Brando
-    a        ns2:Person, ns2:Real ;
+:Marlon_Brando a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Marlon Brando" .
 
-:Martin_Campbell
-    a        ns2:Person, ns2:Real ;
+:Martin_Campbell a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Martin Campbell" .
 
-:Mary_Elizabeth_Winstead
-    a        ns2:Person, ns2:Real ;
+:Mary_Elizabeth_Winstead a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Mary Elizabeth Winstead" .
 
-:Matt_Long
-    a        ns2:Person, ns2:Real ;
+:Matt_Long a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Matt Long" .
 
-:Megan_Fox
-    a        ns2:Person, ns2:Real ;
+:Megan_Fox a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Megan Fox" .
 
-:Mia_Farrow
-    a        ns2:Person, ns2:Real ;
+:Mia_Farrow a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Mia Farrow" .
 
-:Michael_Clarke_Duncan
-    a        ns2:Person, ns2:Real ;
+:Michael_Clarke_Duncan a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Michael Clarke Duncan" .
 
-:Michael_Douglas
-    a        ns2:Person, ns2:Real ;
+:Michael_Douglas a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Michael Douglas" .
 
-:Michael_Peña
-    a        ns2:Person, ns2:Real ;
+:Michael_Peña a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Michael PeÃ±a" .
 
-:Michael_Shannon
-    a        ns2:Person, ns2:Real ;
+:Michael_Shannon a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Michael Shannon" .
 
-:Michelle_Pfeiffer
-    a        ns2:Person, ns2:Real ;
+:Michelle_Pfeiffer a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Michelle Pfeiffer" .
 
-:Michelle_Williams
-    a        ns2:Person, ns2:Real ;
+:Michelle_Williams a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Michelle Williams" .
 
-:Mickey_Rourke
-    a        ns2:Person, ns2:Real ;
+:Mickey_Rourke a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Mickey Rourke" .
 
-:Miles_Teller
-    a        ns2:Person, ns2:Real ;
+:Miles_Teller a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Miles Teller" .
 
-:N_Bushe_Wright
-    a        ns2:Person, ns2:Real ;
+:N_Bushe_Wright a p_schema:Person,
+        p_schema:Real ;
     ns2:name "N'Bushe Wright" .
 
-:Ned_Beatty
-    a        ns2:Person, ns2:Real ;
+:Ned_Beatty a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ned Beatty" .
 
-:Nicole_Kidman
-    a        ns2:Person, ns2:Real ;
+:Nicole_Kidman a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Nicole Kidman" .
 
-:Parker_Posey
-    a        ns2:Person, ns2:Real ;
+:Parker_Posey a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Parker Posey" .
 
-:Paul_Giamatti
-    a        ns2:Person, ns2:Real ;
+:Paul_Giamatti a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Paul Giamatti" .
 
-:Pedro_Pascal
-    a        ns2:Person, ns2:Real ;
+:Pedro_Pascal a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Pedro Pascal" .
 
-:Peter_O_Toole
-    a        ns2:Person, ns2:Real ;
+:Peter_O_Toole a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Peter O'Toole" .
 
-:Peter_Sarsgaard
-    a        ns2:Person, ns2:Real ;
+:Peter_Sarsgaard a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Peter Sarsgaard" .
 
-:Phyllis_Coates
-    a        ns2:Person, ns2:Real ;
+:Phyllis_Coates a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Phyllis Coates" .
 
-:Pitof
-    a        ns2:Person, ns2:Real ;
+:Pitof a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Pitof" .
 
-:Rachel_McAdams
-    a        ns2:Person, ns2:Real ;
+:Rachel_McAdams a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Rachel McAdams" .
 
-:Rachel_Weisz
-    a        ns2:Person, ns2:Real ;
+:Rachel_Weisz a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Rachel Weisz" .
 
-:Ray_Stevenson
-    a        ns2:Person, ns2:Real ;
+:Ray_Stevenson a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ray Stevenson" .
 
-:Ray_Wise
-    a        ns2:Person, ns2:Real ;
+:Ray_Wise a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ray Wise" .
 
-:Rhys_Ifans
-    a        ns2:Person, ns2:Real ;
+:Rhys_Ifans a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Rhys Ifans" .
 
-:Richard_Donner
-    a        ns2:Person, ns2:Real ;
+:Richard_Donner a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Richard Donner" .
 
-:Richard_Pryor
-    a        ns2:Person, ns2:Real ;
+:Richard_Pryor a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Richard Pryor" .
 
-:Richard_Roundtree
-    a        ns2:Person, ns2:Real ;
+:Richard_Roundtree a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Richard Roundtree" .
 
-:Rila_Fukushima
-    a        ns2:Person, ns2:Real ;
+:Rila_Fukushima a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Rila Fukushima" .
 
-:Riz_Ahmed
-    a        ns2:Person, ns2:Real ;
+:Riz_Ahmed a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Riz Ahmed" .
 
-:Robert_De_Niro
-    a        ns2:Person, ns2:Real ;
+:Robert_De_Niro a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Robert De Niro" .
 
-:Robert_Redford
-    a        ns2:Person, ns2:Real ;
+:Robert_Redford a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Robert Redford" .
 
-:Robert_Wuhl
-    a        ns2:Person, ns2:Real ;
+:Robert_Wuhl a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Robert Wuhl" .
 
-:Robin_Wright
-    a        ns2:Person, ns2:Real ;
+:Robin_Wright a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Robin Wright" .
 
-:Ron_Perlman
-    a        ns2:Person, ns2:Real ;
+:Ron_Perlman a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ron Perlman" .
 
-:Rosie_Perez
-    a        ns2:Person, ns2:Real ;
+:Rosie_Perez a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Rosie Perez" .
 
-:Samantha_Mathis
-    a        ns2:Person, ns2:Real ;
+:Samantha_Mathis a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Samantha Mathis" .
 
-:Sarah_Douglas
-    a        ns2:Person, ns2:Real ;
+:Sarah_Douglas a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Sarah Douglas" .
 
-:Scott_Haze
-    a        ns2:Person, ns2:Real ;
+:Scott_Haze a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Scott Haze" .
 
-:Sebastian_Stan
-    a        ns2:Person, ns2:Real ;
+:Sebastian_Stan a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Sebastian Stan" .
 
-:Shaquille_O_Neal
-    a        ns2:Person, ns2:Real ;
+:Shaquille_O_Neal a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Shaquille O'Neal" .
 
-:Sharon_Stone
-    a        ns2:Person, ns2:Real ;
+:Sharon_Stone a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Sharon Stone" .
 
-:Shia_LaBeouf
-    a        ns2:Person, ns2:Real ;
+:Shia_LaBeouf a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Shia LaBeouf" .
 
-:Sidney_J_Furie
-    a        ns2:Person, ns2:Real ;
+:Sidney_J_Furie a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Sidney J. Furie" .
 
-:Stellan_Skarsgård
-    a        ns2:Person, ns2:Real ;
+:Stellan_Skarsgård a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Stellan SkarsgÃ¥rd" .
 
-:Stephen_Dorff
-    a        ns2:Person, ns2:Real ;
+:Stephen_Dorff a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Stephen Dorff" .
 
-:TJ_Miller
-    a        ns2:Person, ns2:Real ;
+:TJ_Miller a p_schema:Person,
+        p_schema:Real ;
     ns2:name "T.J. Miller" .
 
-:Tao_Okamoto
-    a        ns2:Person, ns2:Real ;
+:Tao_Okamoto a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Tao Okamoto" .
 
-:Terrence_Howard
-    a        ns2:Person, ns2:Real ;
+:Terrence_Howard a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Terrence Howard" .
 
-:Thomas_Haden_Church
-    a        ns2:Person, ns2:Real ;
+:Thomas_Haden_Church a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Thomas Haden Church" .
 
-:Thomas_Jane
-    a        ns2:Person, ns2:Real ;
+:Thomas_Jane a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Thomas Jane" .
 
-:Tim_Robbins
-    a        ns2:Person, ns2:Real ;
+:Tim_Robbins a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Tim Robbins" .
 
-:Tim_Roth
-    a        ns2:Person, ns2:Real ;
+:Tim_Roth a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Tim Roth" .
 
-:Todd_Phillips
-    a        ns2:Person, ns2:Real ;
+:Todd_Phillips a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Todd Phillips" .
 
-:Tommy_Lee_Jones
-    a        ns2:Person, ns2:Real ;
+:Tommy_Lee_Jones a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Tommy Lee Jones" .
 
-:Topher_Grace
-    a        ns2:Person, ns2:Real ;
+:Topher_Grace a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Topher Grace" .
 
-:Uma_Thurman
-    a        ns2:Person, ns2:Real ;
+:Uma_Thurman a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Uma Thurman" .
 
-:Val_Kilmer
-    a        ns2:Person, ns2:Real ;
+:Val_Kilmer a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Val Kilmer" .
 
-:Viola_Davis
-    a        ns2:Person, ns2:Real ;
+:Viola_Davis a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Viola Davis" .
 
-:Violante_Placido
-    a        ns2:Person, ns2:Real ;
+:Violante_Placido a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Violante Placido" .
 
-:Walter_Reed
-    a        ns2:Person, ns2:Real ;
+:Walter_Reed a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Walter Reed" .
 
-:Walton_Goggins
-    a        ns2:Person, ns2:Real ;
+:Walton_Goggins a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Walton Goggins" .
 
-:Wes_Craven
-    a        ns2:Person, ns2:Real ;
+:Wes_Craven a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Wes Craven" .
 
-:Will_Smith
-    a        ns2:Person, ns2:Real ;
+:Will_Smith a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Will Smith" .
 
-:William_Hurt
-    a        ns2:Person, ns2:Real ;
+:William_Hurt a p_schema:Person,
+        p_schema:Real ;
     ns2:name "William Hurt" .
 
-:Zachary_Levi
-    a        ns2:Person, ns2:Real ;
+:Zachary_Levi a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Zachary Levi" .
 
-:Zazie_Beetz
-    a        ns2:Person, ns2:Real ;
+:Zazie_Beetz a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Zazie Beetz" .
 
-:Alan_Taylor
-    a        ns2:Person, ns2:Real ;
+:Alan_Taylor a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Alan Taylor" .
 
-:Amy_Adams
-    a        ns2:Person, ns2:Real ;
+:Amy_Adams a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Amy Adams" .
 
-:Andrew_Garfield
-    a        ns2:Person, ns2:Real ;
+:Andrew_Garfield a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Andrew Garfield" .
 
-:Ang_Lee
-    a        ns2:Person, ns2:Real ;
+:Ang_Lee a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ang Lee" .
 
-:Anna_Boden
-    a        ns2:Person, ns2:Real ;
+:Anna_Boden a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Anna Boden" .
 
-:Brett_Ratner
-    a        ns2:Person, ns2:Real ;
+:Brett_Ratner a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Brett Ratner" .
 
-:Chris_Pine
-    a        ns2:Person, ns2:Real ;
+:Chris_Pine a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Chris Pine" .
 
-:Chris_Pratt
-    a        ns2:Person, ns2:Real ;
+:Chris_Pratt a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Chris Pratt" .
 
-:David_Leitch
-    a        ns2:Person, ns2:Real ;
+:David_Leitch a p_schema:Person,
+        p_schema:Real ;
     ns2:name "David Leitch" .
 
-:David_S_Goyer
-    a        ns2:Person, ns2:Real ;
+:David_S_Goyer a p_schema:Person,
+        p_schema:Real ;
     ns2:name "David S. Goyer" .
 
-:Don_Cheadle
-    a        ns2:Person, ns2:Real ;
+:Don_Cheadle a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Don Cheadle" .
 
-:Elmer_Clifton
-    a        ns2:Person, ns2:Real ;
+:Elmer_Clifton a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Elmer Clifton" .
 
-:Emma_Stone
-    a        ns2:Person, ns2:Real ;
+:Emma_Stone a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Emma Stone" .
 
-:Evangeline_Lilly
-    a        ns2:Person, ns2:Real ;
+:Evangeline_Lilly a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Evangeline Lilly" .
 
-:Famke_Janssen
-    a        ns2:Person, ns2:Real ;
+:Famke_Janssen a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Famke Janssen" .
 
-:Gavin_Hood
-    a        ns2:Person, ns2:Real ;
+:Gavin_Hood a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Gavin Hood" .
 
-:Guillermo_del_Toro
-    a        ns2:Person, ns2:Real ;
+:Guillermo_del_Toro a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Guillermo del Toro" .
 
-:Henry_Cavill
-    a        ns2:Person, ns2:Real ;
+:Henry_Cavill a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Henry Cavill" .
 
-:Ioan_Gruffudd
-    a        ns2:Person, ns2:Real ;
+:Ioan_Gruffudd a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ioan Gruffudd" .
 
-:Jackie_Cooper
-    a        ns2:Person, ns2:Real ;
+:Jackie_Cooper a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jackie Cooper" .
 
-:James_Franco
-    a        ns2:Person, ns2:Real ;
+:James_Franco a p_schema:Person,
+        p_schema:Real ;
     ns2:name "James Franco" .
 
-:Jason_Momoa
-    a        ns2:Person, ns2:Real ;
+:Jason_Momoa a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jason Momoa" .
 
-:Jennifer_Garner
-    a        ns2:Person, ns2:Real ;
+:Jennifer_Garner a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jennifer Garner" .
 
-:Jessica_Alba
-    a        ns2:Person, ns2:Real ;
+:Jessica_Alba a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jessica Alba" .
 
-:Joe_Johnston
-    a        ns2:Person, ns2:Real ;
+:Joe_Johnston a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Joe Johnston" .
 
-:Joel_Schumacher
-    a        ns2:Person, ns2:Real ;
+:Joel_Schumacher a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Joel Schumacher" .
 
-:Jonathan_Hensleigh
-    a        ns2:Person, ns2:Real ;
+:Jonathan_Hensleigh a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jonathan Hensleigh" .
 
-:Josh_Boone
-    a        ns2:Person, ns2:Real ;
+:Josh_Boone a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Josh Boone" .
 
-:Josh_Brolin
-    a        ns2:Person, ns2:Real ;
+:Josh_Brolin a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Josh Brolin" .
 
-:Josh_Trank
-    a        ns2:Person, ns2:Real ;
+:Josh_Trank a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Josh Trank" .
 
-:Kenneth_Branagh
-    a        ns2:Person, ns2:Real ;
+:Kenneth_Branagh a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Kenneth Branagh" .
 
-:Lexi_Alexander
-    a        ns2:Person, ns2:Real ;
+:Lexi_Alexander a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Lexi Alexander" .
 
-:Louis_Jourdan
-    a        ns2:Person, ns2:Real ;
+:Louis_Jourdan a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Louis Jourdan" .
 
-:Louis_Leterrier
-    a        ns2:Person, ns2:Real ;
+:Louis_Leterrier a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Louis Leterrier" .
 
-:Margot_Robbie
-    a        ns2:Person, ns2:Real ;
+:Margot_Robbie a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Margot Robbie" .
 
-:Marisa_Tomei
-    a        ns2:Person, ns2:Real ;
+:Marisa_Tomei a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Marisa Tomei" .
 
-:Mark_Strong
-    a        ns2:Person, ns2:Real ;
+:Mark_Strong a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Mark Strong" .
 
-:Matthew_Vaughn
-    a        ns2:Person, ns2:Real ;
+:Matthew_Vaughn a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Matthew Vaughn" .
 
-:Michael_B_Jordan
-    a        ns2:Person, ns2:Real ;
+:Michael_B_Jordan a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Michael B. Jordan" .
 
-:Michael_Caine
-    a        ns2:Person, ns2:Real ;
+:Michael_Caine a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Michael Caine" .
 
-:Michael_Chiklis
-    a        ns2:Person, ns2:Real ;
+:Michael_Chiklis a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Michael Chiklis" .
 
-:Morena_Baccarin
-    a        ns2:Person, ns2:Real ;
+:Morena_Baccarin a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Morena Baccarin" .
 
-:Natalie_Portman
-    a        ns2:Person, ns2:Real ;
+:Natalie_Portman a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Natalie Portman" .
 
-:Nicholas_Hoult
-    a        ns2:Person, ns2:Real ;
+:Nicholas_Hoult a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Nicholas Hoult" .
 
-:Nicolas_Cage
-    a        ns2:Person, ns2:Real ;
+:Nicolas_Cage a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Nicolas Cage" .
 
-:Patrick_Wilson
-    a        ns2:Person, ns2:Real ;
+:Patrick_Wilson a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Patrick Wilson" .
 
-:Patty_Jenkins
-    a        ns2:Person, ns2:Real ;
+:Patty_Jenkins a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Patty Jenkins" .
 
-:Paul_Rudd
-    a        ns2:Person, ns2:Real ;
+:Paul_Rudd a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Paul Rudd" .
 
-:Richard_Lester
-    a        ns2:Person, ns2:Real ;
+:Richard_Lester a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Richard Lester" .
 
-:Rob_Bowman
-    a        ns2:Person, ns2:Real ;
+:Rob_Bowman a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Rob Bowman" .
 
-:Ruben_Fleischer
-    a        ns2:Person, ns2:Real ;
+:Ruben_Fleischer a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ruben Fleischer" .
 
-:Ryan_Coogler
-    a        ns2:Person, ns2:Real ;
+:Ryan_Coogler a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ryan Coogler" .
 
-:Sam_Elliott
-    a        ns2:Person, ns2:Real ;
+:Sam_Elliott a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Sam Elliott" .
 
-:Scott_Derrickson
-    a        ns2:Person, ns2:Real ;
+:Scott_Derrickson a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Scott Derrickson" .
 
-:Shane_Black
-    a        ns2:Person, ns2:Real ;
+:Shane_Black a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Shane Black" .
 
-:Simon_Kinberg
-    a        ns2:Person, ns2:Real ;
+:Simon_Kinberg a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Simon Kinberg" .
 
-:Stephen_Norrington
-    a        ns2:Person, ns2:Real ;
+:Stephen_Norrington a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Stephen Norrington" .
 
-:Taika_Waititi
-    a        ns2:Person, ns2:Real ;
+:Taika_Waititi a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Taika Waititi" .
 
-:Tim_Burton
-    a        ns2:Person, ns2:Real ;
+:Tim_Burton a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Tim Burton" .
 
-:Tim_Miller
-    a        ns2:Person, ns2:Real ;
+:Tim_Miller a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Tim Miller" .
 
-:Tom_Hardy
-    a        ns2:Person, ns2:Real ;
+:Tom_Hardy a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Tom Hardy" .
 
-:Tom_Holland
-    a        ns2:Person, ns2:Real ;
+:Tom_Holland a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Tom Holland" .
 
-:Vin_Diesel
-    a        ns2:Person, ns2:Real ;
+:Vin_Diesel a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Vin Diesel" .
 
-:Will_Yun_Lee
-    a        ns2:Person, ns2:Real ;
+:Will_Yun_Lee a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Will Yun Lee" .
 
-:Willard_Huyck
-    a        ns2:Person, ns2:Real ;
+:Willard_Huyck a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Willard Huyck" .
 
-:Willem_Dafoe
-    a        ns2:Person, ns2:Real ;
+:Willem_Dafoe a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Willem Dafoe" .
 
-:Zoe_Saldana
-    a        ns2:Person, ns2:Real ;
+:Zoe_Saldana a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Zoe Saldana" .
 
-ns1:Mystery
-    a              skos:Concept ;
+ns1:Mystery a skos:Concept ;
     skos:prefLabel "Mystery" .
 
-:Ben_Affleck
-    a        ns2:Person, ns2:Real ;
+:Ben_Affleck a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ben Affleck" .
 
-:Christian_Bale
-    a        ns2:Person, ns2:Real ;
+:Christian_Bale a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Christian Bale" .
 
-:Christopher_Nolan
-    a        ns2:Person, ns2:Real ;
+:Christopher_Nolan a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Christopher Nolan" .
 
-:Gal_Gadot
-    a        ns2:Person, ns2:Real ;
+:Gal_Gadot a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Gal Gadot" .
 
-:Gene_Hackman
-    a        ns2:Person, ns2:Real ;
+:Gene_Hackman a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Gene Hackman" .
 
-:Gwyneth_Paltrow
-    a        ns2:Person, ns2:Real ;
+:Gwyneth_Paltrow a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Gwyneth Paltrow" .
 
-:Halle_Berry
-    a        ns2:Person, ns2:Real ;
+:Halle_Berry a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Halle Berry" .
 
-:Ian_McKellen
-    a        ns2:Person, ns2:Real ;
+:Ian_McKellen a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ian McKellen" .
 
-:Jennifer_Lawrence
-    a        ns2:Person, ns2:Real ;
+:Jennifer_Lawrence a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jennifer Lawrence" .
 
-:Kirsten_Dunst
-    a        ns2:Person, ns2:Real ;
+:Kirsten_Dunst a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Kirsten Dunst" .
 
-:Kris_Kristofferson
-    a        ns2:Person, ns2:Real ;
+:Kris_Kristofferson a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Kris Kristofferson" .
 
-:Michael_Keaton
-    a        ns2:Person, ns2:Real ;
+:Michael_Keaton a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Michael Keaton" .
 
-:Scarlett_Johansson
-    a        ns2:Person, ns2:Real ;
+:Scarlett_Johansson a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Scarlett Johansson" .
 
-:Tobey_Maguire
-    a        ns2:Person, ns2:Real ;
+:Tobey_Maguire a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Tobey Maguire" .
 
-:Tom_Hiddleston
-    a        ns2:Person, ns2:Real ;
+:Tom_Hiddleston a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Tom Hiddleston" .
 
-:Wesley_Snipes
-    a        ns2:Person, ns2:Real ;
+:Wesley_Snipes a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Wesley Snipes" .
 
-:Anthony_Russo
-    a        ns2:Person, ns2:Real ;
+:Anthony_Russo a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Anthony Russo" .
 
-:Christopher_Reeve
-    a        ns2:Person, ns2:Real ;
+:Christopher_Reeve a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Christopher Reeve" .
 
-:James_Gunn
-    a        ns2:Person, ns2:Real ;
+:James_Gunn a p_schema:Person,
+        p_schema:Real ;
     ns2:name "James Gunn" .
 
-:James_Mangold
-    a        ns2:Person, ns2:Real ;
+:James_Mangold a p_schema:Person,
+        p_schema:Real ;
     ns2:name "James Mangold" .
 
-:James_McAvoy
-    a        ns2:Person, ns2:Real ;
+:James_McAvoy a p_schema:Person,
+        p_schema:Real ;
     ns2:name "James McAvoy" .
 
-:Joe_Russo
-    a        ns2:Person, ns2:Real ;
+:Joe_Russo a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Joe Russo" .
 
-:Jon_Favreau
-    a        ns2:Person, ns2:Real ;
+:Jon_Favreau a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jon Favreau" .
 
-:Jon_Watts
-    a        ns2:Person, ns2:Real ;
+:Jon_Watts a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Jon Watts" .
 
-:Joss_Whedon
-    a        ns2:Person, ns2:Real ;
+:Joss_Whedon a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Joss Whedon" .
 
-:Marc_Webb
-    a        ns2:Person, ns2:Real ;
+:Marc_Webb a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Marc Webb" .
 
-:Margot_Kidder
-    a        ns2:Person, ns2:Real ;
+:Margot_Kidder a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Margot Kidder" .
 
-:Mark_Ruffalo
-    a        ns2:Person, ns2:Real ;
+:Mark_Ruffalo a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Mark Ruffalo" .
 
-:Mark_Steven_Johnson
-    a        ns2:Person, ns2:Real ;
+:Mark_Steven_Johnson a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Mark Steven Johnson" .
 
-:Michael_Fassbender
-    a        ns2:Person, ns2:Real ;
+:Michael_Fassbender a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Michael Fassbender" .
 
-:Peyton_Reed
-    a        ns2:Person, ns2:Real ;
+:Peyton_Reed a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Peyton Reed" .
 
-:Samuel_L_Jackson
-    a        ns2:Person, ns2:Real ;
+:Samuel_L_Jackson a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Samuel L. Jackson" .
 
-:Tim_Story
-    a        ns2:Person, ns2:Real ;
+:Tim_Story a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Tim Story" .
 
-:Zack_Snyder
-    a        ns2:Person, ns2:Real ;
+:Zack_Snyder a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Zack Snyder" .
 
-ns1:Thriller
-    a              skos:Concept ;
+ns1:Thriller a skos:Concept ;
     skos:prefLabel "Thriller" .
 
-:Patrick_Stewart
-    a        ns2:Person, ns2:Real ;
+:Patrick_Stewart a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Patrick Stewart" .
 
-:Ryan_Reynolds
-    a        ns2:Person, ns2:Real ;
+:Ryan_Reynolds a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Ryan Reynolds" .
 
-ns1:Horror
-    a              skos:Concept ;
+ns1:Horror a skos:Concept ;
     skos:prefLabel "Horror" .
 
-:Chris_Hemsworth
-    a        ns2:Person, ns2:Real ;
+:Chris_Hemsworth a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Chris Hemsworth" .
 
-:Sam_Raimi
-    a        ns2:Person, ns2:Real ;
+:Sam_Raimi a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Sam Raimi" .
 
-:Hugh_Jackman
-    a        ns2:Person, ns2:Real ;
+:Hugh_Jackman a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Hugh Jackman" .
 
-:Bryan_Singer
-    a        ns2:Person, ns2:Real ;
+:Bryan_Singer a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Bryan Singer" .
 
-:Chris_Evans
-    a        ns2:Person, ns2:Real ;
+:Chris_Evans a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Chris Evans" .
 
-:Robert_Downey_Jr
-    a        ns2:Person, ns2:Real ;
+:Robert_Downey_Jr a p_schema:Person,
+        p_schema:Real ;
     ns2:name "Robert Downey Jr." .
 
-ns1:Crime
-    a              skos:Concept ;
+ns1:Crime a skos:Concept ;
     skos:prefLabel "Crime" .
 
-ns1:Drama
-    a              skos:Concept ;
+ns1:Drama a skos:Concept ;
     skos:prefLabel "Drama" .
 
-ns1:Comedy
-    a              skos:Concept ;
+ns1:Comedy a skos:Concept ;
     skos:prefLabel "Comedy" .
 
-ns1:Fantasy
-    a              skos:Concept ;
+ns1:Fantasy a skos:Concept ;
     skos:prefLabel "Fantasy" .
 
-ns1:DC
-    a              skos:Concept ;
+ns1:DC a skos:Concept ;
     skos:prefLabel "DC" .
 
-ns1:Sci-Fi
-    a              skos:Concept ;
+ns1:Sci-Fi a skos:Concept ;
     skos:prefLabel "Sci-Fi" .
 
-ns1:MARVEL
-    a              skos:Concept ;
+ns1:MARVEL a skos:Concept ;
     skos:prefLabel "MARVEL" .
 
-ns1:Adventure
-    a              skos:Concept ;
+ns1:Adventure a skos:Concept ;
     skos:prefLabel "Adventure" .
 
-ns1:Action
-    a              skos:Concept ;
+ns1:Action a skos:Concept ;
     skos:prefLabel "Action" .
 

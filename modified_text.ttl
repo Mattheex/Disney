@@ -35,25 +35,12 @@ ns1:July_29__2011
     a        ns1:Node ;
     ns1:name "July 29, 2011" .
 
-ns1:Steve_Rogers
-    a                   ns1:Node ;
-    ns1:name            "Steve Rogers" ;
-    ns1:performer       ns1:Chris_Evans ;
-    ns1:present_in_work ns1:Captain_America .
-
 ns1:Bucky_Barnes
-    a             ns1:Node ;
-    ns1:conflict  ns1:World_War_II ;
-    ns1:name      "Bucky Barnes" ;
-    ns1:performer ns1:Dominic_Cooper .
-
-ns1:Captain_America
-    a                    ns1:Node ;
-    ns1:cast_member      ns1:Dominic_Cooper, ns1:Hayley_Atwell, ns1:Hugo_Weaving, ns1:Neal_McDon, ns1:Sebastian_Stan,
-                         ns1:Tommy_Lee_Jones ;
-    ns1:characters       ns1:Bucky_Barnes ;
-    ns1:name             "Captain America" ;
-    ns1:publication_date "July 29, 2011" .
+    a                   ns1:Node ;
+    ns1:conflict        ns1:World_War_II ;
+    ns1:name            "Bucky Barnes" ;
+    ns1:performer       ns1:Dominic_Cooper ;
+    ns1:present_in_work ns1:Captain_America .
 
 ns1:Chris_Evans
     a        ns1:Node ;
@@ -96,9 +83,23 @@ ns1:Stanley_Tucci
     a        ns1:Node ;
     ns1:name "Stanley Tucci" .
 
+ns1:Steve_Rogers
+    a                   ns1:Node ;
+    ns1:name            "Steve Rogers" ;
+    ns1:performer       ns1:Chris_Evans ;
+    ns1:present_in_work ns1:Captain_America .
+
 ns1:Tommy_Lee_Jones
     a        ns1:Node ;
     ns1:name "Tommy Lee Jones" .
+
+ns1:Captain_America
+    a                    ns1:Node ;
+    ns1:cast_member      ns1:Dominic_Cooper, ns1:Hayley_Atwell, ns1:Hugo_Weaving, ns1:Neal_McDon, ns1:Sebastian_Stan,
+                         ns1:Tommy_Lee_Jones ;
+    ns1:characters       ns1:Bucky_Barnes, ns1:Steve_Rogers ;
+    ns1:name             "Captain America" ;
+    ns1:publication_date "July 29, 2011" .
 
 ns1:Dominic_Cooper
     a        ns1:Node ;

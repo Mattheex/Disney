@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="spoti" />
     <orderEntry type="module" module-name="Projet VroumVroum" />
+    <orderEntry type="module" module-name="IA-Embarque" />
   </component>
 </module>

@@ -2,7 +2,7 @@ PREFIX owl:   <http://www.w3.org/2002/07/owl#>
 PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sh:    <http://www.w3.org/ns/shacl#>
-PREFIX :      <http://projet.fr/films_schema#>
+PREFIX :      <http://projet.fr/films_schema/>
 PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
 PREFIX perso: <http://projet.fr/perso_schema#>
 PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
@@ -12,49 +12,54 @@ PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
     a owl:Class .
 
 :title
-    a           owl:Property ;
+    a           owl:ObjectProperty ;
     rdfs:domain :CreativeWork ;
     rdfs:range  xsd:string .
 
 :year
-    a           owl:Property ;
+    a           owl:ObjectProperty ;
     rdfs:domain :CreativeWork ;
     rdfs:range  xsd:date .
 
 :genre
-    a           owl:Property ;
+    a           owl:ObjectProperty ;
     rdfs:domain :CreativeWork ;
     rdfs:range  skos:Concept .
 
 :rating
-    a           owl:Property ;
+    a           owl:ObjectProperty ;
     rdfs:domain :CreativeWork ;
     rdfs:range  xsd:integer .
 
 :vote
-    a           owl:Property ;
+    a           owl:ObjectProperty ;
     rdfs:domain :CreativeWork ;
     rdfs:range  xsd:integer .
 
 :gross
-    a           owl:Property ;
+    a           owl:ObjectProperty ;
     rdfs:domain :CreativeWork ;
     rdfs:range  xsd:integer .
 
 :director
-    a           owl:Property ;
+    a           owl:ObjectProperty ;
     rdfs:domain :CreativeWork ;
     rdfs:range  :Person .
 
 :stars
-    a           owl:Property ;
+    a           owl:ObjectProperty ;
     rdfs:domain :CreativeWork ;
     rdfs:range  :Person .
 
 :entity
-    a           owl:Property ;
+    a           owl:ObjectProperty ;
     rdfs:domain :CreativeWork ;
     rdfs:range  skos:Concept .
+
+:all_stars
+    a           owl:ObjectProperty ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range  :Person .
 
 
 :CharacterShape

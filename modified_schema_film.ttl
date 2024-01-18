@@ -1,0 +1,83 @@
+@prefix : <http://projet.fr/films_schema/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://projet.fr/films_schema/22-rdf-syntax-ns#type> a owl:ObjectProperty .
+
+:CharacterShape a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype :Actor ;
+            sh:maxCount 1 ;
+            sh:minCount 1 ;
+            sh:path :actor ] ;
+    sh:targetClass :Character .
+
+:MovieShape a sh:NodeShape ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type ) ;
+    sh:property [ sh:datatype :Character ;
+            sh:minCount 1 ;
+            sh:path :character ] ;
+    sh:targetClass :Movie .
+
+:all_stars a owl:ObjectProperty ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range :Person .
+
+:cast_member a owl:ObjectProperty .
+
+:characters a owl:ObjectProperty .
+
+:conflict a owl:ObjectProperty .
+
+:director a owl:ObjectProperty ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range :Person .
+
+:entity a owl:ObjectProperty ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range skos:Concept .
+
+:genre a owl:ObjectProperty ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range skos:Concept .
+
+:gross a owl:ObjectProperty ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range xsd:integer .
+
+:name a owl:ObjectProperty .
+
+:performer a owl:ObjectProperty .
+
+:present_in_work a owl:ObjectProperty .
+
+:publication_date a owl:ObjectProperty .
+
+:rating a owl:ObjectProperty ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range xsd:integer .
+
+:stars a owl:ObjectProperty ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range :Person .
+
+:title a owl:ObjectProperty ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range xsd:string .
+
+:vote a owl:ObjectProperty ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range xsd:integer .
+
+:year a owl:ObjectProperty ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range xsd:date .
+
+:CreativeWork a owl:Class .
+
