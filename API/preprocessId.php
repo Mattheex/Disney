@@ -88,7 +88,7 @@ foreach($answer as $perso){
     $color_eye = $appearance->{"eye-color"};
     $color_hair = $appearance->{"hair-color"};
     $groups = $connections->{"group-affiliation"};
-    $connections->{"relatives"} =  processRelatives($relatives);
+    $connections->{"relatives"} =  textProcess($relatives);
     $connections->{"group-affiliation"} =  textProcess($groups);
     $work->{"occupation"} =  textProcess($occupation);
     $appearance->{"hair-color"} = textProcess($color_hair);
