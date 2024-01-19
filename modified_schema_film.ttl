@@ -29,7 +29,7 @@
     rdfs:domain :CreativeWork ;
     rdfs:range :Person .
 
-:cast_member a owl:ObjectProperty .
+:castmember a owl:ObjectProperty .
 
 :characters a owl:ObjectProperty .
 
@@ -51,13 +51,13 @@
     rdfs:domain :CreativeWork ;
     rdfs:range xsd:integer .
 
-:name a owl:ObjectProperty .
-
 :performer a owl:ObjectProperty .
 
 :present_in_work a owl:ObjectProperty .
 
-:publication_date a owl:ObjectProperty .
+:presentinwork a owl:ObjectProperty .
+
+:publicationdate a owl:ObjectProperty .
 
 :rating a owl:ObjectProperty ;
     rdfs:domain :CreativeWork ;
