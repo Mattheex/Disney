@@ -2,80 +2,71 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX test: <http://ns.inria.fr/sparql-micro-service/api#>
 PREFIX data: <http://projet.fr/perso_data/>
-PREFIX : <http://projet.fr/perso_schema#>
+PREFIX dataF: <http://projet.fr/film_data/>
+PREFIX : <http://projet.fr/perso#>
 PREFIX film: <http://projet.fr/films#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-construct {
-  ?URI a ?genderClass, ?heroe, :Character;
-    :heroName ?name;
-    :name ?fullName;
-    :alias ?alias;
-    :alter ?alter;
-    :placeOfBirth ?placeOfBirth;
-    :apparition ?apparition;
-    :publisher ?publisher;
-    :race ?modifiedRace;
-    :heightF ?heightF;
-    :heightCm ?heightCm;
-    :weightKg ?weightKG;
-    :weightLb ?weightLB;
-    :eyes ?eyes;
-    :hair ?hair;
-    :occupation ?occupation;
-    :base ?base;
-    :affiliation ?groups;
-    :relatives ?relatives;
-    :hasImage ?image;
-    :intelligence ?int;
-    :strength ?strength;
-    :speed ?speed;
-    :durability ?dura;
-    :power ?power;
-    :combat ?combat;
-    
 
+construct {
   
-  
+    ?uri a :Character;
+        :name ?name;
+        :appearedIn ?filmIRI,?shortFilmIRI,?tvShowIRI,?videoGameIRI,?parkAttraction;
+        :hasAlly ?ally;
+        :hasEnnemy ?ennemy;
+        :hasImage ?image.
+    ?filmIRI a film:CreativeWork;
+        film:kind film:Movie;
+        film:name ?film.
+    ?shortFilmIRI a film:CreativeWork;
+        film:kind film:ShortMovie;
+        film:name ?shortFilm.
+    ?tvShowIRI a film:CreativeWork;
+        film:kind film:TVShow;
+        film:name ?tvShow.
+    ?videoGameIRI a film:CreativeWork;
+        film:kind film:VideoGame;
+        film:name ?videoGame.
+    ?parkAttraction a film:CreativeWork;
+        film:kind film:AttractionsPark;
+        film:name ?parkAttraction.
+
 }
 WHERE {
   {
-  	?perso test:name ?name;
-         test:id ?id;
-         test:biography ?bio;
-         test:appearance ?appearance;
-         test:work ?work;
-         test:connections ?connections;
-         test:powerstats ?stats;
-         test:image [test:url ?image].
-    OPTIONAL{?bio test:aliases ?alias.FILTER(?alias !="-")}
-    OPTIONAL{?bio test:alter-egos ?alter.FILTER(?alter !="No alter egos found.")}
-    OPTIONAL{?bio test:place-of-birth ?placeOfBirth.FILTER(?placeOfBirth !="-")}
-    OPTIONAL{?bio test:first-appearance ?apparition.FILTER(?apparition !="-")}
-    OPTIONAL{?bio test:publisher ?publisher.FILTER(?publisher!="null")}
-    OPTIONAL{?bio test:full-name ?fullName.FILTER(?fullName!="")}
-    ?bio test:alignment ?alignment.
-    ?appearance test:gender ?gender.
-    OPTIONAL{?appearance test:race ?race.FILTER(?race!="null").BIND(IRI(CONCAT("http://projet.fr/perso#",REPLACE(REPLACE(?race, "Yoda's species", "Yoda"),"[\\s/\\-]", ""))) AS ?modifiedRace)}
-    OPTIONAL{?appearance test:height ?hf.FILTER(?hf!="-" && CONTAINS(?hf,"'")). BIND(xsd:float(REPLACE(?hf,"'",".")) AS ?heightF) }
-    OPTIONAL{?appearance test:height ?hc.FILTER(STRENDS(?hc,"cm")). BIND(xsd:integer(STRBEFORE(?hc," cm")) AS ?heightCm) }
-    OPTIONAL{?appearance test:weight ?wk. FILTER(STRENDS(?wk,"kg")&& ?wk!="- kg"). BIND(xsd:integer(STRBEFORE(?wk," kg")) AS ?weightKG)}
-    OPTIONAL{?appearance test:weight ?wl. FILTER(STRENDS(?wl,"lb")&& ?wl!="- lb"). BIND(xsd:integer(STRBEFORE(?wl," lb")) AS ?weightLB)}
-    OPTIONAL{?appearance test:eye-color ?eyes.FILTER(?eyes!="-")}
-    OPTIONAL{?appearance test:hair-color ?hair.FILTER(?hair!="-")}
-    OPTIONAL{?work test:occupation ?occupation.FILTER(?occupation!="-")}
-    OPTIONAL{?work test:base ?base.FILTER(?base!="-")}
-    OPTIONAL{?connections test:group-affiliation ?groups.FILTER(?groups!="-")}
-    OPTIONAL{?connections test:relatives ?relatives.FILTER(?relatives!="-")}
-    OPTIONAL{?stats test:intelligence ?i.FILTER(?i!="-").BIND(xsd:integer(?i) AS ?int)}
-    OPTIONAL{?stats test:strength ?st.FILTER(?st!="-").BIND(xsd:integer(?st) AS ?strength)}
-    OPTIONAL{?stats test:speed ?sp.FILTER(?sp!="-").BIND(xsd:integer(?sp) AS ?speed)}
-    OPTIONAL{?stats test:durability ?d.FILTER(?d!="-").BIND(xsd:integer(?d) AS ?dura)}
-    OPTIONAL{?stats test:power ?p.FILTER(?p!="-").BIND(xsd:integer(?p) AS ?power)}
-    OPTIONAL{?stats test:combat ?c.FILTER(?c!="-").BIND(xsd:integer(?c) AS ?combat)}
-    BIND(IF(?alignment="good",:Heroe,:Villain) as ?heroe)
-    BIND(IF(?gender="Male",:Male,:Female) as ?genderClass)
-  	BIND(IRI(CONCAT( "http://projet.fr/perso_data/",?id)) as ?URI).
-
-
+    ?sub test:name ?name;
+  	test:_id ?id;
+    test:imageUrl ?image.
+    OPTIONAL {?sub test:allies ?ally.}
+    OPTIONAL {?sub test:enemies ?ennemy.}
+    
   }
-}
+  {
+  ?sub test:films ?film.
+    BIND(IRI(CONCAT("http://projet.fr/film_data/",REPLACE(?film, " ", ""))) as ?filmIRI)
+  }
+  UNION
+  {
+  ?sub test:shortFilms ?shortFilm.
+    BIND(IRI(CONCAT("http://projet.fr/film_data/",REPLACE(?shortFilm, " ", ""))) as ?shortFilmIRI)
+  }
+  UNION
+  {
+  ?sub test:tvShows ?tvShow.
+    BIND(IRI(CONCAT("http://projet.fr/film_data/",REPLACE(?tvShow, " ", ""))) as ?tvShowIRI)
+  }
+  UNION
+  {
+  ?sub test:videoGames ?videoGame.
+    BIND(IRI(CONCAT("http://projet.fr/film_data/",REPLACE(?videoGame, " ", ""))) as ?videoGameIRI)
+  }
+  UNION
+  {
+  ?sub test:parkAttractions ?parkAttraction.
+    BIND(IRI(CONCAT("http://projet.fr/film_data/",REPLACE(?parkAttraction, " ", ""))) as ?parkAttractionIRI)
+  }
+
+
+  
+  BIND(IRI("http://test!!!") as ?test)
+  BIND(IRI(CONCAT("http://projet.fr/perso_data/",?id)) AS ?uri)
+} 

@@ -1,10 +1,37 @@
-<div id="global" *ngIf="heroName !== ''">
-    <img src="{{ image }}" />
+<div id="global" *ngIf="hero">
+    <img src="{{ hero.image }}" />
     <div>
-        <h2>{{ heroName }}</h2>
-        <div *ngIf="name !== ''">real name: {{ name }}</div>
-        <div *ngIf="height !== ''">height: {{ height }} cm</div>
-        <div *ngIf="weight !== ''">weight: {{ weight }} kg</div>
-        <div *ngIf="race !== ''">race: {{ race }} </div>
+        <h2>{{ hero.heroName }}</h2>
+        <div *ngIf="hero.height !== undefined">height: {{ hero.height }} cm</div>
+        <div *ngIf="hero.weight !== undefined">weight: {{ hero.weight }} kg</div>
+        <div *ngIf="hero.raceName">race: {{ hero.raceName }} </div>
+        <div *ngIf="hero.base">base: {{ hero.base }} </div>
+        <div *ngIf="hero.eyes.length > 0">color eyes :
+            {{ hero.eyes.join('/') }}
+        </div>
+        <div *ngIf="hero.hair.length > 0">color hair :
+            {{ hero.hair.join('/') }}
+        </div>
+        <div *ngIf="hero.alias.length > 0">alias :
+            <ul >
+                <li *ngFor="let alias of hero.alias"><div *ngIf="alias">{{ alias }}</div></li>
+            </ul>
+        </div>
+        <div *ngIf="hero.alter.length > 0">alter egos :
+            <ul >
+                <li *ngFor="let alter of hero.alter"><div *ngIf="alter">{{ alter }}</div></li>
+            </ul>
+        </div>
+        <div *ngIf="hero.relatives.length > 0">relatives :
+            <ul >
+                <li *ngFor="let relative of hero.relatives"><div *ngIf="relative">{{ relative }}</div></li>
+            </ul>
+        </div>
+        <div *ngIf="hero.affiliation.length > 0">affiliation :
+            <ul >
+                <li *ngFor="let affiliation of hero.affiliation"><div *ngIf="affiliation">{{ affiliation }}</div></li>
+            </ul>
+        </div>
+        
     </div>
 </div>

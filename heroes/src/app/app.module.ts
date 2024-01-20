@@ -6,14 +6,16 @@ import { AppComponent } from './app.component';
 import { PersonCardComponent } from './person-card/person-card.component';
 import { CardGeneratorComponent } from './card-generator/card-generator.component';
 import { FormsModule } from '@angular/forms';
-import { InputUserComponent } from './input-user/input-user.component';
+import { FilmSelectorComponent } from './film-selector/film-selector.component';
+import { HotbarComponent } from './hotbar/hotbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PersonCardComponent,
     CardGeneratorComponent,
-    InputUserComponent,
+    FilmSelectorComponent,
+    HotbarComponent,
   ],
   imports: [
     BrowserModule,
