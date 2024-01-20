@@ -1,83 +1,139 @@
-PREFIX owl:   <http://www.w3.org/2002/07/owl#>
-PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sh:    <http://www.w3.org/ns/shacl#>
-PREFIX :      <http://projet.fr/films_schema/>
-PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
-PREFIX perso: <http://projet.fr/perso_schema#>
-PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#>
+@prefix :      <http://projet.fr/films_schema/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix perso: <http://projet.fr/perso_schema/> .
+
+:CreativeWorkShape
+    a                                                                                                sh:NodeShape ;
+    sh:ignoredProperties                                                                             ( rdf:type ) ;
+    sh:property                                                                                      [ sh:path     :director ;
+                                                                                                       sh:minCount 1 ],
+                                                                                                     [ sh:path       :gross ;
+                                                                                                       :minInclusive 0 ],
+                                                                                                     [ sh:path       :vote ;
+                                                                                                       :minInclusive 0 ],
+                                                                                                     [ sh:path         :rating ;
+                                                                                                       sh:minInclusive 0 ;
+                                                                                                       sh:maxInclusive 10 ],
+                                                                                                     [ sh:path     :entity ;
+                                                                                                       sh:maxCount 1 ;
+                                                                                                       sh:in       ( :MARVEL
+                                                                                                                     :DC ) ] ;
+    sh:targetClass                                                                                   :CreativeWork .
+
+:NodeShape
+    a           sh:NodeShape ;
+    sh:property [ sh:path rdf:type ; # this is a class
+                  sh:not  [ sh:and ( [ sh:pattern 'http://projet.fr/films_schema/' ] [ sh:property [ sh:path     rdf:type ;
+                                                                                                     sh:maxCount 0 ] ] ) ] ] .
 
 
-:CreativeWork
-    a owl:Class .
-
-:title
+:castmember
     a           owl:ObjectProperty ;
+    rdfs:label  "film cast-member" ;
     rdfs:domain :CreativeWork ;
-    rdfs:range  xsd:string .
+    rdfs:range  :Person .
 
-:year
+:characters
+    a             owl:ObjectProperty ;
+    rdfs:label    "film characters" ;
+    rdfs:domain   :CreativeWork ;
+    rdfs:range    perso:Character ;
+    owl:inverseOf :presentinwork .
+
+:charactersTransitive
+    a                      owl:ObjectProperty ;
+    rdfs:label             "film characters" ;
+    rdfs:domain            :CreativeWork ;
+    rdfs:range             perso:Character ;
+    owl:propertyChainAxiom ( :characters :seeAlso ) .
+
+:conflict
     a           owl:ObjectProperty ;
+    rdfs:label  "film characters" ;
+    rdfs:domain :Character .
+
+:director
+    a           owl:IrreflexiveProperty ;
+    rdfs:label  "film director" ;
     rdfs:domain :CreativeWork ;
-    rdfs:range  xsd:date .
+    rdfs:range  :Person .
 
-:genre
+:entity
     a           owl:ObjectProperty ;
+    rdfs:label  "film entity" ;
     rdfs:domain :CreativeWork ;
     rdfs:range  skos:Concept .
 
-:rating
+:genre
     a           owl:ObjectProperty ;
+    rdfs:label  "film genre" ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range  skos:Concept .
+
+:gross
+    a           owl:ObjectProperty ;
+    rdfs:label  "film gross" ;
     rdfs:domain :CreativeWork ;
     rdfs:range  xsd:integer .
+
+:name
+    a           owl:FunctionalProperty ;
+    rdfs:label  "his/her name" ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range  xsd:string .
+
+:performer
+    a           owl:ObjectProperty ;
+    rdfs:label  "perform by" ;
+    rdfs:domain :Character ;
+    rdfs:range  :Person .
+
+:presentinwork
+    a             owl:ObjectProperty ;
+    rdfs:label    "character present in the film" ;
+    rdfs:domain   :Character ;
+    rdfs:range    :CreativeWork ;
+    owl:inverseOf :characters .
+
+:publicationdate
+    a           owl:ObjectProperty ;
+    rdfs:label  "film release date" ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range  xsd:date .
+
+:rating
+    a           owl:ObjectProperty ;
+    rdfs:label  "film rating" ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range  xsd:integer .
+
+:stars
+    a           owl:ObjectProperty ;
+    rdfs:label  "film stars" ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range  :Person .
+
+:title
+    a           owl:ObjectProperty ;
+    rdfs:label  "film title" ;
+    rdfs:domain :CreativeWork ;
+    rdfs:range  xsd:string .
 
 :vote
     a           owl:ObjectProperty ;
     rdfs:domain :CreativeWork ;
     rdfs:range  xsd:integer .
 
-:gross
+:year
     a           owl:ObjectProperty ;
     rdfs:domain :CreativeWork ;
-    rdfs:range  xsd:integer .
+    rdfs:range  xsd:date .
 
-:director
-    a           owl:ObjectProperty ;
-    rdfs:domain :CreativeWork ;
-    rdfs:range  :Person .
+:CreativeWork
+    a owl:Class .
 
-:stars
-    a           owl:ObjectProperty ;
-    rdfs:domain :CreativeWork ;
-    rdfs:range  :Person .
-
-:entity
-    a           owl:ObjectProperty ;
-    rdfs:domain :CreativeWork ;
-    rdfs:range  skos:Concept .
-
-:all_stars
-    a           owl:ObjectProperty ;
-    rdfs:domain :CreativeWork ;
-    rdfs:range  :Person .
-
-
-:CharacterShape
-    a                    sh:NodeShape ;
-    sh:targetClass       :Character ;    # Applies to all persons
-    sh:property          [ sh:path     :actor ;           # constrains the values of ex:ssn
-                           sh:minCount 1 ;
-                           sh:maxCount 1 ;
-                           sh:datatype :Actor ; ] ;
-    sh:closed            true ;
-    sh:ignoredProperties ( rdf:type ) .
-
-:MovieShape
-    a                    sh:NodeShape ;
-    sh:targetClass       :Movie ;    # Applies to all persons
-    sh:property          [ sh:path     :character ;           # constrains the values of ex:ssn
-                           sh:minCount 1 ;
-                           sh:datatype :Character ; ] ;
-    sh:closed            true ;
-    sh:ignoredProperties ( rdf:type ) .
-    
