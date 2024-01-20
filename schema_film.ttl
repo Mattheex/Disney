@@ -50,7 +50,7 @@
     rdfs:label             "film characters" ;
     rdfs:domain            :CreativeWork ;
     rdfs:range             perso:Character ;
-    owl:propertyChainAxiom ( :characters :seeAlso ) .
+    owl:propertyChainAxiom ( :characters rdfs:seeAlso ) .
 
 :conflict
     a           owl:ObjectProperty ;
@@ -136,4 +136,14 @@
 
 :CreativeWork
     a owl:Class .
+
+:genreConcept
+    a              skos:Concept ;
+    skos:prefLabel "film genre" .
+
+:producerConcept
+    a              skos:Concept ;
+    skos:prefLabel "super-hero film producer" .
+
+
 

@@ -4,6 +4,7 @@
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
 @prefix p_data:   <http://projet.fr/perso_data/> .
 @prefix p_schema: <http://projet.fr/perso_schema/> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
 
@@ -230,7 +231,7 @@
     f_schema:genre    f_schema:Action, f_schema:Fantasy, f_schema:Thriller ;
     f_schema:gross    5.177e+07 ;
     f_schema:rating   4.3e+00 ;
-    f_schema:stars    :BrianTaylor, :CiaránHinds, :IdrisElba, :NicolasCage, :ViolantePlacido ;
+    f_schema:stars    :BrianTaylor, :CiaranHinds, :IdrisElba, :NicolasCage, :ViolantePlacido ;
     f_schema:title    "Ghost Rider: Spirit of Vengeance" ;
     f_schema:vote     1.12898e+05 ;
     f_schema:year     "2011" .
@@ -302,7 +303,7 @@
     f_schema:genre    f_schema:Action, f_schema:Adventure, f_schema:Fantasy ;
     f_schema:gross    2.0636e+08 ;
     f_schema:rating   6.9e+00 ;
-    f_schema:stars    :AlanTaylor, :ChrisHemsworth, :NataliePortman, :StellanSkarsgård, :TomHiddleston ;
+    f_schema:stars    :AlanTaylor, :ChrisHemsworth, :NataliePortman, :StellanSkarsgard, :TomHiddleston ;
     f_schema:title    "Thor: The Dark World" ;
     f_schema:vote     6.14115e+05 ;
     f_schema:year     "2013" .
@@ -554,7 +555,7 @@
     f_schema:genre    f_schema:Action, f_schema:Adventure, f_schema:Comedy ;
     f_schema:gross    2.1665e+08 ;
     f_schema:rating   7e+00 ;
-    f_schema:stars    :EvangelineLilly, :MichaelPeña, :PaulRudd, :PeytonReed, :WaltonGoggins ;
+    f_schema:stars    :EvangelineLilly, :PaulRudd, :PeytonReed, :WaltonGoggins ;
     f_schema:title    "Ant-Man and the Wasp" ;
     f_schema:vote     3.296e+05 ;
     f_schema:year     "2018" .
@@ -1075,6 +1076,9 @@
     f_schema:vote     2.12554e+05 ;
     f_schema:year     "2020" .
 
+:MichaelPena
+    a p_schema:Person, p_schema:Real .
+
 :AaronEckhart
     a           p_schema:Person, p_schema:Real ;
     p_data:name "Aaron Eckhart" .
@@ -1169,7 +1173,7 @@
     f_schema:name          "Bucky Barnes" ;
     f_schema:performer     :DominicCooper ;
     f_schema:presentinwork :26 ;
-    f_schema:seeAlso       p_data:Hbuckybarneswintersoldier, p_data:Pbuckybarneswintersoldier .
+    rdfs:seeAlso           p_data:Hbuckybarneswintersoldier, p_data:Pbuckybarneswintersoldier .
 
 :BurtWard
     a           p_schema:Person, p_schema:Real ;
@@ -1215,7 +1219,7 @@
     a           p_schema:Person, p_schema:Real ;
     p_data:name "Christopher Walken" .
 
-:CiaránHinds
+:CiaranHinds
     a           p_schema:Person, p_schema:Real ;
     p_data:name "CiarÃ¡n Hinds" .
 
@@ -1548,8 +1552,7 @@
     p_data:name "Liev Schreiber" .
 
 :LionelAtwill
-    a           p_schema:Person, p_schema:Real ;
-    p_data:name "Lionel Atwill" .
+    a p_schema:Person, p_schema:Real .
 
 :LivTyler
     a           p_schema:Person, p_schema:Real ;
@@ -1610,10 +1613,6 @@
 :MichaelDouglas
     a           p_schema:Person, p_schema:Real ;
     p_data:name "Michael Douglas" .
-
-:MichaelPeña
-    a           p_schema:Person, p_schema:Real ;
-    p_data:name "Michael PeÃ±a" .
 
 :MichaelShannon
     a           p_schema:Person, p_schema:Real ;
@@ -1771,7 +1770,7 @@
     a           p_schema:Person, p_schema:Real ;
     p_data:name "Sidney J. Furie" .
 
-:StellanSkarsgård
+:StellanSkarsgard
     a           p_schema:Person, p_schema:Real ;
     p_data:name "Stellan SkarsgÃ¥rd" .
 
@@ -1784,7 +1783,7 @@
     f_schema:name          "Steve Rogers" ;
     f_schema:performer     :ChrisEvans ;
     f_schema:presentinwork :26 ;
-    f_schema:seeAlso       p_data:Hsteverogerscaptainamerica, p_data:Psteverogerscaptainamerica .
+    rdfs:seeAlso           p_data:Hsteverogerscaptainamerica, p_data:Psteverogerscaptainamerica .
 
 :TJMiller
     a           p_schema:Person, p_schema:Real ;
@@ -1872,6 +1871,7 @@
 
 :26
     a                        f_schema:CreativeWork ;
+    ns1:type                 :Node ;
     f_schema:castmember      :DominicCooper, :HayleyAtwell, :HugoWeaving, :NealMcDon, :SebastianStan, :TommyLeeJones ;
     f_schema:characters      :BuckyBarnes, :SteveRogers ;
     f_schema:director        :JoeJohnston ;
@@ -2358,39 +2358,48 @@ f_schema:Horror
     f_schema:name "Chris Evans" ;
     p_data:name   "Chris Evans" .
 
+
 f_schema:Crime
     a              skos:Concept ;
-    skos:prefLabel "Crime" .
+    skos:prefLabel "Crime" ;
+    skos:broader   f_schema:genreConcept .
 
 f_schema:Drama
     a              skos:Concept ;
-    skos:prefLabel "Drama" .
+    skos:prefLabel "Drama" ;
+    skos:broader   f_schema:genreConcept .
 
 f_schema:Comedy
     a              skos:Concept ;
-    skos:prefLabel "Comedy" .
+    skos:prefLabel "Comedy" ;
+    skos:broader   f_schema:genreConcept .
 
 f_schema:Fantasy
     a              skos:Concept ;
-    skos:prefLabel "Fantasy" .
+    skos:prefLabel "Fantasy" ;
+    skos:broader   f_schema:genreConcept .
 
 f_schema:DC
     a              skos:Concept ;
-    skos:prefLabel "DC" .
+    skos:prefLabel "DC" ;
+    skos:broader   f_schema:producerConcept .
 
 f_schema:SciFi
     a              skos:Concept ;
-    skos:prefLabel "Sci-Fi" .
+    skos:prefLabel "Sci-Fi" ;
+    skos:broader   f_schema:genreConcept .
 
 f_schema:MARVEL
     a              skos:Concept ;
-    skos:prefLabel "MARVEL" .
+    skos:prefLabel "MARVEL" ;
+    skos:broader   f_schema:producerConcept .
 
 f_schema:Adventure
     a              skos:Concept ;
-    skos:prefLabel "Adventure" .
+    skos:prefLabel "Adventure" ;
+    skos:broader   f_schema:genreConcept .
 
 f_schema:Action
     a              skos:Concept ;
-    skos:prefLabel "Action" .
-
+    skos:prefLabel "Action" ;
+    skos:broader   f_schema:genreConcept .
