@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JupyterPersistentConnectionParameters">
-    <option name="knownRemoteServers">
-      <list>
-        <JupyterConnectionParameters>
-          <option name="authType" value="jupyterhub" />
-          <option name="urlString" value="http://192.168.214.61:8080" />
-          <authParams2>
-            <map>
-              <entry key="username" value="fm111310" />
-            </map>
-          </authParams2>
-        </JupyterConnectionParameters>
-      </list>
-    </option>
     <option name="moduleParameters">
       <map>
         <entry key="$PROJECT_DIR$/.idea/Disney.iml">
@@ -21,19 +8,6 @@
             <JupyterConnectionParameters>
               <option name="managed" value="true" />
               <option name="sdkName" value="" />
-            </JupyterConnectionParameters>
-          </value>
-        </entry>
-        <entry key="G:/Mon Drive/SI5/Projet VroumVroum/.idea/Projet VroumVroum.iml">
-          <value>
-            <JupyterConnectionParameters>
-              <option name="authType" value="jupyterhub" />
-              <option name="urlString" value="http://192.168.214.61:8080" />
-              <authParams2>
-                <map>
-                  <entry key="username" value="fm111310" />
-                </map>
-              </authParams2>
             </JupyterConnectionParameters>
           </value>
         </entry>
