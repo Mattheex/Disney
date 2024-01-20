@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpParams} from '@angular/common/http';
+import { Hero } from '../models/hero.model';
+
 @Component({
   selector: 'app-card-generator',
   templateUrl: './card-generator.component.html',
@@ -9,6 +11,7 @@ export class CardGeneratorComponent implements OnInit {
 
   userInput!: string;
   sparqlResults:any[]=[];
+  uniqueHeroesArray!: Hero[];
 
 
   constructor(private httpClient: HttpClient) {}
@@ -25,23 +28,31 @@ export class CardGeneratorComponent implements OnInit {
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX test: <http://ns.inria.fr/sparql-micro-service/api#>
-    PREFIX : <http://projet.fr/perso_schema#>
+    PREFIX : <http://projet.fr/perso_schema/>
     PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     
     SELECT * WHERE {
       SERVICE <http://localhost/service/superheroeapi/getHero?name=${this.userInput}> {
         ?x :name ?heroName;
            :hasImage ?image;
-           :appearence ?app.
-           
-        OPTIONAL { 
-           ?app :race ?race. 
-        }
+           :appearance ?app.
 
+        OPTIONAL { ?app :eyes ?eyes}
+        OPTIONAL { ?app :hair ?hair}
+        OPTIONAL { ?app :race ?race.}
         OPTIONAL { ?app :heightCm ?height }
         OPTIONAL { ?app :weightKg ?weight }
+        OPTIONAL { ?x :alias ?alias}
+        OPTIONAL { ?x :alter ?alter}
+        OPTIONAL { ?x :base ?base.}
+        OPTIONAL { ?x :race ?race.}
+        OPTIONAL { ?x :relatives ?relatives.}
+        OPTIONAL { ?x :affiliation ?affiliation.}
       }
       OPTIONAL{?r skos:prefLabel ?raceName.filter(?r = ?race)}
+      OPTIONAL{?e skos:prefLabel ?eyeColor.filter(?e = ?eyes)}
+      OPTIONAL{?re :name ?relative. filter(?re = ?relatives)}
+      OPTIONAL{?h skos:prefLabel ?hairColor.filter(?h = ?hair)}
     }
     ORDER BY ?heroName
     
@@ -61,19 +72,50 @@ export class CardGeneratorComponent implements OnInit {
 
     // Make an HTTP GET request to your SPARQL endpoint with the SPARQL query
     this.httpClient.get<any>(sparqlEndpointUrl, { headers, params })
-      .subscribe(data => {
-        this.sparqlResults = data.results.bindings;
-        this.sparqlResults = this.sparqlResults.map(result => {
-          return {
-            heroName: result.heroName?.value,
-            image: result.image?.value,
-            name: result.name?.value ?? '',
-            height: result.height?.value ?? '',
-            weight: result.weight?.value ?? '',
-            raceName: result.raceName?.value ??'',
-          };
-        });
-      });
+  .subscribe(data => {
+    this.sparqlResults = data.results.bindings;
+    console.log(this.sparqlResults);
+
+    const uniqueHeroes: { [key: string]: Hero } = {};
+
+    this.sparqlResults.forEach(result => {
+      const xValue = result.x.value;
+
+      if (!uniqueHeroes[xValue]) {
+        uniqueHeroes[xValue] = {
+          heroName: result.heroName?.value ?? '',
+          image: result.image?.value ?? '',
+          height: result.height?.value ? parseInt(result.height.value, 10) : undefined,
+          weight: result.weight?.value ? parseInt(result.weight.value, 10) : undefined,
+          raceName: result.raceName?.value ?? '',
+          base:result.base?.value??'',
+          hair: [],
+          eyes:[],
+          alter: [],
+          alias: [],
+          relatives:[],
+          affiliation:[]
+
+
+        };
+      }
+
+      // Add alias and alter to arrays
+      uniqueHeroes[xValue].alias.push(result.alias?.value ?? '');
+      uniqueHeroes[xValue].alter.push(result.alter?.value ?? '');
+      uniqueHeroes[xValue].hair.push(result.hairColor?.value ?? '');
+      uniqueHeroes[xValue].eyes.push(result.eyeColor?.value ?? '');
+      uniqueHeroes[xValue].relatives.push(result.relative?.value ?? '');
+      uniqueHeroes[xValue].affiliation.push(result.affiliation?.value ?? '');
+    });
+
+    // Convert the uniqueHeroes object to an array
+    this.uniqueHeroesArray = Object.values(uniqueHeroes);
+  });
+
+
+
+
   }
 }
 

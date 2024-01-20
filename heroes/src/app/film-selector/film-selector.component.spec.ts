@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InputUserComponent } from './input-user.component';
+import { FilmSelectorComponent } from './film-selector.component';
 
-describe('InputUserComponent', () => {
-  let component: InputUserComponent;
-  let fixture: ComponentFixture<InputUserComponent>;
+describe('FilmSelectorComponent', () => {
+  let component: FilmSelectorComponent;
+  let fixture: ComponentFixture<FilmSelectorComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ InputUserComponent ]
+      declarations: [ FilmSelectorComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(InputUserComponent);
+    fixture = TestBed.createComponent(FilmSelectorComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
