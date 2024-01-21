@@ -1,0 +1,26 @@
+<div *ngIf="hero">
+    <h2>{{ hero.heroName }}</h2>
+    <div *ngIf="hero.base">base: {{ hero.base }} </div>
+    
+    <div *ngIf="hero.alias.length > 0">alias :
+        <ul >
+            <li *ngFor="let alias of hero.alias"><div *ngIf="alias">{{ alias }}</div></li>
+        </ul>
+    </div>
+    <div *ngIf="hero.alter.length > 0">alter egos :
+        <ul >
+            <li *ngFor="let alter of hero.alter"><div *ngIf="alter">{{ alter }}</div></li>
+        </ul>
+    </div>
+    <div *ngIf="hero.relatives.length > 0">relatives :
+        <ul >
+            <li *ngFor="let relative of hero.relatives"><div *ngIf="relative">{{ relative }}</div></li>
+        </ul>
+    </div>
+    <div *ngIf="hero.affiliation.length > 0">affiliation :
+        <ul >
+            <li *ngFor="let affiliation of hero.affiliation"><div *ngIf="affiliation">{{ affiliation }}</div></li>
+        </ul>
+    </div>
+    
+</div>

@@ -120,7 +120,7 @@
 
 :title
     a           owl:ObjectProperty ;
-    rdfs:label  "film title" ;
+    rdfs:label  "title" ;
     rdfs:domain :CreativeWork ;
     rdfs:range  xsd:string .
 

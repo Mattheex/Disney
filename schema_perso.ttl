@@ -14,9 +14,21 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
                            sh:maxCount 1 ] ;
     sh:targetClass       :Person .
 
+:Comic a owl:Class;
+    rdfs:subClassOf film:CreativeWork;
+    rdfs:label "Comic".
+
 :Person
     a          owl:Class ;
     rdfs:label "person" .
+
+:Race a owl:Class;
+    rdfs:label "race".
+
+:race a owl:ObjectProperty;
+    rdfs:label "race";
+    rdfs:domain :Person;
+    rdfs:range :Race.
 
 :Fictional
     a          owl:Class ;
@@ -30,6 +42,15 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     a                  owl:Class ;
     rdfs:label         "an actor" ;
     owl:intersectionOf ( :Person :Real ) .
+
+:Appearance
+    a owl:Class;
+    rdfs:label "Physic appearance".
+
+:appearance a owl:ObjectProperty;
+    rdfs:label "Appearance";
+    rdfs:domain :Person;
+    rdfs:range :Appearance.
 
 :Director
     a                  owl:Class ;
@@ -55,6 +76,10 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     a          owl:DatatypeProperty ;
     rdfs:label "id" .
 
+:secretIdentity a owl:ObjectProperty;
+    rdfs:label "Secret identity";
+    rdfs:range :Character.
+
 :heroName
     a            owl:DatatypeProperty ;
     rdfs:label   "Full-name" ;
@@ -72,6 +97,10 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     a          owl:DatatypeProperty ;
     rdfs:label "Place of birth" .
 
+:heroIdentity a owl:ObjectProperty;
+    rdfs:label "Hero/Villain identity";
+    rdfs:range :Character.
+
 :Male
     a          owl:Class ;
     rdfs:label "Male" .
@@ -80,17 +109,24 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     a          owl:Class ;
     rdfs:label "Female" .
 
+:Color a owl:Class;
+    rdfs:label "color".
+
 :eyes
-    a          owl:DatatypeProperty ;
-    rdfs:label "Color eyes" .
+    a          owl:ObjectProperty ;
+    rdfs:label "Color eyes";
+    rdfs:range :Color.
 
 :hair
-    a          owl:DatatypeProperty ;
-    rdfs:label "Color hair" .
+    a          owl:ObjectProperty ;
+    rdfs:label "Color hair";
+    rdfs:range :Color
 
 :apparition
-    a          owl:DatatypeProperty ;
-    rdfs:label "first apparition" .
+    a          owl:ObjectProperty ;
+    rdfs:label "first apparition of the character";
+    rdfs:range :Comic;
+    rdfs:domain :Character.
 
 :Villain
     a          owl:Class ;
@@ -125,8 +161,9 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "group-affiliation" .
 
 :relatives
-    a          owl:DatatypeProperty ;
-    rdfs:label "relatives" .
+    a          owl:ObjectProperty ;
+    rdfs:label "relatives" ;
+    rdfs:range :Person.
 
 :intelligence
     a          owl:DatatypeProperty ;
@@ -153,7 +190,13 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "combat" .
 
 :publisher
-    a          owl:DatatypeProperty ;
-    rdfs:label "publisher" .
+    a          owl:ObjectProperty ;
+    rdfs:label "publisher";
+    rdfs:range skos:Concept.
 
-#publisher occupation
+:occupation a owl:ObjectProperty;
+    rdfs:label "Occupations";
+    rdfs:range :Occupation.
+
+:Occupation a owl:Class;
+    rdfs:label "an occupation".

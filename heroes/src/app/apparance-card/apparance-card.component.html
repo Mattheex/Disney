@@ -1,0 +1,14 @@
+<div *ngIf="hero">
+    <h2>{{ hero.heroName }}</h2>
+    <div *ngIf="hero.height !== undefined">height: {{ hero.height }} cm</div>
+    <div *ngIf="hero.weight !== undefined">weight: {{ hero.weight }} kg</div>
+    <div *ngIf="hero.raceName">race: {{ hero.raceName }} </div>
+    <div *ngIf="hero.eyes.length > 0">color eyes :
+        {{ hero.eyes.join('/') }}
+    </div>
+    <div *ngIf="hero.hair.length > 0">color hair :
+        {{ hero.hair.join('/') }}
+    </div>
+
+    
+</div>

@@ -8,6 +8,12 @@ import { CardGeneratorComponent } from './card-generator/card-generator.componen
 import { FormsModule } from '@angular/forms';
 import { FilmSelectorComponent } from './film-selector/film-selector.component';
 import { HotbarComponent } from './hotbar/hotbar.component';
+import { FilmPageComponent } from './film-page/film-page.component';
+import { FilmCardComponent } from './film-card/film-card.component';
+import { ActorCardComponent } from './actor-card/actor-card.component';
+import { ApparanceCardComponent } from './apparance-card/apparance-card.component';
+import { HeroCardComponent } from './hero-card/hero-card.component';
+import { PublicCardComponent } from './public-card/public-card.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +22,12 @@ import { HotbarComponent } from './hotbar/hotbar.component';
     CardGeneratorComponent,
     FilmSelectorComponent,
     HotbarComponent,
+    FilmPageComponent,
+    FilmCardComponent,
+    ActorCardComponent,
+    ApparanceCardComponent,
+    HeroCardComponent,
+    PublicCardComponent,
   ],
   imports: [
     BrowserModule,

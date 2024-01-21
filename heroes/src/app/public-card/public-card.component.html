@@ -1,0 +1,13 @@
+<div *ngIf="hero">
+    <h2>{{ hero.heroName }}</h2>
+    <div *ngIf="hero.name">Real name: {{ hero.name }} </div>
+    <div *ngIf="hero.placeOfBirth">Place of birth: {{ hero.placeOfBirth }} </div>
+    
+    <div *ngIf="hero.occupations.length > 0">occupations :
+        <ul >
+            <li *ngFor="let occupation of hero.occupations"><div *ngIf="occupation">{{ occupation }}</div></li>
+        </ul>
+    </div>
+  
+    
+</div>

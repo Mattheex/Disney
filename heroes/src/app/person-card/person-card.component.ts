@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { Hero } from '../models/hero.model';
 
 @Component({
@@ -6,31 +6,45 @@ import { Hero } from '../models/hero.model';
   templateUrl: './person-card.component.html',
   styleUrls: ['./person-card.component.scss']
 })
-export class PersonCardComponent implements OnInit {
+export class PersonCardComponent implements OnInit,OnChanges {
   @Input() hero!: Hero;
+  heroInfo=0;
   
   
 
   constructor() { }
+  ngOnChanges(changes: SimpleChanges): void {
+    if (changes['hero']  ){
+      this.hero.alias = this.hero.alias.filter(alias => alias.trim() !== '');
+      this.hero.alias = [...new Set(this.hero.alias)];
+
+      // Remove empty strings from alter array
+      this.hero.alter = this.hero.alter.filter(alter => alter.trim() !== '');
+      this.hero.alter = [...new Set(this.hero.alter)];
+
+      this.hero.affiliation = this.hero.affiliation.filter(affiliation => affiliation.trim() !== '');
+      this.hero.affiliation = [...new Set(this.hero.affiliation)];
+
+      this.hero.relatives = this.hero.relatives.filter(relatives => relatives.trim() !== '');
+      this.hero.relatives = [...new Set(this.hero.relatives)];
+
+      this.hero.occupations = this.hero.occupations.filter(occupations => occupations.trim() !== '');
+      this.hero.occupations = [...new Set(this.hero.occupations)];
+
+      this.hero.eyes = [...new Set(this.hero.eyes)];
+
+      this.hero.hair = [...new Set(this.hero.hair)];
+
+      };
+  }
+
+  showInfo():void{
+    this.heroInfo = (this.heroInfo+1)%3
+  }
 
   ngOnInit(): void {
     // Remove empty strings from alias array
-    this.hero.alias = this.hero.alias.filter(alias => alias.trim() !== '');
-    this.hero.alias = [...new Set(this.hero.alias)];
-
-    // Remove empty strings from alter array
-    this.hero.alter = this.hero.alter.filter(alter => alter.trim() !== '');
-    this.hero.alter = [...new Set(this.hero.alter)];
-
-    this.hero.affiliation = this.hero.affiliation.filter(affiliation => affiliation.trim() !== '');
-    this.hero.affiliation = [...new Set(this.hero.affiliation)];
-
-    this.hero.relatives = this.hero.relatives.filter(relatives => relatives.trim() !== '');
-    this.hero.relatives = [...new Set(this.hero.relatives)];
-
-    this.hero.eyes = [...new Set(this.hero.eyes)];
-
-    this.hero.hair = [...new Set(this.hero.hair)];
+    
 
   }
 }

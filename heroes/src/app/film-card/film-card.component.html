@@ -1,0 +1,30 @@
+<div *ngIf="film">
+    <div><p>{{film.title}}</p></div>
+    <div>publisher: {{film.entity}}</div>
+    <div>director: {{film.director}}</div>
+    <div *ngIf="film.gross">gross: {{film.gross}} $</div>
+    <div *ngIf="film.rating">rating: {{film.rating}}</div>
+    <div *ngIf="film.year">year: {{film.year}}</div>
+    <div *ngIf="film.vote">vote: {{film.vote}}</div>
+    <div *ngIf="film.actors.length > 0">actors:  :
+        <ul >
+            <li *ngFor="let actor of film.actors"><div *ngIf="actor">{{ actor }}</div></li>
+        </ul>
+    </div>
+    <div *ngIf="film.genre.length > 0">genres:  :
+        <ul >
+            <li *ngFor="let genre of film.genre"><div *ngIf="genre">{{ genre }}</div></li>
+        </ul>
+    </div>
+    <div *ngIf="film.characters">
+        <div *ngIf="film.characters.length>0">
+            Characters:
+            <div *ngFor="let character of film.characters">
+                <div (click)="handleCharacterClick(character)">{{character.name}}/{{character.superHeroName}}</div>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="perso" >
+        <app-person-card  class="app-person-card" [hero]="perso"></app-person-card>
+    </div>
+</div>
