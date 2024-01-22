@@ -4,12 +4,6 @@
 @prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-: a skos:Concept ;
-    rdfs:subClassOf p_schema:Color,
-        p_schema:Occupation ;
-    skos:prefLabel "",
-        "-" .
-
 :00agent a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "00 agent" .
@@ -6926,9 +6920,7 @@
 
 :Pblaquesmith a p_schema:Character,
         p_schema:Fictional,
-        schema:Person ;
-    schema:name "-" .
-
+        schema:Person .
 :Pblizzard a p_schema:Character,
         p_schema:Fictional,
         schema:Person .
@@ -9824,9 +9816,8 @@
 
 :Pvertigoii a p_schema:Character,
         p_schema:Fictional,
-        schema:Person ;
-    schema:name "-" .
-
+        schema:Person .
+        
 :Pvictorcreedsabretooth a p_schema:Character,
         p_schema:Fictional,
         schema:Person ;

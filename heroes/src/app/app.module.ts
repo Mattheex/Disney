@@ -14,6 +14,7 @@ import { ApparanceCardComponent } from './apparance-card/apparance-card.componen
 import { HeroCardComponent } from './hero-card/hero-card.component';
 import { PublicCardComponent } from './public-card/public-card.component';
 import { InfoCardComponent } from './info-card/info-card.component';
+import { MainPageComponent } from './main-page/main-page.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { InfoCardComponent } from './info-card/info-card.component';
     HeroCardComponent,
     PublicCardComponent,
     InfoCardComponent,
+    MainPageComponent,
   ],
   imports: [
     BrowserModule,
