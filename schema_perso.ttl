@@ -42,7 +42,7 @@ PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
 :Actor
     a                  owl:Class ;
     rdfs:label         "an actor" ;
-    owl:intersectionOf ( :Person :Real ) .
+    rdfs:subClassOf :Person, :Real .
 
 :Appearance
     a owl:Class;
@@ -56,7 +56,7 @@ PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
 :Director
     a                  owl:Class ;
     rdfs:label         "a director" ;
-    owl:intersectionOf ( :Person :Real ) .
+    rdfs:subClassOf :Person, :Real .
 
 :Character
     a                  owl:Class ;
@@ -171,30 +171,6 @@ PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
     a          owl:ObjectProperty ;
     rdfs:label "relatives" ;
     rdfs:range :Person.
-
-:intelligence
-    a          owl:DatatypeProperty ;
-    rdfs:label "intelligence" .
-
-:strength
-    a          owl:DatatypeProperty ;
-    rdfs:label "strength" .
-
-:speed
-    a          owl:DatatypeProperty ;
-    rdfs:label "speed" .
-
-:durability
-    a          owl:DatatypeProperty ;
-    rdfs:label "durability" .
-
-:power
-    a          owl:DatatypeProperty ;
-    rdfs:label "power" .
-
-:combat
-    a          owl:DatatypeProperty ;
-    rdfs:label "combat" .
 
 :publisher
     a          owl:ObjectProperty ;

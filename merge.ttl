@@ -1081,793 +1081,793 @@
 
 :AaronEckhart
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Aaron Eckhart" .
+    p_schema:name "Aaron Eckhart" .
 
 :AdamWest
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Adam West" .
+    p_schema:name "Adam West" .
 
 :AdrienneBarbeau
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Adrienne Barbeau" .
+    p_schema:name "Adrienne Barbeau" .
 
 :AlfredMolina
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Alfred Molina" .
+    p_schema:name "Alfred Molina" .
 
 :AliceBraga
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Alice Braga" .
+    p_schema:name "Alice Braga" .
 
 :AmberHeard
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Amber Heard" .
+    p_schema:name "Amber Heard" .
 
 :AnnabethGish
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Annabeth Gish" .
+    p_schema:name "Annabeth Gish" .
 
 :AnneHathaway
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Anne Hathaway" .
+    p_schema:name "Anne Hathaway" .
 
 :AnthonyHopkins
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Anthony Hopkins" .
+    p_schema:name "Anthony Hopkins" .
 
 :AnyaTaylorJoy
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Anya Taylor-Joy" .
+    p_schema:name "Anya Taylor-Joy" .
 
 :ArnoldSchwarzenegger
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Arnold Schwarzenegger" .
+    p_schema:name "Arnold Schwarzenegger" .
 
 :AsherAngel
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Asher Angel" .
+    p_schema:name "Asher Angel" .
 
 :BenMendelsohn
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ben Mendelsohn" .
+    p_schema:name "Ben Mendelsohn" .
 
 :BenedictCumberbatch
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Benedict Cumberbatch" .
+    p_schema:name "Benedict Cumberbatch" .
 
 :BenedictWong
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Benedict Wong" .
+    p_schema:name "Benedict Wong" .
 
 :BenjaminBratt
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Benjamin Bratt" .
+    p_schema:name "Benjamin Bratt" .
 
 :BlakeLively
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Blake Lively" .
+    p_schema:name "Blake Lively" .
 
 :BoydHolbrook
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Boyd Holbrook" .
+    p_schema:name "Boyd Holbrook" .
 
 :BradleyCooper
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Bradley Cooper" .
+    p_schema:name "Bradley Cooper" .
 
 :BrandonRouth
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Brandon Routh" .
+    p_schema:name "Brandon Routh" .
 
 :BrianTaylor
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Brian Taylor" .
+    p_schema:name "Brian Taylor" .
 
 :BrieLarson
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Brie Larson" .
+    p_schema:name "Brie Larson" .
 
 :BuckyBarnes
     a                      p_schema:Fictional, p_schema:Person ;
     f_schema:conflict      :WorldWarII ;
-    f_schema:name          "Bucky Barnes" ;
+    p_schema:name          "Bucky Barnes" ;
     f_schema:performer     :DominicCooper ;
     f_schema:presentinwork :26 ;
     rdfs:seeAlso           p_data:Hbuckybarneswintersoldier, p_data:Pbuckybarneswintersoldier .
 
 :BurtWard
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Burt Ward" .
+    p_schema:name "Burt Ward" .
 
 :CarlaGugino
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Carla Gugino" .
+    p_schema:name "Carla Gugino" .
 
 :CateBlanchett
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Cate Blanchett" .
+    p_schema:name "Cate Blanchett" .
 
 :CathyYan
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Cathy Yan" .
+    p_schema:name "Cathy Yan" .
 
 :CesarRomero
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Cesar Romero" .
+    p_schema:name "Cesar Romero" .
 
 :ChadwickBoseman
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Chadwick Boseman" .
+    p_schema:name "Chadwick Boseman" .
 
 :CharlesTrowbridge
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Charles Trowbridge" .
+    p_schema:name "Charles Trowbridge" .
 
 :CharlieHeaton
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Charlie Heaton" .
+    p_schema:name "Charlie Heaton" .
 
 :ChiwetelEjiofor
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Chiwetel Ejiofor" .
+    p_schema:name "Chiwetel Ejiofor" .
 
 :ChrisODonnell
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Chris O'Donnell" .
+    p_schema:name "Chris O'Donnell" .
 
 :ChristopherWalken
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Christopher Walken" .
+    p_schema:name "Christopher Walken" .
 
 :CiaranHinds
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "CiarÃ¡n Hinds" .
+    p_schema:name "CiarÃ¡n Hinds" .
 
 :ColinFarrell
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Colin Farrell" .
+    p_schema:name "Colin Farrell" .
 
 :CoreyStoll
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Corey Stoll" .
+    p_schema:name "Corey Stoll" .
 
 :DafneKeen
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Dafne Keen" .
+    p_schema:name "Dafne Keen" .
 
 :DanaiGurira
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Danai Gurira" .
+    p_schema:name "Danai Gurira" .
 
 :DannyDeVito
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Danny DeVito" .
+    p_schema:name "Danny DeVito" .
 
 :DannyHuston
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Danny Huston" .
+    p_schema:name "Danny Huston" .
 
 :DaveBautista
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Dave Bautista" .
+    p_schema:name "Dave Bautista" .
 
 :DavidAyer
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "David Ayer" .
+    p_schema:name "David Ayer" .
 
 :DavidFSandberg
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "David F. Sandberg" .
+    p_schema:name "David F. Sandberg" .
 
 :DavidHess
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "David Hess" .
+    p_schema:name "David Hess" .
 
 :DianeLane
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Diane Lane" .
+    p_schema:name "Diane Lane" .
 
 :DickDurock
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Dick Durock" .
+    p_schema:name "Dick Durock" .
 
 :DickPurcell
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Dick Purcell" .
+    p_schema:name "Dick Purcell" .
 
 :DjimonHounsou
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Djimon Hounsou" .
+    p_schema:name "Djimon Hounsou" .
 
 :DominicWest
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Dominic West" .
+    p_schema:name "Dominic West" .
 
 :DougHutchison
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Doug Hutchison" .
+    p_schema:name "Doug Hutchison" .
 
 :EdGale
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ed Gale" .
+    p_schema:name "Ed Gale" .
 
 :EdSkrein
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ed Skrein" .
+    p_schema:name "Ed Skrein" .
 
 :EdwardNorton
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Edward Norton" .
+    p_schema:name "Edward Norton" .
 
 :EricBana
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Eric Bana" .
+    p_schema:name "Eric Bana" .
 
 :EvaMendes
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Eva Mendes" .
+    p_schema:name "Eva Mendes" .
 
 :EzraMiller
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ezra Miller" .
+    p_schema:name "Ezra Miller" .
 
 :FayeDunaway
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Faye Dunaway" .
+    p_schema:name "Faye Dunaway" .
 
 :FrancesConroy
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Frances Conroy" .
+    p_schema:name "Frances Conroy" .
 
 :FrancisLawrence
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Francis Lawrence" .
+    p_schema:name "Francis Lawrence" .
 
 :GaryOldman
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Gary Oldman" .
+    p_schema:name "Gary Oldman" .
 
 :GeorgeClooney
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "George Clooney" .
+    p_schema:name "George Clooney" .
 
 :GeorgeReeves
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "George Reeves" .
+    p_schema:name "George Reeves" .
 
 :GoranVisnjic
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Goran Visnjic" .
+    p_schema:name "Goran Visnjic" .
 
 :GuyPearce
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Guy Pearce" .
+    p_schema:name "Guy Pearce" .
 
 :HeathLedger
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Heath Ledger" .
+    p_schema:name "Heath Ledger" .
 
 :HeatherLocklear
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Heather Locklear" .
+    p_schema:name "Heather Locklear" .
 
 :HelenSlater
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Helen Slater" .
+    p_schema:name "Helen Slater" .
 
 :IdrisElba
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Idris Elba" .
+    p_schema:name "Idris Elba" .
 
 :IrrfanKhan
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Irrfan Khan" .
+    p_schema:name "Irrfan Khan" .
 
 :JackDylanGrazer
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jack Dylan Grazer" .
+    p_schema:name "Jack Dylan Grazer" .
 
 :JackNicholson
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jack Nicholson" .
+    p_schema:name "Jack Nicholson" .
 
 :JackieEarleHaley
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jackie Earle Haley" .
+    p_schema:name "Jackie Earle Haley" .
 
 :JakeGyllenhaal
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jake Gyllenhaal" .
+    p_schema:name "Jake Gyllenhaal" .
 
 :JamesMarsden
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "James Marsden" .
+    p_schema:name "James Marsden" .
 
 :JamesWan
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "James Wan" .
+    p_schema:name "James Wan" .
 
 :JamieBell
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jamie Bell" .
+    p_schema:name "Jamie Bell" .
 
 :JamieFoxx
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jamie Foxx" .
+    p_schema:name "Jamie Foxx" .
 
 :JaredLeto
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jared Leto" .
+    p_schema:name "Jared Leto" .
 
 :JeannotSzwarc
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jeannot Szwarc" .
+    p_schema:name "Jeannot Szwarc" .
 
 :JeffBridges
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jeff Bridges" .
+    p_schema:name "Jeff Bridges" .
 
 :JeffCorey
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jeff Corey" .
+    p_schema:name "Jeff Corey" .
 
 :JeffreyJones
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jeffrey Jones" .
+    p_schema:name "Jeffrey Jones" .
 
 :JenniferConnelly
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jennifer Connelly" .
+    p_schema:name "Jennifer Connelly" .
 
 :JeremyRenner
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jeremy Renner" .
+    p_schema:name "Jeremy Renner" .
 
 :JesseEisenberg
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jesse Eisenberg" .
+    p_schema:name "Jesse Eisenberg" .
 
 :JimCarrey
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jim Carrey" .
+    p_schema:name "Jim Carrey" .
 
 :JimWynorski
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jim Wynorski" .
+    p_schema:name "Jim Wynorski" .
 
 :JimmyHayward
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jimmy Hayward" .
+    p_schema:name "Jimmy Hayward" .
 
 :JoaquinPhoenix
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Joaquin Phoenix" .
+    p_schema:name "Joaquin Phoenix" .
 
 :JohnMalkovich
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "John Malkovich" .
+    p_schema:name "John Malkovich" .
 
 :JohnTravolta
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "John Travolta" .
+    p_schema:name "John Travolta" .
 
 :JoshLucas
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Josh Lucas" .
+    p_schema:name "Josh Lucas" .
 
 :JuddNelson
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Judd Nelson" .
+    p_schema:name "Judd Nelson" .
 
 :JudeLaw
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jude Law" .
+    p_schema:name "Jude Law" .
 
 :JulianDennison
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Julian Dennison" .
+    p_schema:name "Julian Dennison" .
 
 :JulieBenz
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Julie Benz" .
+    p_schema:name "Julie Benz" .
 
 :JurneeSmollett
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jurnee Smollett" .
+    p_schema:name "Jurnee Smollett" .
 
 :KateBosworth
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Kate Bosworth" .
+    p_schema:name "Kate Bosworth" .
 
 :KateMara
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Kate Mara" .
+    p_schema:name "Kate Mara" .
 
 :KeanuReeves
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Keanu Reeves" .
+    p_schema:name "Keanu Reeves" .
 
 :KenWatanabe
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ken Watanabe" .
+    p_schema:name "Ken Watanabe" .
 
 :KennethJohnson
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Kenneth Johnson" .
+    p_schema:name "Kenneth Johnson" .
 
 :KevinBacon
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Kevin Bacon" .
+    p_schema:name "Kevin Bacon" .
 
 :KevinSpacey
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Kevin Spacey" .
+    p_schema:name "Kevin Spacey" .
 
 :KimBasinger
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Kim Basinger" .
+    p_schema:name "Kim Basinger" .
 
 :KirstenZien
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Kirsten Zien" .
+    p_schema:name "Kirsten Zien" .
 
 :KristenWiig
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Kristen Wiig" .
+    p_schema:name "Kristen Wiig" .
 
 :LambertWilson
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Lambert Wilson" .
+    p_schema:name "Lambert Wilson" .
 
 :LauraHarring
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Laura Harring" .
+    p_schema:name "Laura Harring" .
 
 :LeaThompson
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Lea Thompson" .
+    p_schema:name "Lea Thompson" .
 
 :LeeMeriwether
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Lee Meriwether" .
+    p_schema:name "Lee Meriwether" .
 
 :LeeSholem
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Lee Sholem" .
+    p_schema:name "Lee Sholem" .
 
 :LeonorVarela
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Leonor Varela" .
+    p_schema:name "Leonor Varela" .
 
 :LeslieHMartinson
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Leslie H. Martinson" .
+    p_schema:name "Leslie H. Martinson" .
 
 :LiamNeeson
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Liam Neeson" .
+    p_schema:name "Liam Neeson" .
 
 :LievSchreiber
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Liev Schreiber" .
+    p_schema:name "Liev Schreiber" .
 
 :LionelAtwill
     a p_schema:Person, p_schema:Real .
 
 :LivTyler
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Liv Tyler" .
+    p_schema:name "Liv Tyler" .
 
 :LornaGray
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Lorna Gray" .
+    p_schema:name "Lorna Gray" .
 
 :LucyDavis
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Lucy Davis" .
+    p_schema:name "Lucy Davis" .
 
 :LupitaNyongo
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Lupita Nyong'o" .
+    p_schema:name "Lupita Nyong'o" .
 
 :MaisieWilliams
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Maisie Williams" .
+    p_schema:name "Maisie Williams" .
 
 :MalinAkerman
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Malin Akerman" .
+    p_schema:name "Malin Akerman" .
 
 :MarkNeveldine
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Mark Neveldine" .
+    p_schema:name "Mark Neveldine" .
 
 :MarlonBrando
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Marlon Brando" .
+    p_schema:name "Marlon Brando" .
 
 :MartinCampbell
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Martin Campbell" .
+    p_schema:name "Martin Campbell" .
 
 :MaryElizabethWinstead
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Mary Elizabeth Winstead" .
+    p_schema:name "Mary Elizabeth Winstead" .
 
 :MattLong
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Matt Long" .
+    p_schema:name "Matt Long" .
 
 :MeganFox
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Megan Fox" .
+    p_schema:name "Megan Fox" .
 
 :MiaFarrow
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Mia Farrow" .
+    p_schema:name "Mia Farrow" .
 
 :MichaelClarkeDuncan
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Michael Clarke Duncan" .
+    p_schema:name "Michael Clarke Duncan" .
 
 :MichaelDouglas
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Michael Douglas" .
+    p_schema:name "Michael Douglas" .
 
 :MichaelShannon
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Michael Shannon" .
+    p_schema:name "Michael Shannon" .
 
 :MichellePfeiffer
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Michelle Pfeiffer" .
+    p_schema:name "Michelle Pfeiffer" .
 
 :MichelleWilliams
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Michelle Williams" .
+    p_schema:name "Michelle Williams" .
 
 :MickeyRourke
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Mickey Rourke" .
+    p_schema:name "Mickey Rourke" .
 
 :MilesTeller
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Miles Teller" .
+    p_schema:name "Miles Teller" .
 
 :NBusheWright
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "N'Bushe Wright" .
+    p_schema:name "N'Bushe Wright" .
 
 :NealMcDon
     a             p_schema:Person, p_schema:Real ;
-    f_schema:name "Neal McDon" .
+    p_schema:name "Neal McDon" .
 
 :NedBeatty
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ned Beatty" .
+    p_schema:name "Ned Beatty" .
 
 :NicoleKidman
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Nicole Kidman" .
+    p_schema:name "Nicole Kidman" .
 
 :ParkerPosey
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Parker Posey" .
+    p_schema:name "Parker Posey" .
 
 :PaulGiamatti
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Paul Giamatti" .
+    p_schema:name "Paul Giamatti" .
 
 :PedroPascal
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Pedro Pascal" .
+    p_schema:name "Pedro Pascal" .
 
 :PeterOToole
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Peter O'Toole" .
+    p_schema:name "Peter O'Toole" .
 
 :PeterSarsgaard
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Peter Sarsgaard" .
+    p_schema:name "Peter Sarsgaard" .
 
 :PhyllisCoates
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Phyllis Coates" .
+    p_schema:name "Phyllis Coates" .
 
 :Pitof
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Pitof" .
+    p_schema:name "Pitof" .
 
 :RachelMcAdams
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Rachel McAdams" .
+    p_schema:name "Rachel McAdams" .
 
 :RachelWeisz
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Rachel Weisz" .
+    p_schema:name "Rachel Weisz" .
 
 :RayStevenson
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ray Stevenson" .
+    p_schema:name "Ray Stevenson" .
 
 :RayWise
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ray Wise" .
+    p_schema:name "Ray Wise" .
 
 :RhysIfans
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Rhys Ifans" .
+    p_schema:name "Rhys Ifans" .
 
 :RichardDonner
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Richard Donner" .
+    p_schema:name "Richard Donner" .
 
 :RichardPryor
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Richard Pryor" .
+    p_schema:name "Richard Pryor" .
 
 :RichardRoundtree
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Richard Roundtree" .
+    p_schema:name "Richard Roundtree" .
 
 :RilaFukushima
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Rila Fukushima" .
+    p_schema:name "Rila Fukushima" .
 
 :RizAhmed
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Riz Ahmed" .
+    p_schema:name "Riz Ahmed" .
 
 :RobertDeNiro
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Robert De Niro" .
+    p_schema:name "Robert De Niro" .
 
 :RobertRedford
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Robert Redford" .
+    p_schema:name "Robert Redford" .
 
 :RobertWuhl
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Robert Wuhl" .
+    p_schema:name "Robert Wuhl" .
 
 :RobinWright
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Robin Wright" .
+    p_schema:name "Robin Wright" .
 
 :RonPerlman
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ron Perlman" .
+    p_schema:name "Ron Perlman" .
 
 :RosiePerez
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Rosie Perez" .
+    p_schema:name "Rosie Perez" .
 
 :SamanthaMathis
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Samantha Mathis" .
+    p_schema:name "Samantha Mathis" .
 
 :SarahDouglas
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Sarah Douglas" .
+    p_schema:name "Sarah Douglas" .
 
 :ScottHaze
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Scott Haze" .
+    p_schema:name "Scott Haze" .
 
 :ShaquilleONeal
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Shaquille O'Neal" .
+    p_schema:name "Shaquille O'Neal" .
 
 :SharonStone
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Sharon Stone" .
+    p_schema:name "Sharon Stone" .
 
 :ShiaLaBeouf
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Shia LaBeouf" .
+    p_schema:name "Shia LaBeouf" .
 
 :SidneyJFurie
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Sidney J. Furie" .
+    p_schema:name "Sidney J. Furie" .
 
 :StellanSkarsgard
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Stellan SkarsgÃ¥rd" .
+    p_schema:name "Stellan SkarsgÃ¥rd" .
 
 :StephenDorff
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Stephen Dorff" .
+    p_schema:name "Stephen Dorff" .
 
 :SteveRogers
     a                      p_schema:Fictional, p_schema:Person ;
-    f_schema:name          "Steve Rogers" ;
+    p_schema:name          "Steve Rogers" ;
     f_schema:performer     :ChrisEvans ;
     f_schema:presentinwork :26 ;
     rdfs:seeAlso           p_data:Hsteverogerscaptainamerica, p_data:Psteverogerscaptainamerica .
 
 :TJMiller
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "T.J. Miller" .
+    p_schema:name "T.J. Miller" .
 
 :TaoOkamoto
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Tao Okamoto" .
+    p_schema:name "Tao Okamoto" .
 
 :TerrenceHoward
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Terrence Howard" .
+    p_schema:name "Terrence Howard" .
 
 :ThomasHadenChurch
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Thomas Haden Church" .
+    p_schema:name "Thomas Haden Church" .
 
 :ThomasJane
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Thomas Jane" .
+    p_schema:name "Thomas Jane" .
 
 :TimRobbins
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Tim Robbins" .
+    p_schema:name "Tim Robbins" .
 
 :TimRoth
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Tim Roth" .
+    p_schema:name "Tim Roth" .
 
 :ToddPhillips
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Todd Phillips" .
+    p_schema:name "Todd Phillips" .
 
 :TopherGrace
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Topher Grace" .
+    p_schema:name "Topher Grace" .
 
 :UmaThurman
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Uma Thurman" .
+    p_schema:name "Uma Thurman" .
 
 :ValKilmer
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Val Kilmer" .
+    p_schema:name "Val Kilmer" .
 
 :ViolaDavis
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Viola Davis" .
+    p_schema:name "Viola Davis" .
 
 :ViolantePlacido
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Violante Placido" .
+    p_schema:name "Violante Placido" .
 
 :WalterReed
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Walter Reed" .
+    p_schema:name "Walter Reed" .
 
 :WaltonGoggins
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Walton Goggins" .
+    p_schema:name "Walton Goggins" .
 
 :WesCraven
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Wes Craven" .
+    p_schema:name "Wes Craven" .
 
 :WillSmith
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Will Smith" .
+    p_schema:name "Will Smith" .
 
 :WilliamHurt
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "William Hurt" .
+    p_schema:name "William Hurt" .
 
 :WorldWarII
     a             owl:onClass ;
-    f_schema:name "World War II" .
+    p_schema:name "World War II" .
 
 :ZacharyLevi
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Zachary Levi" .
+    p_schema:name "Zachary Levi" .
 
 :ZazieBeetz
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Zazie Beetz" .
+    p_schema:name "Zazie Beetz" .
 
 :26
     a                        f_schema:CreativeWork ;
@@ -1887,295 +1887,295 @@
 
 :AlanTaylor
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Alan Taylor" .
+    p_schema:name "Alan Taylor" .
 
 :AmyAdams
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Amy Adams" .
+    p_schema:name "Amy Adams" .
 
 :AndrewGarfield
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Andrew Garfield" .
+    p_schema:name "Andrew Garfield" .
 
 :AngLee
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ang Lee" .
+    p_schema:name "Ang Lee" .
 
 :AnnaBoden
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Anna Boden" .
+    p_schema:name "Anna Boden" .
 
 :BrettRatner
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Brett Ratner" .
+    p_schema:name "Brett Ratner" .
 
 :ChrisPine
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Chris Pine" .
+    p_schema:name "Chris Pine" .
 
 :ChrisPratt
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Chris Pratt" .
+    p_schema:name "Chris Pratt" .
 
 :DavidLeitch
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "David Leitch" .
+    p_schema:name "David Leitch" .
 
 :DavidSGoyer
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "David S. Goyer" .
+    p_schema:name "David S. Goyer" .
 
 :DominicCooper
     a             p_schema:Person, p_schema:Real ;
-    f_schema:name "Dominic Cooper" .
+    p_schema:name "Dominic Cooper" .
 
 :DonCheadle
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Don Cheadle" .
+    p_schema:name "Don Cheadle" .
 
 :ElmerClifton
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Elmer Clifton" .
+    p_schema:name "Elmer Clifton" .
 
 :EmmaStone
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Emma Stone" .
+    p_schema:name "Emma Stone" .
 
 :EvangelineLilly
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Evangeline Lilly" .
+    p_schema:name "Evangeline Lilly" .
 
 :FamkeJanssen
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Famke Janssen" .
+    p_schema:name "Famke Janssen" .
 
 :GavinHood
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Gavin Hood" .
+    p_schema:name "Gavin Hood" .
 
 :GuillermodelToro
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Guillermo del Toro" .
+    p_schema:name "Guillermo del Toro" .
 
 :HayleyAtwell
     a             p_schema:Person, p_schema:Real ;
-    f_schema:name "Hayley Atwell" ;
-    p_data:name   "Hayley Atwell" .
+    p_schema:name "Hayley Atwell" ;
+    p_schema:name   "Hayley Atwell" .
 
 :HenryCavill
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Henry Cavill" .
+    p_schema:name "Henry Cavill" .
 
 :HugoWeaving
     a             p_schema:Person, p_schema:Real ;
-    f_schema:name "Hugo Weaving" ;
-    p_data:name   "Hugo Weaving" .
+    p_schema:name "Hugo Weaving" ;
+    p_schema:name   "Hugo Weaving" .
 
 :IoanGruffudd
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ioan Gruffudd" .
+    p_schema:name "Ioan Gruffudd" .
 
 :JackieCooper
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jackie Cooper" .
+    p_schema:name "Jackie Cooper" .
 
 :JamesFranco
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "James Franco" .
+    p_schema:name "James Franco" .
 
 :JasonMomoa
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jason Momoa" .
+    p_schema:name "Jason Momoa" .
 
 :JenniferGarner
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jennifer Garner" .
+    p_schema:name "Jennifer Garner" .
 
 :JessicaAlba
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jessica Alba" .
+    p_schema:name "Jessica Alba" .
 
 :JoeJohnston
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Joe Johnston" .
+    p_schema:name "Joe Johnston" .
 
 :JoelSchumacher
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Joel Schumacher" .
+    p_schema:name "Joel Schumacher" .
 
 :JonathanHensleigh
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jonathan Hensleigh" .
+    p_schema:name "Jonathan Hensleigh" .
 
 :JoshBoone
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Josh Boone" .
+    p_schema:name "Josh Boone" .
 
 :JoshBrolin
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Josh Brolin" .
+    p_schema:name "Josh Brolin" .
 
 :JoshTrank
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Josh Trank" .
+    p_schema:name "Josh Trank" .
 
 :KennethBranagh
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Kenneth Branagh" .
+    p_schema:name "Kenneth Branagh" .
 
 :LexiAlexander
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Lexi Alexander" .
+    p_schema:name "Lexi Alexander" .
 
 :LouisJourdan
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Louis Jourdan" .
+    p_schema:name "Louis Jourdan" .
 
 :LouisLeterrier
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Louis Leterrier" .
+    p_schema:name "Louis Leterrier" .
 
 :MargotRobbie
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Margot Robbie" .
+    p_schema:name "Margot Robbie" .
 
 :MarisaTomei
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Marisa Tomei" .
+    p_schema:name "Marisa Tomei" .
 
 :MarkStrong
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Mark Strong" .
+    p_schema:name "Mark Strong" .
 
 :MatthewVaughn
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Matthew Vaughn" .
+    p_schema:name "Matthew Vaughn" .
 
 :MichaelBJordan
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Michael B. Jordan" .
+    p_schema:name "Michael B. Jordan" .
 
 :MichaelCaine
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Michael Caine" .
+    p_schema:name "Michael Caine" .
 
 :MichaelChiklis
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Michael Chiklis" .
+    p_schema:name "Michael Chiklis" .
 
 :MorenaBaccarin
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Morena Baccarin" .
+    p_schema:name "Morena Baccarin" .
 
 :NataliePortman
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Natalie Portman" .
+    p_schema:name "Natalie Portman" .
 
 :NicholasHoult
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Nicholas Hoult" .
+    p_schema:name "Nicholas Hoult" .
 
 :NicolasCage
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Nicolas Cage" .
+    p_schema:name "Nicolas Cage" .
 
 :PatrickWilson
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Patrick Wilson" .
+    p_schema:name "Patrick Wilson" .
 
 :PattyJenkins
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Patty Jenkins" .
+    p_schema:name "Patty Jenkins" .
 
 :PaulRudd
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Paul Rudd" .
+    p_schema:name "Paul Rudd" .
 
 :RichardLester
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Richard Lester" .
+    p_schema:name "Richard Lester" .
 
 :RobBowman
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Rob Bowman" .
+    p_schema:name "Rob Bowman" .
 
 :RubenFleischer
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ruben Fleischer" .
+    p_schema:name "Ruben Fleischer" .
 
 :RyanCoogler
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ryan Coogler" .
+    p_schema:name "Ryan Coogler" .
 
 :SamElliott
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Sam Elliott" .
+    p_schema:name "Sam Elliott" .
 
 :ScottDerrickson
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Scott Derrickson" .
+    p_schema:name "Scott Derrickson" .
 
 :SebastianStan
     a             p_schema:Person, p_schema:Real ;
-    f_schema:name "Sebastian Stan" ;
-    p_data:name   "Sebastian Stan" .
+    p_schema:name "Sebastian Stan" ;
+    p_schema:name   "Sebastian Stan" .
 
 :ShaneBlack
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Shane Black" .
+    p_schema:name "Shane Black" .
 
 :SimonKinberg
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Simon Kinberg" .
+    p_schema:name "Simon Kinberg" .
 
 :StephenNorrington
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Stephen Norrington" .
+    p_schema:name "Stephen Norrington" .
 
 :TaikaWaititi
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Taika Waititi" .
+    p_schema:name "Taika Waititi" .
 
 :TimBurton
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Tim Burton" .
+    p_schema:name "Tim Burton" .
 
 :TimMiller
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Tim Miller" .
+    p_schema:name "Tim Miller" .
 
 :TomHardy
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Tom Hardy" .
+    p_schema:name "Tom Hardy" .
 
 :TomHolland
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Tom Holland" .
+    p_schema:name "Tom Holland" .
 
 :TommyLeeJones
     a             p_schema:Person, p_schema:Real ;
-    f_schema:name "Tommy Lee Jones" ;
-    p_data:name   "Tommy Lee Jones" .
+    p_schema:name "Tommy Lee Jones" ;
+    p_schema:name   "Tommy Lee Jones" .
 
 :VinDiesel
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Vin Diesel" .
+    p_schema:name "Vin Diesel" .
 
 :WillYunLee
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Will Yun Lee" .
+    p_schema:name "Will Yun Lee" .
 
 :WillardHuyck
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Willard Huyck" .
+    p_schema:name "Willard Huyck" .
 
 :WillemDafoe
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Willem Dafoe" .
+    p_schema:name "Willem Dafoe" .
 
 :ZoeSaldana
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Zoe Saldana" .
+    p_schema:name "Zoe Saldana" .
 
 f_schema:Mystery
     a              skos:Concept ;
@@ -2183,139 +2183,139 @@ f_schema:Mystery
 
 :BenAffleck
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ben Affleck" .
+    p_schema:name "Ben Affleck" .
 
 :ChristianBale
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Christian Bale" .
+    p_schema:name "Christian Bale" .
 
 :ChristopherNolan
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Christopher Nolan" .
+    p_schema:name "Christopher Nolan" .
 
 :GalGadot
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Gal Gadot" .
+    p_schema:name "Gal Gadot" .
 
 :GeneHackman
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Gene Hackman" .
+    p_schema:name "Gene Hackman" .
 
 :GwynethPaltrow
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Gwyneth Paltrow" .
+    p_schema:name "Gwyneth Paltrow" .
 
 :HalleBerry
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Halle Berry" .
+    p_schema:name "Halle Berry" .
 
 :IanMcKellen
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ian McKellen" .
+    p_schema:name "Ian McKellen" .
 
 :JenniferLawrence
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jennifer Lawrence" .
+    p_schema:name "Jennifer Lawrence" .
 
 :KirstenDunst
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Kirsten Dunst" .
+    p_schema:name "Kirsten Dunst" .
 
 :KrisKristofferson
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Kris Kristofferson" .
+    p_schema:name "Kris Kristofferson" .
 
 :MichaelKeaton
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Michael Keaton" .
+    p_schema:name "Michael Keaton" .
 
 :ScarlettJohansson
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Scarlett Johansson" .
+    p_schema:name "Scarlett Johansson" .
 
 :TobeyMaguire
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Tobey Maguire" .
+    p_schema:name "Tobey Maguire" .
 
 :TomHiddleston
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Tom Hiddleston" .
+    p_schema:name "Tom Hiddleston" .
 
 :WesleySnipes
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Wesley Snipes" .
+    p_schema:name "Wesley Snipes" .
 
 :AnthonyRusso
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Anthony Russo" .
+    p_schema:name "Anthony Russo" .
 
 :ChristopherReeve
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Christopher Reeve" .
+    p_schema:name "Christopher Reeve" .
 
 :JamesGunn
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "James Gunn" .
+    p_schema:name "James Gunn" .
 
 :JamesMangold
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "James Mangold" .
+    p_schema:name "James Mangold" .
 
 :JamesMcAvoy
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "James McAvoy" .
+    p_schema:name "James McAvoy" .
 
 :JoeRusso
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Joe Russo" .
+    p_schema:name "Joe Russo" .
 
 :JonFavreau
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jon Favreau" .
+    p_schema:name "Jon Favreau" .
 
 :JonWatts
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Jon Watts" .
+    p_schema:name "Jon Watts" .
 
 :JossWhedon
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Joss Whedon" .
+    p_schema:name "Joss Whedon" .
 
 :MarcWebb
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Marc Webb" .
+    p_schema:name "Marc Webb" .
 
 :MargotKidder
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Margot Kidder" .
+    p_schema:name "Margot Kidder" .
 
 :MarkRuffalo
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Mark Ruffalo" .
+    p_schema:name "Mark Ruffalo" .
 
 :MarkStevenJohnson
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Mark Steven Johnson" .
+    p_schema:name "Mark Steven Johnson" .
 
 :MichaelFassbender
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Michael Fassbender" .
+    p_schema:name "Michael Fassbender" .
 
 :PeytonReed
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Peyton Reed" .
+    p_schema:name "Peyton Reed" .
 
 :SamuelLJackson
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Samuel L. Jackson" .
+    p_schema:name "Samuel L. Jackson" .
 
 :TimStory
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Tim Story" .
+    p_schema:name "Tim Story" .
 
 :ZackSnyder
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Zack Snyder" .
+    p_schema:name "Zack Snyder" .
 
 f_schema:Thriller
     a              skos:Concept ;
@@ -2323,11 +2323,11 @@ f_schema:Thriller
 
 :PatrickStewart
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Patrick Stewart" .
+    p_schema:name "Patrick Stewart" .
 
 :RyanReynolds
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Ryan Reynolds" .
+    p_schema:name "Ryan Reynolds" .
 
 f_schema:Horror
     a              skos:Concept ;
@@ -2335,28 +2335,28 @@ f_schema:Horror
 
 :ChrisHemsworth
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Chris Hemsworth" .
+    p_schema:name "Chris Hemsworth" .
 
 :SamRaimi
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Sam Raimi" .
+    p_schema:name "Sam Raimi" .
 
 :HughJackman
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Hugh Jackman" .
+    p_schema:name "Hugh Jackman" .
 
 :BryanSinger
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Bryan Singer" .
+    p_schema:name "Bryan Singer" .
 
 :RobertDowneyJr
     a           p_schema:Person, p_schema:Real ;
-    p_data:name "Robert Downey Jr." .
+    p_schema:name "Robert Downey Jr." .
 
 :ChrisEvans
     a             p_schema:Person, p_schema:Real, owl:onClass ;
-    f_schema:name "Chris Evans" ;
-    p_data:name   "Chris Evans" .
+    p_schema:name "Chris Evans" ;
+    p_schema:name   "Chris Evans" .
 
 
 f_schema:Crime
