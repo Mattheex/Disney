@@ -1,30 +1,39 @@
-<div *ngIf="film">
-    <div><p>{{film.title}}</p></div>
-    <div>publisher: {{film.entity}}</div>
-    <div>director: {{film.director}}</div>
-    <div *ngIf="film.gross">gross: {{film.gross}} $</div>
-    <div *ngIf="film.rating">rating: {{film.rating}}</div>
-    <div *ngIf="film.year">year: {{film.year}}</div>
-    <div *ngIf="film.vote">vote: {{film.vote}}</div>
-    <div *ngIf="film.actors.length > 0">actors:  :
-        <ul >
-            <li *ngFor="let actor of film.actors"><div *ngIf="actor">{{ actor }}</div></li>
+<div class="wrapper">
+    <div *ngIf="film" class="component film-details">
+      <div class="title"><p>{{ film.title }}</p></div>
+      <div class="info">Publisher: {{ film.entity }}</div>
+      <div class="info">Director: {{ film.director }}</div>
+      <div *ngIf="film.gross" class="info">Gross: {{ film.gross }} $</div>
+      <div *ngIf="film.rating" class="info">Rating: {{ film.rating }}</div>
+      <div *ngIf="film.year" class="info">Year: {{ film.year }}</div>
+      <div *ngIf="film.vote" class="info">Vote: {{ film.vote }}</div>
+      <div *ngIf="film.link" class="info"><a href="{{ film.link }}" target="_blank">DBPedia Page</a></div>
+      <div *ngIf="film.actors.length > 0" class="info">
+        Actors:
+        <ul class="list">
+          <li *ngFor="let actor of film.actors"><div *ngIf="actor">{{ actor }}</div></li>
         </ul>
-    </div>
-    <div *ngIf="film.genre.length > 0">genres:  :
-        <ul >
-            <li *ngFor="let genre of film.genre"><div *ngIf="genre">{{ genre }}</div></li>
+      </div>
+      <div *ngIf="film.genre.length > 0" class="info">
+        Genres:
+        <ul class="list">
+          <li *ngFor="let genre of film.genre"><div *ngIf="genre">{{ genre }}</div></li>
         </ul>
-    </div>
-    <div *ngIf="film.characters">
-        <div *ngIf="film.characters.length>0">
-            Characters:
-            <div *ngFor="let character of film.characters">
-                <div (click)="handleCharacterClick(character)">{{character.name}}/{{character.superHeroName}}</div>
+      </div>
+      <div *ngIf="film.characters && film.characters.length > 0" class="info">
+        Characters:
+        <ul class="list">
+          <li *ngFor="let character of film.characters">
+            <div (click)="handleCharacterClick(character)">
+              {{ character.name }} / {{ character.superHeroName }}
             </div>
-        </div>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div *ngIf="perso" >
-        <app-person-card  class="app-person-card" [hero]="perso"></app-person-card>
+    
+    <div *ngIf="perso" class="component">
+      <app-person-card class="app-person-card" [hero]="perso"></app-person-card>
     </div>
-</div>
+  </div>
+  

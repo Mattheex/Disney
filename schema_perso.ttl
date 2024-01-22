@@ -135,10 +135,6 @@ PREFIX schema: <http://schema.org/>
     rdfs:label "group-affiliation" .
 
 
-:publisher
-    a          owl:ObjectProperty ;
-    rdfs:label "publisher" ;
-    rdfs:range skos:Concept .
 
 :hasOccupation
     a          owl:ObjectProperty ;

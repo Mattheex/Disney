@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Hero } from '../models/hero.model';
 
 @Component({
@@ -8,10 +8,15 @@ import { Hero } from '../models/hero.model';
 })
 export class InfoCardComponent implements OnInit {
   @Input() hero!:Hero;
+  @Output() clickEvent = new EventEmitter<string>();
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  handleFilmClick(film:string):void{
+    this.clickEvent.emit(film);
   }
 
 }

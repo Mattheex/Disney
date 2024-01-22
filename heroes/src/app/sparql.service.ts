@@ -32,6 +32,8 @@ export class SparqlService {
     PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     PREFIX film: <http://projet.fr/films_schema/>
     PREFIX schema: <https://schema.org/>
+    PREFIX dbo: <http://dbpedia.org/ontology/>
+    PREFIX dbp: <http://dbpedia.org/property/>
 
     
     SELECT * WHERE {
@@ -52,25 +54,37 @@ export class SparqlService {
         OPTIONAL { ?x :alter ?alter}
         OPTIONAL { ?x :base ?base.}
         OPTIONAL { ?x :race ?race.}
-        OPTIONAL { ?x schema:knows ?relatives.}
         OPTIONAL { ?x :affiliation ?affiliation.}
-        OPTIONAL { ?secret :name ?name.}
+        OPTIONAL { ?secret schema:name ?name.}
         OPTIONAL { ?secret :placeOfBirth ?place.}
         OPTIONAL { ?secret :hasOccupation ?occupations.}
-        OPTIONAL { ?concept :publisher ?publishers}
         OPTIONAL { ?comic schema:character ?x;
                             schema:name ?apparition}
         
       }
+      OPTIONAL{
+      
+        SERVICE <http://dbpedia.org/sparql>{
+          
+          ?dbPerso dbp:sortkey ?nameHeroDb ;
+              dbp:subcat ?publisher.
+          FILTER(LCASE(STR(?nameHeroDb)) = LCASE("${userInput}" ))
+          OPTIONAL{?dbPerso dbp:partners ?relative.
+          FILTER(!STRSTARTS(STR(?relative),"http://"))}
+          
+
+          }
+      }
+        
+      
+      
       OPTIONAL{?perso rdfs:seeAlso ?x; 
         film:presentinwork ?films.
-        ?films film:title ?film}
+        ?films schema:name ?film}
       OPTIONAL{?r skos:prefLabel ?raceName.filter(?r = ?race)}
       OPTIONAL{?e skos:prefLabel ?eyeColor.filter(?e = ?eyes)}
-      OPTIONAL{?re :name ?relative. filter(?re = ?relatives)}
       OPTIONAL{?h skos:prefLabel ?hairColor.filter(?h = ?hair)}
       OPTIONAL{?o skos:prefLabel ?occupation.filter(?o = ?occupations)}
-      OPTIONAL{?publishers skos:prefLabel ?publisher}
     }
     ORDER BY ?heroName
     
@@ -85,6 +99,7 @@ export class SparqlService {
       }),
       map(data => {
         const sparqlResults:{ [key: string]: { value: string } }[] = data.results.bindings;
+        console.log(sparqlResults)
 
         const uniqueHeroes: { [key: string]: Hero } = {};
 
@@ -145,9 +160,11 @@ export class SparqlService {
     PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     PREFIX p_data:   <http://projet.fr/perso_data/> 
     PREFIX schema: <https://schema.org/>
-
+    PREFIX dbo: <http://dbpedia.org/ontology/>
+    prefix owl:      <http://www.w3.org/2002/07/owl#> 
     SELECT * WHERE {
-      ?x a schema:Movie;
+      
+      {?x a schema:Movie;
        schema:name ?title;
        f_schema:stars ?actors;
        schema:director ?directors;
@@ -157,6 +174,7 @@ export class SparqlService {
        f_schema:rating ?rating;
        f_schema:vote ?vote;
        f_schema:year ?year.
+       OPTIONAL {?x owl:sameAs ?link}
        OPTIONAL{
         ?x f_schema:castmember ?actorsCast.
         ?actorsCast schema:name ?actorCast.
@@ -174,16 +192,16 @@ export class SparqlService {
           ?also schema:name ?super.
           FILTER(CONTAINS(?also,"/H"))
         }
-
        }
        ?actors schema:name ?actor.
        ?directors schema:name ?director.
        ?entities skos:prefLabel ?entity.
        ?genres skos:prefLabel ?genre.
-       
-      FILTER(?title = "${input}"@en)
+       FILTER(?title = "${input}"@en)}
+      
+      
     }`
-    
+    console.log(request)
     
     return this.getAnswer(request).pipe(
       tap((data) => {
@@ -191,6 +209,7 @@ export class SparqlService {
         this.loaderService.hideLoader();
       }),
       map(data => {
+        console.log(request)
         const sparqlResults: { [key: string]: { value: string } }[] = data.results.bindings;
         console.log(sparqlResults)
         if (sparqlResults.length > 0) {
@@ -226,7 +245,6 @@ export class SparqlService {
             });
       
             const characters: Character[] = Array.from(charactersMap.values());
-            console.log(characters)
       
       
       
@@ -238,6 +256,7 @@ export class SparqlService {
             actors: actors, // Filter out empty strings
             director: sparqlResults[0]['director'].value,
             entity: sparqlResults[0]['entity'].value,
+            link:sparqlResults[0]['link']?.value ?? '' ,
             genre: sparqlResults.map(result => result['genre'].value),
             gross: sparqlResults[0]['gross']?.value ? parseFloat(sparqlResults[0]['gross'].value.replace(',', '.')) : undefined,
             rating: sparqlResults[0]['rating']?.value ? parseFloat(sparqlResults[0]['rating'].value.replace(',', '.')) : undefined,
@@ -252,4 +271,5 @@ export class SparqlService {
       })
     );
     }
+
 }

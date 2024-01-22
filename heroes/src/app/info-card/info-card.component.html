@@ -10,7 +10,7 @@
 
     <div *ngIf="hero.films.length > 0">films :
         <ul >
-            <li *ngFor="let film of hero.films"><div *ngIf="film">{{ film }}</div></li>
+            <li *ngFor="let film of hero.films"><div (click)="handleFilmClick(film)" *ngIf="film">{{ film }}</div></li>
         </ul>
     </div>
     

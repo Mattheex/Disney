@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+  }
+  
+  .component {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .film-details {
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .info {
+    margin-top: 10px;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list li {
+    margin-bottom: 5px;
+    font-style: italic;
+  }
+  
+  

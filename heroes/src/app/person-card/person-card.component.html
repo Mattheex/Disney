@@ -11,6 +11,9 @@
         <app-public-card [hero]="hero"></app-public-card>
     </div>
     <div *ngIf="heroInfo===3">
-        <app-info-card [hero]="hero"></app-info-card>
+        <app-info-card [hero]="hero" (clickEvent)="displayFilm($event)"></app-info-card>
     </div>
+
+    <div *ngIf="film"><app-film-card [film]="film"></app-film-card></div>
+    
 </div>

@@ -60,7 +60,7 @@ function process($text,$group) {
         $end = getEnd($text);
         $rem = substr($text, $start, $end - $start);
         $res = str_replace($rem, "", $text);
-        return process($res,true);
+        return process($res,$group);
     }
 
     $array = explode(",", $text);
@@ -84,26 +84,21 @@ $answer=$decoded->{"results"};
 foreach($answer as $perso){
     $superName = $perso->{"name"};
     $name = $perso->{'biography'}->{'full-name'};
-    $publisher = $perso->{'biography'}->{'publisher'};
     $connections = $perso->{"connections"};
     $apparition = $perso->{'biography'}->{'first-appearance'};
     $groups = $connections->{"group-affiliation"};
-    $relatives =  $connections->{"relatives"};
     $appearance = $perso->{"appearance"};
     $race = $appearance->{"race"};
     $work = $perso->{"work"};
     $occupation = $work->{"occupation"};
     $color_eye = $appearance->{"eye-color"};
     $color_hair = $appearance->{"hair-color"};
-    $connections->{"relatives"} =  textProcess($relatives,true);
     $work->{"occupation"} =  textProcess($occupation,true);
     $appearance->{"hair-color"} = textProcess($color_hair,true);
     $appearance->{"eye-color"} = textProcess($color_eye,true);
     $perso->{"id"} = findId($name,$superName);
     $connections->{"group-affiliation"} = textProcess($groups,False);
     $appearance->{"race"} = textProcess($race,true);
-    $perso->{'biography'}->{'publisher'} = textProcess($publisher,true);
-    $perso->{'biography'}->{'first-appearance'} = textProcess($apparition,false);
 
 
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/core';
-import { Hero } from '../models/hero.model';
+import { Film, Hero } from '../models/hero.model';
+import { SparqlService } from '../sparql.service';
 
 @Component({
   selector: 'app-person-card',
@@ -9,10 +10,11 @@ import { Hero } from '../models/hero.model';
 export class PersonCardComponent implements OnInit,OnChanges {
   @Input() hero!: Hero;
   heroInfo=0;
+  film:Film|undefined;
   
   
 
-  constructor() { }
+  constructor(private sparqlService:SparqlService) { }
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['hero']  ){
       console.log(this.hero)
@@ -51,7 +53,13 @@ export class PersonCardComponent implements OnInit,OnChanges {
 
   ngOnInit(): void {
     // Remove empty strings from alias array
+  }
+  displayFilm(myFilm:string):void{
+    this.sparqlService.getFilm(myFilm).subscribe(
+      film => {
+        this.film = film;
     
-
+        // Do something with the heroes data
+      },) 
   }
 }

@@ -32,6 +32,7 @@ export interface Hero {
     vote?:number;
     year?:number;
     characters?:Character[];
+    link:string;
   }
 
   export interface Character{
