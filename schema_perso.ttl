@@ -132,6 +132,9 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     a          owl:Class ;
     rdfs:label "Villain" .
 
+:Neutral a owl:Class;
+    rdfs:label "Neutral".
+
 :Hero
     a          owl:Class ;
     rdfs:label "Hero" .

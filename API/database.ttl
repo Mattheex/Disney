@@ -2,7 +2,7 @@
 @prefix p_schema: <http://projet.fr/perso_schema/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-
+@prefix film: <http://projet.fr/films_schema/>.
 
 
 :00agent a skos:Concept ;
@@ -14497,7 +14497,8 @@ nana dawson""" .
 
 :dccomics a skos:Concept ;
     rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "DC Comics" .
+    skos:prefLabel "DC Comics";
+    rdfs:seeAlso film:DC.
 
 :deadpool a skos:Concept ;
     rdfs:subClassOf p_schema:Publisher ;
@@ -15377,7 +15378,8 @@ nana dawson""" .
 
 :marvelcomics a skos:Concept ;
     rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Marvel Comics" .
+    skos:prefLabel "Marvel Comics";
+    rdfs:seeAlso film:MARVEL .
 
 :mascotathohocharlieschickenshack a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
