@@ -1,2406 +1,2502 @@
-@prefix :         <http://projet.fr/films_data/> .
+@prefix : <http://projet.fr/films_data/> .
 @prefix f_schema: <http://projet.fr/films_schema/> .
-@prefix ns1:      <http://projet.fr/films_schema/22-rdf-syntax-ns#> .
-@prefix owl:      <http://www.w3.org/2002/07/owl#> .
-@prefix p_data:   <http://projet.fr/perso_data/> .
+@prefix ns1: <http://projet.fr/films_schema/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix p_data: <http://projet.fr/perso_data/> .
 @prefix p_schema: <http://projet.fr/perso_schema/> .
-@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema:   <https://schema.org/> .
-@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-:1
-    a               schema:Movie ;
+:1 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  0e+00 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 0e+00 ;
     f_schema:rating 5.5e+00 ;
-    f_schema:stars  :CharlesTrowbridge, :DickPurcell, :ElmerClifton, :LionelAtwill, :LornaGray ;
-    f_schema:vote   8.44e+02 ;
-    f_schema:year   "1944"^^xsd:gYear ;
+    f_schema:stars :CharlesTrowbridge,
+        :DickPurcell,
+        :ElmerClifton,
+        :LionelAtwill,
+        :LornaGray ;
+    f_schema:vote 8.44e+02 ;
+    f_schema:year "1944"^^xsd:gYear ;
     schema:director :ElmerClifton ;
-    schema:name     "Captain America"@en .
+    schema:name "Captain America"@en .
 
-:10
-    a               schema:Movie ;
+:10 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Crime, f_schema:Drama ;
-    f_schema:gross  3.368e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Crime,
+        f_schema:Drama ;
+    f_schema:gross 3.368e+07 ;
     f_schema:rating 6.4e+00 ;
-    f_schema:stars  :JohnTravolta, :JonathanHensleigh, :LauraHarring, :SamanthaMathis, :ThomasJane ;
-    f_schema:vote   1.51872e+05 ;
-    f_schema:year   "2004"^^xsd:gYear ;
+    f_schema:stars :JohnTravolta,
+        :JonathanHensleigh,
+        :LauraHarring,
+        :SamanthaMathis,
+        :ThomasJane ;
+    f_schema:vote 1.51872e+05 ;
+    f_schema:year "2004"^^xsd:gYear ;
     schema:director :JonathanHensleigh ;
-    schema:name     "The Punisher"@en .
+    schema:name "The Punisher"@en .
 
-:11
-    a               schema:Movie ;
+:11 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  3.7359e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 3.7359e+08 ;
     f_schema:rating 7.3e+00 ;
-    f_schema:stars  :AlfredMolina, :JamesFranco, :KirstenDunst, :SamRaimi, :TobeyMaguire ;
-    f_schema:vote   5.5698e+05 ;
-    f_schema:year   "2004"^^xsd:gYear ;
+    f_schema:stars :AlfredMolina,
+        :JamesFranco,
+        :KirstenDunst,
+        :SamRaimi,
+        :TobeyMaguire ;
+    f_schema:vote 5.5698e+05 ;
+    f_schema:year "2004"^^xsd:gYear ;
     schema:director :SamRaimi ;
-    schema:name     "Spider-Man 2"@en .
+    schema:name "Spider-Man 2"@en .
 
-:12
-    a               schema:Movie ;
+:12 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Fantasy ;
-    f_schema:gross  5.241e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Fantasy ;
+    f_schema:gross 5.241e+07 ;
     f_schema:rating 5.8e+00 ;
-    f_schema:stars  :DavidSGoyer, :KrisKristofferson, :ParkerPosey, :RyanReynolds, :WesleySnipes ;
-    f_schema:vote   1.68363e+05 ;
-    f_schema:year   "2004"^^xsd:gYear ;
+    f_schema:stars :DavidSGoyer,
+        :KrisKristofferson,
+        :ParkerPosey,
+        :RyanReynolds,
+        :WesleySnipes ;
+    f_schema:vote 1.68363e+05 ;
+    f_schema:year "2004"^^xsd:gYear ;
     schema:director :DavidSGoyer ;
-    schema:name     "Blade: Trinity"@en .
+    schema:name "Blade: Trinity"@en .
 
-:13
-    a               schema:Movie ;
+:13 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Crime ;
-    f_schema:gross  2.441e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Crime ;
+    f_schema:gross 2.441e+07 ;
     f_schema:rating 4.7e+00 ;
-    f_schema:stars  :GoranVisnjic, :JenniferGarner, :KirstenZien, :RobBowman, :WillYunLee ;
-    f_schema:vote   8.8518e+04 ;
-    f_schema:year   "2005"^^xsd:gYear ;
+    f_schema:stars :GoranVisnjic,
+        :JenniferGarner,
+        :KirstenZien,
+        :RobBowman,
+        :WillYunLee ;
+    f_schema:vote 8.8518e+04 ;
+    f_schema:year "2005"^^xsd:gYear ;
     schema:director :RobBowman ;
-    schema:name     "Elektra"@en .
+    schema:name "Elektra"@en .
 
-:14
-    a               schema:Movie ;
+:14 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Fantasy ;
-    f_schema:gross  1.547e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Fantasy ;
+    f_schema:gross 1.547e+08 ;
     f_schema:rating 5.7e+00 ;
-    f_schema:stars  :ChrisEvans, :IoanGruffudd, :JessicaAlba, :MichaelChiklis, :TimStory ;
-    f_schema:vote   3.15297e+05 ;
-    f_schema:year   "2005"^^xsd:gYear ;
+    f_schema:stars :ChrisEvans,
+        :IoanGruffudd,
+        :JessicaAlba,
+        :MichaelChiklis,
+        :TimStory ;
+    f_schema:vote 3.15297e+05 ;
+    f_schema:year "2005"^^xsd:gYear ;
     schema:director :TimStory ;
-    schema:name     "Fantastic Four"@en .
+    schema:name "Fantastic Four"@en .
 
-:15
-    a               schema:Movie ;
+:15 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  2.3436e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 2.3436e+08 ;
     f_schema:rating 6.7e+00 ;
-    f_schema:stars  :BrettRatner, :FamkeJanssen, :HalleBerry, :HughJackman, :PatrickStewart ;
-    f_schema:vote   4.90269e+05 ;
-    f_schema:year   "2006"^^xsd:gYear ;
+    f_schema:stars :BrettRatner,
+        :FamkeJanssen,
+        :HalleBerry,
+        :HughJackman,
+        :PatrickStewart ;
+    f_schema:vote 4.90269e+05 ;
+    f_schema:year "2006"^^xsd:gYear ;
     schema:director :BrettRatner ;
-    schema:name     "X-Men: The Last Stand"@en .
+    schema:name "X-Men: The Last Stand"@en .
 
-:16
-    a               schema:Movie ;
+:16 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Fantasy, f_schema:Thriller ;
-    f_schema:gross  1.158e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Fantasy,
+        f_schema:Thriller ;
+    f_schema:gross 1.158e+08 ;
     f_schema:rating 5.3e+00 ;
-    f_schema:stars  :EvaMendes, :MarkStevenJohnson, :MattLong, :NicolasCage, :SamElliott ;
-    f_schema:vote   2.26797e+05 ;
-    f_schema:year   "2007"^^xsd:gYear ;
+    f_schema:stars :EvaMendes,
+        :MarkStevenJohnson,
+        :MattLong,
+        :NicolasCage,
+        :SamElliott ;
+    f_schema:vote 2.26797e+05 ;
+    f_schema:year "2007"^^xsd:gYear ;
     schema:director :MarkStevenJohnson ;
-    schema:name     "Ghost Rider"@en .
+    schema:name "Ghost Rider"@en .
 
-:17
-    a               schema:Movie ;
+:17 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  3.3653e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 3.3653e+08 ;
     f_schema:rating 6.2e+00 ;
-    f_schema:stars  :KirstenDunst, :SamRaimi, :ThomasHadenChurch, :TobeyMaguire, :TopherGrace ;
-    f_schema:vote   5.10723e+05 ;
-    f_schema:year   "2007"^^xsd:gYear ;
+    f_schema:stars :KirstenDunst,
+        :SamRaimi,
+        :ThomasHadenChurch,
+        :TobeyMaguire,
+        :TopherGrace ;
+    f_schema:vote 5.10723e+05 ;
+    f_schema:year "2007"^^xsd:gYear ;
     schema:director :SamRaimi ;
-    schema:name     "Spider-Man 3"@en .
+    schema:name "Spider-Man 3"@en .
 
-:18
-    a               schema:Movie ;
+:18 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Fantasy ;
-    f_schema:gross  1.3192e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Fantasy ;
+    f_schema:gross 1.3192e+08 ;
     f_schema:rating 5.6e+00 ;
-    f_schema:stars  :ChrisEvans, :IoanGruffudd, :JessicaAlba, :MichaelChiklis, :TimStory ;
-    f_schema:vote   2.53897e+05 ;
-    f_schema:year   "2007"^^xsd:gYear ;
+    f_schema:stars :ChrisEvans,
+        :IoanGruffudd,
+        :JessicaAlba,
+        :MichaelChiklis,
+        :TimStory ;
+    f_schema:vote 2.53897e+05 ;
+    f_schema:year "2007"^^xsd:gYear ;
     schema:director :TimStory ;
-    schema:name     "Fantastic Four: Rise of the Silver Surfer"@en .
+    schema:name "Fantastic Four: Rise of the Silver Surfer"@en .
 
-:19
-    a               schema:Movie ;
+:19 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  3.1841e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 3.1841e+08 ;
     f_schema:rating 7.9e+00 ;
-    f_schema:stars  :GwynethPaltrow, :JeffBridges, :JonFavreau, :RobertDowneyJr, :TerrenceHoward ;
-    f_schema:vote   9.64114e+05 ;
-    f_schema:year   "2008"^^xsd:gYear ;
+    f_schema:stars :GwynethPaltrow,
+        :JeffBridges,
+        :JonFavreau,
+        :RobertDowneyJr,
+        :TerrenceHoward ;
+    f_schema:vote 9.64114e+05 ;
+    f_schema:year "2008"^^xsd:gYear ;
     schema:director :JonFavreau ;
-    schema:name     "Iron Man"@en .
+    schema:name "Iron Man"@en .
 
-:2
-    a               schema:Movie ;
+:2 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Comedy ;
-    f_schema:gross  1.63e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Comedy ;
+    f_schema:gross 1.63e+07 ;
     f_schema:rating 4.7e+00 ;
-    f_schema:stars  :EdGale, :JeffreyJones, :LeaThompson, :TimRobbins, :WillardHuyck ;
-    f_schema:vote   4.4073e+04 ;
-    f_schema:year   "1986"^^xsd:gYear ;
+    f_schema:stars :EdGale,
+        :JeffreyJones,
+        :LeaThompson,
+        :TimRobbins,
+        :WillardHuyck ;
+    f_schema:vote 4.4073e+04 ;
+    f_schema:year "1986"^^xsd:gYear ;
     schema:director :WillardHuyck ;
-    schema:name     "Howard the Duck"@en .
+    schema:name "Howard the Duck"@en .
 
-:20
-    a               schema:Movie ;
+:20 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  1.3452e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 1.3452e+08 ;
     f_schema:rating 6.7e+00 ;
-    f_schema:stars  :EdwardNorton, :LivTyler, :LouisLeterrier, :TimRoth, :WilliamHurt ;
-    f_schema:vote   4.45822e+05 ;
-    f_schema:year   "2008"^^xsd:gYear ;
+    f_schema:stars :EdwardNorton,
+        :LivTyler,
+        :LouisLeterrier,
+        :TimRoth,
+        :WilliamHurt ;
+    f_schema:vote 4.45822e+05 ;
+    f_schema:year "2008"^^xsd:gYear ;
     schema:director :LouisLeterrier ;
-    schema:name     "The Incredible Hulk"@en .
+    schema:name "The Incredible Hulk"@en .
 
-:21
-    a               schema:Movie ;
+:21 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Crime, f_schema:Drama ;
-    f_schema:gross  7.95e+06 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Crime,
+        f_schema:Drama ;
+    f_schema:gross 7.95e+06 ;
     f_schema:rating 5.9e+00 ;
-    f_schema:stars  :DominicWest, :DougHutchison, :JulieBenz, :LexiAlexander, :RayStevenson ;
-    f_schema:vote   6.0767e+04 ;
-    f_schema:year   "2008"^^xsd:gYear ;
+    f_schema:stars :DominicWest,
+        :DougHutchison,
+        :JulieBenz,
+        :LexiAlexander,
+        :RayStevenson ;
+    f_schema:vote 6.0767e+04 ;
+    f_schema:year "2008"^^xsd:gYear ;
     schema:director :LexiAlexander ;
-    schema:name     "Punisher: War Zone"@en .
+    schema:name "Punisher: War Zone"@en .
 
-:22
-    a               schema:Movie ;
+:22 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:SciFi ;
-    f_schema:gross  1.7988e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:SciFi ;
+    f_schema:gross 1.7988e+08 ;
     f_schema:rating 6.6e+00 ;
-    f_schema:stars  :DannyHuston, :GavinHood, :HughJackman, :LievSchreiber, :RyanReynolds ;
-    f_schema:vote   4.75561e+05 ;
-    f_schema:year   "2009"^^xsd:gYear ;
+    f_schema:stars :DannyHuston,
+        :GavinHood,
+        :HughJackman,
+        :LievSchreiber,
+        :RyanReynolds ;
+    f_schema:vote 4.75561e+05 ;
+    f_schema:year "2009"^^xsd:gYear ;
     schema:director :GavinHood ;
-    schema:name     "X-Men Origins: Wolverine"@en .
+    schema:name "X-Men Origins: Wolverine"@en .
 
-:23
-    a               schema:Movie ;
+:23 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  3.1243e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 3.1243e+08 ;
     f_schema:rating 7e+00 ;
-    f_schema:stars  :DonCheadle, :GwynethPaltrow, :JonFavreau, :MickeyRourke, :RobertDowneyJr ;
-    f_schema:vote   7.42416e+05 ;
-    f_schema:year   "2010"^^xsd:gYear ;
+    f_schema:stars :DonCheadle,
+        :GwynethPaltrow,
+        :JonFavreau,
+        :MickeyRourke,
+        :RobertDowneyJr ;
+    f_schema:vote 7.42416e+05 ;
+    f_schema:year "2010"^^xsd:gYear ;
     schema:director :JonFavreau ;
-    schema:name     "Iron Man 2"@en .
+    schema:name "Iron Man 2"@en .
 
-:24
-    a               schema:Movie ;
+:24 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Fantasy ;
-    f_schema:gross  1.8103e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Fantasy ;
+    f_schema:gross 1.8103e+08 ;
     f_schema:rating 7e+00 ;
-    f_schema:stars  :AnthonyHopkins, :ChrisHemsworth, :KennethBranagh, :NataliePortman, :TomHiddleston ;
-    f_schema:vote   7.67687e+05 ;
-    f_schema:year   "2011"^^xsd:gYear ;
+    f_schema:stars :AnthonyHopkins,
+        :ChrisHemsworth,
+        :KennethBranagh,
+        :NataliePortman,
+        :TomHiddleston ;
+    f_schema:vote 7.67687e+05 ;
+    f_schema:year "2011"^^xsd:gYear ;
     schema:director :KennethBranagh ;
-    schema:name     "Thor"@en .
+    schema:name "Thor"@en .
 
-:25
-    a               schema:Movie ;
+:25 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  1.4641e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 1.4641e+08 ;
     f_schema:rating 7.7e+00 ;
-    f_schema:stars  :JamesMcAvoy, :JenniferLawrence, :KevinBacon, :MatthewVaughn, :MichaelFassbender ;
-    f_schema:vote   6.55399e+05 ;
-    f_schema:year   "2011"^^xsd:gYear ;
+    f_schema:stars :JamesMcAvoy,
+        :JenniferLawrence,
+        :KevinBacon,
+        :MatthewVaughn,
+        :MichaelFassbender ;
+    f_schema:vote 6.55399e+05 ;
+    f_schema:year "2011"^^xsd:gYear ;
     schema:director :MatthewVaughn ;
-    schema:name     "X: First Class"@en .
+    schema:name "X: First Class"@en .
 
-:27
-    a               schema:Movie ;
+:27 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Fantasy, f_schema:Thriller ;
-    f_schema:gross  5.177e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Fantasy,
+        f_schema:Thriller ;
+    f_schema:gross 5.177e+07 ;
     f_schema:rating 4.3e+00 ;
-    f_schema:stars  :BrianTaylor, :CiaranHinds, :IdrisElba, :NicolasCage, :ViolantePlacido ;
-    f_schema:vote   1.12898e+05 ;
-    f_schema:year   "2011"^^xsd:gYear ;
+    f_schema:stars :BrianTaylor,
+        :CiaranHinds,
+        :IdrisElba,
+        :NicolasCage,
+        :ViolantePlacido ;
+    f_schema:vote 1.12898e+05 ;
+    f_schema:year "2011"^^xsd:gYear ;
     schema:director :MarkNeveldine ;
-    schema:name     "Ghost Rider: Spirit of Vengeance"@en .
+    schema:name "Ghost Rider: Spirit of Vengeance"@en .
 
-:28
-    a               schema:Movie ;
+:28 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  6.2328e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 6.2328e+08 ;
     f_schema:rating 8e+00 ;
-    f_schema:stars  :ChrisEvans, :JeremyRenner, :JossWhedon, :RobertDowneyJr, :ScarlettJohansson ;
-    f_schema:vote   1.286985e+06 ;
-    f_schema:year   "2012"^^xsd:gYear ;
+    f_schema:stars :ChrisEvans,
+        :JeremyRenner,
+        :JossWhedon,
+        :RobertDowneyJr,
+        :ScarlettJohansson ;
+    f_schema:vote 1.286985e+06 ;
+    f_schema:year "2012"^^xsd:gYear ;
     schema:director :JossWhedon ;
-    schema:name     "The Avengers"@en .
+    schema:name "The Avengers"@en .
 
-:29
-    a               schema:Movie ;
+:29 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Fantasy ;
-    f_schema:gross  2.6203e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Fantasy ;
+    f_schema:gross 2.6203e+08 ;
     f_schema:rating 6.9e+00 ;
-    f_schema:stars  :AndrewGarfield, :EmmaStone, :IrrfanKhan, :MarcWebb, :RhysIfans ;
-    f_schema:vote   5.69274e+05 ;
-    f_schema:year   "2012"^^xsd:gYear ;
+    f_schema:stars :AndrewGarfield,
+        :EmmaStone,
+        :IrrfanKhan,
+        :MarcWebb,
+        :RhysIfans ;
+    f_schema:vote 5.69274e+05 ;
+    f_schema:year "2012"^^xsd:gYear ;
     schema:director :MarcWebb ;
-    schema:name     "The Amazing Spider-Man"@en .
+    schema:name "The Amazing Spider-Man"@en .
 
-:3
-    a               schema:Movie ;
+:3 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Horror, f_schema:SciFi ;
-    f_schema:gross  7.009e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Horror,
+        f_schema:SciFi ;
+    f_schema:gross 7.009e+07 ;
     f_schema:rating 7.1e+00 ;
-    f_schema:stars  :KrisKristofferson, :NBusheWright, :StephenDorff, :StephenNorrington, :WesleySnipes ;
-    f_schema:vote   2.51243e+05 ;
-    f_schema:year   "1998"^^xsd:gYear ;
+    f_schema:stars :KrisKristofferson,
+        :NBusheWright,
+        :StephenDorff,
+        :StephenNorrington,
+        :WesleySnipes ;
+    f_schema:vote 2.51243e+05 ;
+    f_schema:year "1998"^^xsd:gYear ;
     schema:director :StephenNorrington ;
-    schema:name     "Blade"@en .
+    schema:name "Blade"@en .
 
-:30
-    a               schema:Movie ;
+:30 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  4.0901e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 4.0901e+08 ;
     f_schema:rating 7.1e+00 ;
-    f_schema:stars  :DonCheadle, :GuyPearce, :GwynethPaltrow, :RobertDowneyJr, :ShaneBlack ;
-    f_schema:vote   7.75425e+05 ;
-    f_schema:year   "2013"^^xsd:gYear ;
+    f_schema:stars :DonCheadle,
+        :GuyPearce,
+        :GwynethPaltrow,
+        :RobertDowneyJr,
+        :ShaneBlack ;
+    f_schema:vote 7.75425e+05 ;
+    f_schema:year "2013"^^xsd:gYear ;
     schema:director :ShaneBlack ;
-    schema:name     "Iron Man Three"@en .
+    schema:name "Iron Man Three"@en .
 
-:31
-    a               schema:Movie ;
+:31 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:SciFi ;
-    f_schema:gross  1.3256e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:SciFi ;
+    f_schema:gross 1.3256e+08 ;
     f_schema:rating 6.7e+00 ;
-    f_schema:stars  :HughJackman, :JamesMangold, :RilaFukushima, :TaoOkamoto, :WillYunLee ;
-    f_schema:vote   4.37712e+05 ;
-    f_schema:year   "2013"^^xsd:gYear ;
+    f_schema:stars :HughJackman,
+        :JamesMangold,
+        :RilaFukushima,
+        :TaoOkamoto,
+        :WillYunLee ;
+    f_schema:vote 4.37712e+05 ;
+    f_schema:year "2013"^^xsd:gYear ;
     schema:director :JamesMangold ;
-    schema:name     "The Wolverine"@en .
+    schema:name "The Wolverine"@en .
 
-:32
-    a               schema:Movie ;
+:32 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Fantasy ;
-    f_schema:gross  2.0636e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Fantasy ;
+    f_schema:gross 2.0636e+08 ;
     f_schema:rating 6.9e+00 ;
-    f_schema:stars  :AlanTaylor, :ChrisHemsworth, :NataliePortman, :StellanSkarsgard, :TomHiddleston ;
-    f_schema:vote   6.14115e+05 ;
-    f_schema:year   "2013"^^xsd:gYear ;
+    f_schema:stars :AlanTaylor,
+        :ChrisHemsworth,
+        :NataliePortman,
+        :StellanSkarsgard,
+        :TomHiddleston ;
+    f_schema:vote 6.14115e+05 ;
+    f_schema:year "2013"^^xsd:gYear ;
     schema:director :AlanTaylor ;
-    schema:name     "Thor: The Dark World"@en .
+    schema:name "Thor: The Dark World"@en .
 
-:33
-    a               schema:Movie ;
+:33 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  2.5977e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 2.5977e+08 ;
     f_schema:rating 7.7e+00 ;
-    f_schema:stars  :ChrisEvans, :JoeRusso, :RobertRedford, :SamuelLJackson, :ScarlettJohansson ;
-    f_schema:vote   7.59721e+05 ;
-    f_schema:year   "2014"^^xsd:gYear ;
+    f_schema:stars :ChrisEvans,
+        :JoeRusso,
+        :RobertRedford,
+        :SamuelLJackson,
+        :ScarlettJohansson ;
+    f_schema:vote 7.59721e+05 ;
+    f_schema:year "2014"^^xsd:gYear ;
     schema:director :AnthonyRusso ;
-    schema:name     "Captain America: The Winter Soldier"@en .
+    schema:name "Captain America: The Winter Soldier"@en .
 
-:34
-    a               schema:Movie ;
+:34 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Fantasy ;
-    f_schema:gross  2.0285e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Fantasy ;
+    f_schema:gross 2.0285e+08 ;
     f_schema:rating 6.6e+00 ;
-    f_schema:stars  :AndrewGarfield, :EmmaStone, :JamieFoxx, :MarcWebb, :PaulGiamatti ;
-    f_schema:vote   4.25691e+05 ;
-    f_schema:year   "2014"^^xsd:gYear ;
+    f_schema:stars :AndrewGarfield,
+        :EmmaStone,
+        :JamieFoxx,
+        :MarcWebb,
+        :PaulGiamatti ;
+    f_schema:vote 4.25691e+05 ;
+    f_schema:year "2014"^^xsd:gYear ;
     schema:director :MarcWebb ;
-    schema:name     "The Amazing Spider-Man 2"@en .
+    schema:name "The Amazing Spider-Man 2"@en .
 
-:35
-    a               schema:Movie ;
+:35 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  2.3392e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 2.3392e+08 ;
     f_schema:rating 7.9e+00 ;
-    f_schema:stars  :BryanSinger, :HughJackman, :IanMcKellen, :JamesMcAvoy, :PatrickStewart ;
-    f_schema:vote   6.71146e+05 ;
-    f_schema:year   "2014"^^xsd:gYear ;
+    f_schema:stars :BryanSinger,
+        :HughJackman,
+        :IanMcKellen,
+        :JamesMcAvoy,
+        :PatrickStewart ;
+    f_schema:vote 6.71146e+05 ;
+    f_schema:year "2014"^^xsd:gYear ;
     schema:director :BryanSinger ;
-    schema:name     "X-Men: Days of Future Past"@en .
+    schema:name "X-Men: Days of Future Past"@en .
 
-:36
-    a               schema:Movie ;
+:36 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Comedy ;
-    f_schema:gross  3.3318e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Comedy ;
+    f_schema:gross 3.3318e+08 ;
     f_schema:rating 8e+00 ;
-    f_schema:stars  :BradleyCooper, :ChrisPratt, :JamesGunn, :VinDiesel, :ZoeSaldana ;
-    f_schema:vote   1.069895e+06 ;
-    f_schema:year   "2014"^^xsd:gYear ;
+    f_schema:stars :BradleyCooper,
+        :ChrisPratt,
+        :JamesGunn,
+        :VinDiesel,
+        :ZoeSaldana ;
+    f_schema:vote 1.069895e+06 ;
+    f_schema:year "2014"^^xsd:gYear ;
     schema:director :JamesGunn ;
-    schema:name     "Guardians of the Galaxy"@en .
+    schema:name "Guardians of the Galaxy"@en .
 
-:37
-    a               schema:Movie ;
+:37 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  4.5901e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 4.5901e+08 ;
     f_schema:rating 7.3e+00 ;
-    f_schema:stars  :ChrisEvans, :ChrisHemsworth, :JossWhedon, :MarkRuffalo, :RobertDowneyJr ;
-    f_schema:vote   7.72476e+05 ;
-    f_schema:year   "2015"^^xsd:gYear ;
+    f_schema:stars :ChrisEvans,
+        :ChrisHemsworth,
+        :JossWhedon,
+        :MarkRuffalo,
+        :RobertDowneyJr ;
+    f_schema:vote 7.72476e+05 ;
+    f_schema:year "2015"^^xsd:gYear ;
     schema:director :JossWhedon ;
-    schema:name     "Avengers: Age of Ultron"@en .
+    schema:name "Avengers: Age of Ultron"@en .
 
-:38
-    a               schema:Movie ;
+:38 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Comedy ;
-    f_schema:gross  1.802e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Comedy ;
+    f_schema:gross 1.802e+08 ;
     f_schema:rating 7.3e+00 ;
-    f_schema:stars  :CoreyStoll, :EvangelineLilly, :MichaelDouglas, :PaulRudd, :PeytonReed ;
-    f_schema:vote   5.90834e+05 ;
-    f_schema:year   "2015"^^xsd:gYear ;
+    f_schema:stars :CoreyStoll,
+        :EvangelineLilly,
+        :MichaelDouglas,
+        :PaulRudd,
+        :PeytonReed ;
+    f_schema:vote 5.90834e+05 ;
+    f_schema:year "2015"^^xsd:gYear ;
     schema:director :PeytonReed ;
-    schema:name     "Ant-Man"@en .
+    schema:name "Ant-Man"@en .
 
-:39
-    a               schema:Movie ;
+:39 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  5.612e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 5.612e+07 ;
     f_schema:rating 4.2e+00 ;
-    f_schema:stars  :JamieBell, :JoshTrank, :KateMara, :MichaelBJordan, :MilesTeller ;
-    f_schema:vote   1.55942e+05 ;
-    f_schema:year   "2015"^^xsd:gYear ;
+    f_schema:stars :JamieBell,
+        :JoshTrank,
+        :KateMara,
+        :MichaelBJordan,
+        :MilesTeller ;
+    f_schema:vote 1.55942e+05 ;
+    f_schema:year "2015"^^xsd:gYear ;
     schema:director :JoshTrank ;
-    schema:name     "Fantastic Four"@en .
+    schema:name "Fantastic Four"@en .
 
-:4
-    a               schema:Movie ;
+:4 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  1.573e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 1.573e+08 ;
     f_schema:rating 7.4e+00 ;
-    f_schema:stars  :BryanSinger, :FamkeJanssen, :HughJackman, :IanMcKellen, :PatrickStewart ;
-    f_schema:vote   5.80354e+05 ;
-    f_schema:year   "2000"^^xsd:gYear ;
+    f_schema:stars :BryanSinger,
+        :FamkeJanssen,
+        :HughJackman,
+        :IanMcKellen,
+        :PatrickStewart ;
+    f_schema:vote 5.80354e+05 ;
+    f_schema:year "2000"^^xsd:gYear ;
     schema:director :BryanSinger ;
-    schema:name     "X-Men"@en .
+    schema:name "X-Men"@en .
 
-:40
-    a               schema:Movie ;
+:40 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Comedy ;
-    f_schema:gross  3.6307e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Comedy ;
+    f_schema:gross 3.6307e+08 ;
     f_schema:rating 8e+00 ;
-    f_schema:stars  :EdSkrein, :MorenaBaccarin, :RyanReynolds, :TJMiller, :TimMiller ;
-    f_schema:vote   9.27737e+05 ;
-    f_schema:year   "2016"^^xsd:gYear ;
+    f_schema:stars :EdSkrein,
+        :MorenaBaccarin,
+        :RyanReynolds,
+        :TJMiller,
+        :TimMiller ;
+    f_schema:vote 9.27737e+05 ;
+    f_schema:year "2016"^^xsd:gYear ;
     schema:director :TimMiller ;
-    schema:name     "Deadpool"@en .
+    schema:name "Deadpool"@en .
 
-:41
-    a               schema:Movie ;
+:41 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  4.0808e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 4.0808e+08 ;
     f_schema:rating 7.8e+00 ;
-    f_schema:stars  :ChrisEvans, :JoeRusso, :RobertDowneyJr, :ScarlettJohansson, :SebastianStan ;
-    f_schema:vote   6.89763e+05 ;
-    f_schema:year   "2016"^^xsd:gYear ;
+    f_schema:stars :ChrisEvans,
+        :JoeRusso,
+        :RobertDowneyJr,
+        :ScarlettJohansson,
+        :SebastianStan ;
+    f_schema:vote 6.89763e+05 ;
+    f_schema:year "2016"^^xsd:gYear ;
     schema:director :AnthonyRusso ;
-    schema:name     "Captain America: Civil War"@en .
+    schema:name "Captain America: Civil War"@en .
 
-:42
-    a               schema:Movie ;
+:42 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  1.5544e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 1.5544e+08 ;
     f_schema:rating 6.9e+00 ;
-    f_schema:stars  :BryanSinger, :JamesMcAvoy, :JenniferLawrence, :MichaelFassbender, :NicholasHoult ;
-    f_schema:vote   4.02935e+05 ;
-    f_schema:year   "2016"^^xsd:gYear ;
+    f_schema:stars :BryanSinger,
+        :JamesMcAvoy,
+        :JenniferLawrence,
+        :MichaelFassbender,
+        :NicholasHoult ;
+    f_schema:vote 4.02935e+05 ;
+    f_schema:year "2016"^^xsd:gYear ;
     schema:director :BryanSinger ;
-    schema:name     "X-Men: Apocalypse"@en .
+    schema:name "X-Men: Apocalypse"@en .
 
-:43
-    a               schema:Movie ;
+:43 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Fantasy ;
-    f_schema:gross  2.3264e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Fantasy ;
+    f_schema:gross 2.3264e+08 ;
     f_schema:rating 7.5e+00 ;
-    f_schema:stars  :BenedictCumberbatch, :BenedictWong, :ChiwetelEjiofor, :RachelMcAdams, :ScottDerrickson ;
-    f_schema:vote   6.23361e+05 ;
-    f_schema:year   "2016"^^xsd:gYear ;
+    f_schema:stars :BenedictCumberbatch,
+        :BenedictWong,
+        :ChiwetelEjiofor,
+        :RachelMcAdams,
+        :ScottDerrickson ;
+    f_schema:vote 6.23361e+05 ;
+    f_schema:year "2016"^^xsd:gYear ;
     schema:director :ScottDerrickson ;
-    schema:name     "Doctor Strange"@en .
+    schema:name "Doctor Strange"@en .
 
-:44
-    a               schema:Movie ;
+:44 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Drama, f_schema:SciFi ;
-    f_schema:gross  2.2628e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Drama,
+        f_schema:SciFi ;
+    f_schema:gross 2.2628e+08 ;
     f_schema:rating 8.1e+00 ;
-    f_schema:stars  :BoydHolbrook, :DafneKeen, :HughJackman, :JamesMangold, :PatrickStewart ;
-    f_schema:vote   6.7071e+05 ;
-    f_schema:year   "2017"^^xsd:gYear ;
+    f_schema:stars :BoydHolbrook,
+        :DafneKeen,
+        :HughJackman,
+        :JamesMangold,
+        :PatrickStewart ;
+    f_schema:vote 6.7071e+05 ;
+    f_schema:year "2017"^^xsd:gYear ;
     schema:director :JamesMangold ;
-    schema:name     "Logan"@en .
+    schema:name "Logan"@en .
 
-:45
-    a               schema:Movie ;
+:45 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Comedy ;
-    f_schema:gross  3.8981e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Comedy ;
+    f_schema:gross 3.8981e+08 ;
     f_schema:rating 7.6e+00 ;
-    f_schema:stars  :ChrisPratt, :DaveBautista, :JamesGunn, :VinDiesel, :ZoeSaldana ;
-    f_schema:vote   5.9226e+05 ;
-    f_schema:year   "2017"^^xsd:gYear ;
+    f_schema:stars :ChrisPratt,
+        :DaveBautista,
+        :JamesGunn,
+        :VinDiesel,
+        :ZoeSaldana ;
+    f_schema:vote 5.9226e+05 ;
+    f_schema:year "2017"^^xsd:gYear ;
     schema:director :JamesGunn ;
-    schema:name     "Guardians of the Galaxy Vol. 2"@en .
+    schema:name "Guardians of the Galaxy Vol. 2"@en .
 
-:46
-    a               schema:Movie ;
+:46 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  3.342e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 3.342e+08 ;
     f_schema:rating 7.4e+00 ;
-    f_schema:stars  :JonWatts, :MarisaTomei, :MichaelKeaton, :RobertDowneyJr, :TomHolland ;
-    f_schema:vote   5.36012e+05 ;
-    f_schema:year   "2017"^^xsd:gYear ;
+    f_schema:stars :JonWatts,
+        :MarisaTomei,
+        :MichaelKeaton,
+        :RobertDowneyJr,
+        :TomHolland ;
+    f_schema:vote 5.36012e+05 ;
+    f_schema:year "2017"^^xsd:gYear ;
     schema:director :JonWatts ;
-    schema:name     "Spider-Man: Homecoming"@en .
+    schema:name "Spider-Man: Homecoming"@en .
 
-:47
-    a               schema:Movie ;
+:47 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Comedy ;
-    f_schema:gross  3.1506e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Comedy ;
+    f_schema:gross 3.1506e+08 ;
     f_schema:rating 7.9e+00 ;
-    f_schema:stars  :CateBlanchett, :ChrisHemsworth, :MarkRuffalo, :TaikaWaititi, :TomHiddleston ;
-    f_schema:vote   6.20623e+05 ;
-    f_schema:year   "2017"^^xsd:gYear ;
+    f_schema:stars :CateBlanchett,
+        :ChrisHemsworth,
+        :MarkRuffalo,
+        :TaikaWaititi,
+        :TomHiddleston ;
+    f_schema:vote 6.20623e+05 ;
+    f_schema:year "2017"^^xsd:gYear ;
     schema:director :TaikaWaititi ;
-    schema:name     "Thor: Ragnarok"@en .
+    schema:name "Thor: Ragnarok"@en .
 
-:48
-    a               schema:Movie ;
+:48 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  7.0006e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 7.0006e+08 ;
     f_schema:rating 7.3e+00 ;
-    f_schema:stars  :ChadwickBoseman, :DanaiGurira, :LupitaNyongo, :MichaelBJordan, :RyanCoogler ;
-    f_schema:vote   6.55779e+05 ;
-    f_schema:year   "2018"^^xsd:gYear ;
+    f_schema:stars :ChadwickBoseman,
+        :DanaiGurira,
+        :LupitaNyongo,
+        :MichaelBJordan,
+        :RyanCoogler ;
+    f_schema:vote 6.55779e+05 ;
+    f_schema:year "2018"^^xsd:gYear ;
     schema:director :RyanCoogler ;
-    schema:name     "Black Panther"@en .
+    schema:name "Black Panther"@en .
 
-:49
-    a               schema:Movie ;
+:49 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  6.7882e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 6.7882e+08 ;
     f_schema:rating 8.4e+00 ;
-    f_schema:stars  :ChrisEvans, :ChrisHemsworth, :JoeRusso, :MarkRuffalo, :RobertDowneyJr ;
-    f_schema:vote   8.88104e+05 ;
-    f_schema:year   "2018"^^xsd:gYear ;
+    f_schema:stars :ChrisEvans,
+        :ChrisHemsworth,
+        :JoeRusso,
+        :MarkRuffalo,
+        :RobertDowneyJr ;
+    f_schema:vote 8.88104e+05 ;
+    f_schema:year "2018"^^xsd:gYear ;
     schema:director :AnthonyRusso ;
-    schema:name     "Avengers: Infinity War"@en .
+    schema:name "Avengers: Infinity War"@en .
 
-:5
-    a               schema:Movie ;
+:5 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Fantasy, f_schema:Horror ;
-    f_schema:gross  8.235e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Fantasy,
+        f_schema:Horror ;
+    f_schema:gross 8.235e+07 ;
     f_schema:rating 6.7e+00 ;
-    f_schema:stars  :GuillermodelToro, :KrisKristofferson, :LeonorVarela, :RonPerlman, :WesleySnipes ;
-    f_schema:vote   2.03813e+05 ;
-    f_schema:year   "2002"^^xsd:gYear ;
+    f_schema:stars :GuillermodelToro,
+        :KrisKristofferson,
+        :LeonorVarela,
+        :RonPerlman,
+        :WesleySnipes ;
+    f_schema:vote 2.03813e+05 ;
+    f_schema:year "2002"^^xsd:gYear ;
     schema:director :GuillermodelToro ;
-    schema:name     "Blade II"@en .
+    schema:name "Blade II"@en .
 
-:50
-    a               schema:Movie ;
+:50 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Comedy ;
-    f_schema:gross  3.2459e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Comedy ;
+    f_schema:gross 3.2459e+08 ;
     f_schema:rating 7.7e+00 ;
-    f_schema:stars  :DavidLeitch, :JoshBrolin, :JulianDennison, :MorenaBaccarin, :RyanReynolds ;
-    f_schema:vote   5.01971e+05 ;
-    f_schema:year   "2018"^^xsd:gYear ;
+    f_schema:stars :DavidLeitch,
+        :JoshBrolin,
+        :JulianDennison,
+        :MorenaBaccarin,
+        :RyanReynolds ;
+    f_schema:vote 5.01971e+05 ;
+    f_schema:year "2018"^^xsd:gYear ;
     schema:director :DavidLeitch ;
-    schema:name     "Deadpool 2"@en .
+    schema:name "Deadpool 2"@en .
 
-:51
-    a               schema:Movie ;
+:51 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Comedy ;
-    f_schema:gross  2.1665e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Comedy ;
+    f_schema:gross 2.1665e+08 ;
     f_schema:rating 7e+00 ;
-    f_schema:stars  :EvangelineLilly, :MichaelPena, :PaulRudd, :PeytonReed, :WaltonGoggins ;
-    f_schema:vote   3.296e+05 ;
-    f_schema:year   "2018"^^xsd:gYear ;
+    f_schema:stars :EvangelineLilly,
+        :MichaelPena,
+        :PaulRudd,
+        :PeytonReed,
+        :WaltonGoggins ;
+    f_schema:vote 3.296e+05 ;
+    f_schema:year "2018"^^xsd:gYear ;
     schema:director :PeytonReed ;
-    schema:name     "Ant-Man and the Wasp"@en .
+    schema:name "Ant-Man and the Wasp"@en .
 
-:52
-    a               schema:Movie ;
+:52 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  2.1352e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 2.1352e+08 ;
     f_schema:rating 6.7e+00 ;
-    f_schema:stars  :MichelleWilliams, :RizAhmed, :RubenFleischer, :ScottHaze, :TomHardy ;
-    f_schema:vote   3.83743e+05 ;
-    f_schema:year   "2018"^^xsd:gYear ;
+    f_schema:stars :MichelleWilliams,
+        :RizAhmed,
+        :RubenFleischer,
+        :ScottHaze,
+        :TomHardy ;
+    f_schema:vote 3.83743e+05 ;
+    f_schema:year "2018"^^xsd:gYear ;
     schema:director :RubenFleischer ;
-    schema:name     "Venom"@en .
+    schema:name "Venom"@en .
 
-:53
-    a               schema:Movie ;
+:53 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  4.2683e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 4.2683e+08 ;
     f_schema:rating 6.8e+00 ;
-    f_schema:stars  :AnnaBoden, :BenMendelsohn, :BrieLarson, :JudeLaw, :SamuelLJackson ;
-    f_schema:vote   4.73437e+05 ;
-    f_schema:year   "2019"^^xsd:gYear ;
+    f_schema:stars :AnnaBoden,
+        :BenMendelsohn,
+        :BrieLarson,
+        :JudeLaw,
+        :SamuelLJackson ;
+    f_schema:vote 4.73437e+05 ;
+    f_schema:year "2019"^^xsd:gYear ;
     schema:director :AnnaBoden ;
-    schema:name     "Captain Marvel"@en .
+    schema:name "Captain Marvel"@en .
 
-:54
-    a               schema:Movie ;
+:54 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Drama ;
-    f_schema:gross  8.5837e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Drama ;
+    f_schema:gross 8.5837e+08 ;
     f_schema:rating 8.4e+00 ;
-    f_schema:stars  :ChrisEvans, :ChrisHemsworth, :JoeRusso, :MarkRuffalo, :RobertDowneyJr ;
-    f_schema:vote   8.90937e+05 ;
-    f_schema:year   "2019"^^xsd:gYear ;
+    f_schema:stars :ChrisEvans,
+        :ChrisHemsworth,
+        :JoeRusso,
+        :MarkRuffalo,
+        :RobertDowneyJr ;
+    f_schema:vote 8.90937e+05 ;
+    f_schema:year "2019"^^xsd:gYear ;
     schema:director :AnthonyRusso ;
-    schema:name     "Avengers: Endgame"@en .
+    schema:name "Avengers: Endgame"@en .
 
-:55
-    a               schema:Movie ;
+:55 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  6.585e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 6.585e+07 ;
     f_schema:rating 5.7e+00 ;
-    f_schema:stars  :JamesMcAvoy, :JenniferLawrence, :MichaelFassbender, :NicholasHoult, :SimonKinberg ;
-    f_schema:vote   1.64427e+05 ;
-    f_schema:year   "2019"^^xsd:gYear ;
+    f_schema:stars :JamesMcAvoy,
+        :JenniferLawrence,
+        :MichaelFassbender,
+        :NicholasHoult,
+        :SimonKinberg ;
+    f_schema:vote 1.64427e+05 ;
+    f_schema:year "2019"^^xsd:gYear ;
     schema:director :SimonKinberg ;
-    schema:name     "X-Men: Dark Phoenix"@en .
+    schema:name "X-Men: Dark Phoenix"@en .
 
-:56
-    a               schema:Movie ;
+:56 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  3.9053e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 3.9053e+08 ;
     f_schema:rating 7.5e+00 ;
-    f_schema:stars  :JakeGyllenhaal, :JonWatts, :MarisaTomei, :SamuelLJackson, :TomHolland ;
-    f_schema:vote   3.53385e+05 ;
-    f_schema:year   "2019"^^xsd:gYear ;
+    f_schema:stars :JakeGyllenhaal,
+        :JonWatts,
+        :MarisaTomei,
+        :SamuelLJackson,
+        :TomHolland ;
+    f_schema:vote 3.53385e+05 ;
+    f_schema:year "2019"^^xsd:gYear ;
     schema:director :JonWatts ;
-    schema:name     "Spider-Man: Far from Home"@en .
+    schema:name "Spider-Man: Far from Home"@en .
 
-:57
-    a               schema:Movie ;
+:57 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Horror, f_schema:Mystery ;
-    f_schema:gross  0e+00 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Horror,
+        f_schema:Mystery ;
+    f_schema:gross 0e+00 ;
     f_schema:rating 5.3e+00 ;
-    f_schema:stars  :AliceBraga, :AnyaTaylorJoy, :CharlieHeaton, :JoshBoone, :MaisieWilliams ;
-    f_schema:vote   5.9535e+04 ;
-    f_schema:year   "2020"^^xsd:gYear ;
+    f_schema:stars :AliceBraga,
+        :AnyaTaylorJoy,
+        :CharlieHeaton,
+        :JoshBoone,
+        :MaisieWilliams ;
+    f_schema:vote 5.9535e+04 ;
+    f_schema:year "2020"^^xsd:gYear ;
     schema:director :JoshBoone ;
-    schema:name     "The New Mutants"@en .
+    schema:name "The New Mutants"@en .
 
-:58
-    a               schema:Movie ;
+:58 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Drama ;
-    f_schema:gross  0e+00 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Drama ;
+    f_schema:gross 0e+00 ;
     f_schema:rating 5.7e+00 ;
-    f_schema:stars  :GeorgeReeves, :JeffCorey, :PhyllisCoates, :WalterReed ;
-    f_schema:vote   1.828e+03 ;
-    f_schema:year   "1951"^^xsd:gYear ;
+    f_schema:stars :GeorgeReeves,
+        :JeffCorey,
+        :PhyllisCoates,
+        :WalterReed ;
+    f_schema:vote 1.828e+03 ;
+    f_schema:year "1951"^^xsd:gYear ;
     schema:director :LeeSholem ;
-    schema:name     "Superman and the Mole-Men"@en .
+    schema:name "Superman and the Mole-Men"@en .
 
-:59
-    a               schema:Movie ;
+:59 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Adventure, f_schema:Comedy, f_schema:Crime ;
-    f_schema:gross  0e+00 ;
+    f_schema:genre f_schema:Adventure,
+        f_schema:Comedy,
+        f_schema:Crime ;
+    f_schema:gross 0e+00 ;
     f_schema:rating 6.5e+00 ;
-    f_schema:stars  :AdamWest, :BurtWard, :CesarRomero, :LeeMeriwether ;
-    f_schema:vote   3.0289e+04 ;
-    f_schema:year   "1966"^^xsd:gYear ;
+    f_schema:stars :AdamWest,
+        :BurtWard,
+        :CesarRomero,
+        :LeeMeriwether ;
+    f_schema:vote 3.0289e+04 ;
+    f_schema:year "1966"^^xsd:gYear ;
     schema:director :LeslieHMartinson ;
-    schema:name     "Batman: The Movie"@en .
+    schema:name "Batman: The Movie"@en .
 
-:6
-    a               schema:Movie ;
+:6 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  4.0371e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 4.0371e+08 ;
     f_schema:rating 7.3e+00 ;
-    f_schema:stars  :JamesFranco, :KirstenDunst, :SamRaimi, :TobeyMaguire, :WillemDafoe ;
-    f_schema:vote   7.02986e+05 ;
-    f_schema:year   "2002"^^xsd:gYear ;
+    f_schema:stars :JamesFranco,
+        :KirstenDunst,
+        :SamRaimi,
+        :TobeyMaguire,
+        :WillemDafoe ;
+    f_schema:vote 7.02986e+05 ;
+    f_schema:year "2002"^^xsd:gYear ;
     schema:director :SamRaimi ;
-    schema:name     "Spider-Man"@en .
+    schema:name "Spider-Man"@en .
 
-:60
-    a               schema:Movie ;
+:60 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Drama ;
-    f_schema:gross  1.3422e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Drama ;
+    f_schema:gross 1.3422e+08 ;
     f_schema:rating 7.3e+00 ;
-    f_schema:stars  :ChristopherReeve, :GeneHackman, :MargotKidder, :MarlonBrando ;
-    f_schema:vote   1.62395e+05 ;
-    f_schema:year   "1978"^^xsd:gYear ;
+    f_schema:stars :ChristopherReeve,
+        :GeneHackman,
+        :MargotKidder,
+        :MarlonBrando ;
+    f_schema:vote 1.62395e+05 ;
+    f_schema:year "1978"^^xsd:gYear ;
     schema:director :RichardDonner ;
-    schema:name     "Superman"@en .
+    schema:name "Superman"@en .
 
-:61
-    a               schema:Movie ;
+:61 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  1.0819e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 1.0819e+08 ;
     f_schema:rating 6.8e+00 ;
-    f_schema:stars  :ChristopherReeve, :GeneHackman, :MargotKidder, :NedBeatty ;
-    f_schema:vote   1.0003e+05 ;
-    f_schema:year   "1980"^^xsd:gYear ;
+    f_schema:stars :ChristopherReeve,
+        :GeneHackman,
+        :MargotKidder,
+        :NedBeatty ;
+    f_schema:vote 1.0003e+05 ;
+    f_schema:year "1980"^^xsd:gYear ;
     schema:director :RichardLester ;
-    schema:name     "Superman II"@en .
+    schema:name "Superman II"@en .
 
-:62
-    a               schema:Movie ;
+:62 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Horror, f_schema:SciFi ;
-    f_schema:gross  0e+00 ;
+    f_schema:genre f_schema:Horror,
+        f_schema:SciFi ;
+    f_schema:gross 0e+00 ;
     f_schema:rating 5.4e+00 ;
-    f_schema:stars  :AdrienneBarbeau, :DavidHess, :LouisJourdan, :RayWise ;
-    f_schema:vote   1.3328e+04 ;
-    f_schema:year   "1982"^^xsd:gYear ;
+    f_schema:stars :AdrienneBarbeau,
+        :DavidHess,
+        :LouisJourdan,
+        :RayWise ;
+    f_schema:vote 1.3328e+04 ;
+    f_schema:year "1982"^^xsd:gYear ;
     schema:director :WesCraven ;
-    schema:name     "Swamp Thing"@en .
+    schema:name "Swamp Thing"@en .
 
-:63
-    a               schema:Movie ;
+:63 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Comedy ;
-    f_schema:gross  5.995e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Comedy ;
+    f_schema:gross 5.995e+07 ;
     f_schema:rating 5e+00 ;
-    f_schema:stars  :ChristopherReeve, :JackieCooper, :MargotKidder, :RichardPryor ;
-    f_schema:vote   6.534e+04 ;
-    f_schema:year   "1983"^^xsd:gYear ;
+    f_schema:stars :ChristopherReeve,
+        :JackieCooper,
+        :MargotKidder,
+        :RichardPryor ;
+    f_schema:vote 6.534e+04 ;
+    f_schema:year "1983"^^xsd:gYear ;
     schema:director :RichardLester ;
-    schema:name     "Superman III"@en .
+    schema:name "Superman III"@en .
 
-:64
-    a               schema:Movie ;
+:64 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Fantasy ;
-    f_schema:gross  1.36e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Fantasy ;
+    f_schema:gross 1.36e+07 ;
     f_schema:rating 4.4e+00 ;
-    f_schema:stars  :FayeDunaway, :HelenSlater, :MiaFarrow, :PeterOToole ;
-    f_schema:vote   1.9361e+04 ;
-    f_schema:year   "1984"^^xsd:gYear ;
+    f_schema:stars :FayeDunaway,
+        :HelenSlater,
+        :MiaFarrow,
+        :PeterOToole ;
+    f_schema:vote 1.9361e+04 ;
+    f_schema:year "1984"^^xsd:gYear ;
     schema:director :JeannotSzwarc ;
-    schema:name     "Supergirl"@en .
+    schema:name "Supergirl"@en .
 
-:65
-    a               schema:Movie ;
+:65 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  1.568e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 1.568e+07 ;
     f_schema:rating 3.7e+00 ;
-    f_schema:stars  :ChristopherReeve, :GeneHackman, :JackieCooper, :MargotKidder ;
-    f_schema:vote   4.4082e+04 ;
-    f_schema:year   "1987"^^xsd:gYear ;
+    f_schema:stars :ChristopherReeve,
+        :GeneHackman,
+        :JackieCooper,
+        :MargotKidder ;
+    f_schema:vote 4.4082e+04 ;
+    f_schema:year "1987"^^xsd:gYear ;
     schema:director :SidneyJFurie ;
-    schema:name     "Superman IV: The Quest for Peace"@en .
+    schema:name "Superman IV: The Quest for Peace"@en .
 
-:66
-    a               schema:Movie ;
+:66 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Comedy ;
-    f_schema:gross  1.9e+05 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Comedy ;
+    f_schema:gross 1.9e+05 ;
     f_schema:rating 4.6e+00 ;
-    f_schema:stars  :DickDurock, :HeatherLocklear, :LouisJourdan, :SarahDouglas ;
-    f_schema:vote   4.454e+03 ;
-    f_schema:year   "1989"^^xsd:gYear ;
+    f_schema:stars :DickDurock,
+        :HeatherLocklear,
+        :LouisJourdan,
+        :SarahDouglas ;
+    f_schema:vote 4.454e+03 ;
+    f_schema:year "1989"^^xsd:gYear ;
     schema:director :JimWynorski ;
-    schema:name     "The Return of Swamp Thing"@en .
+    schema:name "The Return of Swamp Thing"@en .
 
-:67
-    a               schema:Movie ;
+:67 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure ;
-    f_schema:gross  2.5119e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure ;
+    f_schema:gross 2.5119e+08 ;
     f_schema:rating 7.5e+00 ;
-    f_schema:stars  :JackNicholson, :KimBasinger, :MichaelKeaton, :RobertWuhl ;
-    f_schema:vote   3.44868e+05 ;
-    f_schema:year   "1989"^^xsd:gYear ;
+    f_schema:stars :JackNicholson,
+        :KimBasinger,
+        :MichaelKeaton,
+        :RobertWuhl ;
+    f_schema:vote 3.44868e+05 ;
+    f_schema:year "1989"^^xsd:gYear ;
     schema:director :TimBurton ;
-    schema:name     "Batman"@en .
+    schema:name "Batman"@en .
 
-:68
-    a               schema:Movie ;
+:68 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Crime, f_schema:Fantasy ;
-    f_schema:gross  1.6283e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Crime,
+        f_schema:Fantasy ;
+    f_schema:gross 1.6283e+08 ;
     f_schema:rating 7e+00 ;
-    f_schema:stars  :ChristopherWalken, :DannyDeVito, :MichaelKeaton, :MichellePfeiffer ;
-    f_schema:vote   2.79545e+05 ;
-    f_schema:year   "1992"^^xsd:gYear ;
+    f_schema:stars :ChristopherWalken,
+        :DannyDeVito,
+        :MichaelKeaton,
+        :MichellePfeiffer ;
+    f_schema:vote 2.79545e+05 ;
+    f_schema:year "1992"^^xsd:gYear ;
     schema:director :TimBurton ;
-    schema:name     "Batman Returns"@en .
+    schema:name "Batman Returns"@en .
 
-:69
-    a               schema:Movie ;
+:69 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure ;
-    f_schema:gross  1.8403e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure ;
+    f_schema:gross 1.8403e+08 ;
     f_schema:rating 5.4e+00 ;
-    f_schema:stars  :JimCarrey, :NicoleKidman, :TommyLeeJones, :ValKilmer ;
-    f_schema:vote   2.3823e+05 ;
-    f_schema:year   "1995"^^xsd:gYear ;
+    f_schema:stars :JimCarrey,
+        :NicoleKidman,
+        :TommyLeeJones,
+        :ValKilmer ;
+    f_schema:vote 2.3823e+05 ;
+    f_schema:year "1995"^^xsd:gYear ;
     schema:director :JoelSchumacher ;
-    schema:name     "Batman Forever"@en .
+    schema:name "Batman Forever"@en .
 
-:7
-    a               schema:Movie ;
+:7 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:Crime ;
-    f_schema:gross  1.0254e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Crime ;
+    f_schema:gross 1.0254e+08 ;
     f_schema:rating 5.3e+00 ;
-    f_schema:stars  :BenAffleck, :ColinFarrell, :JenniferGarner, :MarkStevenJohnson, :MichaelClarkeDuncan ;
-    f_schema:vote   2.08847e+05 ;
-    f_schema:year   "2003"^^xsd:gYear ;
+    f_schema:stars :BenAffleck,
+        :ColinFarrell,
+        :JenniferGarner,
+        :MarkStevenJohnson,
+        :MichaelClarkeDuncan ;
+    f_schema:vote 2.08847e+05 ;
+    f_schema:year "2003"^^xsd:gYear ;
     schema:director :MarkStevenJohnson ;
-    schema:name     "Daredevil"@en .
+    schema:name "Daredevil"@en .
 
-:70
-    a               schema:Movie ;
+:70 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:SciFi ;
-    f_schema:gross  1.0733e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:SciFi ;
+    f_schema:gross 1.0733e+08 ;
     f_schema:rating 3.8e+00 ;
-    f_schema:stars  :ArnoldSchwarzenegger, :ChrisODonnell, :GeorgeClooney, :UmaThurman ;
-    f_schema:vote   2.37759e+05 ;
-    f_schema:year   "1997"^^xsd:gYear ;
+    f_schema:stars :ArnoldSchwarzenegger,
+        :ChrisODonnell,
+        :GeorgeClooney,
+        :UmaThurman ;
+    f_schema:vote 2.37759e+05 ;
+    f_schema:year "1997"^^xsd:gYear ;
     schema:director :JoelSchumacher ;
-    schema:name     "Batman & Robin"@en .
+    schema:name "Batman & Robin"@en .
 
-:71
-    a               schema:Movie ;
+:71 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Crime ;
-    f_schema:gross  1.71e+06 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Crime ;
+    f_schema:gross 1.71e+06 ;
     f_schema:rating 2.9e+00 ;
-    f_schema:stars  :AnnabethGish, :JuddNelson, :RichardRoundtree, :ShaquilleONeal ;
-    f_schema:vote   1.1519e+04 ;
-    f_schema:year   "1997"^^xsd:gYear ;
+    f_schema:stars :AnnabethGish,
+        :JuddNelson,
+        :RichardRoundtree,
+        :ShaquilleONeal ;
+    f_schema:vote 1.1519e+04 ;
+    f_schema:year "1997"^^xsd:gYear ;
     schema:director :KennethJohnson ;
-    schema:name     "Steel"@en .
+    schema:name "Steel"@en .
 
-:72
-    a               schema:Movie ;
+:72 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Crime, f_schema:Fantasy ;
-    f_schema:gross  4.02e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Crime,
+        f_schema:Fantasy ;
+    f_schema:gross 4.02e+07 ;
     f_schema:rating 3.4e+00 ;
-    f_schema:stars  :BenjaminBratt, :HalleBerry, :LambertWilson, :SharonStone ;
-    f_schema:vote   1.12972e+05 ;
-    f_schema:year   "2004"^^xsd:gYear ;
+    f_schema:stars :BenjaminBratt,
+        :HalleBerry,
+        :LambertWilson,
+        :SharonStone ;
+    f_schema:vote 1.12972e+05 ;
+    f_schema:year "2004"^^xsd:gYear ;
     schema:director :Pitof ;
-    schema:name     "Catwoman"@en .
+    schema:name "Catwoman"@en .
 
-:73
-    a               schema:Movie ;
+:73 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Fantasy, f_schema:Horror ;
-    f_schema:gross  7.598e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Fantasy,
+        f_schema:Horror ;
+    f_schema:gross 7.598e+07 ;
     f_schema:rating 7e+00 ;
-    f_schema:stars  :DjimonHounsou, :KeanuReeves, :RachelWeisz, :ShiaLaBeouf ;
-    f_schema:vote   3.15617e+05 ;
-    f_schema:year   "2005"^^xsd:gYear ;
+    f_schema:stars :DjimonHounsou,
+        :KeanuReeves,
+        :RachelWeisz,
+        :ShiaLaBeouf ;
+    f_schema:vote 3.15617e+05 ;
+    f_schema:year "2005"^^xsd:gYear ;
     schema:director :FrancisLawrence ;
-    schema:name     "Constantine"@en .
+    schema:name "Constantine"@en .
 
-:74
-    a               schema:Movie ;
+:74 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure ;
-    f_schema:gross  2.0685e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure ;
+    f_schema:gross 2.0685e+08 ;
     f_schema:rating 8.2e+00 ;
-    f_schema:stars  :ChristianBale, :KenWatanabe, :LiamNeeson, :MichaelCaine ;
-    f_schema:vote   1.33814e+06 ;
-    f_schema:year   "2005"^^xsd:gYear ;
+    f_schema:stars :ChristianBale,
+        :KenWatanabe,
+        :LiamNeeson,
+        :MichaelCaine ;
+    f_schema:vote 1.33814e+06 ;
+    f_schema:year "2005"^^xsd:gYear ;
     schema:director :ChristopherNolan ;
-    schema:name     "Batman Begins"@en .
+    schema:name "Batman Begins"@en .
 
-:75
-    a               schema:Movie ;
+:75 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:SciFi ;
-    f_schema:gross  2.0008e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:SciFi ;
+    f_schema:gross 2.0008e+08 ;
     f_schema:rating 6e+00 ;
-    f_schema:stars  :BrandonRouth, :JamesMarsden, :KateBosworth, :KevinSpacey ;
-    f_schema:vote   2.73696e+05 ;
-    f_schema:year   "2006"^^xsd:gYear ;
+    f_schema:stars :BrandonRouth,
+        :JamesMarsden,
+        :KateBosworth,
+        :KevinSpacey ;
+    f_schema:vote 2.73696e+05 ;
+    f_schema:year "2006"^^xsd:gYear ;
     schema:director :BryanSinger ;
-    schema:name     "Superman Returns"@en .
+    schema:name "Superman Returns"@en .
 
-:76
-    a               schema:Movie ;
+:76 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Crime, f_schema:Drama ;
-    f_schema:gross  5.3486e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Crime,
+        f_schema:Drama ;
+    f_schema:gross 5.3486e+08 ;
     f_schema:rating 9e+00 ;
-    f_schema:stars  :AaronEckhart, :ChristianBale, :HeathLedger, :MichaelCaine ;
-    f_schema:vote   2.369304e+06 ;
-    f_schema:year   "2008"^^xsd:gYear ;
+    f_schema:stars :AaronEckhart,
+        :ChristianBale,
+        :HeathLedger,
+        :MichaelCaine ;
+    f_schema:vote 2.369304e+06 ;
+    f_schema:year "2008"^^xsd:gYear ;
     schema:director :ChristopherNolan ;
-    schema:name     "The Dark Knight"@en .
+    schema:name "The Dark Knight"@en .
 
-:77
-    a               schema:Movie ;
+:77 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Drama, f_schema:Mystery ;
-    f_schema:gross  1.0751e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Drama,
+        f_schema:Mystery ;
+    f_schema:gross 1.0751e+08 ;
     f_schema:rating 7.6e+00 ;
-    f_schema:stars  :CarlaGugino, :JackieEarleHaley, :MalinAkerman, :PatrickWilson ;
-    f_schema:vote   5.18415e+05 ;
-    f_schema:year   "2009"^^xsd:gYear ;
+    f_schema:stars :CarlaGugino,
+        :JackieEarleHaley,
+        :MalinAkerman,
+        :PatrickWilson ;
+    f_schema:vote 5.18415e+05 ;
+    f_schema:year "2009"^^xsd:gYear ;
     schema:director :ZackSnyder ;
-    schema:name     "Watchmen"@en .
+    schema:name "Watchmen"@en .
 
-:78
-    a               schema:Movie ;
+:78 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Drama, f_schema:Fantasy ;
-    f_schema:gross  1.054e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Drama,
+        f_schema:Fantasy ;
+    f_schema:gross 1.054e+07 ;
     f_schema:rating 4.7e+00 ;
-    f_schema:stars  :JohnMalkovich, :JoshBrolin, :MeganFox, :MichaelFassbender ;
-    f_schema:vote   5.6225e+04 ;
-    f_schema:year   "2010"^^xsd:gYear ;
+    f_schema:stars :JohnMalkovich,
+        :JoshBrolin,
+        :MeganFox,
+        :MichaelFassbender ;
+    f_schema:vote 5.6225e+04 ;
+    f_schema:year "2010"^^xsd:gYear ;
     schema:director :JimmyHayward ;
-    schema:name     "Jonah Hex"@en .
+    schema:name "Jonah Hex"@en .
 
-:79
-    a               schema:Movie ;
+:79 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  1.166e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 1.166e+08 ;
     f_schema:rating 5.5e+00 ;
-    f_schema:stars  :BlakeLively, :MarkStrong, :PeterSarsgaard, :RyanReynolds ;
-    f_schema:vote   2.70939e+05 ;
-    f_schema:year   "2011"^^xsd:gYear ;
+    f_schema:stars :BlakeLively,
+        :MarkStrong,
+        :PeterSarsgaard,
+        :RyanReynolds ;
+    f_schema:vote 2.70939e+05 ;
+    f_schema:year "2011"^^xsd:gYear ;
     schema:director :MartinCampbell ;
-    schema:name     "Green Lantern"@en .
+    schema:name "Green Lantern"@en .
 
-:8
-    a               schema:Movie ;
+:8 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:SciFi, f_schema:Thriller ;
-    f_schema:gross  2.1495e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:SciFi,
+        f_schema:Thriller ;
+    f_schema:gross 2.1495e+08 ;
     f_schema:rating 7.4e+00 ;
-    f_schema:stars  :BryanSinger, :HalleBerry, :HughJackman, :IanMcKellen, :PatrickStewart ;
-    f_schema:vote   5.19747e+05 ;
-    f_schema:year   "2003"^^xsd:gYear ;
+    f_schema:stars :BryanSinger,
+        :HalleBerry,
+        :HughJackman,
+        :IanMcKellen,
+        :PatrickStewart ;
+    f_schema:vote 5.19747e+05 ;
+    f_schema:year "2003"^^xsd:gYear ;
     schema:director :BryanSinger ;
-    schema:name     "X2: X-Men United"@en .
+    schema:name "X2: X-Men United"@en .
 
-:80
-    a               schema:Movie ;
+:80 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure ;
-    f_schema:gross  4.4814e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure ;
+    f_schema:gross 4.4814e+08 ;
     f_schema:rating 8.4e+00 ;
-    f_schema:stars  :AnneHathaway, :ChristianBale, :GaryOldman, :TomHardy ;
-    f_schema:vote   1.552223e+06 ;
-    f_schema:year   "2012"^^xsd:gYear ;
+    f_schema:stars :AnneHathaway,
+        :ChristianBale,
+        :GaryOldman,
+        :TomHardy ;
+    f_schema:vote 1.552223e+06 ;
+    f_schema:year "2012"^^xsd:gYear ;
     schema:director :ChristopherNolan ;
-    schema:name     "The Dark Knight Rises"@en .
+    schema:name "The Dark Knight Rises"@en .
 
-:81
-    a               schema:Movie ;
+:81 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  2.9105e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 2.9105e+08 ;
     f_schema:rating 7e+00 ;
-    f_schema:stars  :AmyAdams, :DianeLane, :HenryCavill, :MichaelShannon ;
-    f_schema:vote   7.18956e+05 ;
-    f_schema:year   "2013"^^xsd:gYear ;
+    f_schema:stars :AmyAdams,
+        :DianeLane,
+        :HenryCavill,
+        :MichaelShannon ;
+    f_schema:vote 7.18956e+05 ;
+    f_schema:year "2013"^^xsd:gYear ;
     schema:director :ZackSnyder ;
-    schema:name     "Man of Steel"@en .
+    schema:name "Man of Steel"@en .
 
-:82
-    a               schema:Movie ;
+:82 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross  3.3036e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 3.3036e+08 ;
     f_schema:rating 6.4e+00 ;
-    f_schema:stars  :AmyAdams, :BenAffleck, :HenryCavill, :JesseEisenberg ;
-    f_schema:vote   6.5327e+05 ;
-    f_schema:year   "2016"^^xsd:gYear ;
+    f_schema:stars :AmyAdams,
+        :BenAffleck,
+        :HenryCavill,
+        :JesseEisenberg ;
+    f_schema:vote 6.5327e+05 ;
+    f_schema:year "2016"^^xsd:gYear ;
     schema:director :ZackSnyder ;
-    schema:name     "Batman v Superman: Dawn of Justice"@en .
+    schema:name "Batman v Superman: Dawn of Justice"@en .
 
-:83
-    a               schema:Movie ;
+:83 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Fantasy ;
-    f_schema:gross  3.251e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Fantasy ;
+    f_schema:gross 3.251e+08 ;
     f_schema:rating 5.9e+00 ;
-    f_schema:stars  :JaredLeto, :MargotRobbie, :ViolaDavis, :WillSmith ;
-    f_schema:vote   6.22206e+05 ;
-    f_schema:year   "2016"^^xsd:gYear ;
+    f_schema:stars :JaredLeto,
+        :MargotRobbie,
+        :ViolaDavis,
+        :WillSmith ;
+    f_schema:vote 6.22206e+05 ;
+    f_schema:year "2016"^^xsd:gYear ;
     schema:director :DavidAyer ;
-    schema:name     "Suicide Squad"@en .
+    schema:name "Suicide Squad"@en .
 
-:84
-    a               schema:Movie ;
+:84 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Fantasy ;
-    f_schema:gross  4.1256e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Fantasy ;
+    f_schema:gross 4.1256e+08 ;
     f_schema:rating 7.4e+00 ;
-    f_schema:stars  :ChrisPine, :GalGadot, :LucyDavis, :RobinWright ;
-    f_schema:vote   5.96901e+05 ;
-    f_schema:year   "2017"^^xsd:gYear ;
+    f_schema:stars :ChrisPine,
+        :GalGadot,
+        :LucyDavis,
+        :RobinWright ;
+    f_schema:vote 5.96901e+05 ;
+    f_schema:year "2017"^^xsd:gYear ;
     schema:director :PattyJenkins ;
-    schema:name     "Wonder Woman"@en .
+    schema:name "Wonder Woman"@en .
 
-:85
-    a               schema:Movie ;
+:85 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Fantasy ;
-    f_schema:gross  2.2902e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Fantasy ;
+    f_schema:gross 2.2902e+08 ;
     f_schema:rating 6.1e+00 ;
-    f_schema:stars  :BenAffleck, :EzraMiller, :GalGadot, :JasonMomoa ;
-    f_schema:vote   4.16837e+05 ;
-    f_schema:year   "2017"^^xsd:gYear ;
+    f_schema:stars :BenAffleck,
+        :EzraMiller,
+        :GalGadot,
+        :JasonMomoa ;
+    f_schema:vote 4.16837e+05 ;
+    f_schema:year "2017"^^xsd:gYear ;
     schema:director :ZackSnyder ;
-    schema:name     "Justice League"@en .
+    schema:name "Justice League"@en .
 
-:86
-    a               schema:Movie ;
+:86 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Fantasy ;
-    f_schema:gross  3.3506e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Fantasy ;
+    f_schema:gross 3.3506e+08 ;
     f_schema:rating 6.9e+00 ;
-    f_schema:stars  :AmberHeard, :JasonMomoa, :PatrickWilson, :WillemDafoe ;
-    f_schema:vote   4.00424e+05 ;
-    f_schema:year   "2018"^^xsd:gYear ;
+    f_schema:stars :AmberHeard,
+        :JasonMomoa,
+        :PatrickWilson,
+        :WillemDafoe ;
+    f_schema:vote 4.00424e+05 ;
+    f_schema:year "2018"^^xsd:gYear ;
     schema:director :JamesWan ;
-    schema:name     "Aquaman"@en .
+    schema:name "Aquaman"@en .
 
-:87
-    a               schema:Movie ;
+:87 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Comedy ;
-    f_schema:gross  1.4037e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Comedy ;
+    f_schema:gross 1.4037e+08 ;
     f_schema:rating 7e+00 ;
-    f_schema:stars  :AsherAngel, :JackDylanGrazer, :MarkStrong, :ZacharyLevi ;
-    f_schema:vote   2.79604e+05 ;
-    f_schema:year   "2019"^^xsd:gYear ;
+    f_schema:stars :AsherAngel,
+        :JackDylanGrazer,
+        :MarkStrong,
+        :ZacharyLevi ;
+    f_schema:vote 2.79604e+05 ;
+    f_schema:year "2019"^^xsd:gYear ;
     schema:director :DavidFSandberg ;
-    schema:name     "Shazam!"@en .
+    schema:name "Shazam!"@en .
 
-:88
-    a               schema:Movie ;
+:88 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Crime, f_schema:Drama, f_schema:Thriller ;
-    f_schema:gross  3.3545e+08 ;
+    f_schema:genre f_schema:Crime,
+        f_schema:Drama,
+        f_schema:Thriller ;
+    f_schema:gross 3.3545e+08 ;
     f_schema:rating 8.4e+00 ;
-    f_schema:stars  :FrancesConroy, :JoaquinPhoenix, :RobertDeNiro, :ZazieBeetz ;
-    f_schema:vote   1.014748e+06 ;
-    f_schema:year   "2019"^^xsd:gYear ;
+    f_schema:stars :FrancesConroy,
+        :JoaquinPhoenix,
+        :RobertDeNiro,
+        :ZazieBeetz ;
+    f_schema:vote 1.014748e+06 ;
+    f_schema:year "2019"^^xsd:gYear ;
     schema:director :ToddPhillips ;
-    schema:name     "Joker"@en .
+    schema:name "Joker"@en .
 
-:89
-    a               schema:Movie ;
+:89 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Comedy ;
-    f_schema:gross  8.416e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Comedy ;
+    f_schema:gross 8.416e+07 ;
     f_schema:rating 6.1e+00 ;
-    f_schema:stars  :JurneeSmollett, :MargotRobbie, :MaryElizabethWinstead, :RosiePerez ;
-    f_schema:vote   1.86805e+05 ;
-    f_schema:year   "2020"^^xsd:gYear ;
+    f_schema:stars :JurneeSmollett,
+        :MargotRobbie,
+        :MaryElizabethWinstead,
+        :RosiePerez ;
+    f_schema:vote 1.86805e+05 ;
+    f_schema:year "2020"^^xsd:gYear ;
     schema:director :CathyYan ;
-    schema:name     "Birds of Prey"@en .
+    schema:name "Birds of Prey"@en .
 
-:9
-    a               schema:Movie ;
+:9 a schema:Movie ;
     f_schema:entity f_schema:MARVEL ;
-    f_schema:genre  f_schema:Action, f_schema:SciFi ;
-    f_schema:gross  1.3218e+08 ;
+    f_schema:genre f_schema:Action,
+        f_schema:SciFi ;
+    f_schema:gross 1.3218e+08 ;
     f_schema:rating 5.6e+00 ;
-    f_schema:stars  :AngLee, :EricBana, :JenniferConnelly, :JoshLucas, :SamElliott ;
-    f_schema:vote   2.55002e+05 ;
-    f_schema:year   "2003"^^xsd:gYear ;
+    f_schema:stars :AngLee,
+        :EricBana,
+        :JenniferConnelly,
+        :JoshLucas,
+        :SamElliott ;
+    f_schema:vote 2.55002e+05 ;
+    f_schema:year "2003"^^xsd:gYear ;
     schema:director :AngLee ;
-    schema:name     "Hulk"@en .
+    schema:name "Hulk"@en .
 
-:90
-    a               schema:Movie ;
+:90 a schema:Movie ;
     f_schema:entity f_schema:DC ;
-    f_schema:genre  f_schema:Action, f_schema:Adventure, f_schema:Fantasy ;
-    f_schema:gross  4.637e+07 ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:Fantasy ;
+    f_schema:gross 4.637e+07 ;
     f_schema:rating 5.4e+00 ;
-    f_schema:stars  :ChrisPine, :GalGadot, :KristenWiig, :PedroPascal ;
-    f_schema:vote   2.12554e+05 ;
-    f_schema:year   "2020"^^xsd:gYear ;
+    f_schema:stars :ChrisPine,
+        :GalGadot,
+        :KristenWiig,
+        :PedroPascal ;
+    f_schema:vote 2.12554e+05 ;
+    f_schema:year "2020"^^xsd:gYear ;
     schema:director :PattyJenkins ;
-    schema:name     "Wonder Woman 1984"@en .
+    schema:name "Wonder Woman 1984"@en .
 
-:AaronEckhart
-    a           schema:Person ;
+:AaronEckhart a schema:Person ;
     schema:name "Aaron Eckhart" .
 
-:AdamWest
-    a           schema:Person ;
+:AdamWest a schema:Person ;
     schema:name "Adam West" .
 
-:AdrienneBarbeau
-    a           schema:Person ;
+:AdrienneBarbeau a schema:Person ;
     schema:name "Adrienne Barbeau" .
 
-:AlfredMolina
-    a           schema:Person ;
+:AlfredMolina a schema:Person ;
     schema:name "Alfred Molina" .
 
-:AliceBraga
-    a           schema:Person ;
+:AliceBraga a schema:Person ;
     schema:name "Alice Braga" .
 
-:AmberHeard
-    a           schema:Person ;
+:AmberHeard a schema:Person ;
     schema:name "Amber Heard" .
 
-:AnnabethGish
-    a           schema:Person ;
+:AnnabethGish a schema:Person ;
     schema:name "Annabeth Gish" .
 
-:AnneHathaway
-    a           schema:Person ;
+:AnneHathaway a schema:Person ;
     schema:name "Anne Hathaway" .
 
-:AnthonyHopkins
-    a           schema:Person ;
+:AnthonyHopkins a schema:Person ;
     schema:name "Anthony Hopkins" .
 
-:AnyaTaylorJoy
-    a           schema:Person ;
+:AnyaTaylorJoy a schema:Person ;
     schema:name "Anya Taylor-Joy" .
 
-:ArnoldSchwarzenegger
-    a           schema:Person ;
+:ArnoldSchwarzenegger a schema:Person ;
     schema:name "Arnold Schwarzenegger" .
 
-:AsherAngel
-    a           schema:Person ;
+:AsherAngel a schema:Person ;
     schema:name "Asher Angel" .
 
-:BenMendelsohn
-    a           schema:Person ;
+:BenMendelsohn a schema:Person ;
     schema:name "Ben Mendelsohn" .
 
-:BenedictCumberbatch
-    a           schema:Person ;
+:BenedictCumberbatch a schema:Person ;
     schema:name "Benedict Cumberbatch" .
 
-:BenedictWong
-    a           schema:Person ;
+:BenedictWong a schema:Person ;
     schema:name "Benedict Wong" .
 
-:BenjaminBratt
-    a           schema:Person ;
+:BenjaminBratt a schema:Person ;
     schema:name "Benjamin Bratt" .
 
-:BlakeLively
-    a           schema:Person ;
+:BlakeLively a schema:Person ;
     schema:name "Blake Lively" .
 
-:BoydHolbrook
-    a           schema:Person ;
+:BoydHolbrook a schema:Person ;
     schema:name "Boyd Holbrook" .
 
-:BradleyCooper
-    a           schema:Person ;
+:BradleyCooper a schema:Person ;
     schema:name "Bradley Cooper" .
 
-:BrandonRouth
-    a           schema:Person ;
+:BrandonRouth a schema:Person ;
     schema:name "Brandon Routh" .
 
-:BrianTaylor
-    a           schema:Person ;
+:BrianTaylor a schema:Person ;
     schema:name "Brian Taylor" .
 
-:BrieLarson
-    a           schema:Person ;
+:BrieLarson a schema:Person ;
     schema:name "Brie Larson" .
 
-:BuckyBarnes
-    a                      p_schema:Character ;
-    f_schema:conflict      :WorldWarII ;
-    f_schema:performer     :DominicCooper ;
+:BuckyBarnes a p_schema:Character ;
+    f_schema:conflict :WorldWarII ;
+    f_schema:performer :DominicCooper ;
     f_schema:presentinwork :26 ;
-    rdfs:seeAlso           p_data:Hbuckybarneswintersoldier, p_data:Pbuckybarneswintersoldier ;
-    schema:name            "Bucky Barnes" .
+    rdfs:seeAlso p_data:Hbuckybarneswintersoldier,
+        p_data:Pbuckybarneswintersoldier ;
+    schema:name "Bucky Barnes" .
 
-:BurtWard
-    a           schema:Person ;
+:BurtWard a schema:Person ;
     schema:name "Burt Ward" .
 
-:CarlaGugino
-    a           schema:Person ;
+:CarlaGugino a schema:Person ;
     schema:name "Carla Gugino" .
 
-:CateBlanchett
-    a           schema:Person ;
+:CateBlanchett a schema:Person ;
     schema:name "Cate Blanchett" .
 
-:CathyYan
-    a           schema:Person ;
+:CathyYan a schema:Person ;
     schema:name "Cathy Yan" .
 
-:CesarRomero
-    a           schema:Person ;
+:CesarRomero a schema:Person ;
     schema:name "Cesar Romero" .
 
-:ChadwickBoseman
-    a           schema:Person ;
+:ChadwickBoseman a schema:Person ;
     schema:name "Chadwick Boseman" .
 
-:CharlesTrowbridge
-    a           schema:Person ;
+:CharlesTrowbridge a schema:Person ;
     schema:name "Charles Trowbridge" .
 
-:CharlieHeaton
-    a           schema:Person ;
+:CharlieHeaton a schema:Person ;
     schema:name "Charlie Heaton" .
 
-:ChiwetelEjiofor
-    a           schema:Person ;
+:ChiwetelEjiofor a schema:Person ;
     schema:name "Chiwetel Ejiofor" .
 
-:ChrisODonnell
-    a           schema:Person ;
+:ChrisODonnell a schema:Person ;
     schema:name "Chris O'Donnell" .
 
-:ChristopherWalken
-    a           schema:Person ;
+:ChristopherWalken a schema:Person ;
     schema:name "Christopher Walken" .
 
-:CiaranHinds
-    a           schema:Person ;
+:CiaranHinds a schema:Person ;
     schema:name "CiarÃ¡n Hinds" .
 
-:ColinFarrell
-    a           schema:Person ;
+:ColinFarrell a schema:Person ;
     schema:name "Colin Farrell" .
 
-:CoreyStoll
-    a           schema:Person ;
+:CoreyStoll a schema:Person ;
     schema:name "Corey Stoll" .
 
-:DafneKeen
-    a           schema:Person ;
+:DafneKeen a schema:Person ;
     schema:name "Dafne Keen" .
 
-:DanaiGurira
-    a           schema:Person ;
+:DanaiGurira a schema:Person ;
     schema:name "Danai Gurira" .
 
-:DannyDeVito
-    a           schema:Person ;
+:DannyDeVito a schema:Person ;
     schema:name "Danny DeVito" .
 
-:DannyHuston
-    a           schema:Person ;
+:DannyHuston a schema:Person ;
     schema:name "Danny Huston" .
 
-:DaveBautista
-    a           schema:Person ;
+:DaveBautista a schema:Person ;
     schema:name "Dave Bautista" .
 
-:DavidAyer
-    a           schema:Person ;
+:DavidAyer a schema:Person ;
     schema:name "David Ayer" .
 
-:DavidFSandberg
-    a           schema:Person ;
+:DavidFSandberg a schema:Person ;
     schema:name "David F. Sandberg" .
 
-:DavidHess
-    a           schema:Person ;
+:DavidHess a schema:Person ;
     schema:name "David Hess" .
 
-:DianeLane
-    a           schema:Person ;
+:DianeLane a schema:Person ;
     schema:name "Diane Lane" .
 
-:DickDurock
-    a           schema:Person ;
+:DickDurock a schema:Person ;
     schema:name "Dick Durock" .
 
-:DickPurcell
-    a           schema:Person ;
+:DickPurcell a schema:Person ;
     schema:name "Dick Purcell" .
 
-:DjimonHounsou
-    a           schema:Person ;
+:DjimonHounsou a schema:Person ;
     schema:name "Djimon Hounsou" .
 
-:DominicWest
-    a           schema:Person ;
+:DominicWest a schema:Person ;
     schema:name "Dominic West" .
 
-:DougHutchison
-    a           schema:Person ;
+:DougHutchison a schema:Person ;
     schema:name "Doug Hutchison" .
 
-:EdGale
-    a           schema:Person ;
+:EdGale a schema:Person ;
     schema:name "Ed Gale" .
 
-:EdSkrein
-    a           schema:Person ;
+:EdSkrein a schema:Person ;
     schema:name "Ed Skrein" .
 
-:EdwardNorton
-    a           schema:Person ;
+:EdwardNorton a schema:Person ;
     schema:name "Edward Norton" .
 
-:EricBana
-    a           schema:Person ;
+:EricBana a schema:Person ;
     schema:name "Eric Bana" .
 
-:EvaMendes
-    a           schema:Person ;
+:EvaMendes a schema:Person ;
     schema:name "Eva Mendes" .
 
-:EzraMiller
-    a           schema:Person ;
+:EzraMiller a schema:Person ;
     schema:name "Ezra Miller" .
 
-:FayeDunaway
-    a           schema:Person ;
+:FayeDunaway a schema:Person ;
     schema:name "Faye Dunaway" .
 
-:FrancesConroy
-    a           schema:Person ;
+:FrancesConroy a schema:Person ;
     schema:name "Frances Conroy" .
 
-:FrancisLawrence
-    a           schema:Person ;
+:FrancisLawrence a schema:Person ;
     schema:name "Francis Lawrence" .
 
-:GaryOldman
-    a           schema:Person ;
+:GaryOldman a schema:Person ;
     schema:name "Gary Oldman" .
 
-:GeorgeClooney
-    a           schema:Person ;
+:GeorgeClooney a schema:Person ;
     schema:name "George Clooney" .
 
-:GeorgeReeves
-    a           schema:Person ;
+:GeorgeReeves a schema:Person ;
     schema:name "George Reeves" .
 
-:GoranVisnjic
-    a           schema:Person ;
+:GoranVisnjic a schema:Person ;
     schema:name "Goran Visnjic" .
 
-:GuyPearce
-    a           schema:Person ;
+:GuyPearce a schema:Person ;
     schema:name "Guy Pearce" .
 
-:HeathLedger
-    a           schema:Person ;
+:HeathLedger a schema:Person ;
     schema:name "Heath Ledger" .
 
-:HeatherLocklear
-    a           schema:Person ;
+:HeatherLocklear a schema:Person ;
     schema:name "Heather Locklear" .
 
-:HelenSlater
-    a           schema:Person ;
+:HelenSlater a schema:Person ;
     schema:name "Helen Slater" .
 
-:IdrisElba
-    a           schema:Person ;
+:IdrisElba a schema:Person ;
     schema:name "Idris Elba" .
 
-:IrrfanKhan
-    a           schema:Person ;
+:IrrfanKhan a schema:Person ;
     schema:name "Irrfan Khan" .
 
-:JackDylanGrazer
-    a           schema:Person ;
+:JackDylanGrazer a schema:Person ;
     schema:name "Jack Dylan Grazer" .
 
-:JackNicholson
-    a           schema:Person ;
+:JackNicholson a schema:Person ;
     schema:name "Jack Nicholson" .
 
-:JackieEarleHaley
-    a           schema:Person ;
+:JackieEarleHaley a schema:Person ;
     schema:name "Jackie Earle Haley" .
 
-:JakeGyllenhaal
-    a           schema:Person ;
+:JakeGyllenhaal a schema:Person ;
     schema:name "Jake Gyllenhaal" .
 
-:JamesMarsden
-    a           schema:Person ;
+:JamesMarsden a schema:Person ;
     schema:name "James Marsden" .
 
-:JamesWan
-    a           schema:Person ;
+:JamesWan a schema:Person ;
     schema:name "James Wan" .
 
-:JamieBell
-    a           schema:Person ;
+:JamieBell a schema:Person ;
     schema:name "Jamie Bell" .
 
-:JamieFoxx
-    a           schema:Person ;
+:JamieFoxx a schema:Person ;
     schema:name "Jamie Foxx" .
 
-:JaredLeto
-    a           schema:Person ;
+:JaredLeto a schema:Person ;
     schema:name "Jared Leto" .
 
-:JeannotSzwarc
-    a           schema:Person ;
+:JeannotSzwarc a schema:Person ;
     schema:name "Jeannot Szwarc" .
 
-:JeffBridges
-    a           schema:Person ;
+:JeffBridges a schema:Person ;
     schema:name "Jeff Bridges" .
 
-:JeffCorey
-    a           schema:Person ;
+:JeffCorey a schema:Person ;
     schema:name "Jeff Corey" .
 
-:JeffreyJones
-    a           schema:Person ;
+:JeffreyJones a schema:Person ;
     schema:name "Jeffrey Jones" .
 
-:JenniferConnelly
-    a           schema:Person ;
+:JenniferConnelly a schema:Person ;
     schema:name "Jennifer Connelly" .
 
-:JeremyRenner
-    a           schema:Person ;
+:JeremyRenner a schema:Person ;
     schema:name "Jeremy Renner" .
 
-:JesseEisenberg
-    a           schema:Person ;
+:JesseEisenberg a schema:Person ;
     schema:name "Jesse Eisenberg" .
 
-:JimCarrey
-    a           schema:Person ;
+:JimCarrey a schema:Person ;
     schema:name "Jim Carrey" .
 
-:JimWynorski
-    a           schema:Person ;
+:JimWynorski a schema:Person ;
     schema:name "Jim Wynorski" .
 
-:JimmyHayward
-    a           schema:Person ;
+:JimmyHayward a schema:Person ;
     schema:name "Jimmy Hayward" .
 
-:JoaquinPhoenix
-    a           schema:Person ;
+:JoaquinPhoenix a schema:Person ;
     schema:name "Joaquin Phoenix" .
 
-:JohnMalkovich
-    a           schema:Person ;
+:JohnMalkovich a schema:Person ;
     schema:name "John Malkovich" .
 
-:JohnTravolta
-    a           schema:Person ;
+:JohnTravolta a schema:Person ;
     schema:name "John Travolta" .
 
-:JoshLucas
-    a           schema:Person ;
+:JoshLucas a schema:Person ;
     schema:name "Josh Lucas" .
 
-:JuddNelson
-    a           schema:Person ;
+:JuddNelson a schema:Person ;
     schema:name "Judd Nelson" .
 
-:JudeLaw
-    a           schema:Person ;
+:JudeLaw a schema:Person ;
     schema:name "Jude Law" .
 
-:JulianDennison
-    a           schema:Person ;
+:JulianDennison a schema:Person ;
     schema:name "Julian Dennison" .
 
-:JulieBenz
-    a           schema:Person ;
+:JulieBenz a schema:Person ;
     schema:name "Julie Benz" .
 
-:JurneeSmollett
-    a           schema:Person ;
+:JurneeSmollett a schema:Person ;
     schema:name "Jurnee Smollett" .
 
-:KateBosworth
-    a           schema:Person ;
+:KateBosworth a schema:Person ;
     schema:name "Kate Bosworth" .
 
-:KateMara
-    a           schema:Person ;
+:KateMara a schema:Person ;
     schema:name "Kate Mara" .
 
-:KeanuReeves
-    a           schema:Person ;
+:KeanuReeves a schema:Person ;
     schema:name "Keanu Reeves" .
 
-:KenWatanabe
-    a           schema:Person ;
+:KenWatanabe a schema:Person ;
     schema:name "Ken Watanabe" .
 
-:KennethJohnson
-    a           schema:Person ;
+:KennethJohnson a schema:Person ;
     schema:name "Kenneth Johnson" .
 
-:KevinBacon
-    a           schema:Person ;
+:KevinBacon a schema:Person ;
     schema:name "Kevin Bacon" .
 
-:KevinSpacey
-    a           schema:Person ;
+:KevinSpacey a schema:Person ;
     schema:name "Kevin Spacey" .
 
-:KimBasinger
-    a           schema:Person ;
+:KimBasinger a schema:Person ;
     schema:name "Kim Basinger" .
 
-:KirstenZien
-    a           schema:Person ;
+:KirstenZien a schema:Person ;
     schema:name "Kirsten Zien" .
 
-:KristenWiig
-    a           schema:Person ;
+:KristenWiig a schema:Person ;
     schema:name "Kristen Wiig" .
 
-:LambertWilson
-    a           schema:Person ;
+:LambertWilson a schema:Person ;
     schema:name "Lambert Wilson" .
 
-:LauraHarring
-    a           schema:Person ;
+:LauraHarring a schema:Person ;
     schema:name "Laura Harring" .
 
-:LeaThompson
-    a           schema:Person ;
+:LeaThompson a schema:Person ;
     schema:name "Lea Thompson" .
 
-:LeeMeriwether
-    a           schema:Person ;
+:LeeMeriwether a schema:Person ;
     schema:name "Lee Meriwether" .
 
-:LeeSholem
-    a           schema:Person ;
+:LeeSholem a schema:Person ;
     schema:name "Lee Sholem" .
 
-:LeonorVarela
-    a           schema:Person ;
+:LeonorVarela a schema:Person ;
     schema:name "Leonor Varela" .
 
-:LeslieHMartinson
-    a           schema:Person ;
+:LeslieHMartinson a schema:Person ;
     schema:name "Leslie H. Martinson" .
 
-:LiamNeeson
-    a           schema:Person ;
+:LiamNeeson a schema:Person ;
     schema:name "Liam Neeson" .
 
-:LievSchreiber
-    a           schema:Person ;
+:LievSchreiber a schema:Person ;
     schema:name "Liev Schreiber" .
 
-:LionelAtwill
-    a           schema:Person ;
+:LionelAtwill a schema:Person ;
     schema:name "Lionel Atwill" .
 
-:LivTyler
-    a           schema:Person ;
+:LivTyler a schema:Person ;
     schema:name "Liv Tyler" .
 
-:LornaGray
-    a           schema:Person ;
+:LornaGray a schema:Person ;
     schema:name "Lorna Gray" .
 
-:LucyDavis
-    a           schema:Person ;
+:LucyDavis a schema:Person ;
     schema:name "Lucy Davis" .
 
-:LupitaNyongo
-    a           schema:Person ;
+:LupitaNyongo a schema:Person ;
     schema:name "Lupita Nyong'o" .
 
-:MaisieWilliams
-    a           schema:Person ;
+:MaisieWilliams a schema:Person ;
     schema:name "Maisie Williams" .
 
-:MalinAkerman
-    a           schema:Person ;
+:MalinAkerman a schema:Person ;
     schema:name "Malin Akerman" .
 
-:MarkNeveldine
-    a           schema:Person ;
+:MarkNeveldine a schema:Person ;
     schema:name "Mark Neveldine" .
 
-:MarlonBrando
-    a           schema:Person ;
+:MarlonBrando a schema:Person ;
     schema:name "Marlon Brando" .
 
-:MartinCampbell
-    a           schema:Person ;
+:MartinCampbell a schema:Person ;
     schema:name "Martin Campbell" .
 
-:MaryElizabethWinstead
-    a           schema:Person ;
+:MaryElizabethWinstead a schema:Person ;
     schema:name "Mary Elizabeth Winstead" .
 
-:MattLong
-    a           schema:Person ;
+:MattLong a schema:Person ;
     schema:name "Matt Long" .
 
-:MeganFox
-    a           schema:Person ;
+:MeganFox a schema:Person ;
     schema:name "Megan Fox" .
 
-:MiaFarrow
-    a           schema:Person ;
+:MiaFarrow a schema:Person ;
     schema:name "Mia Farrow" .
 
-:MichaelClarkeDuncan
-    a           schema:Person ;
+:MichaelClarkeDuncan a schema:Person ;
     schema:name "Michael Clarke Duncan" .
 
-:MichaelDouglas
-    a           schema:Person ;
+:MichaelDouglas a schema:Person ;
     schema:name "Michael Douglas" .
 
-:MichaelPena
-    a           schema:Person ;
+:MichaelPena a schema:Person ;
     schema:name "Michael PeÃ±a" .
 
-:MichaelShannon
-    a           schema:Person ;
+:MichaelShannon a schema:Person ;
     schema:name "Michael Shannon" .
 
-:MichellePfeiffer
-    a           schema:Person ;
+:MichellePfeiffer a schema:Person ;
     schema:name "Michelle Pfeiffer" .
 
-:MichelleWilliams
-    a           schema:Person ;
+:MichelleWilliams a schema:Person ;
     schema:name "Michelle Williams" .
 
-:MickeyRourke
-    a           schema:Person ;
+:MickeyRourke a schema:Person ;
     schema:name "Mickey Rourke" .
 
-:MilesTeller
-    a           schema:Person ;
+:MilesTeller a schema:Person ;
     schema:name "Miles Teller" .
 
-:NBusheWright
-    a           schema:Person ;
+:NBusheWright a schema:Person ;
     schema:name "N'Bushe Wright" .
 
-:NealMcDon
-    a           p_schema:Actor ;
+:NealMcDon a p_schema:Actor ;
     schema:name "Neal McDon" .
 
-:NedBeatty
-    a           schema:Person ;
+:NedBeatty a schema:Person ;
     schema:name "Ned Beatty" .
 
-:NicoleKidman
-    a           schema:Person ;
+:NicoleKidman a schema:Person ;
     schema:name "Nicole Kidman" .
 
-:ParkerPosey
-    a           schema:Person ;
+:ParkerPosey a schema:Person ;
     schema:name "Parker Posey" .
 
-:PaulGiamatti
-    a           schema:Person ;
+:PaulGiamatti a schema:Person ;
     schema:name "Paul Giamatti" .
 
-:PedroPascal
-    a           schema:Person ;
+:PedroPascal a schema:Person ;
     schema:name "Pedro Pascal" .
 
-:PeterOToole
-    a           schema:Person ;
+:PeterOToole a schema:Person ;
     schema:name "Peter O'Toole" .
 
-:PeterSarsgaard
-    a           schema:Person ;
+:PeterSarsgaard a schema:Person ;
     schema:name "Peter Sarsgaard" .
 
-:PhyllisCoates
-    a           schema:Person ;
+:PhyllisCoates a schema:Person ;
     schema:name "Phyllis Coates" .
 
-:Pitof
-    a           schema:Person ;
+:Pitof a schema:Person ;
     schema:name "Pitof" .
 
-:RachelMcAdams
-    a           schema:Person ;
+:RachelMcAdams a schema:Person ;
     schema:name "Rachel McAdams" .
 
-:RachelWeisz
-    a           schema:Person ;
+:RachelWeisz a schema:Person ;
     schema:name "Rachel Weisz" .
 
-:RayStevenson
-    a           schema:Person ;
+:RayStevenson a schema:Person ;
     schema:name "Ray Stevenson" .
 
-:RayWise
-    a           schema:Person ;
+:RayWise a schema:Person ;
     schema:name "Ray Wise" .
 
-:RhysIfans
-    a           schema:Person ;
+:RhysIfans a schema:Person ;
     schema:name "Rhys Ifans" .
 
-:RichardDonner
-    a           schema:Person ;
+:RichardDonner a schema:Person ;
     schema:name "Richard Donner" .
 
-:RichardPryor
-    a           schema:Person ;
+:RichardPryor a schema:Person ;
     schema:name "Richard Pryor" .
 
-:RichardRoundtree
-    a           schema:Person ;
+:RichardRoundtree a schema:Person ;
     schema:name "Richard Roundtree" .
 
-:RilaFukushima
-    a           schema:Person ;
+:RilaFukushima a schema:Person ;
     schema:name "Rila Fukushima" .
 
-:RizAhmed
-    a           schema:Person ;
+:RizAhmed a schema:Person ;
     schema:name "Riz Ahmed" .
 
-:RobertDeNiro
-    a           schema:Person ;
+:RobertDeNiro a schema:Person ;
     schema:name "Robert De Niro" .
 
-:RobertRedford
-    a           schema:Person ;
+:RobertRedford a schema:Person ;
     schema:name "Robert Redford" .
 
-:RobertWuhl
-    a           schema:Person ;
+:RobertWuhl a schema:Person ;
     schema:name "Robert Wuhl" .
 
-:RobinWright
-    a           schema:Person ;
+:RobinWright a schema:Person ;
     schema:name "Robin Wright" .
 
-:RonPerlman
-    a           schema:Person ;
+:RonPerlman a schema:Person ;
     schema:name "Ron Perlman" .
 
-:RosiePerez
-    a           schema:Person ;
+:RosiePerez a schema:Person ;
     schema:name "Rosie Perez" .
 
-:SamanthaMathis
-    a           schema:Person ;
+:SamanthaMathis a schema:Person ;
     schema:name "Samantha Mathis" .
 
-:SarahDouglas
-    a           schema:Person ;
+:SarahDouglas a schema:Person ;
     schema:name "Sarah Douglas" .
 
-:ScottHaze
-    a           schema:Person ;
+:ScottHaze a schema:Person ;
     schema:name "Scott Haze" .
 
-:ShaquilleONeal
-    a           schema:Person ;
+:ShaquilleONeal a schema:Person ;
     schema:name "Shaquille O'Neal" .
 
-:SharonStone
-    a           schema:Person ;
+:SharonStone a schema:Person ;
     schema:name "Sharon Stone" .
 
-:ShiaLaBeouf
-    a           schema:Person ;
+:ShiaLaBeouf a schema:Person ;
     schema:name "Shia LaBeouf" .
 
-:SidneyJFurie
-    a           schema:Person ;
+:SidneyJFurie a schema:Person ;
     schema:name "Sidney J. Furie" .
 
-:StellanSkarsgard
-    a           schema:Person ;
+:StellanSkarsgard a schema:Person ;
     schema:name "Stellan SkarsgÃ¥rd" .
 
-:StephenDorff
-    a           schema:Person ;
+:StephenDorff a schema:Person ;
     schema:name "Stephen Dorff" .
 
-:SteveRogers
-    a                      p_schema:Character ;
-    f_schema:performer     :ChrisEvans ;
+:SteveRogers a p_schema:Character ;
+    f_schema:performer :ChrisEvans ;
     f_schema:presentinwork :26 ;
-    rdfs:seeAlso           p_data:Hsteverogerscaptainamerica, p_data:Psteverogerscaptainamerica ;
-    schema:name            "Steve Rogers" .
+    rdfs:seeAlso p_data:Hsteverogerscaptainamerica,
+        p_data:Psteverogerscaptainamerica ;
+    schema:name "Steve Rogers" .
 
-:TJMiller
-    a           schema:Person ;
+:TJMiller a schema:Person ;
     schema:name "T.J. Miller" .
 
-:TaoOkamoto
-    a           schema:Person ;
+:TaoOkamoto a schema:Person ;
     schema:name "Tao Okamoto" .
 
-:TerrenceHoward
-    a           schema:Person ;
+:TerrenceHoward a schema:Person ;
     schema:name "Terrence Howard" .
 
-:ThomasHadenChurch
-    a           schema:Person ;
+:ThomasHadenChurch a schema:Person ;
     schema:name "Thomas Haden Church" .
 
-:ThomasJane
-    a           schema:Person ;
+:ThomasJane a schema:Person ;
     schema:name "Thomas Jane" .
 
-:TimRobbins
-    a           schema:Person ;
+:TimRobbins a schema:Person ;
     schema:name "Tim Robbins" .
 
-:TimRoth
-    a           schema:Person ;
+:TimRoth a schema:Person ;
     schema:name "Tim Roth" .
 
-:ToddPhillips
-    a           schema:Person ;
+:ToddPhillips a schema:Person ;
     schema:name "Todd Phillips" .
 
-:TopherGrace
-    a           schema:Person ;
+:TopherGrace a schema:Person ;
     schema:name "Topher Grace" .
 
-:UmaThurman
-    a           schema:Person ;
+:UmaThurman a schema:Person ;
     schema:name "Uma Thurman" .
 
-:ValKilmer
-    a           schema:Person ;
+:ValKilmer a schema:Person ;
     schema:name "Val Kilmer" .
 
-:ViolaDavis
-    a           schema:Person ;
+:ViolaDavis a schema:Person ;
     schema:name "Viola Davis" .
 
-:ViolantePlacido
-    a           schema:Person ;
+:ViolantePlacido a schema:Person ;
     schema:name "Violante Placido" .
 
-:WalterReed
-    a           schema:Person ;
+:WalterReed a schema:Person ;
     schema:name "Walter Reed" .
 
-:WaltonGoggins
-    a           schema:Person ;
+:WaltonGoggins a schema:Person ;
     schema:name "Walton Goggins" .
 
-:WesCraven
-    a           schema:Person ;
+:WesCraven a schema:Person ;
     schema:name "Wes Craven" .
 
-:WillSmith
-    a           schema:Person ;
+:WillSmith a schema:Person ;
     schema:name "Will Smith" .
 
-:WilliamHurt
-    a           schema:Person ;
+:WilliamHurt a schema:Person ;
     schema:name "William Hurt" .
 
-:WorldWarII
-    a           owl:onClass ;
+:WorldWarII a owl:onClass ;
     schema:name "World War II" .
 
-:ZacharyLevi
-    a           schema:Person ;
+:ZacharyLevi a schema:Person ;
     schema:name "Zachary Levi" .
 
-:ZazieBeetz
-    a           schema:Person ;
+:ZazieBeetz a schema:Person ;
     schema:name "Zazie Beetz" .
 
-:26
-    a                        schema:Movie ;
-    ns1:type                 :Node ;
-    f_schema:castmember      :DominicCooper, :HayleyAtwell, :HugoWeaving, :NealMcDon, :SebastianStan, :TommyLeeJones ;
-    f_schema:characters      :BuckyBarnes, :SteveRogers ;
-    f_schema:entity          f_schema:MARVEL ;
-    f_schema:genre           f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross           1.7665e+08 ;
+:26 a schema:Movie ;
+    ns1:type :Node ;
+    f_schema:castmember :DominicCooper,
+        :HayleyAtwell,
+        :HugoWeaving,
+        :NealMcDon,
+        :SebastianStan,
+        :TommyLeeJones ;
+    f_schema:entity f_schema:MARVEL ;
+    f_schema:genre f_schema:Action,
+        f_schema:Adventure,
+        f_schema:SciFi ;
+    f_schema:gross 1.7665e+08 ;
     f_schema:publicationdate "2011-07-29"^^xsd:date ;
-    f_schema:rating          6.9e+00 ;
-    f_schema:stars           :ChrisEvans, :HayleyAtwell, :HugoWeaving, :JoeJohnston, :SamuelLJackson ;
-    f_schema:vote            7.64786e+05 ;
-    f_schema:year            "2011"^^xsd:gYear ;
-    schema:director          :JoeJohnston ;
-    schema:name              "Captain America", "Captain America: The First Avenger"@en .
+    f_schema:rating 6.9e+00 ;
+    f_schema:stars :ChrisEvans,
+        :HayleyAtwell,
+        :HugoWeaving,
+        :JoeJohnston,
+        :SamuelLJackson ;
+    f_schema:vote 7.64786e+05 ;
+    f_schema:year "2011"^^xsd:gYear ;
+    schema:character :BuckyBarnes,
+        :SteveRogers ;
+    schema:director :JoeJohnston ;
+    schema:name "Captain America: The First Avenger"@en .
 
-:AlanTaylor
-    a           schema:Person ;
+:AlanTaylor a schema:Person ;
     schema:name "Alan Taylor" .
 
-:AmyAdams
-    a           schema:Person ;
+:AmyAdams a schema:Person ;
     schema:name "Amy Adams" .
 
-:AndrewGarfield
-    a           schema:Person ;
+:AndrewGarfield a schema:Person ;
     schema:name "Andrew Garfield" .
 
-:AngLee
-    a           schema:Person ;
+:AngLee a schema:Person ;
     schema:name "Ang Lee" .
 
-:AnnaBoden
-    a           schema:Person ;
+:AnnaBoden a schema:Person ;
     schema:name "Anna Boden" .
 
-:BrettRatner
-    a           schema:Person ;
+:BrettRatner a schema:Person ;
     schema:name "Brett Ratner" .
 
-:ChrisPine
-    a           schema:Person ;
+:ChrisPine a schema:Person ;
     schema:name "Chris Pine" .
 
-:ChrisPratt
-    a           schema:Person ;
+:ChrisPratt a schema:Person ;
     schema:name "Chris Pratt" .
 
-:DavidLeitch
-    a           schema:Person ;
+:DavidLeitch a schema:Person ;
     schema:name "David Leitch" .
 
-:DavidSGoyer
-    a           schema:Person ;
+:DavidSGoyer a schema:Person ;
     schema:name "David S. Goyer" .
 
-:DominicCooper
-    a           p_schema:Actor ;
+:DominicCooper a p_schema:Actor ;
     schema:name "Dominic Cooper" .
 
-:DonCheadle
-    a           schema:Person ;
+:DonCheadle a schema:Person ;
     schema:name "Don Cheadle" .
 
-:ElmerClifton
-    a           schema:Person ;
+:ElmerClifton a schema:Person ;
     schema:name "Elmer Clifton" .
 
-:EmmaStone
-    a           schema:Person ;
+:EmmaStone a schema:Person ;
     schema:name "Emma Stone" .
 
-:EvangelineLilly
-    a           schema:Person ;
+:EvangelineLilly a schema:Person ;
     schema:name "Evangeline Lilly" .
 
-:FamkeJanssen
-    a           schema:Person ;
+:FamkeJanssen a schema:Person ;
     schema:name "Famke Janssen" .
 
-:GavinHood
-    a           schema:Person ;
+:GavinHood a schema:Person ;
     schema:name "Gavin Hood" .
 
-:GuillermodelToro
-    a           schema:Person ;
+:GuillermodelToro a schema:Person ;
     schema:name "Guillermo del Toro" .
 
-:HayleyAtwell
-    a           p_schema:Actor, schema:Person ;
+:HayleyAtwell a p_schema:Actor,
+        schema:Person ;
     schema:name "Hayley Atwell" .
 
-:HenryCavill
-    a           schema:Person ;
+:HenryCavill a schema:Person ;
     schema:name "Henry Cavill" .
 
-:HugoWeaving
-    a           p_schema:Actor, schema:Person ;
+:HugoWeaving a p_schema:Actor,
+        schema:Person ;
     schema:name "Hugo Weaving" .
 
-:IoanGruffudd
-    a           schema:Person ;
+:IoanGruffudd a schema:Person ;
     schema:name "Ioan Gruffudd" .
 
-:JackieCooper
-    a           schema:Person ;
+:JackieCooper a schema:Person ;
     schema:name "Jackie Cooper" .
 
-:JamesFranco
-    a           schema:Person ;
+:JamesFranco a schema:Person ;
     schema:name "James Franco" .
 
-:JasonMomoa
-    a           schema:Person ;
+:JasonMomoa a schema:Person ;
     schema:name "Jason Momoa" .
 
-:JenniferGarner
-    a           schema:Person ;
+:JenniferGarner a schema:Person ;
     schema:name "Jennifer Garner" .
 
-:JessicaAlba
-    a           schema:Person ;
+:JessicaAlba a schema:Person ;
     schema:name "Jessica Alba" .
 
-:JoeJohnston
-    a           schema:Person ;
+:JoeJohnston a schema:Person ;
     schema:name "Joe Johnston" .
 
-:JoelSchumacher
-    a           schema:Person ;
+:JoelSchumacher a schema:Person ;
     schema:name "Joel Schumacher" .
 
-:JonathanHensleigh
-    a           schema:Person ;
+:JonathanHensleigh a schema:Person ;
     schema:name "Jonathan Hensleigh" .
 
-:JoshBoone
-    a           schema:Person ;
+:JoshBoone a schema:Person ;
     schema:name "Josh Boone" .
 
-:JoshBrolin
-    a           schema:Person ;
+:JoshBrolin a schema:Person ;
     schema:name "Josh Brolin" .
 
-:JoshTrank
-    a           schema:Person ;
+:JoshTrank a schema:Person ;
     schema:name "Josh Trank" .
 
-:KennethBranagh
-    a           schema:Person ;
+:KennethBranagh a schema:Person ;
     schema:name "Kenneth Branagh" .
 
-:LexiAlexander
-    a           schema:Person ;
+:LexiAlexander a schema:Person ;
     schema:name "Lexi Alexander" .
 
-:LouisJourdan
-    a           schema:Person ;
+:LouisJourdan a schema:Person ;
     schema:name "Louis Jourdan" .
 
-:LouisLeterrier
-    a           schema:Person ;
+:LouisLeterrier a schema:Person ;
     schema:name "Louis Leterrier" .
 
-:MargotRobbie
-    a           schema:Person ;
+:MargotRobbie a schema:Person ;
     schema:name "Margot Robbie" .
 
-:MarisaTomei
-    a           schema:Person ;
+:MarisaTomei a schema:Person ;
     schema:name "Marisa Tomei" .
 
-:MarkStrong
-    a           schema:Person ;
+:MarkStrong a schema:Person ;
     schema:name "Mark Strong" .
 
-:MatthewVaughn
-    a           schema:Person ;
+:MatthewVaughn a schema:Person ;
     schema:name "Matthew Vaughn" .
 
-:MichaelBJordan
-    a           schema:Person ;
+:MichaelBJordan a schema:Person ;
     schema:name "Michael B. Jordan" .
 
-:MichaelCaine
-    a           schema:Person ;
+:MichaelCaine a schema:Person ;
     schema:name "Michael Caine" .
 
-:MichaelChiklis
-    a           schema:Person ;
+:MichaelChiklis a schema:Person ;
     schema:name "Michael Chiklis" .
 
-:MorenaBaccarin
-    a           schema:Person ;
+:MorenaBaccarin a schema:Person ;
     schema:name "Morena Baccarin" .
 
-:NataliePortman
-    a           schema:Person ;
+:NataliePortman a schema:Person ;
     schema:name "Natalie Portman" .
 
-:NicholasHoult
-    a           schema:Person ;
+:NicholasHoult a schema:Person ;
     schema:name "Nicholas Hoult" .
 
-:NicolasCage
-    a           schema:Person ;
+:NicolasCage a schema:Person ;
     schema:name "Nicolas Cage" .
 
-:PatrickWilson
-    a           schema:Person ;
+:PatrickWilson a schema:Person ;
     schema:name "Patrick Wilson" .
 
-:PattyJenkins
-    a           schema:Person ;
+:PattyJenkins a schema:Person ;
     schema:name "Patty Jenkins" .
 
-:PaulRudd
-    a           schema:Person ;
+:PaulRudd a schema:Person ;
     schema:name "Paul Rudd" .
 
-:RichardLester
-    a           schema:Person ;
+:RichardLester a schema:Person ;
     schema:name "Richard Lester" .
 
-:RobBowman
-    a           schema:Person ;
+:RobBowman a schema:Person ;
     schema:name "Rob Bowman" .
 
-:RubenFleischer
-    a           schema:Person ;
+:RubenFleischer a schema:Person ;
     schema:name "Ruben Fleischer" .
 
-:RyanCoogler
-    a           schema:Person ;
+:RyanCoogler a schema:Person ;
     schema:name "Ryan Coogler" .
 
-:SamElliott
-    a           schema:Person ;
+:SamElliott a schema:Person ;
     schema:name "Sam Elliott" .
 
-:ScottDerrickson
-    a           schema:Person ;
+:ScottDerrickson a schema:Person ;
     schema:name "Scott Derrickson" .
 
-:SebastianStan
-    a           p_schema:Actor, schema:Person ;
+:SebastianStan a p_schema:Actor,
+        schema:Person ;
     schema:name "Sebastian Stan" .
 
-:ShaneBlack
-    a           schema:Person ;
+:ShaneBlack a schema:Person ;
     schema:name "Shane Black" .
 
-:SimonKinberg
-    a           schema:Person ;
+:SimonKinberg a schema:Person ;
     schema:name "Simon Kinberg" .
 
-:StephenNorrington
-    a           schema:Person ;
+:StephenNorrington a schema:Person ;
     schema:name "Stephen Norrington" .
 
-:TaikaWaititi
-    a           schema:Person ;
+:TaikaWaititi a schema:Person ;
     schema:name "Taika Waititi" .
 
-:TimBurton
-    a           schema:Person ;
+:TimBurton a schema:Person ;
     schema:name "Tim Burton" .
 
-:TimMiller
-    a           schema:Person ;
+:TimMiller a schema:Person ;
     schema:name "Tim Miller" .
 
-:TomHardy
-    a           schema:Person ;
+:TomHardy a schema:Person ;
     schema:name "Tom Hardy" .
 
-:TomHolland
-    a           schema:Person ;
+:TomHolland a schema:Person ;
     schema:name "Tom Holland" .
 
-:TommyLeeJones
-    a           p_schema:Actor, schema:Person ;
+:TommyLeeJones a p_schema:Actor,
+        schema:Person ;
     schema:name "Tommy Lee Jones" .
 
-:VinDiesel
-    a           schema:Person ;
+:VinDiesel a schema:Person ;
     schema:name "Vin Diesel" .
 
-:WillYunLee
-    a           schema:Person ;
+:WillYunLee a schema:Person ;
     schema:name "Will Yun Lee" .
 
-:WillardHuyck
-    a           schema:Person ;
+:WillardHuyck a schema:Person ;
     schema:name "Willard Huyck" .
 
-:WillemDafoe
-    a           schema:Person ;
+:WillemDafoe a schema:Person ;
     schema:name "Willem Dafoe" .
 
-:ZoeSaldana
-    a           schema:Person ;
+:ZoeSaldana a schema:Person ;
     schema:name "Zoe Saldana" .
 
-f_schema:Mystery
-    a              skos:Concept ;
-    skos:broader   f_schema:genreConcept ;
+f_schema:Mystery a skos:Concept ;
+    skos:broader f_schema:genreConcept ;
     skos:prefLabel "Mystery" .
 
-:BenAffleck
-    a           schema:Person ;
+:BenAffleck a schema:Person ;
     schema:name "Ben Affleck" .
 
-:ChristianBale
-    a           schema:Person ;
+:ChristianBale a schema:Person ;
     schema:name "Christian Bale" .
 
-:ChristopherNolan
-    a           schema:Person ;
+:ChristopherNolan a schema:Person ;
     schema:name "Christopher Nolan" .
 
-:GalGadot
-    a           schema:Person ;
+:GalGadot a schema:Person ;
     schema:name "Gal Gadot" .
 
-:GeneHackman
-    a           schema:Person ;
+:GeneHackman a schema:Person ;
     schema:name "Gene Hackman" .
 
-:GwynethPaltrow
-    a           schema:Person ;
+:GwynethPaltrow a schema:Person ;
     schema:name "Gwyneth Paltrow" .
 
-:HalleBerry
-    a           schema:Person ;
+:HalleBerry a schema:Person ;
     schema:name "Halle Berry" .
 
-:IanMcKellen
-    a           schema:Person ;
+:IanMcKellen a schema:Person ;
     schema:name "Ian McKellen" .
 
-:JenniferLawrence
-    a           schema:Person ;
+:JenniferLawrence a schema:Person ;
     schema:name "Jennifer Lawrence" .
 
-:KirstenDunst
-    a           schema:Person ;
+:KirstenDunst a schema:Person ;
     schema:name "Kirsten Dunst" .
 
-:KrisKristofferson
-    a           schema:Person ;
+:KrisKristofferson a schema:Person ;
     schema:name "Kris Kristofferson" .
 
-:MichaelKeaton
-    a           schema:Person ;
+:MichaelKeaton a schema:Person ;
     schema:name "Michael Keaton" .
 
-:ScarlettJohansson
-    a           schema:Person ;
+:ScarlettJohansson a schema:Person ;
     schema:name "Scarlett Johansson" .
 
-:TobeyMaguire
-    a           schema:Person ;
+:TobeyMaguire a schema:Person ;
     schema:name "Tobey Maguire" .
 
-:TomHiddleston
-    a           schema:Person ;
+:TomHiddleston a schema:Person ;
     schema:name "Tom Hiddleston" .
 
-:WesleySnipes
-    a           schema:Person ;
+:WesleySnipes a schema:Person ;
     schema:name "Wesley Snipes" .
 
-:AnthonyRusso
-    a           schema:Person ;
+:AnthonyRusso a schema:Person ;
     schema:name "Anthony Russo" .
 
-:ChristopherReeve
-    a           schema:Person ;
+:ChristopherReeve a schema:Person ;
     schema:name "Christopher Reeve" .
 
-:JamesGunn
-    a           schema:Person ;
+:JamesGunn a schema:Person ;
     schema:name "James Gunn" .
 
-:JamesMangold
-    a           schema:Person ;
+:JamesMangold a schema:Person ;
     schema:name "James Mangold" .
 
-:JamesMcAvoy
-    a           schema:Person ;
+:JamesMcAvoy a schema:Person ;
     schema:name "James McAvoy" .
 
-:JoeRusso
-    a           schema:Person ;
+:JoeRusso a schema:Person ;
     schema:name "Joe Russo" .
 
-:JonFavreau
-    a           schema:Person ;
+:JonFavreau a schema:Person ;
     schema:name "Jon Favreau" .
 
-:JonWatts
-    a           schema:Person ;
+:JonWatts a schema:Person ;
     schema:name "Jon Watts" .
 
-:JossWhedon
-    a           schema:Person ;
+:JossWhedon a schema:Person ;
     schema:name "Joss Whedon" .
 
-:MarcWebb
-    a           schema:Person ;
+:MarcWebb a schema:Person ;
     schema:name "Marc Webb" .
 
-:MargotKidder
-    a           schema:Person ;
+:MargotKidder a schema:Person ;
     schema:name "Margot Kidder" .
 
-:MarkRuffalo
-    a           schema:Person ;
+:MarkRuffalo a schema:Person ;
     schema:name "Mark Ruffalo" .
 
-:MarkStevenJohnson
-    a           schema:Person ;
+:MarkStevenJohnson a schema:Person ;
     schema:name "Mark Steven Johnson" .
 
-:MichaelFassbender
-    a           schema:Person ;
+:MichaelFassbender a schema:Person ;
     schema:name "Michael Fassbender" .
 
-:PeytonReed
-    a           schema:Person ;
+:PeytonReed a schema:Person ;
     schema:name "Peyton Reed" .
 
-:SamuelLJackson
-    a           schema:Person ;
+:SamuelLJackson a schema:Person ;
     schema:name "Samuel L. Jackson" .
 
-:TimStory
-    a           schema:Person ;
+:TimStory a schema:Person ;
     schema:name "Tim Story" .
 
-:ZackSnyder
-    a           schema:Person ;
+:ZackSnyder a schema:Person ;
     schema:name "Zack Snyder" .
 
-f_schema:Thriller
-    a              skos:Concept ;
-    skos:broader   f_schema:genreConcept ;
+f_schema:Thriller a skos:Concept ;
+    skos:broader f_schema:genreConcept ;
     skos:prefLabel "Thriller" .
 
-:PatrickStewart
-    a           schema:Person ;
+:PatrickStewart a schema:Person ;
     schema:name "Patrick Stewart" .
 
-:RyanReynolds
-    a           schema:Person ;
+:RyanReynolds a schema:Person ;
     schema:name "Ryan Reynolds" .
 
-f_schema:Horror
-    a              skos:Concept ;
-    skos:broader   f_schema:genreConcept ;
+f_schema:Horror a skos:Concept ;
+    skos:broader f_schema:genreConcept ;
     skos:prefLabel "Horror" .
 
-:ChrisHemsworth
-    a           schema:Person ;
+:ChrisHemsworth a schema:Person ;
     schema:name "Chris Hemsworth" .
 
-:SamRaimi
-    a           schema:Person ;
+:SamRaimi a schema:Person ;
     schema:name "Sam Raimi" .
 
-:HughJackman
-    a           schema:Person ;
+:HughJackman a schema:Person ;
     schema:name "Hugh Jackman" .
 
-:BryanSinger
-    a           schema:Person ;
+:BryanSinger a schema:Person ;
     schema:name "Bryan Singer" .
 
-:RobertDowneyJr
-    a           schema:Person ;
+:RobertDowneyJr a schema:Person ;
     schema:name "Robert Downey Jr." .
 
-:ChrisEvans
-    a           owl:onClass, schema:Person ;
+:ChrisEvans a owl:onClass,
+        schema:Person ;
     schema:name "Chris Evans" .
 
-f_schema:Crime
-    a              skos:Concept ;
-    skos:broader   f_schema:genreConcept ;
+f_schema:Crime a skos:Concept ;
+    skos:broader f_schema:genreConcept ;
     skos:prefLabel "Crime" .
 
-f_schema:Drama
-    a              skos:Concept ;
-    skos:broader   f_schema:genreConcept ;
+f_schema:Drama a skos:Concept ;
+    skos:broader f_schema:genreConcept ;
     skos:prefLabel "Drama" .
 
-f_schema:Comedy
-    a              skos:Concept ;
-    skos:broader   f_schema:genreConcept ;
+f_schema:Comedy a skos:Concept ;
+    skos:broader f_schema:genreConcept ;
     skos:prefLabel "Comedy" .
 
-f_schema:Fantasy
-    a              skos:Concept ;
-    skos:broader   f_schema:genreConcept ;
+f_schema:Fantasy a skos:Concept ;
+    skos:broader f_schema:genreConcept ;
     skos:prefLabel "Fantasy" .
 
-f_schema:DC
-    a              skos:Concept ;
-    skos:broader   f_schema:producerConcept ;
+f_schema:DC a skos:Concept ;
+    skos:broader f_schema:producerConcept ;
     skos:prefLabel "DC" .
 
-f_schema:SciFi
-    a              skos:Concept ;
-    skos:broader   f_schema:genreConcept ;
+f_schema:SciFi a skos:Concept ;
+    skos:broader f_schema:genreConcept ;
     skos:prefLabel "Sci-Fi" .
 
-f_schema:MARVEL
-    a              skos:Concept ;
-    skos:broader   f_schema:producerConcept ;
+f_schema:MARVEL a skos:Concept ;
+    skos:broader f_schema:producerConcept ;
     skos:prefLabel "MARVEL" .
 
-f_schema:Adventure
-    a              skos:Concept ;
-    skos:broader   f_schema:genreConcept ;
+f_schema:Adventure a skos:Concept ;
+    skos:broader f_schema:genreConcept ;
     skos:prefLabel "Adventure" .
 
-f_schema:Action
-    a              skos:Concept ;
-    skos:broader   f_schema:genreConcept ;
+f_schema:Action a skos:Concept ;
+    skos:broader f_schema:genreConcept ;
     skos:prefLabel "Action" .
 

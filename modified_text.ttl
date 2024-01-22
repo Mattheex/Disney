@@ -83,7 +83,6 @@ ns1:CaptainAmerica a ns1:Node ;
         ns1:TommyLeeJones ;
     ns1:characters ns1:BuckyBarnes,
         ns1:SteveRogers ;
-    ns1:name "Captain America" ;
     ns1:publicationdate "2011-07-29"^^xsd:date .
 
 ns1:DominicCooper a ns1:Node ;

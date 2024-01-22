@@ -51,7 +51,7 @@
 :performer a owl:ObjectProperty ;
     rdfs:label "perform by" ;
     rdfs:domain perso:Character ;
-    rdfs:range perso:Character .
+    rdfs:range perso:Actor .
 
 :producerConcept a skos:Concept ;
     skos:prefLabel "super-hero film producer" .
