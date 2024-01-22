@@ -34,104 +34,96 @@
 :castmember
     a           owl:ObjectProperty ;
     rdfs:label  "film cast-member" ;
-    rdfs:domain :CreativeWork ;
+    rdfs:domain schema:Movie ;
     rdfs:range  :Person .
 
 :characters
     a             owl:ObjectProperty ;
     rdfs:label    "film characters" ;
-    rdfs:domain   :CreativeWork ;
+    rdfs:domain   schema:Movie ;
     rdfs:range    perso:Character ;
     owl:inverseOf :presentinwork .
 
 :charactersTransitive
     a                      owl:ObjectProperty ;
     rdfs:label             "film characters" ;
-    rdfs:domain            :CreativeWork ;
+    rdfs:domain            schema:Movie ;
     rdfs:range             perso:Character ;
     owl:propertyChainAxiom ( :characters rdfs:seeAlso ) .
 
 :conflict
     a           owl:ObjectProperty ;
     rdfs:label  "film characters" ;
-    rdfs:domain :Character .
+    rdfs:domain perso:Character  .
 
-:director
+schema:director
     a           owl:IrreflexiveProperty ;
-    rdfs:label  "film director" ;
-    rdfs:domain :CreativeWork ;
-    rdfs:range  :Person .
+    rdfs:label  "film director".
 
 :entity
     a           owl:ObjectProperty ;
     rdfs:label  "film entity" ;
-    rdfs:domain :CreativeWork ;
+    rdfs:domain schema:Movie ;
     rdfs:range  skos:Concept .
 
 :genre
     a           owl:ObjectProperty ;
     rdfs:label  "film genre" ;
-    rdfs:domain :CreativeWork ;
+    rdfs:domain schema:Movie ;
     rdfs:range  skos:Concept .
 
 :gross
     a           owl:ObjectProperty ;
     rdfs:label  "film gross" ;
-    rdfs:domain :CreativeWork ;
+    rdfs:domain schema:Movie ;
     rdfs:range  xsd:integer .
 
 :name
     a           owl:FunctionalProperty ;
     rdfs:label  "his/her name" ;
-    rdfs:domain :CreativeWork ;
+    rdfs:domain schema:Movie ;
     rdfs:range  xsd:string .
 
 :performer
     a           owl:ObjectProperty ;
     rdfs:label  "perform by" ;
     rdfs:domain :Character ;
-    rdfs:range  :Person .
+    rdfs:range  perso:Character .
 
 :presentinwork
     a             owl:ObjectProperty ;
     rdfs:label    "character present in the film" ;
     rdfs:domain   :Character ;
-    rdfs:range    :CreativeWork ;
+    rdfs:range    schema:Movie ;
     owl:inverseOf :characters .
 
 :publicationdate
     a           owl:ObjectProperty ;
     rdfs:label  "film release date" ;
-    rdfs:domain :CreativeWork ;
+    rdfs:domain schema:Movie ;
     rdfs:range  xsd:date .
 
 :rating
     a           owl:ObjectProperty ;
     rdfs:label  "film rating" ;
-    rdfs:domain :CreativeWork ;
+    rdfs:domain schema:Movie ;
     rdfs:range  xsd:integer .
 
 :stars
     a           owl:ObjectProperty ;
     rdfs:label  "film stars" ;
-    rdfs:domain :CreativeWork ;
+    rdfs:domain schema:Movie ;
     rdfs:range  :Person .
-
-:title
-    a           owl:ObjectProperty ;
-    rdfs:label  "title" ;
-    rdfs:domain :CreativeWork ;
-    rdfs:range  xsd:string .
 
 :vote
     a           owl:ObjectProperty ;
-    rdfs:domain :CreativeWork ;
+    rdfs:domain schema:Movie ;
     rdfs:range  xsd:integer .
 
 :year
     a           owl:ObjectProperty ;
-    rdfs:domain :CreativeWork ;
-    rdfs:range  xsd:date .
+    rdfs:domain schema:Movie ;
+    rdfs:range  xsd:gYear  .
 
 :genreConcept
     a              skos:Concept ;
