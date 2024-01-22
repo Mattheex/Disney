@@ -22,7 +22,7 @@
     sh:property    [ sh:path     :entity ;
                      sh:maxCount 1 ;
                      sh:in       ( :MARVEL :DC ) ] ;
-    sh:targetClass schema:CreativeWork .
+    sh:targetClass schema:Movie .
 
 #:NodeShape
 #    a           sh:NodeShape ;
@@ -91,7 +91,7 @@ schema:name
     rdfs:label    "character present in the film" ;
     rdfs:domain   :Character ;
     rdfs:range    schema:Movie ;
-    owl:inverseOf :characters .
+    owl:inverseOf schema:character .
 
 :publicationdate
     a           owl:ObjectProperty ;

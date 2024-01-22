@@ -23,7 +23,7 @@
         [ sh:in ( :MARVEL :DC ) ;
             sh:maxCount 1 ;
             sh:path :entity ] ;
-    sh:targetClass schema1:CreativeWork .
+    sh:targetClass schema1:Movie .
 
 :castmember a owl:ObjectProperty ;
     rdfs:label "film cast-member" ;
@@ -90,7 +90,7 @@ schema1:name a owl:FunctionalProperty ;
     rdfs:label "character present in the film" ;
     rdfs:domain :Character ;
     rdfs:range schema1:Movie ;
-    owl:inverseOf :characters .
+    owl:inverseOf schema1:character .
 
 :rating a owl:ObjectProperty ;
     rdfs:label "film rating" ;
@@ -101,9 +101,7 @@ schema1:name a owl:FunctionalProperty ;
     rdfs:domain schema1:Movie ;
     rdfs:range xsd:integer .
 
-:characters a owl:ObjectProperty ;
+schema1:character a owl:ObjectProperty ;
     rdfs:label "film characters" ;
-    rdfs:domain schema1:Movie ;
-    rdfs:range perso:Character ;
     owl:inverseOf :presentinwork .
 
