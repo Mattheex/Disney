@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { SparqlService } from '../sparql.service';
 import { Film } from '../models/hero.model';
+import { LoaderService } from '../loader.service';
 
 @Component({
   selector: 'app-film-selector',
@@ -9,14 +10,19 @@ import { Film } from '../models/hero.model';
 })
 export class FilmSelectorComponent implements OnInit {
   sparqlQuery='';
+  isLoading=false;
   sparqlResults:any[]=[];
   titles:string[]=[];
   selectedFilm: string="";
   film:Film|undefined;
-  constructor(private sparqlService: SparqlService) { }
+  constructor(private sparqlService: SparqlService,private loaderService:LoaderService) { }
 
   ngOnInit(): void {
     this.executeQuery()
+    this.loaderService.getLoaderState().subscribe((isLoading) => {
+      this.isLoading = isLoading;
+      console.log("hello")
+    });
   }
 
   executeQuery(){

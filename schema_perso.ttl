@@ -124,7 +124,7 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
 
 :apparition
     a          owl:ObjectProperty ;
-    rdfs:label "first apparition of the character";
+    rdfs:label "apparition of the character";
     rdfs:range :Comic;
     rdfs:domain :Character.
 

@@ -1,7 +1,9 @@
 <select [(ngModel)]="selectedFilm" (change)="onFilmChange()">
     <option *ngFor="let film of titles" [value]="film">{{ film }}</option>
 </select>
-
+<div *ngIf="isLoading" class="loader-container">
+    <div class="loader"></div>
+</div>
 <div *ngIf="selectedFilm">
     <app-film-card *ngIf="film" [film]="film"></app-film-card>
 </div>

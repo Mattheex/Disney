@@ -1,0 +1,17 @@
+<div *ngIf="hero">
+    <h2>{{ hero.heroName }}</h2>
+    <div *ngIf="hero.publisher">publisher: {{ hero.publisher }} </div>
+    
+    <div *ngIf="hero.apparition.length > 0">comics :
+        <ul >
+            <li *ngFor="let apparition of hero.apparition"><div *ngIf="apparition">{{ apparition }}</div></li>
+        </ul>
+    </div>
+
+    <div *ngIf="hero.films.length > 0">films :
+        <ul >
+            <li *ngFor="let film of hero.films"><div *ngIf="film">{{ film }}</div></li>
+        </ul>
+    </div>
+    
+</div>

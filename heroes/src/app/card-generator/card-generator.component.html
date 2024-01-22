@@ -2,6 +2,9 @@
     <label for="queryInput">Enter a Name:</label>
     <input type="text" id="queryInput" [(ngModel)]="userInput">
     <button (click)="executeQuery()">Execute Query</button>
+    <div *ngIf="isLoading" class="loader-container">
+      <div class="loader"></div>
+    </div>
     <div id="persos">
         <app-person-card class="app-person-card"
         *ngFor="let hero of uniqueHeroesArray"

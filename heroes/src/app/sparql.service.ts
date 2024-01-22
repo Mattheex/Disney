@@ -1,8 +1,9 @@
 // sparql.service.ts
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
-import { Observable, map, of } from 'rxjs';
+import { Observable, map, of, tap } from 'rxjs';
 import { Character, Film, Hero } from './models/hero.model';
+import { LoaderService } from './loader.service';
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +11,7 @@ import { Character, Film, Hero } from './models/hero.model';
 export class SparqlService {
   private sparqlEndpoint = 'http://localhost:8081/sparql'; // Replace with your SPARQL endpoint URL
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient,private loaderService:LoaderService) {}
 
   getAnswer(sparqlQuery: string): Observable<any> {
     const params = new HttpParams().set('query', sparqlQuery);
@@ -22,12 +23,14 @@ export class SparqlService {
   }
 
   getHero(userInput:string):Observable<Hero[]>{
+    this.loaderService.showLoader();
     const sparqlQuery = `
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
     PREFIX test: <http://ns.inria.fr/sparql-micro-service/api#>
     PREFIX : <http://projet.fr/perso_schema/>
     PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+    PREFIX film: <http://projet.fr/films_schema/>
     
     SELECT * WHERE {
       BIND(URI(CONCAT("http://localhost/service/superheroeapi/getHero?name=","${userInput}")) AS ?service)
@@ -35,7 +38,8 @@ export class SparqlService {
         ?x :name ?heroName;
            :hasImage ?image;
            :appearance ?app;
-           :secretIdentity ?secret.
+           :secretIdentity ?secret;
+           rdfs:seeAlso ?concept.
 
         OPTIONAL { ?app :eyes ?eyes}
         OPTIONAL { ?app :hair ?hair}
@@ -51,13 +55,20 @@ export class SparqlService {
         OPTIONAL { ?secret :name ?name.}
         OPTIONAL { ?secret :placeOfBirth ?place.}
         OPTIONAL { ?secret :occupation ?occupations.}
+        OPTIONAL { ?concept :publisher ?publishers}
+        OPTIONAL { ?concept :apparition ?apparitions.
+          ?apparitions film:title ?apparition.}
         
       }
+      OPTIONAL{?perso rdfs:seeAlso ?x; 
+        film:presentinwork ?films.
+        ?films film:title ?film}
       OPTIONAL{?r skos:prefLabel ?raceName.filter(?r = ?race)}
       OPTIONAL{?e skos:prefLabel ?eyeColor.filter(?e = ?eyes)}
       OPTIONAL{?re :name ?relative. filter(?re = ?relatives)}
       OPTIONAL{?h skos:prefLabel ?hairColor.filter(?h = ?hair)}
       OPTIONAL{?o skos:prefLabel ?occupation.filter(?o = ?occupations)}
+      OPTIONAL{?publishers skos:prefLabel ?publisher}
     }
     ORDER BY ?heroName
     
@@ -66,6 +77,10 @@ export class SparqlService {
     
 
     return this.getAnswer(sparqlQuery).pipe(
+      tap((data) => {
+        // Hide loader when the request completes (successfully or with an error)
+        this.loaderService.hideLoader();
+      }),
       map(data => {
         const sparqlResults:{ [key: string]: { value: string } }[] = data.results.bindings;
 
@@ -84,6 +99,9 @@ export class SparqlService {
               base: result['base']?.value ?? '',
               placeOfBirth:result["place"]?.value ?? '',
               name:result["name"]?.value??'',
+              publisher:result["publisher"]?.value??'',
+              films:[],
+              apparition:[],
               occupations:[],
               hair: [],
               eyes: [],
@@ -102,6 +120,8 @@ export class SparqlService {
           uniqueHeroes[xValue].relatives.push(result['relative']?.value ?? '');
           uniqueHeroes[xValue].affiliation.push(result['affiliation']?.value ?? '');
           uniqueHeroes[xValue].occupations.push(result['occupation']?.value ?? '');
+          uniqueHeroes[xValue].apparition.push(result['apparition']?.value ?? '');
+          uniqueHeroes[xValue].films.push(result['film']?.value ?? '');
         });
 
         // Convert the uniqueHeroes object to an array
@@ -113,6 +133,7 @@ export class SparqlService {
   }
 
   getFilm(input:string):Observable<Film|undefined>{
+    this.loaderService.showLoader();
     const request =`
     PREFIX f_schema: <http://projet.fr/films_schema/> 
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -162,6 +183,10 @@ export class SparqlService {
     
     
     return this.getAnswer(request).pipe(
+      tap((data) => {
+        // Hide loader when the request completes (successfully or with an error)
+        this.loaderService.hideLoader();
+      }),
       map(data => {
         const sparqlResults: { [key: string]: { value: string } }[] = data.results.bindings;
         if (sparqlResults.length > 0) {

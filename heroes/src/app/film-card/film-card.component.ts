@@ -1,6 +1,7 @@
 import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { Character, Film, Hero } from '../models/hero.model';
 import { SparqlService } from '../sparql.service';
+import { LoaderService } from '../loader.service';
 
 @Component({
   selector: 'app-film-card',
@@ -8,10 +9,12 @@ import { SparqlService } from '../sparql.service';
   styleUrls: ['./film-card.component.scss']
 })
 export class FilmCardComponent implements OnChanges, OnInit {
+  
   @Input() film!: Film;
   perso:Hero|undefined;
   constructor(private sparqlService: SparqlService) {}
   ngOnInit(): void {
+    
   }
   
 

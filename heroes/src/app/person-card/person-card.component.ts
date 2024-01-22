@@ -15,6 +15,7 @@ export class PersonCardComponent implements OnInit,OnChanges {
   constructor() { }
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['hero']  ){
+      console.log(this.hero)
       this.hero.alias = this.hero.alias.filter(alias => alias.trim() !== '');
       this.hero.alias = [...new Set(this.hero.alias)];
 
@@ -31,6 +32,12 @@ export class PersonCardComponent implements OnInit,OnChanges {
       this.hero.occupations = this.hero.occupations.filter(occupations => occupations.trim() !== '');
       this.hero.occupations = [...new Set(this.hero.occupations)];
 
+      this.hero.apparition = this.hero.apparition.filter(apparition => apparition.trim() !== '');
+      this.hero.apparition = [...new Set(this.hero.apparition)];
+
+      this.hero.films = this.hero.films.filter(films => films.trim() !== '');
+      this.hero.films = [...new Set(this.hero.films)];
+
       this.hero.eyes = [...new Set(this.hero.eyes)];
 
       this.hero.hair = [...new Set(this.hero.hair)];
@@ -39,7 +46,7 @@ export class PersonCardComponent implements OnInit,OnChanges {
   }
 
   showInfo():void{
-    this.heroInfo = (this.heroInfo+1)%3
+    this.heroInfo = (this.heroInfo+1)%4
   }
 
   ngOnInit(): void {

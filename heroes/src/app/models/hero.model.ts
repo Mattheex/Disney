@@ -16,6 +16,9 @@ export interface Hero {
     name:string;
     occupations:string[];
     placeOfBirth:string;
+    publisher:string;
+    apparition:string[];
+    films:string[];
   }
   
   export interface Film {

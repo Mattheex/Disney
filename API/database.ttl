@@ -3,81 +3,11 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
+
+
 :00agent a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "00 agent" .
-
-:ABCStudios a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "ABC Studios" .
-
-:Angel a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Angel" .
-
-:AngelSalvadore a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Angel Salvadore" .
-
-:AntMan a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Ant-Man" .
-
-:AntiVenom a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Anti-Venom" .
-
-:AntiVision a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Anti-Vision" .
-
-:Archangel a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Archangel" .
-
-:Arsenal a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Arsenal" .
-
-:Atlas a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Atlas" .
-
-:Aztar a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Aztar" .
-
-:Batgirl a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Batgirl" .
-
-:BatgirlIII a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Batgirl III" .
-
-:BatgirlV a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Batgirl V" .
-
-:BatmanII a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Batman II" .
-
-:Binary a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Binary" .
-
-:BlackRacer a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Black Racer" .
-
-:Blaquesmith a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Blaquesmith" .
-
-:BoomBoom a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Boom-Boom" .
 
 :CABomb a skos:Concept ;
     rdfs:subClassOf p_schema:Character ;
@@ -2919,46 +2849,6 @@
     rdfs:subClassOf p_schema:Character ;
     skos:prefLabel "Zoom" .
 
-:CaptainMarvel a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Captain Marvel" .
-
-:DCComics a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "DC Comics" .
-
-:DarkHorseComics a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Dark Horse Comics" .
-
-:Deadpool a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Deadpool" .
-
-:EvilDeadpool a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Evil Deadpool" .
-
-:FlashIV a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Flash IV" .
-
-:GeminiV a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Gemini V" .
-
-:GeorgeLucas a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "George Lucas" .
-
-:GiantMan a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Giant-Man" .
-
-:Goliath a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Goliath" .
-
 :Habinsur a p_schema:Character,
         p_schema:Fictional ;
     p_schema:name "Abin Sur" .
@@ -3099,10 +2989,6 @@
         p_schema:Fictional ;
     p_schema:name "Tempest" .
 
-:HannaBarbera a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Hanna-Barbera" .
-
 :Hannamarierogue a p_schema:Character,
         p_schema:Fictional ;
     p_schema:name "Rogue" .
@@ -3143,10 +3029,6 @@
         p_schema:Fictional ;
     p_schema:name "Omega Red" .
 
-:HarperCollins a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "HarperCollins" .
-
 :Harthurcurryjraquababy a p_schema:Character,
         p_schema:Fictional ;
     p_schema:name "Aquababy" .
@@ -3166,14 +3048,6 @@
 :Hatomastroboy a p_schema:Character,
         p_schema:Fictional ;
     p_schema:name "Astro Boy" .
-
-:Hawkeye a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Hawkeye" .
-
-:Hawkfire a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Hawkfire" .
 
 :Haylaranzzlightlass a p_schema:Character,
         p_schema:Fictional ;
@@ -5683,10 +5557,6 @@
         p_schema:Fictional ;
     p_schema:name "Klaw" .
 
-:Huntress a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Huntress" .
-
 :Hutgardloki a p_schema:Character,
         p_schema:Fictional ;
     p_schema:name "Utgard-Loki" .
@@ -5895,77 +5765,7 @@
         p_schema:Fictional ;
     p_schema:name "Purple Man" .
 
-:IDWPublishing a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "IDW Publishing" .
 
-:IconComics a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Icon Comics" .
-
-:ImageComics a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Image Comics" .
-
-:Impulse a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Impulse" .
-
-:IronLad a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Iron Lad" .
-
-:JKRowling a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "J. K. Rowling" .
-
-:JRRTolkien a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "J. R. R. Tolkien" .
-
-:JeanGrey a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Jean Grey" .
-
-:LibertyBelleII a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Liberty Belle II" .
-
-:LukeCage a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Luke Cage" .
-
-:MarvelComics a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Marvel Comics" .
-
-:Meltdown a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Meltdown" .
-
-:Microsoft a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Microsoft" .
-
-:Misfit a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Misfit" .
-
-:MsMarvelII a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Ms Marvel II" .
-
-:NBCHeroes a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "NBC - Heroes" .
-
-:Nightwing a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Nightwing" .
-
-:Oracle a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Oracle" .
 
 :Paaronbabcock a p_schema:Character ;
     p_schema:name "aaron babcock" .
@@ -6880,7 +6680,6 @@
 
 :Pblaquesmith a p_schema:Character,
         p_schema:Fictional .
-
 :Pblizzard a p_schema:Character,
         p_schema:Fictional .
 
@@ -8204,10 +8003,6 @@ martha wayne""" .
 :Pemplate a p_schema:Character ;
     p_schema:name "emplate" .
 
-:PenanceII a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Penance II" .
-
 :Penergy a p_schema:Character,
         p_schema:Fictional .
 
@@ -9031,10 +8826,6 @@ martha wayne""" .
 
 :Phodiak a p_schema:Character ;
     p_schema:name "hodiak" .
-
-:Phoenix a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Phoenix" .
 
 :Phomerhawkins a p_schema:Character ;
     p_schema:name "homer hawkins" .
@@ -11726,14 +11517,6 @@ nana dawson""" .
 :Powenmercerseeallenfamilyforcompletefamilytree a p_schema:Character ;
     p_schema:name "owen mercer  - see allen family for complete family tree" .
 
-:PowerMan a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Power Man" .
-
-:PowerWoman a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Power Woman" .
-
 :Ppaco a p_schema:Character ;
     p_schema:name "paco" .
 
@@ -13612,7 +13395,6 @@ nana dawson""" .
 
 :Pvertigoii a p_schema:Character,
         p_schema:Fictional .
-
 :Pvictor a p_schema:Character ;
     p_schema:name "victor" .
 
@@ -14064,137 +13846,9 @@ nana dawson""" .
 :Pzuras a p_schema:Character ;
     p_schema:name "zuras" .
 
-:Rebellion a skos:Concept ;
+:abcstudios a skos:Concept ;
     rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Rebellion" .
-
-:RedHood a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Red Hood" .
-
-:RedRobin a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Red Robin" .
-
-:RobinII a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Robin II" .
-
-:RobinIII a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Robin III" .
-
-:RuneKingThor a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Rune King Thor" .
-
-:ScarletSpider a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Scarlet Spider" .
-
-:Scorpion a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Scorpion" .
-
-:SharonCarter a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Sharon Carter" .
-
-:SheThing a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "She-Thing" .
-
-:Shueisha a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Shueisha" .
-
-:SonyPictures a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Sony Pictures" .
-
-:SouthPark a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "South Park" .
-
-:Spectre a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Spectre" .
-
-:SpeedDemon a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Speed Demon" .
-
-:Speedball a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Speedball" .
-
-:Speedy a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Speedy" .
-
-:SpiderCarnage a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Spider-Carnage" .
-
-:Spoiler a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Spoiler" .
-
-:StarTrek a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Star Trek" .
-
-:SupermanPrimeOneMillion a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Superman Prime One-Million" .
-
-:SyFy a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "SyFy" .
-
-:TeamEpicTV a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Team Epic TV" .
-
-:Tempest a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Tempest" .
-
-:ThunderbirdII a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Thunderbird II" .
-
-:TitanBooks a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Titan Books" .
-
-:Toxin a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Toxin" .
-
-:UniversalStudios a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Universal Studios" .
-
-:VenomIII a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Venom III" .
-
-:VertigoII a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Vertigo II" .
-
-:VindicatorII a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Vindicator II" .
-
-:Warpath a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Warpath" .
-
-:Wildstorm a skos:Concept ;
-    rdfs:subClassOf p_schema:Publisher ;
-    skos:prefLabel "Wildstorm" .
+    skos:prefLabel "ABC Studios" .
 
 :accountant a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -14298,6 +13952,14 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "and the dead" .
 
+:angel a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Angel" .
+
+:angelsalvadore a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Angel Salvadore" .
+
 :animal a skos:Concept ;
     rdfs:subClassOf p_schema:Race ;
     skos:prefLabel "Animal" .
@@ -14309,6 +13971,18 @@ nana dawson""" .
 :antihero a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "anti-hero" .
+
+:antivenom a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Anti-Venom" .
+
+:antivision a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Anti-Vision" .
+
+:antman a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Ant-Man" .
 
 :apprenticeofdoctorstrange a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -14322,6 +13996,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "archaeologist" .
 
+:archangel a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Archangel" .
+
 :archerytutor a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "archery tutor" .
@@ -14333,6 +14011,10 @@ nana dawson""" .
 :armymascot a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "army mascot" .
+
+:arsenal a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Arsenal" .
 
 :artist a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -14366,6 +14048,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Race ;
     skos:prefLabel "Atlantean" .
 
+:atlas a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Atlas" .
+
 :atomicresearchconsultant a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "atomic-research consultant" .
@@ -14385,6 +14071,10 @@ nana dawson""" .
 :avenger a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "avenger" .
+
+:aztar a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Aztar" .
 
 :ballerina a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -14406,9 +14096,29 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "bartender" .
 
+:batgirl a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Batgirl" .
+
+:batgirliii a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Batgirl III" .
+
+:batgirlv a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Batgirl V" .
+
+:batmanii a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Batman II" .
+
 :biggamehunter a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "big-game hunter" .
+
+:binary a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Binary" .
 
 :biochemist a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -14435,8 +14145,13 @@ nana dawson""" .
     skos:prefLabel "black" .
 
 :blackracer a skos:Concept ;
-    rdfs:subClassOf p_schema:Race ;
+    rdfs:subClassOf p_schema:Publisher,
+        p_schema:Race ;
     skos:prefLabel "Black Racer" .
+
+:blaquesmith a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Blaquesmith" .
 
 :blond a skos:Concept ;
     rdfs:subClassOf p_schema:Color ;
@@ -14453,6 +14168,10 @@ nana dawson""" .
 :bolovaxian a skos:Concept ;
     rdfs:subClassOf p_schema:Race ;
     skos:prefLabel "Bolovaxian" .
+
+:boomboom a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Boom-Boom" .
 
 :botanist a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -14529,6 +14248,10 @@ nana dawson""" .
 :captaininthekreespacefleet a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "captain in the kree space fleet" .
+
+:captainmarvel a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Captain Marvel" .
 
 :caretaker a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -14764,9 +14487,21 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "dancer" .
 
+:darkhorsecomics a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Dark Horse Comics" .
+
 :dathomirianzabrak a skos:Concept ;
     rdfs:subClassOf p_schema:Race ;
     skos:prefLabel "Dathomirian Zabrak" .
+
+:dccomics a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "DC Comics" .
+
+:deadpool a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Deadpool" .
 
 :deity a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -14888,6 +14623,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Race ;
     skos:prefLabel "Eternal" .
 
+:evildeadpool a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Evil Deadpool" .
+
 :executiveassistant a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "executive assistant" .
@@ -14959,6 +14698,10 @@ nana dawson""" .
 :firstladyofkahndaq a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "first lady of kahndaq" .
+
+:flashiv a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Flash IV" .
 
 :fleetcommander a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -15056,6 +14799,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "garment worker" .
 
+:geminiv a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Gemini V" .
+
 :genesisoverseer a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "genesis overseer" .
@@ -15072,9 +14819,17 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "geography teacher" .
 
+:georgelucas a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "George Lucas" .
+
 :germanfreedomfighter a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "german freedom fighter" .
+
+:giantman a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Giant-Man" .
 
 :goddess a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -15107,6 +14862,10 @@ nana dawson""" .
 :goldmedalwinningolympicdecathlete a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "gold-medal-winning olympic decathlete" .
+
+:goliath a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Goliath" .
 
 :gorilla a skos:Concept ;
     rdfs:subClassOf p_schema:Race ;
@@ -15151,6 +14910,22 @@ nana dawson""" .
 :gungan a skos:Concept ;
     rdfs:subClassOf p_schema:Race ;
     skos:prefLabel "Gungan" .
+
+:hannabarbera a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Hanna-Barbera" .
+
+:harpercollins a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "HarperCollins" .
+
+:hawkeye a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Hawkeye" .
+
+:hawkfire a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Hawkfire" .
 
 :hazel a skos:Concept ;
     rdfs:subClassOf p_schema:Color ;
@@ -15260,21 +15035,41 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "hunter" .
 
+:huntress a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Huntress" .
+
 :hydraagent a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "hydra agent" .
+
+:iconcomics a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Icon Comics" .
 
 :icthyosapien a skos:Concept ;
     rdfs:subClassOf p_schema:Race ;
     skos:prefLabel "Icthyo Sapien" .
 
+:idwpublishing a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "IDW Publishing" .
+
 :illinois a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "illinois" .
 
+:imagecomics a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Image Comics" .
+
 :imfagent a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "imf agent" .
+
+:impulse a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Impulse" .
 
 :inapplicable a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -15364,13 +15159,25 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "involuntary operative for factor" .
 
+:ironlad a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Iron Lad" .
+
 :janitor a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "janitor" .
 
+:jeangrey a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Jean Grey" .
+
 :jeangreyschoolforhigherlearning a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "jean grey school for higher learning" .
+
+:jkrowling a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "J. K. Rowling" .
 
 :journalist a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -15379,6 +15186,10 @@ nana dawson""" .
 :journalistforthedailyglobe a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "journalist for the daily globe" .
+
+:jrrtolkien a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "J. R. R. Tolkien" .
 
 :judoinstructor a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -15492,6 +15303,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "liaison between s.h.i.e.l.d. and the avengers" .
 
+:libertybelleii a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Liberty Belle II" .
+
 :librarian a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "librarian" .
@@ -15511,6 +15326,10 @@ nana dawson""" .
 :lordofarealmofhell a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "lord of a realm of hell" .
+
+:lukecage a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Luke Cage" .
 
 :luphomoid a skos:Concept ;
     rdfs:subClassOf p_schema:Race ;
@@ -15556,6 +15375,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Race ;
     skos:prefLabel "Martian" .
 
+:marvelcomics a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Marvel Comics" .
+
 :mascotathohocharlieschickenshack a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "mascot at ho-ho charlie's chicken shack" .
@@ -15588,6 +15411,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "megalomaniac" .
 
+:meltdown a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Meltdown" .
+
 :memberofshield a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "member of s.h.i.e.l.d." .
@@ -15612,6 +15439,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Race ;
     skos:prefLabel "Metahuman" .
 
+:microsoft a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Microsoft" .
+
 :militaryintelligenceofficer a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "military intelligence officer." .
@@ -15623,6 +15454,10 @@ nana dawson""" .
 :miner a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "miner" .
+
+:misfit a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Misfit" .
 
 :model a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -15647,6 +15482,10 @@ nana dawson""" .
 :motorcycleperformer a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "motorcycle performer" .
+
+:msmarvelii a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Ms Marvel II" .
 
 :multibillionaire a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -15688,6 +15527,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "navy officer" .
 
+:nbcheroes a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "NBC - Heroes" .
+
 :newgod a skos:Concept ;
     rdfs:subClassOf p_schema:Race ;
     skos:prefLabel "New God" .
@@ -15716,6 +15559,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "nightclub owner" .
 
+:nightwing a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Nightwing" .
+
 :ninja a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "ninja" .
@@ -15735,6 +15582,8 @@ nana dawson""" .
 :nuclearphysicist a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "nuclear physicist" .
+
+
 
 :nullifyingabraxasinfluenceonthemultiverse a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -15779,6 +15628,10 @@ nana dawson""" .
 :olympiangodofstrengthandlabor a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "olympian god of strength and labor" .
+
+:oracle a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Oracle" .
 
 :orange a skos:Concept ;
     rdfs:subClassOf p_schema:Color ;
@@ -15828,9 +15681,17 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "peacekeeper" .
 
+:penanceii a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Penance II" .
+
 :phdintoxicologyentomology a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "ph.d. in toxicology & entomology" .
+
+:phoenix a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Phoenix" .
 
 :physician a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -15887,6 +15748,14 @@ nana dawson""" .
 :possiblyheraldofgalactus a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "possibly herald of galactus" .
+
+:powerman a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Power Man" .
+
+:powerwoman a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Power Woman" .
 
 :praetoroftheimperialguard a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -16058,6 +15927,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "reality tv star" .
 
+:rebellion a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Rebellion" .
+
 :recordsofficer a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "records officer" .
@@ -16065,6 +15938,14 @@ nana dawson""" .
 :red a skos:Concept ;
     rdfs:subClassOf p_schema:Color ;
     skos:prefLabel "red" .
+
+:redhood a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Red Hood" .
+
+:redrobin a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Red Robin" .
 
 :reformedcriminal a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -16114,6 +15995,14 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "revolutionary" .
 
+:robinii a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Robin II" .
+
+:robiniii a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Robin III" .
+
 :robot a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "robot" .
@@ -16162,6 +16051,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "ruler of the technarchy" .
 
+:runekingthor a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Rune King Thor" .
+
 :sailor a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "sailor" .
@@ -16186,6 +16079,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "savior of worlds" .
 
+:scarletspider a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Scarlet Spider" .
+
 :scavenger a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "scavenger" .
@@ -16197,6 +16094,10 @@ nana dawson""" .
 :scientist a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "scientist" .
+
+:scorpion a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Scorpion" .
 
 :scubadiver a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -16242,6 +16143,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "shaman" .
 
+:sharoncarter a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Sharon Carter" .
+
 :shelterattendant a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "shelter attendant" .
@@ -16249,6 +16154,10 @@ nana dawson""" .
 :sheriff a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "sheriff" .
+
+:shething a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "She-Thing" .
 
 :shewasarockbandgroupieanddrugdealer a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -16269,6 +16178,10 @@ nana dawson""" .
 :shorttimevigilante a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "short-time vigilante" .
+
+:shueisha a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Shueisha" .
 
 :sidekick a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -16318,6 +16231,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "soldier of fortune" .
 
+:sonypictures a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Sony Pictures" .
+
 :sorcerersupreme a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "sorcerer supreme" .
@@ -16325,6 +16242,10 @@ nana dawson""" .
 :sorceress a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "sorceress" .
+
+:southpark a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "South Park" .
 
 :sparringpartner a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -16358,6 +16279,30 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "special professional criminal" .
 
+:spectre a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Spectre" .
+
+:speedball a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Speedball" .
+
+:speeddemon a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Speed Demon" .
+
+:speedy a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Speedy" .
+
+:spidercarnage a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Spider-Carnage" .
+
+:spoiler a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Spoiler" .
+
 :spy a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "spy" .
@@ -16369,6 +16314,10 @@ nana dawson""" .
 :starshipcaptain a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "starship captain" .
+
+:startrek a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Star Trek" .
 
 :steelworker a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -16431,6 +16380,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "superhero" .
 
+:supermanprimeonemillion a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Superman Prime One-Million" .
+
 :supernaturalinvestigator a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "supernatural investigator" .
@@ -16446,6 +16399,10 @@ nana dawson""" .
 :survivor a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "survivor" .
+
+:syfy a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "SyFy" .
 
 :symbiote a skos:Concept ;
     rdfs:subClassOf p_schema:Race ;
@@ -16475,6 +16432,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "teacher" .
 
+:teamepictv a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Team Epic TV" .
+
 :technician a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "technician" .
@@ -16494,6 +16455,10 @@ nana dawson""" .
 :tempcuratorofthestonechatmuseum a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "temp curator of the stonechat museum" .
+
+:tempest a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Tempest" .
 
 :terrorist a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -16519,6 +16484,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "third force of the universe - balance between eternity and death" .
 
+:thunderbirdii a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Thunderbird II" .
+
 :time a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "time" .
@@ -16526,6 +16495,14 @@ nana dawson""" .
 :timepiecerestorer a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "timepiece restorer" .
+
+:titanbooks a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Titan Books" .
+
+:toxin a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Toxin" .
 
 :tracker a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -16566,6 +16543,10 @@ nana dawson""" .
 :unitedstatessecretaryofdefense a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "united states secretary of defense" .
+
+:universalstudios a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Universal Studios" .
 
 :universitystudent a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
@@ -16611,9 +16592,21 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "various odd jobs" .
 
+:venomiii a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Venom III" .
+
+:vertigoii a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Vertigo II" .
+
 :vigilante a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "vigilante" .
+
+:vindicatorii a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Vindicator II" .
 
 :violet a skos:Concept ;
     rdfs:subClassOf p_schema:Color ;
@@ -16635,6 +16628,10 @@ nana dawson""" .
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "wandering spirit" .
 
+:warpath a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Warpath" .
+
 :warrior a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
     skos:prefLabel "warrior" .
@@ -16650,6 +16647,10 @@ nana dawson""" .
 :white a skos:Concept ;
     rdfs:subClassOf p_schema:Color ;
     skos:prefLabel "white" .
+
+:wildstorm a skos:Concept ;
+    rdfs:subClassOf p_schema:Publisher ;
+    skos:prefLabel "Wildstorm" .
 
 :wind a skos:Concept ;
     rdfs:subClassOf p_schema:Occupation ;
