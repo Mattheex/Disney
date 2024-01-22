@@ -8,28 +8,26 @@
 @prefix perso: <http://projet.fr/perso_schema/> .
 
 :CreativeWorkShape
-    a                                                                                                sh:NodeShape ;
-    sh:ignoredProperties                                                                             ( rdf:type ) ;
-    sh:property                                                                                      [ sh:path     :director ;
-                                                                                                       sh:minCount 1 ],
-                                                                                                     [ sh:path       :gross ;
-                                                                                                       :minInclusive 0 ],
-                                                                                                     [ sh:path       :vote ;
-                                                                                                       sh:minInclusive 0 ],
-                                                                                                     [ sh:path         :rating ;
-                                                                                                       sh:minInclusive 0 ;
-                                                                                                       sh:maxInclusive 10 ],
-                                                                                                     [ sh:path     :entity ;
-                                                                                                       sh:maxCount 1 ;
-                                                                                                       sh:in       ( :MARVEL
-                                                                                                                     :DC ) ] ;
-    sh:targetClass                                                                                   :CreativeWork .
+    a              sh:NodeShape ;
+    sh:property    [ sh:path     :director ;
+                     sh:minCount 1 ] ;
+    sh:property    [ sh:path         :gross ;
+                     sh:minInclusive 0 ] ;
+    sh:property    [ sh:path         :vote ;
+                     sh:minInclusive 0 ] ;
+    sh:property    [ sh:path         :rating ;
+                     sh:minInclusive 0 ;
+                     sh:maxInclusive 10 ] ;
+    sh:property    [ sh:path     :entity ;
+                     sh:maxCount 1 ;
+                     sh:in       ( :MARVEL :DC ) ] ;
+    sh:targetClass :CreativeWork .
 
-:NodeShape
-    a           sh:NodeShape ;
-    sh:property [ sh:path rdf:type ; # this is a class
-                  sh:not  [ sh:and ( [ sh:pattern 'http://projet.fr/films_schema/' ] [ sh:property [ sh:path     rdf:type ;
-                                                                                                     sh:maxCount 0 ] ] ) ] ] .
+#:NodeShape
+#    a           sh:NodeShape ;
+#    sh:property [ sh:path rdf:type ; # this is a class
+#                  sh:not  [ sh:and ( [ sh:pattern 'http://projet.fr/films_schema/' ] [ sh:property [ sh:path     rdf:type ;
+#                                                                                                     sh:maxCount 0 ] ] ) ] ] .
 
 
 :castmember

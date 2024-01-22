@@ -5,6 +5,7 @@ PREFIX sh:   <http://www.w3.org/ns/shacl#>
 PREFIX film: <http://projet.fr/films_schema/>
 PREFIX :     <http://projet.fr/perso_schema/>
 PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
 
 :PersonShape
     a                    sh:NodeShape ;
@@ -19,7 +20,7 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
 
 :Person
     a          owl:Class;
-    owl:disjointUnionOf {:Male,:Female} ;
+    owl:disjointUnionOf (:Male :Female) ;
     rdfs:label "person" .
 
 :Race a owl:Class;
@@ -58,8 +59,8 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     owl:intersectionOf ( :Person :Real ) .
 
 :Character
-    a                  owl:Class ,
-    owl:disjointUnionOf {:Villain,:Hero,:Neutral};
+    a                  owl:Class ;
+    owl:disjointUnionOf (:Villain :Hero :Neutral);
     rdfs:label         "a character" ;
     owl:intersectionOf ( :Person :Fictional ) .
 
@@ -123,7 +124,7 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
 :hair
     a          owl:ObjectProperty ;
     rdfs:label "Color hair";
-    rdfs:range :Color
+    rdfs:range :Color.
 
 :apparition
     a          owl:ObjectProperty ;
