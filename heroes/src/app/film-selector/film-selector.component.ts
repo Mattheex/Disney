@@ -27,16 +27,12 @@ export class FilmSelectorComponent implements OnInit {
 
   executeQuery(){
     this.sparqlQuery = `
-    PREFIX f_schema: <http://projet.fr/films_schema/> 
-    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    PREFIX test: <http://ns.inria.fr/sparql-micro-service/api#>
-    PREFIX : <http://projet.fr/perso_schema/>
-    PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+    PREFIX schema:   <https://schema.org/> 
 
     SELECT * WHERE {
-      ?x a f_schema:CreativeWork;
-       f_schema:title ?title.
+      ?x a schema:Movie;
+       schema:name ?title.
     }
     `;
 

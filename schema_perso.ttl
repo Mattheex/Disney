@@ -13,7 +13,7 @@ PREFIX schema: <http://schema.org/>
     sh:ignoredProperties ( rdf:type ) ;
     sh:property          [ sh:path     :name ;
                            sh:maxCount 1 ] ;
-    sh:targetClass       :Person .
+    sh:targetClass       schema:Person .
 
 
 
@@ -24,7 +24,7 @@ PREFIX schema: <http://schema.org/>
 :race
     a           owl:ObjectProperty ;
     rdfs:label  "race" ;
-    rdfs:domain :Person ;
+    rdfs:domain schema:Person ;
     rdfs:range  :Race .
 
 :Fictional
@@ -38,7 +38,7 @@ PREFIX schema: <http://schema.org/>
 :Actor
     a               owl:Class ;
     rdfs:label      "an actor" ;
-    rdfs:subClassOf :Person, :Real .
+    rdfs:subClassOf schema:Person, :Real .
 
 :Appearance
     a          owl:Class ;
@@ -47,19 +47,15 @@ PREFIX schema: <http://schema.org/>
 :hasAppearance
     a           owl:ObjectProperty ;
     rdfs:label  "Appearance" ;
-    rdfs:domain :Person ;
+    rdfs:domain schema:Person ;
     rdfs:range  :Appearance .
 
-:Director
-    a               owl:Class ;
-    rdfs:label      "a director" ;
-    rdfs:subClassOf :Person, :Real .
 
 :Character
     a                   owl:Class ;
     owl:disjointUnionOf ( :Villain :Hero :Neutral ) ;
     rdfs:label          "a character" ;
-    owl:intersectionOf  ( :Person :Fictional ) .
+    owl:intersectionOf  ( schema:Person :Fictional ) .
 
 :secretIdentity
     a             owl:ObjectProperty ;
