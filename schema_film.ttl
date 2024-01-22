@@ -1,11 +1,12 @@
-@prefix :      <http://projet.fr/films_schema/> .
-@prefix owl:   <http://www.w3.org/2002/07/owl#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix sh:    <http://www.w3.org/ns/shacl#> .
-@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
-@prefix perso: <http://projet.fr/perso_schema/> .
+@prefix :       <http://projet.fr/films_schema/> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:     <http://www.w3.org/ns/shacl#> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix perso:  <http://projet.fr/perso_schema/> .
+@prefix schema: <http://schema.org/>.
 
 :CreativeWorkShape
     a              sh:NodeShape ;
@@ -21,7 +22,7 @@
     sh:property    [ sh:path     :entity ;
                      sh:maxCount 1 ;
                      sh:in       ( :MARVEL :DC ) ] ;
-    sh:targetClass :CreativeWork .
+    sh:targetClass schema:CreativeWork .
 
 #:NodeShape
 #    a           sh:NodeShape ;
@@ -131,9 +132,6 @@
     a           owl:ObjectProperty ;
     rdfs:domain :CreativeWork ;
     rdfs:range  xsd:date .
-
-:CreativeWork
-    a owl:Class .
 
 :genreConcept
     a              skos:Concept ;

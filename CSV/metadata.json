@@ -7,12 +7,17 @@
     "columns": [
       {
         "titles": "title",
-        "propertyUrl": "http://projet.fr/films_schema/title"
+        "propertyUrl": "http://projet.fr/films_schema/title",
+        "datatype": "string",
+        "lang": "en"
       },
       {
         "titles": "year",
         "propertyUrl": "http://projet.fr/films_schema/year",
-        "datetype": "date"
+        "datetype": {
+          "base": "date",
+          "format": "DD/MM/yyyy"
+        }
       },
       {
         "titles": "genre",
@@ -43,7 +48,7 @@
       },
       {
         "titles": "director",
-        "propertyUrl": "http://projet.fr/films_schema/director"
+        "propertyUrl": "schema:director"
       },
       {
         "titles": "star",
@@ -54,7 +59,6 @@
         "suppressOutput": true
       },
       {
-
         "titles": "crit_consensus",
         "suppressOutput": true
       },
@@ -81,7 +85,7 @@
       {
         "titles": "id",
         "propertyUrl": "rdf:type",
-        "valueUrl": "http://projet.fr/films_schema/CreativeWork",
+        "valueUrl": "schema:movie",
         "required": true
       }
     ]
