@@ -2382,6 +2382,7 @@ f_schema:Fantasy
 f_schema:DC
     a              skos:Concept ;
     skos:prefLabel "DC" ;
+    rdfs:seeAlso   p_data:dccomics ;
     skos:broader   f_schema:producerConcept .
 
 f_schema:SciFi
@@ -2392,6 +2393,7 @@ f_schema:SciFi
 f_schema:MARVEL
     a              skos:Concept ;
     skos:prefLabel "MARVEL" ;
+    rdfs:seeAlso   p_data:marvelcomics ;
     skos:broader   f_schema:producerConcept .
 
 f_schema:Adventure
