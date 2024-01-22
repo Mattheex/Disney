@@ -1,6 +1,5 @@
 @prefix :         <http://projet.fr/films_data/> .
 @prefix f_schema: <http://projet.fr/films_schema/> .
-@prefix ns1:      <http://projet.fr/films_schema/22-rdf-syntax-ns#> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
 @prefix p_data:   <http://projet.fr/perso_data/> .
 @prefix p_schema: <http://projet.fr/perso_schema/> .
@@ -1954,7 +1953,6 @@
 
 :26
     a                        schema:Movie ;
-    ns1:type                 :Node ;
     f_schema:castmember      :DominicCooper, :HayleyAtwell, :HugoWeaving, :NealMcDon, :SebastianStan, :TommyLeeJones ;
     f_schema:entity          f_schema:MARVEL ;
     f_schema:genre           f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
