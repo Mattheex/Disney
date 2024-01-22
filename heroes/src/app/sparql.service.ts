@@ -31,12 +31,14 @@ export class SparqlService {
     PREFIX : <http://projet.fr/perso_schema/>
     PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     PREFIX film: <http://projet.fr/films_schema/>
+    PREFIX schema: <http://schema.org/>
+
     
     SELECT * WHERE {
       BIND(URI(CONCAT("http://localhost/service/superheroeapi/getHero?name=","${userInput}")) AS ?service)
       SERVICE ?service{
-        ?x :name ?heroName;
-           :hasImage ?image;
+        ?x schema:name ?heroName;
+           schema:image ?image;
            :appearance ?app;
            :secretIdentity ?secret;
            rdfs:seeAlso ?concept.
@@ -46,18 +48,18 @@ export class SparqlService {
         OPTIONAL { ?app :race ?race.}
         OPTIONAL { ?app :heightCm ?height }
         OPTIONAL { ?app :weightKg ?weight }
-        OPTIONAL { ?x :alias ?alias}
+        OPTIONAL { ?x schema:alternateName ?alias}
         OPTIONAL { ?x :alter ?alter}
         OPTIONAL { ?x :base ?base.}
         OPTIONAL { ?x :race ?race.}
-        OPTIONAL { ?x :relatives ?relatives.}
+        OPTIONAL { ?x schema:knows ?relatives.}
         OPTIONAL { ?x :affiliation ?affiliation.}
         OPTIONAL { ?secret :name ?name.}
         OPTIONAL { ?secret :placeOfBirth ?place.}
-        OPTIONAL { ?secret :occupation ?occupations.}
+        OPTIONAL { ?secret :hasOccupation ?occupations.}
         OPTIONAL { ?concept :publisher ?publishers}
-        OPTIONAL { ?concept :apparition ?apparitions.
-          ?apparitions film:title ?apparition.}
+        OPTIONAL { ?comic schema:character ?x;
+                            schema:name ?apparition}
         
       }
       OPTIONAL{?perso rdfs:seeAlso ?x; 

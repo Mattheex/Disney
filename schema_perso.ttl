@@ -6,6 +6,7 @@ PREFIX film: <http://projet.fr/films_schema/>
 PREFIX :     <http://projet.fr/perso_schema/>
 PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
 PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
+PREFIX schema: <http://schema.org/>
 
 :PersonShape
     a                    sh:NodeShape ;
@@ -14,14 +15,9 @@ PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
                            sh:maxCount 1 ] ;
     sh:targetClass       :Person .
 
-:Comic a owl:Class;
-    rdfs:subClassOf film:CreativeWork;
-    rdfs:label "Comic".
 
-:Person
-    a          owl:Class;
-    owl:disjointUnionOf (:Male :Female) ;
-    rdfs:label "person" .
+
+
 
 :Race a owl:Class;
     rdfs:label "race".
@@ -42,7 +38,7 @@ PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
 :Actor
     a                  owl:Class ;
     rdfs:label         "an actor" ;
-    rdfs:subClassOf :Person, :Real .
+    rdfs:subClassOf :Person,  :Real .
 
 :Appearance
     a owl:Class;
@@ -64,33 +60,10 @@ PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
     rdfs:label         "a character" ;
     owl:intersectionOf ( :Person :Fictional ) .
 
-:hasImage
-    a          owl:ObjectProperty ;
-    rdfs:label "has image" .
-
-:name
-    a           owl:DatatypeProperty ;
-    rdfs:label  "name" ;
-    rdfs:domain :Person ;
-    rdfs:range  xsd:string .
-
-:id
-    a          owl:DatatypeProperty ;
-    rdfs:label "id" .
-
 :secretIdentity a owl:ObjectProperty;
     owl:inverseOf :heroIdentity;
     rdfs:label "Secret identity";
     rdfs:range :Character.
-
-:heroName
-    a            owl:DatatypeProperty ;
-    rdfs:label   "Full-name" ;
-    rdfs:comment "Hero/Villain name" .
-
-:alias
-    a          owl:DatatypeProperty ;
-    rdfs:label "Alias" .
 
 :alter
     a          owl:DatatypeProperty ;
@@ -105,13 +78,6 @@ PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
     rdfs:label "Hero/Villain identity";
     rdfs:range :Character.
 
-:Male
-    a          owl:Class ;
-    rdfs:label "Male" .
-
-:Female
-    a          owl:Class ;
-    rdfs:label "Female" .
 
 :Color a owl:Class;
     rdfs:label "color".
@@ -126,11 +92,6 @@ PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
     rdfs:label "Color hair";
     rdfs:range :Color.
 
-:apparition
-    a          owl:ObjectProperty ;
-    rdfs:label "apparition of the character";
-    rdfs:range :Comic;
-    rdfs:domain :Character.
 
 :Villain
     a          owl:Class ;
@@ -145,19 +106,24 @@ PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
 
 :heightF
     a          owl:DatatypeProperty ;
-    rdfs:label "height in feet" .
+    rdfs:label "height in feet";
+    owl:equivalentProperty schema:height;
 
 :heightCm
     a          owl:DatatypeProperty ;
-    rdfs:label "height in cm" .
+    rdfs:label "height in cm" ;
+    owl:equivalentProperty schema:height.
 
 :weightKg
     a          owl:DatatypeProperty ;
-    rdfs:label "weight in kg " .
+    rdfs:label "weight in kg " ;
+    owl:equivalentProperty schema:weight.
+
 
 :weightLb
     a          owl:DatatypeProperty ;
-    rdfs:label "weight in lb " .
+    rdfs:label "weight in lb " ;
+    owl:equivalentProperty schema:weight.
 
 :base
     a          owl:DatatypeProperty ;
@@ -167,17 +133,13 @@ PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
     a          owl:DatatypeProperty ;
     rdfs:label "group-affiliation" .
 
-:relatives
-    a          owl:ObjectProperty ;
-    rdfs:label "relatives" ;
-    rdfs:range :Person.
 
 :publisher
     a          owl:ObjectProperty ;
     rdfs:label "publisher";
     rdfs:range skos:Concept.
 
-:occupation a owl:ObjectProperty;
+:hasOccupation a owl:ObjectProperty;
     rdfs:label "Occupations";
     rdfs:range :Occupation.
 
