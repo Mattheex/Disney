@@ -10,15 +10,12 @@ input {
 
 #persos {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 15px;
   
 }
 
-app-person-card{
-  height: 750px;
-  margin-bottom: 10px;
-}
+
 
 
 .loader-container {

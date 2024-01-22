@@ -156,12 +156,12 @@ export class SparqlService {
        f_schema:year ?year.
        OPTIONAL{
         ?x f_schema:castmember ?actorsCast.
-        ?actorsCast p_data:name ?actorCast.
+        ?actorsCast :name ?actorCast.
        }
        OPTIONAL{
         ?x f_schema:characters ?characters.
         ?characters rdfs:seeAlso ?also;
-          f_schema:name ?id.
+          :name ?id.
         {
           ?also :name ?name.
           FILTER(CONTAINS(?also,"/P"))
@@ -173,8 +173,8 @@ export class SparqlService {
         }
 
        }
-       ?actors p_data:name ?actor.
-       ?directors p_data:name ?director.
+       ?actors :name ?actor.
+       ?directors :name ?director.
        ?entities skos:prefLabel ?entity.
        ?genres skos:prefLabel ?genre.
        
