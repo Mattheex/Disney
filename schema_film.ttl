@@ -78,17 +78,15 @@ schema:director
     rdfs:domain schema:Movie ;
     rdfs:range  xsd:integer .
 
-:name
+schema:name
     a           owl:FunctionalProperty ;
-    rdfs:label  "his/her name" ;
-    rdfs:domain schema:Movie ;
-    rdfs:range  xsd:string .
+    rdfs:label  "his/her name".
 
 :performer
     a           owl:ObjectProperty ;
     rdfs:label  "perform by" ;
-    rdfs:domain :Character ;
-    rdfs:range  perso:Character .
+    rdfs:domain perso:Character ;
+    rdfs:range  perso:Actor .
 
 :presentinwork
     a             owl:ObjectProperty ;

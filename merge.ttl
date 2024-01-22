@@ -1642,7 +1642,7 @@
     schema:name "N'Bushe Wright" .
 
 :NealMcDon
-    a           p_schema:Real, schema:Person ;
+    a           p_schema:Actor ;
     schema:name "Neal McDon" .
 
 :NedBeatty
@@ -1929,7 +1929,7 @@
     schema:name "David S. Goyer" .
 
 :DominicCooper
-    a           p_schema:Real, schema:Person ;
+    a           p_schema:Actor ;
     schema:name "Dominic Cooper" .
 
 :DonCheadle
@@ -1961,7 +1961,7 @@
     schema:name "Guillermo del Toro" .
 
 :HayleyAtwell
-    a           p_schema:Real, schema:Person ;
+    a           p_schema:Actor, schema:Person ;
     schema:name "Hayley Atwell" .
 
 :HenryCavill
@@ -1969,7 +1969,7 @@
     schema:name "Henry Cavill" .
 
 :HugoWeaving
-    a           p_schema:Real, schema:Person ;
+    a           p_schema:Actor, schema:Person ;
     schema:name "Hugo Weaving" .
 
 :IoanGruffudd
@@ -2117,7 +2117,7 @@
     schema:name "Scott Derrickson" .
 
 :SebastianStan
-    a           p_schema:Real, schema:Person ;
+    a           p_schema:Actor, schema:Person ;
     schema:name "Sebastian Stan" .
 
 :ShaneBlack
@@ -2153,7 +2153,7 @@
     schema:name "Tom Holland" .
 
 :TommyLeeJones
-    a           p_schema:Real, schema:Person ;
+    a           p_schema:Actor, schema:Person ;
     schema:name "Tommy Lee Jones" .
 
 :VinDiesel

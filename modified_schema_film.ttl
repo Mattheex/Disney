@@ -48,14 +48,9 @@
 :genreConcept a skos:Concept ;
     skos:prefLabel "film genre" .
 
-:name a owl:FunctionalProperty ;
-    rdfs:label "his/her name" ;
-    rdfs:domain schema1:Movie ;
-    rdfs:range xsd:string .
-
 :performer a owl:ObjectProperty ;
     rdfs:label "perform by" ;
-    rdfs:domain :Character ;
+    rdfs:domain perso:Character ;
     rdfs:range perso:Character .
 
 :producerConcept a skos:Concept ;
@@ -77,6 +72,9 @@
 
 schema1:director a owl:IrreflexiveProperty ;
     rdfs:label "film director" .
+
+schema1:name a owl:FunctionalProperty ;
+    rdfs:label "his/her name" .
 
 :entity a owl:ObjectProperty ;
     rdfs:label "film entity" ;
