@@ -15,7 +15,7 @@
                                                                                                      [ sh:path       :gross ;
                                                                                                        :minInclusive 0 ],
                                                                                                      [ sh:path       :vote ;
-                                                                                                       :minInclusive 0 ],
+                                                                                                       sh:minInclusive 0 ],
                                                                                                      [ sh:path         :rating ;
                                                                                                        sh:minInclusive 0 ;
                                                                                                        sh:maxInclusive 10 ],

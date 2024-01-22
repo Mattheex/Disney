@@ -10,7 +10,6 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     a                    sh:NodeShape ;
     sh:ignoredProperties ( rdf:type ) ;
     sh:property          [ sh:path     :name ;
-                           sh:minCount 1 ;
                            sh:maxCount 1 ] ;
     sh:targetClass       :Person .
 
@@ -19,7 +18,8 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "Comic".
 
 :Person
-    a          owl:Class ;
+    a          owl:Class;
+    owl:disjointUnionOf {:Male,:Female} ;
     rdfs:label "person" .
 
 :Race a owl:Class;
@@ -58,7 +58,8 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     owl:intersectionOf ( :Person :Real ) .
 
 :Character
-    a                  owl:Class ;
+    a                  owl:Class ,
+    owl:disjointUnionOf {:Villain,:Hero,:Neutral};
     rdfs:label         "a character" ;
     owl:intersectionOf ( :Person :Fictional ) .
 
@@ -77,6 +78,7 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "id" .
 
 :secretIdentity a owl:ObjectProperty;
+    owl:inverseOf :heroIdentity;
     rdfs:label "Secret identity";
     rdfs:range :Character.
 
@@ -98,6 +100,7 @@ PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "Place of birth" .
 
 :heroIdentity a owl:ObjectProperty;
+    owl:inverseOf :secretIdentity;
     rdfs:label "Hero/Villain identity";
     rdfs:range :Character.
 
