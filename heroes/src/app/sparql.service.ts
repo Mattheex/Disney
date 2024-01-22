@@ -39,7 +39,7 @@ export class SparqlService {
       SERVICE ?service{
         ?x schema:name ?heroName;
            schema:image ?image;
-           :appearance ?app;
+           :hasAppearance ?app;
            :secretIdentity ?secret;
            rdfs:seeAlso ?concept.
 

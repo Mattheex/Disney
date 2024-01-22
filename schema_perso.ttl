@@ -44,7 +44,7 @@ PREFIX schema: <http://schema.org/>
     a owl:Class;
     rdfs:label "Physic appearance".
 
-:appearance a owl:ObjectProperty;
+:hasAppearance a owl:ObjectProperty;
     rdfs:label "Appearance";
     rdfs:domain :Person;
     rdfs:range :Appearance.
