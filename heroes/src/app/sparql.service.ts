@@ -31,7 +31,7 @@ export class SparqlService {
     PREFIX : <http://projet.fr/perso_schema/>
     PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     PREFIX film: <http://projet.fr/films_schema/>
-    PREFIX schema: <http://schema.org/>
+    PREFIX schema: <https://schema.org/>
 
     
     SELECT * WHERE {
@@ -144,12 +144,13 @@ export class SparqlService {
     PREFIX : <http://projet.fr/perso_schema/>
     PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
     PREFIX p_data:   <http://projet.fr/perso_data/> 
+    PREFIX schema: <https://schema.org/>
 
     SELECT * WHERE {
-      ?x a f_schema:CreativeWork;
-       f_schema:title ?title;
+      ?x a schema:Movie;
+       schema:name ?title;
        f_schema:stars ?actors;
-       f_schema:director ?directors;
+       schema:director ?directors;
        f_schema:entity ?entities;
        f_schema:genre ?genres;
        f_schema:gross ?gross;
@@ -158,29 +159,29 @@ export class SparqlService {
        f_schema:year ?year.
        OPTIONAL{
         ?x f_schema:castmember ?actorsCast.
-        ?actorsCast :name ?actorCast.
+        ?actorsCast schema:name ?actorCast.
        }
        OPTIONAL{
-        ?x f_schema:characters ?characters.
+        ?x schema:character ?characters.
         ?characters rdfs:seeAlso ?also;
-          :name ?id.
+        schema:name ?id.
         {
-          ?also :name ?name.
+          ?also schema:name ?name.
           FILTER(CONTAINS(?also,"/P"))
         }
         UNION
         {
-          ?also :name ?super.
+          ?also schema:name ?super.
           FILTER(CONTAINS(?also,"/H"))
         }
 
        }
-       ?actors :name ?actor.
-       ?directors :name ?director.
+       ?actors schema:name ?actor.
+       ?directors schema:name ?director.
        ?entities skos:prefLabel ?entity.
        ?genres skos:prefLabel ?genre.
        
-      FILTER(?title = "${input}")
+      FILTER(?title = "${input}"@en)
     }`
     
     
@@ -191,6 +192,7 @@ export class SparqlService {
       }),
       map(data => {
         const sparqlResults: { [key: string]: { value: string } }[] = data.results.bindings;
+        console.log(sparqlResults)
         if (sparqlResults.length > 0) {
           const actors: string[] = sparqlResults
             .map(result => result['actor'].value)
