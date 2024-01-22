@@ -37,11 +37,9 @@
     rdfs:domain schema:Movie ;
     rdfs:range  :Person .
 
-:characters
+schema:character
     a             owl:ObjectProperty ;
     rdfs:label    "film characters" ;
-    rdfs:domain   schema:Movie ;
-    rdfs:range    perso:Character ;
     owl:inverseOf :presentinwork .
 
 :charactersTransitive
