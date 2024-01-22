@@ -1,11 +1,11 @@
-PREFIX owl:  <http://www.w3.org/2002/07/owl#>
-PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sh:   <http://www.w3.org/ns/shacl#>
-PREFIX film: <http://projet.fr/films_schema/>
-PREFIX :     <http://projet.fr/perso_schema/>
-PREFIX xsd:  <http://www.w3.org/2001/XMLSchema#>
-PREFIX skos:  <http://www.w3.org/2004/02/skos/core#>
+PREFIX owl:    <http://www.w3.org/2002/07/owl#>
+PREFIX rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sh:     <http://www.w3.org/ns/shacl#>
+PREFIX film:   <http://projet.fr/films_schema/>
+PREFIX :       <http://projet.fr/perso_schema/>
+PREFIX xsd:    <http://www.w3.org/2001/XMLSchema#>
+PREFIX skos:   <http://www.w3.org/2004/02/skos/core#>
 PREFIX schema: <http://schema.org/>
 
 :PersonShape
@@ -17,15 +17,15 @@ PREFIX schema: <http://schema.org/>
 
 
 
+:Race
+    a          owl:Class ;
+    rdfs:label "race" .
 
-
-:Race a owl:Class;
-    rdfs:label "race".
-
-:race a owl:ObjectProperty;
-    rdfs:label "race";
-    rdfs:domain :Person;
-    rdfs:range :Race.
+:race
+    a           owl:ObjectProperty ;
+    rdfs:label  "race" ;
+    rdfs:domain :Person ;
+    rdfs:range  :Race .
 
 :Fictional
     a          owl:Class ;
@@ -36,34 +36,36 @@ PREFIX schema: <http://schema.org/>
     rdfs:label "real" .
 
 :Actor
-    a                  owl:Class ;
-    rdfs:label         "an actor" ;
-    rdfs:subClassOf :Person,  :Real .
+    a               owl:Class ;
+    rdfs:label      "an actor" ;
+    rdfs:subClassOf :Person, :Real .
 
 :Appearance
-    a owl:Class;
-    rdfs:label "Physic appearance".
+    a          owl:Class ;
+    rdfs:label "Physic appearance" .
 
-:hasAppearance a owl:ObjectProperty;
-    rdfs:label "Appearance";
-    rdfs:domain :Person;
-    rdfs:range :Appearance.
+:hasAppearance
+    a           owl:ObjectProperty ;
+    rdfs:label  "Appearance" ;
+    rdfs:domain :Person ;
+    rdfs:range  :Appearance .
 
 :Director
-    a                  owl:Class ;
-    rdfs:label         "a director" ;
+    a               owl:Class ;
+    rdfs:label      "a director" ;
     rdfs:subClassOf :Person, :Real .
 
 :Character
-    a                  owl:Class ;
-    owl:disjointUnionOf (:Villain :Hero :Neutral);
-    rdfs:label         "a character" ;
-    owl:intersectionOf ( :Person :Fictional ) .
+    a                   owl:Class ;
+    owl:disjointUnionOf ( :Villain :Hero :Neutral ) ;
+    rdfs:label          "a character" ;
+    owl:intersectionOf  ( :Person :Fictional ) .
 
-:secretIdentity a owl:ObjectProperty;
-    owl:inverseOf :heroIdentity;
-    rdfs:label "Secret identity";
-    rdfs:range :Character.
+:secretIdentity
+    a             owl:ObjectProperty ;
+    owl:inverseOf :heroIdentity ;
+    rdfs:label    "Secret identity" ;
+    rdfs:range    :Character .
 
 :alter
     a          owl:DatatypeProperty ;
@@ -73,57 +75,60 @@ PREFIX schema: <http://schema.org/>
     a          owl:DatatypeProperty ;
     rdfs:label "Place of birth" .
 
-:heroIdentity a owl:ObjectProperty;
-    owl:inverseOf :secretIdentity;
-    rdfs:label "Hero/Villain identity";
-    rdfs:range :Character.
+:heroIdentity
+    a             owl:ObjectProperty ;
+    owl:inverseOf :secretIdentity ;
+    rdfs:label    "Hero/Villain identity" ;
+    rdfs:range    :Character .
 
 
-:Color a owl:Class;
-    rdfs:label "color".
+:Color
+    a          owl:Class ;
+    rdfs:label "color" .
 
 :eyes
     a          owl:ObjectProperty ;
-    rdfs:label "Color eyes";
-    rdfs:range :Color.
+    rdfs:label "Color eyes" ;
+    rdfs:range :Color .
 
 :hair
     a          owl:ObjectProperty ;
-    rdfs:label "Color hair";
-    rdfs:range :Color.
+    rdfs:label "Color hair" ;
+    rdfs:range :Color .
 
 
 :Villain
     a          owl:Class ;
     rdfs:label "Villain" .
 
-:Neutral a owl:Class;
-    rdfs:label "Neutral".
+:Neutral
+    a          owl:Class ;
+    rdfs:label "Neutral" .
 
 :Hero
     a          owl:Class ;
     rdfs:label "Hero" .
 
 :heightF
-    a          owl:DatatypeProperty ;
-    rdfs:label "height in feet";
-    owl:equivalentProperty schema:height;
+    a                      owl:DatatypeProperty ;
+    rdfs:label             "height in feet" ;
+    owl:equivalentProperty schema:height .
 
 :heightCm
-    a          owl:DatatypeProperty ;
-    rdfs:label "height in cm" ;
-    owl:equivalentProperty schema:height.
+    a                      owl:DatatypeProperty ;
+    rdfs:label             "height in cm" ;
+    owl:equivalentProperty schema:height .
 
 :weightKg
-    a          owl:DatatypeProperty ;
-    rdfs:label "weight in kg " ;
-    owl:equivalentProperty schema:weight.
+    a                      owl:DatatypeProperty ;
+    rdfs:label             "weight in kg " ;
+    owl:equivalentProperty schema:weight .
 
 
 :weightLb
-    a          owl:DatatypeProperty ;
-    rdfs:label "weight in lb " ;
-    owl:equivalentProperty schema:weight.
+    a                      owl:DatatypeProperty ;
+    rdfs:label             "weight in lb " ;
+    owl:equivalentProperty schema:weight .
 
 :base
     a          owl:DatatypeProperty ;
@@ -136,12 +141,14 @@ PREFIX schema: <http://schema.org/>
 
 :publisher
     a          owl:ObjectProperty ;
-    rdfs:label "publisher";
-    rdfs:range skos:Concept.
+    rdfs:label "publisher" ;
+    rdfs:range skos:Concept .
 
-:hasOccupation a owl:ObjectProperty;
-    rdfs:label "Occupations";
-    rdfs:range :Occupation.
+:hasOccupation
+    a          owl:ObjectProperty ;
+    rdfs:label "Occupations" ;
+    rdfs:range :Occupation .
 
-:Occupation a owl:Class;
-    rdfs:label "an occupation".
+:Occupation
+    a          owl:Class ;
+    rdfs:label "an occupation" .
