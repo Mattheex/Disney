@@ -1,110 +1,92 @@
 @prefix ns1: <http://projet.fr/text/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:AbrahamErskine
-    a             ns1:Node ;
-    ns1:name      "Abraham Erskine" ;
+ns1:AbrahamErskine a ns1:Node ;
+    ns1:name "Abraham Erskine" ;
     ns1:performer ns1:StanleyTucci .
 
-ns1:DumDumDugan
-    a             ns1:Node ;
-    ns1:conflict  ns1:WorldWarII ;
-    ns1:name      "Dum Dum Dugan" ;
+ns1:DumDumDugan a ns1:Node ;
+    ns1:conflict ns1:WorldWarII ;
+    ns1:name "Dum Dum Dugan" ;
     ns1:performer ns1:NealMcDonough .
 
-ns1:GabeJones
-    a             ns1:Node ;
-    ns1:name      "Gabe Jones" ;
+ns1:GabeJones a ns1:Node ;
+    ns1:name "Gabe Jones" ;
     ns1:performer ns1:DerekLuke .
 
-ns1:HowardStark
-    a             ns1:Node ;
-    ns1:conflict  ns1:WorldWarII ;
-    ns1:name      "Howard Stark" ;
+ns1:HowardStark a ns1:Node ;
+    ns1:conflict ns1:WorldWarII ;
+    ns1:name "Howard Stark" ;
     ns1:performer ns1:DominicCooper .
 
-ns1:JoeJohnston
-    a        ns1:Node ;
+ns1:JoeJohnston a ns1:Node ;
     ns1:name "Joe Johnston" .
 
-ns1:JohannSchmidt
-    a            ns1:Node ;
+ns1:JohannSchmidt a ns1:Node ;
     ns1:memberof ns1:HYDRA ;
-    ns1:name     "Johann Schmidt" .
+    ns1:name "Johann Schmidt" .
 
-ns1:July292011
-    a        ns1:Node ;
+ns1:July292011 a ns1:Node ;
     ns1:name "July 29, 2011" .
 
-ns1:SteveRogers
-    a                 ns1:Node ;
-    ns1:name          "Steve Rogers" ;
-    ns1:performer     ns1:ChrisEvans ;
+ns1:SteveRogers a ns1:Node ;
+    ns1:name "Steve Rogers" ;
+    ns1:performer ns1:ChrisEvans ;
     ns1:presentinwork ns1:CaptainAmerica .
 
-ns1:BuckyBarnes
-    a             ns1:Node ;
-    ns1:conflict  ns1:WorldWarII ;
-    ns1:name      "Bucky Barnes" ;
+ns1:BuckyBarnes a ns1:Node ;
+    ns1:conflict ns1:WorldWarII ;
+    ns1:name "Bucky Barnes" ;
     ns1:performer ns1:DominicCooper .
 
-ns1:CaptainAmerica
-    a                   ns1:Node ;
-    ns1:castmember      ns1:DominicCooper, ns1:HayleyAtwell, ns1:HugoWeaving, ns1:NealMcDon, ns1:SebastianStan,
-                        ns1:TommyLeeJones ;
-    ns1:characters      ns1:BuckyBarnes ;
-    ns1:name            "Captain America" ;
-    ns1:publicationdate "July 29, 2011" .
+ns1:CaptainAmerica a ns1:Node ;
+    ns1:castmember ns1:DominicCooper,
+        ns1:HayleyAtwell,
+        ns1:HugoWeaving,
+        ns1:NealMcDon,
+        ns1:SebastianStan,
+        ns1:TommyLeeJones ;
+    ns1:characters ns1:BuckyBarnes ;
+    ns1:name "Captain America" ;
+    ns1:publicationdate "2011-07-29"^^xsd:date .
 
-ns1:ChrisEvans
-    a        ns1:Node ;
+ns1:ChrisEvans a ns1:Node ;
     ns1:name "Chris Evans" .
 
-ns1:DerekLuke
-    a        ns1:Node ;
+ns1:DerekLuke a ns1:Node ;
     ns1:name "Derek Luke" .
 
-ns1:HYDRA
-    a           ns1:Node ;
+ns1:HYDRA a ns1:Node ;
     ns1:country ns1:NaziGermany ;
-    ns1:name    "HYDRA" .
+    ns1:name "HYDRA" .
 
-ns1:HayleyAtwell
-    a        ns1:Node ;
+ns1:HayleyAtwell a ns1:Node ;
     ns1:name "Hayley Atwell" .
 
-ns1:HugoWeaving
-    a        ns1:Node ;
+ns1:HugoWeaving a ns1:Node ;
     ns1:name "Hugo Weaving" .
 
-ns1:NaziGermany
-    a        ns1:Node ;
+ns1:NaziGermany a ns1:Node ;
     ns1:name "Nazi Germany" .
 
-ns1:NealMcDon
-    a        ns1:Node ;
+ns1:NealMcDon a ns1:Node ;
     ns1:name "Neal McDon" .
 
-ns1:NealMcDonough
-    a        ns1:Node ;
+ns1:NealMcDonough a ns1:Node ;
     ns1:name "Neal McDonough" .
 
-ns1:SebastianStan
-    a        ns1:Node ;
+ns1:SebastianStan a ns1:Node ;
     ns1:name "Sebastian Stan" .
 
-ns1:StanleyTucci
-    a        ns1:Node ;
+ns1:StanleyTucci a ns1:Node ;
     ns1:name "Stanley Tucci" .
 
-ns1:TommyLeeJones
-    a        ns1:Node ;
+ns1:TommyLeeJones a ns1:Node ;
     ns1:name "Tommy Lee Jones" .
 
-ns1:DominicCooper
-    a        ns1:Node ;
+ns1:DominicCooper a ns1:Node ;
     ns1:name "Dominic Cooper" .
 
-ns1:WorldWarII
-    a        ns1:Node ;
+ns1:WorldWarII a ns1:Node ;
     ns1:name "World War II" .
 

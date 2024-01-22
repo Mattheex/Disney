@@ -1,4 +1,5 @@
 @prefix ns1: <http://projet.fr/text/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ns1:AbrahamErskine a ns1:Node ;
     ns1:name "Abraham Erskine" ;
@@ -83,7 +84,7 @@ ns1:CaptainAmerica a ns1:Node ;
     ns1:characters ns1:BuckyBarnes,
         ns1:SteveRogers ;
     ns1:name "Captain America" ;
-    ns1:publicationdate "July 29, 2011" .
+    ns1:publicationdate "2011-07-29"^^xsd:date .
 
 ns1:DominicCooper a ns1:Node ;
     ns1:name "Dominic Cooper" .
