@@ -3,6 +3,7 @@
 @prefix perso: <http://projet.fr/perso_schema/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -10,12 +11,11 @@
 <http://projet.fr/films_schema/22-rdf-syntax-ns#type> a owl:ObjectProperty .
 
 :CreativeWorkShape a sh:NodeShape ;
-    sh:ignoredProperties ( rdf:type ) ;
     sh:property [ sh:minCount 1 ;
             sh:path :director ],
-        [ :minInclusive 0 ;
+        [ sh:minInclusive 0 ;
             sh:path :gross ],
-        [ :minInclusive 0 ;
+        [ sh:minInclusive 0 ;
             sh:path :vote ],
         [ sh:maxInclusive 10 ;
             sh:minInclusive 0 ;
@@ -23,12 +23,7 @@
         [ sh:in ( :MARVEL :DC ) ;
             sh:maxCount 1 ;
             sh:path :entity ] ;
-    sh:targetClass :CreativeWork .
-
-:NodeShape a sh:NodeShape ;
-    sh:property [ sh:not [ sh:and ( [ sh:pattern "http://projet.fr/films_schema/" ] [ sh:property [ sh:maxCount 0 ;
-                                        sh:path rdf:type ] ] ) ] ;
-            sh:path rdf:type ] .
+    sh:targetClass schema1:CreativeWork .
 
 :castmember a owl:ObjectProperty ;
     rdfs:label "film cast-member" ;
@@ -78,7 +73,7 @@
     rdfs:range :Person .
 
 :title a owl:ObjectProperty ;
-    rdfs:label "film title" ;
+    rdfs:label "title" ;
     rdfs:domain :CreativeWork ;
     rdfs:range xsd:string .
 
@@ -121,6 +116,4 @@
     rdfs:domain :CreativeWork ;
     rdfs:range perso:Character ;
     owl:inverseOf :presentinwork .
-
-:CreativeWork a owl:Class .
 

@@ -15,7 +15,7 @@
     f_schema:title  "Captain America"@en ;
     f_schema:vote   8.44e+02 ;
     f_schema:year   "1944"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :ElmerClifton .
 
 :10
     a               schema:Movie ;
@@ -27,7 +27,7 @@
     f_schema:title  "The Punisher"@en ;
     f_schema:vote   1.51872e+05 ;
     f_schema:year   "2004"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JonathanHensleigh .
 
 :11
     a               schema:Movie ;
@@ -39,7 +39,7 @@
     f_schema:title  "Spider-Man 2"@en ;
     f_schema:vote   5.5698e+05 ;
     f_schema:year   "2004"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :SamRaimi .
 
 :12
     a               schema:Movie ;
@@ -51,7 +51,7 @@
     f_schema:title  "Blade: Trinity"@en ;
     f_schema:vote   1.68363e+05 ;
     f_schema:year   "2004"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :DavidSGoyer .
 
 :13
     a               schema:Movie ;
@@ -63,7 +63,7 @@
     f_schema:title  "Elektra"@en ;
     f_schema:vote   8.8518e+04 ;
     f_schema:year   "2005"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :RobBowman .
 
 :14
     a               schema:Movie ;
@@ -75,7 +75,7 @@
     f_schema:title  "Fantastic Four"@en ;
     f_schema:vote   3.15297e+05 ;
     f_schema:year   "2005"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :TimStory .
 
 :15
     a               schema:Movie ;
@@ -87,7 +87,7 @@
     f_schema:title  "X-Men: The Last Stand"@en ;
     f_schema:vote   4.90269e+05 ;
     f_schema:year   "2006"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :BrettRatner .
 
 :16
     a               schema:Movie ;
@@ -99,7 +99,7 @@
     f_schema:title  "Ghost Rider"@en ;
     f_schema:vote   2.26797e+05 ;
     f_schema:year   "2007"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :MarkStevenJohnson .
 
 :17
     a               schema:Movie ;
@@ -111,7 +111,7 @@
     f_schema:title  "Spider-Man 3"@en ;
     f_schema:vote   5.10723e+05 ;
     f_schema:year   "2007"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :SamRaimi .
 
 :18
     a               schema:Movie ;
@@ -123,7 +123,7 @@
     f_schema:title  "Fantastic Four: Rise of the Silver Surfer"@en ;
     f_schema:vote   2.53897e+05 ;
     f_schema:year   "2007"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :TimStory .
 
 :19
     a               schema:Movie ;
@@ -135,7 +135,7 @@
     f_schema:title  "Iron Man"@en ;
     f_schema:vote   9.64114e+05 ;
     f_schema:year   "2008"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JonFavreau .
 
 :2
     a               schema:Movie ;
@@ -147,7 +147,7 @@
     f_schema:title  "Howard the Duck"@en ;
     f_schema:vote   4.4073e+04 ;
     f_schema:year   "1986"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :WillardHuyck .
 
 :20
     a               schema:Movie ;
@@ -159,7 +159,7 @@
     f_schema:title  "The Incredible Hulk"@en ;
     f_schema:vote   4.45822e+05 ;
     f_schema:year   "2008"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :LouisLeterrier .
 
 :21
     a               schema:Movie ;
@@ -171,7 +171,7 @@
     f_schema:title  "Punisher: War Zone"@en ;
     f_schema:vote   6.0767e+04 ;
     f_schema:year   "2008"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :LexiAlexander .
 
 :22
     a               schema:Movie ;
@@ -183,7 +183,7 @@
     f_schema:title  "X-Men Origins: Wolverine"@en ;
     f_schema:vote   4.75561e+05 ;
     f_schema:year   "2009"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :GavinHood .
 
 :23
     a               schema:Movie ;
@@ -195,7 +195,7 @@
     f_schema:title  "Iron Man 2"@en ;
     f_schema:vote   7.42416e+05 ;
     f_schema:year   "2010"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JonFavreau .
 
 :24
     a               schema:Movie ;
@@ -207,7 +207,7 @@
     f_schema:title  "Thor"@en ;
     f_schema:vote   7.67687e+05 ;
     f_schema:year   "2011"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :KennethBranagh .
 
 :25
     a               schema:Movie ;
@@ -219,7 +219,7 @@
     f_schema:title  "X: First Class"@en ;
     f_schema:vote   6.55399e+05 ;
     f_schema:year   "2011"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :MatthewVaughn .
 
 :26
     a               schema:Movie ;
@@ -231,7 +231,7 @@
     f_schema:title  "Captain America: The First Avenger"@en ;
     f_schema:vote   7.64786e+05 ;
     f_schema:year   "2011"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JoeJohnston .
 
 :27
     a               schema:Movie ;
@@ -243,7 +243,7 @@
     f_schema:title  "Ghost Rider: Spirit of Vengeance"@en ;
     f_schema:vote   1.12898e+05 ;
     f_schema:year   "2011"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :MarkNeveldine .
 
 :28
     a               schema:Movie ;
@@ -255,7 +255,7 @@
     f_schema:title  "The Avengers"@en ;
     f_schema:vote   1.286985e+06 ;
     f_schema:year   "2012"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JossWhedon .
 
 :29
     a               schema:Movie ;
@@ -267,7 +267,7 @@
     f_schema:title  "The Amazing Spider-Man"@en ;
     f_schema:vote   5.69274e+05 ;
     f_schema:year   "2012"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :MarcWebb .
 
 :3
     a               schema:Movie ;
@@ -279,7 +279,7 @@
     f_schema:title  "Blade"@en ;
     f_schema:vote   2.51243e+05 ;
     f_schema:year   "1998"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :StephenNorrington .
 
 :30
     a               schema:Movie ;
@@ -291,7 +291,7 @@
     f_schema:title  "Iron Man Three"@en ;
     f_schema:vote   7.75425e+05 ;
     f_schema:year   "2013"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :ShaneBlack .
 
 :31
     a               schema:Movie ;
@@ -303,7 +303,7 @@
     f_schema:title  "The Wolverine"@en ;
     f_schema:vote   4.37712e+05 ;
     f_schema:year   "2013"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JamesMangold .
 
 :32
     a               schema:Movie ;
@@ -315,7 +315,7 @@
     f_schema:title  "Thor: The Dark World"@en ;
     f_schema:vote   6.14115e+05 ;
     f_schema:year   "2013"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :AlanTaylor .
 
 :33
     a               schema:Movie ;
@@ -327,7 +327,7 @@
     f_schema:title  "Captain America: The Winter Soldier"@en ;
     f_schema:vote   7.59721e+05 ;
     f_schema:year   "2014"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :AnthonyRusso .
 
 :34
     a               schema:Movie ;
@@ -339,7 +339,7 @@
     f_schema:title  "The Amazing Spider-Man 2"@en ;
     f_schema:vote   4.25691e+05 ;
     f_schema:year   "2014"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :MarcWebb .
 
 :35
     a               schema:Movie ;
@@ -351,7 +351,7 @@
     f_schema:title  "X-Men: Days of Future Past"@en ;
     f_schema:vote   6.71146e+05 ;
     f_schema:year   "2014"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :BryanSinger .
 
 :36
     a               schema:Movie ;
@@ -363,7 +363,7 @@
     f_schema:title  "Guardians of the Galaxy"@en ;
     f_schema:vote   1.069895e+06 ;
     f_schema:year   "2014"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JamesGunn .
 
 :37
     a               schema:Movie ;
@@ -375,7 +375,7 @@
     f_schema:title  "Avengers: Age of Ultron"@en ;
     f_schema:vote   7.72476e+05 ;
     f_schema:year   "2015"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JossWhedon .
 
 :38
     a               schema:Movie ;
@@ -387,7 +387,7 @@
     f_schema:title  "Ant-Man"@en ;
     f_schema:vote   5.90834e+05 ;
     f_schema:year   "2015"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :PeytonReed .
 
 :39
     a               schema:Movie ;
@@ -399,7 +399,7 @@
     f_schema:title  "Fantastic Four"@en ;
     f_schema:vote   1.55942e+05 ;
     f_schema:year   "2015"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JoshTrank .
 
 :4
     a               schema:Movie ;
@@ -411,7 +411,7 @@
     f_schema:title  "X-Men"@en ;
     f_schema:vote   5.80354e+05 ;
     f_schema:year   "2000"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :BryanSinger .
 
 :40
     a               schema:Movie ;
@@ -423,7 +423,7 @@
     f_schema:title  "Deadpool"@en ;
     f_schema:vote   9.27737e+05 ;
     f_schema:year   "2016"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :TimMiller .
 
 :41
     a               schema:Movie ;
@@ -435,7 +435,7 @@
     f_schema:title  "Captain America: Civil War"@en ;
     f_schema:vote   6.89763e+05 ;
     f_schema:year   "2016"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :AnthonyRusso .
 
 :42
     a               schema:Movie ;
@@ -447,7 +447,7 @@
     f_schema:title  "X-Men: Apocalypse"@en ;
     f_schema:vote   4.02935e+05 ;
     f_schema:year   "2016"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :BryanSinger .
 
 :43
     a               schema:Movie ;
@@ -459,7 +459,7 @@
     f_schema:title  "Doctor Strange"@en ;
     f_schema:vote   6.23361e+05 ;
     f_schema:year   "2016"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :ScottDerrickson .
 
 :44
     a               schema:Movie ;
@@ -471,7 +471,7 @@
     f_schema:title  "Logan"@en ;
     f_schema:vote   6.7071e+05 ;
     f_schema:year   "2017"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JamesMangold .
 
 :45
     a               schema:Movie ;
@@ -483,7 +483,7 @@
     f_schema:title  "Guardians of the Galaxy Vol. 2"@en ;
     f_schema:vote   5.9226e+05 ;
     f_schema:year   "2017"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JamesGunn .
 
 :46
     a               schema:Movie ;
@@ -495,7 +495,7 @@
     f_schema:title  "Spider-Man: Homecoming"@en ;
     f_schema:vote   5.36012e+05 ;
     f_schema:year   "2017"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JonWatts .
 
 :47
     a               schema:Movie ;
@@ -507,7 +507,7 @@
     f_schema:title  "Thor: Ragnarok"@en ;
     f_schema:vote   6.20623e+05 ;
     f_schema:year   "2017"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :TaikaWaititi .
 
 :48
     a               schema:Movie ;
@@ -519,7 +519,7 @@
     f_schema:title  "Black Panther"@en ;
     f_schema:vote   6.55779e+05 ;
     f_schema:year   "2018"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :RyanCoogler .
 
 :49
     a               schema:Movie ;
@@ -531,7 +531,7 @@
     f_schema:title  "Avengers: Infinity War"@en ;
     f_schema:vote   8.88104e+05 ;
     f_schema:year   "2018"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :AnthonyRusso .
 
 :5
     a               schema:Movie ;
@@ -543,7 +543,7 @@
     f_schema:title  "Blade II"@en ;
     f_schema:vote   2.03813e+05 ;
     f_schema:year   "2002"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :GuillermodelToro .
 
 :50
     a               schema:Movie ;
@@ -555,7 +555,7 @@
     f_schema:title  "Deadpool 2"@en ;
     f_schema:vote   5.01971e+05 ;
     f_schema:year   "2018"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :DavidLeitch .
 
 :51
     a               schema:Movie ;
@@ -567,7 +567,7 @@
     f_schema:title  "Ant-Man and the Wasp"@en ;
     f_schema:vote   3.296e+05 ;
     f_schema:year   "2018"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :PeytonReed .
 
 :52
     a               schema:Movie ;
@@ -579,7 +579,7 @@
     f_schema:title  "Venom"@en ;
     f_schema:vote   3.83743e+05 ;
     f_schema:year   "2018"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :RubenFleischer .
 
 :53
     a               schema:Movie ;
@@ -591,7 +591,7 @@
     f_schema:title  "Captain Marvel"@en ;
     f_schema:vote   4.73437e+05 ;
     f_schema:year   "2019"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :AnnaBoden .
 
 :54
     a               schema:Movie ;
@@ -603,7 +603,7 @@
     f_schema:title  "Avengers: Endgame"@en ;
     f_schema:vote   8.90937e+05 ;
     f_schema:year   "2019"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :AnthonyRusso .
 
 :55
     a               schema:Movie ;
@@ -615,7 +615,7 @@
     f_schema:title  "X-Men: Dark Phoenix"@en ;
     f_schema:vote   1.64427e+05 ;
     f_schema:year   "2019"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :SimonKinberg .
 
 :56
     a               schema:Movie ;
@@ -627,7 +627,7 @@
     f_schema:title  "Spider-Man: Far from Home"@en ;
     f_schema:vote   3.53385e+05 ;
     f_schema:year   "2019"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JonWatts .
 
 :57
     a               schema:Movie ;
@@ -639,7 +639,7 @@
     f_schema:title  "The New Mutants"@en ;
     f_schema:vote   5.9535e+04 ;
     f_schema:year   "2020"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JoshBoone .
 
 :58
     a               schema:Movie ;
@@ -651,7 +651,7 @@
     f_schema:title  "Superman and the Mole-Men"@en ;
     f_schema:vote   1.828e+03 ;
     f_schema:year   "1951"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :LeeSholem .
 
 :59
     a               schema:Movie ;
@@ -663,7 +663,7 @@
     f_schema:title  "Batman: The Movie"@en ;
     f_schema:vote   3.0289e+04 ;
     f_schema:year   "1966"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :LeslieHMartinson .
 
 :6
     a               schema:Movie ;
@@ -675,7 +675,7 @@
     f_schema:title  "Spider-Man"@en ;
     f_schema:vote   7.02986e+05 ;
     f_schema:year   "2002"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :SamRaimi .
 
 :60
     a               schema:Movie ;
@@ -687,7 +687,7 @@
     f_schema:title  "Superman"@en ;
     f_schema:vote   1.62395e+05 ;
     f_schema:year   "1978"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :RichardDonner .
 
 :61
     a               schema:Movie ;
@@ -699,7 +699,7 @@
     f_schema:title  "Superman II"@en ;
     f_schema:vote   1.0003e+05 ;
     f_schema:year   "1980"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :RichardLester .
 
 :62
     a               schema:Movie ;
@@ -711,7 +711,7 @@
     f_schema:title  "Swamp Thing"@en ;
     f_schema:vote   1.3328e+04 ;
     f_schema:year   "1982"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :WesCraven .
 
 :63
     a               schema:Movie ;
@@ -723,7 +723,7 @@
     f_schema:title  "Superman III"@en ;
     f_schema:vote   6.534e+04 ;
     f_schema:year   "1983"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :RichardLester .
 
 :64
     a               schema:Movie ;
@@ -735,7 +735,7 @@
     f_schema:title  "Supergirl"@en ;
     f_schema:vote   1.9361e+04 ;
     f_schema:year   "1984"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JeannotSzwarc .
 
 :65
     a               schema:Movie ;
@@ -747,7 +747,7 @@
     f_schema:title  "Superman IV: The Quest for Peace"@en ;
     f_schema:vote   4.4082e+04 ;
     f_schema:year   "1987"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :SidneyJFurie .
 
 :66
     a               schema:Movie ;
@@ -759,7 +759,7 @@
     f_schema:title  "The Return of Swamp Thing"@en ;
     f_schema:vote   4.454e+03 ;
     f_schema:year   "1989"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JimWynorski .
 
 :67
     a               schema:Movie ;
@@ -771,7 +771,7 @@
     f_schema:title  "Batman"@en ;
     f_schema:vote   3.44868e+05 ;
     f_schema:year   "1989"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :TimBurton .
 
 :68
     a               schema:Movie ;
@@ -783,7 +783,7 @@
     f_schema:title  "Batman Returns"@en ;
     f_schema:vote   2.79545e+05 ;
     f_schema:year   "1992"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :TimBurton .
 
 :69
     a               schema:Movie ;
@@ -795,7 +795,7 @@
     f_schema:title  "Batman Forever"@en ;
     f_schema:vote   2.3823e+05 ;
     f_schema:year   "1995"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JoelSchumacher .
 
 :7
     a               schema:Movie ;
@@ -807,7 +807,7 @@
     f_schema:title  "Daredevil"@en ;
     f_schema:vote   2.08847e+05 ;
     f_schema:year   "2003"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :MarkStevenJohnson .
 
 :70
     a               schema:Movie ;
@@ -819,7 +819,7 @@
     f_schema:title  "Batman & Robin"@en ;
     f_schema:vote   2.37759e+05 ;
     f_schema:year   "1997"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JoelSchumacher .
 
 :71
     a               schema:Movie ;
@@ -831,7 +831,7 @@
     f_schema:title  "Steel"@en ;
     f_schema:vote   1.1519e+04 ;
     f_schema:year   "1997"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :KennethJohnson .
 
 :72
     a               schema:Movie ;
@@ -843,7 +843,7 @@
     f_schema:title  "Catwoman"@en ;
     f_schema:vote   1.12972e+05 ;
     f_schema:year   "2004"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :Pitof .
 
 :73
     a               schema:Movie ;
@@ -855,7 +855,7 @@
     f_schema:title  "Constantine"@en ;
     f_schema:vote   3.15617e+05 ;
     f_schema:year   "2005"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :FrancisLawrence .
 
 :74
     a               schema:Movie ;
@@ -867,7 +867,7 @@
     f_schema:title  "Batman Begins"@en ;
     f_schema:vote   1.33814e+06 ;
     f_schema:year   "2005"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :ChristopherNolan .
 
 :75
     a               schema:Movie ;
@@ -879,7 +879,7 @@
     f_schema:title  "Superman Returns"@en ;
     f_schema:vote   2.73696e+05 ;
     f_schema:year   "2006"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :BryanSinger .
 
 :76
     a               schema:Movie ;
@@ -891,7 +891,7 @@
     f_schema:title  "The Dark Knight"@en ;
     f_schema:vote   2.369304e+06 ;
     f_schema:year   "2008"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :ChristopherNolan .
 
 :77
     a               schema:Movie ;
@@ -903,7 +903,7 @@
     f_schema:title  "Watchmen"@en ;
     f_schema:vote   5.18415e+05 ;
     f_schema:year   "2009"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :ZackSnyder .
 
 :78
     a               schema:Movie ;
@@ -915,7 +915,7 @@
     f_schema:title  "Jonah Hex"@en ;
     f_schema:vote   5.6225e+04 ;
     f_schema:year   "2010"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JimmyHayward .
 
 :79
     a               schema:Movie ;
@@ -927,7 +927,7 @@
     f_schema:title  "Green Lantern"@en ;
     f_schema:vote   2.70939e+05 ;
     f_schema:year   "2011"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :MartinCampbell .
 
 :8
     a               schema:Movie ;
@@ -939,7 +939,7 @@
     f_schema:title  "X2: X-Men United"@en ;
     f_schema:vote   5.19747e+05 ;
     f_schema:year   "2003"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :BryanSinger .
 
 :80
     a               schema:Movie ;
@@ -951,7 +951,7 @@
     f_schema:title  "The Dark Knight Rises"@en ;
     f_schema:vote   1.552223e+06 ;
     f_schema:year   "2012"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :ChristopherNolan .
 
 :81
     a               schema:Movie ;
@@ -963,7 +963,7 @@
     f_schema:title  "Man of Steel"@en ;
     f_schema:vote   7.18956e+05 ;
     f_schema:year   "2013"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :ZackSnyder .
 
 :82
     a               schema:Movie ;
@@ -975,7 +975,7 @@
     f_schema:title  "Batman v Superman: Dawn of Justice"@en ;
     f_schema:vote   6.5327e+05 ;
     f_schema:year   "2016"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :ZackSnyder .
 
 :83
     a               schema:Movie ;
@@ -987,7 +987,7 @@
     f_schema:title  "Suicide Squad"@en ;
     f_schema:vote   6.22206e+05 ;
     f_schema:year   "2016"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :DavidAyer .
 
 :84
     a               schema:Movie ;
@@ -999,7 +999,7 @@
     f_schema:title  "Wonder Woman"@en ;
     f_schema:vote   5.96901e+05 ;
     f_schema:year   "2017"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :PattyJenkins .
 
 :85
     a               schema:Movie ;
@@ -1011,7 +1011,7 @@
     f_schema:title  "Justice League"@en ;
     f_schema:vote   4.16837e+05 ;
     f_schema:year   "2017"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :ZackSnyder .
 
 :86
     a               schema:Movie ;
@@ -1023,7 +1023,7 @@
     f_schema:title  "Aquaman"@en ;
     f_schema:vote   4.00424e+05 ;
     f_schema:year   "2018"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :JamesWan .
 
 :87
     a               schema:Movie ;
@@ -1035,7 +1035,7 @@
     f_schema:title  "Shazam!"@en ;
     f_schema:vote   2.79604e+05 ;
     f_schema:year   "2019"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :DavidFSandberg .
 
 :88
     a               schema:Movie ;
@@ -1047,7 +1047,7 @@
     f_schema:title  "Joker"@en ;
     f_schema:vote   1.014748e+06 ;
     f_schema:year   "2019"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :ToddPhillips .
 
 :89
     a               schema:Movie ;
@@ -1059,7 +1059,7 @@
     f_schema:title  "Birds of Prey"@en ;
     f_schema:vote   1.86805e+05 ;
     f_schema:year   "2020"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :CathyYan .
 
 :9
     a               schema:Movie ;
@@ -1071,7 +1071,7 @@
     f_schema:title  "Hulk"@en ;
     f_schema:vote   2.55002e+05 ;
     f_schema:year   "2003"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :AngLee .
 
 :90
     a               schema:Movie ;
@@ -1083,7 +1083,7 @@
     f_schema:title  "Wonder Woman 1984"@en ;
     f_schema:vote   2.12554e+05 ;
     f_schema:year   "2020"^^xsd:gYear ;
-    schema:director schema:Movie .
+    schema:director :PattyJenkins .
 
 :AaronEckhart
     a           schema:Person ;
@@ -1097,10 +1097,6 @@
     a           schema:Person ;
     schema:name "Adrienne Barbeau" .
 
-:AlanTaylor
-    a           schema:Person ;
-    schema:name "Alan Taylor" .
-
 :AlfredMolina
     a           schema:Person ;
     schema:name "Alfred Molina" .
@@ -1112,14 +1108,6 @@
 :AmberHeard
     a           schema:Person ;
     schema:name "Amber Heard" .
-
-:AngLee
-    a           schema:Person ;
-    schema:name "Ang Lee" .
-
-:AnnaBoden
-    a           schema:Person ;
-    schema:name "Anna Boden" .
 
 :AnnabethGish
     a           schema:Person ;
@@ -1177,10 +1165,6 @@
     a           schema:Person ;
     schema:name "Brandon Routh" .
 
-:BrettRatner
-    a           schema:Person ;
-    schema:name "Brett Ratner" .
-
 :BrianTaylor
     a           schema:Person ;
     schema:name "Brian Taylor" .
@@ -1200,6 +1184,10 @@
 :CateBlanchett
     a           schema:Person ;
     schema:name "Cate Blanchett" .
+
+:CathyYan
+    a           schema:Person ;
+    schema:name "Cathy Yan" .
 
 :CesarRomero
     a           schema:Person ;
@@ -1261,17 +1249,17 @@
     a           schema:Person ;
     schema:name "Dave Bautista" .
 
+:DavidAyer
+    a           schema:Person ;
+    schema:name "David Ayer" .
+
+:DavidFSandberg
+    a           schema:Person ;
+    schema:name "David F. Sandberg" .
+
 :DavidHess
     a           schema:Person ;
     schema:name "David Hess" .
-
-:DavidLeitch
-    a           schema:Person ;
-    schema:name "David Leitch" .
-
-:DavidSGoyer
-    a           schema:Person ;
-    schema:name "David S. Goyer" .
 
 :DianeLane
     a           schema:Person ;
@@ -1309,10 +1297,6 @@
     a           schema:Person ;
     schema:name "Edward Norton" .
 
-:ElmerClifton
-    a           schema:Person ;
-    schema:name "Elmer Clifton" .
-
 :EricBana
     a           schema:Person ;
     schema:name "Eric Bana" .
@@ -1333,13 +1317,13 @@
     a           schema:Person ;
     schema:name "Frances Conroy" .
 
+:FrancisLawrence
+    a           schema:Person ;
+    schema:name "Francis Lawrence" .
+
 :GaryOldman
     a           schema:Person ;
     schema:name "Gary Oldman" .
-
-:GavinHood
-    a           schema:Person ;
-    schema:name "Gavin Hood" .
 
 :GeorgeClooney
     a           schema:Person ;
@@ -1352,10 +1336,6 @@
 :GoranVisnjic
     a           schema:Person ;
     schema:name "Goran Visnjic" .
-
-:GuillermodelToro
-    a           schema:Person ;
-    schema:name "Guillermo del Toro" .
 
 :GuyPearce
     a           schema:Person ;
@@ -1409,6 +1389,10 @@
     a           schema:Person ;
     schema:name "James Marsden" .
 
+:JamesWan
+    a           schema:Person ;
+    schema:name "James Wan" .
+
 :JamieBell
     a           schema:Person ;
     schema:name "Jamie Bell" .
@@ -1420,6 +1404,10 @@
 :JaredLeto
     a           schema:Person ;
     schema:name "Jared Leto" .
+
+:JeannotSzwarc
+    a           schema:Person ;
+    schema:name "Jeannot Szwarc" .
 
 :JeffBridges
     a           schema:Person ;
@@ -1449,13 +1437,17 @@
     a           schema:Person ;
     schema:name "Jim Carrey" .
 
+:JimWynorski
+    a           schema:Person ;
+    schema:name "Jim Wynorski" .
+
+:JimmyHayward
+    a           schema:Person ;
+    schema:name "Jimmy Hayward" .
+
 :JoaquinPhoenix
     a           schema:Person ;
     schema:name "Joaquin Phoenix" .
-
-:JoeJohnston
-    a           schema:Person ;
-    schema:name "Joe Johnston" .
 
 :JohnMalkovich
     a           schema:Person ;
@@ -1465,21 +1457,9 @@
     a           schema:Person ;
     schema:name "John Travolta" .
 
-:JonathanHensleigh
-    a           schema:Person ;
-    schema:name "Jonathan Hensleigh" .
-
-:JoshBoone
-    a           schema:Person ;
-    schema:name "Josh Boone" .
-
 :JoshLucas
     a           schema:Person ;
     schema:name "Josh Lucas" .
-
-:JoshTrank
-    a           schema:Person ;
-    schema:name "Josh Trank" .
 
 :JuddNelson
     a           schema:Person ;
@@ -1517,9 +1497,9 @@
     a           schema:Person ;
     schema:name "Ken Watanabe" .
 
-:KennethBranagh
+:KennethJohnson
     a           schema:Person ;
-    schema:name "Kenneth Branagh" .
+    schema:name "Kenneth Johnson" .
 
 :KevinBacon
     a           schema:Person ;
@@ -1557,13 +1537,17 @@
     a           schema:Person ;
     schema:name "Lee Meriwether" .
 
+:LeeSholem
+    a           schema:Person ;
+    schema:name "Lee Sholem" .
+
 :LeonorVarela
     a           schema:Person ;
     schema:name "Leonor Varela" .
 
-:LexiAlexander
+:LeslieHMartinson
     a           schema:Person ;
-    schema:name "Lexi Alexander" .
+    schema:name "Leslie H. Martinson" .
 
 :LiamNeeson
     a           schema:Person ;
@@ -1585,10 +1569,6 @@
     a           schema:Person ;
     schema:name "Lorna Gray" .
 
-:LouisLeterrier
-    a           schema:Person ;
-    schema:name "Louis Leterrier" .
-
 :LucyDavis
     a           schema:Person ;
     schema:name "Lucy Davis" .
@@ -1605,9 +1585,17 @@
     a           schema:Person ;
     schema:name "Malin Akerman" .
 
+:MarkNeveldine
+    a           schema:Person ;
+    schema:name "Mark Neveldine" .
+
 :MarlonBrando
     a           schema:Person ;
     schema:name "Marlon Brando" .
+
+:MartinCampbell
+    a           schema:Person ;
+    schema:name "Martin Campbell" .
 
 :MaryElizabethWinstead
     a           schema:Person ;
@@ -1616,10 +1604,6 @@
 :MattLong
     a           schema:Person ;
     schema:name "Matt Long" .
-
-:MatthewVaughn
-    a           schema:Person ;
-    schema:name "Matthew Vaughn" .
 
 :MeganFox
     a           schema:Person ;
@@ -1697,6 +1681,10 @@
     a           schema:Person ;
     schema:name "Phyllis Coates" .
 
+:Pitof
+    a           schema:Person ;
+    schema:name "Pitof" .
+
 :RachelMcAdams
     a           schema:Person ;
     schema:name "Rachel McAdams" .
@@ -1717,6 +1705,10 @@
     a           schema:Person ;
     schema:name "Rhys Ifans" .
 
+:RichardDonner
+    a           schema:Person ;
+    schema:name "Richard Donner" .
+
 :RichardPryor
     a           schema:Person ;
     schema:name "Richard Pryor" .
@@ -1732,10 +1724,6 @@
 :RizAhmed
     a           schema:Person ;
     schema:name "Riz Ahmed" .
-
-:RobBowman
-    a           schema:Person ;
-    schema:name "Rob Bowman" .
 
 :RobertDeNiro
     a           schema:Person ;
@@ -1761,14 +1749,6 @@
     a           schema:Person ;
     schema:name "Rosie Perez" .
 
-:RubenFleischer
-    a           schema:Person ;
-    schema:name "Ruben Fleischer" .
-
-:RyanCoogler
-    a           schema:Person ;
-    schema:name "Ryan Coogler" .
-
 :SamanthaMathis
     a           schema:Person ;
     schema:name "Samantha Mathis" .
@@ -1777,10 +1757,6 @@
     a           schema:Person ;
     schema:name "Sarah Douglas" .
 
-:ScottDerrickson
-    a           schema:Person ;
-    schema:name "Scott Derrickson" .
-
 :ScottHaze
     a           schema:Person ;
     schema:name "Scott Haze" .
@@ -1788,10 +1764,6 @@
 :SebastianStan
     a           schema:Person ;
     schema:name "Sebastian Stan" .
-
-:ShaneBlack
-    a           schema:Person ;
-    schema:name "Shane Black" .
 
 :ShaquilleONeal
     a           schema:Person ;
@@ -1805,9 +1777,9 @@
     a           schema:Person ;
     schema:name "Shia LaBeouf" .
 
-:SimonKinberg
+:SidneyJFurie
     a           schema:Person ;
-    schema:name "Simon Kinberg" .
+    schema:name "Sidney J. Furie" .
 
 :StellanSkarsgård
     a           schema:Person ;
@@ -1817,17 +1789,9 @@
     a           schema:Person ;
     schema:name "Stephen Dorff" .
 
-:StephenNorrington
-    a           schema:Person ;
-    schema:name "Stephen Norrington" .
-
 :TJMiller
     a           schema:Person ;
     schema:name "T.J. Miller" .
-
-:TaikaWaititi
-    a           schema:Person ;
-    schema:name "Taika Waititi" .
 
 :TaoOkamoto
     a           schema:Person ;
@@ -1845,10 +1809,6 @@
     a           schema:Person ;
     schema:name "Thomas Jane" .
 
-:TimMiller
-    a           schema:Person ;
-    schema:name "Tim Miller" .
-
 :TimRobbins
     a           schema:Person ;
     schema:name "Tim Robbins" .
@@ -1856,6 +1816,10 @@
 :TimRoth
     a           schema:Person ;
     schema:name "Tim Roth" .
+
+:ToddPhillips
+    a           schema:Person ;
+    schema:name "Todd Phillips" .
 
 :TommyLeeJones
     a           schema:Person ;
@@ -1889,13 +1853,13 @@
     a           schema:Person ;
     schema:name "Walton Goggins" .
 
+:WesCraven
+    a           schema:Person ;
+    schema:name "Wes Craven" .
+
 :WillSmith
     a           schema:Person ;
     schema:name "Will Smith" .
-
-:WillardHuyck
-    a           schema:Person ;
-    schema:name "Willard Huyck" .
 
 :WilliamHurt
     a           schema:Person ;
@@ -1909,6 +1873,10 @@
     a           schema:Person ;
     schema:name "Zazie Beetz" .
 
+:AlanTaylor
+    a           schema:Person ;
+    schema:name "Alan Taylor" .
+
 :AmyAdams
     a           schema:Person ;
     schema:name "Amy Adams" .
@@ -1916,6 +1884,18 @@
 :AndrewGarfield
     a           schema:Person ;
     schema:name "Andrew Garfield" .
+
+:AngLee
+    a           schema:Person ;
+    schema:name "Ang Lee" .
+
+:AnnaBoden
+    a           schema:Person ;
+    schema:name "Anna Boden" .
+
+:BrettRatner
+    a           schema:Person ;
+    schema:name "Brett Ratner" .
 
 :ChrisPine
     a           schema:Person ;
@@ -1925,9 +1905,21 @@
     a           schema:Person ;
     schema:name "Chris Pratt" .
 
+:DavidLeitch
+    a           schema:Person ;
+    schema:name "David Leitch" .
+
+:DavidSGoyer
+    a           schema:Person ;
+    schema:name "David S. Goyer" .
+
 :DonCheadle
     a           schema:Person ;
     schema:name "Don Cheadle" .
+
+:ElmerClifton
+    a           schema:Person ;
+    schema:name "Elmer Clifton" .
 
 :EmmaStone
     a           schema:Person ;
@@ -1940,6 +1932,14 @@
 :FamkeJanssen
     a           schema:Person ;
     schema:name "Famke Janssen" .
+
+:GavinHood
+    a           schema:Person ;
+    schema:name "Gavin Hood" .
+
+:GuillermodelToro
+    a           schema:Person ;
+    schema:name "Guillermo del Toro" .
 
 :HenryCavill
     a           schema:Person ;
@@ -1957,14 +1957,6 @@
     a           schema:Person ;
     schema:name "James Franco" .
 
-:JamesGunn
-    a           schema:Person ;
-    schema:name "James Gunn" .
-
-:JamesMangold
-    a           schema:Person ;
-    schema:name "James Mangold" .
-
 :JasonMomoa
     a           schema:Person ;
     schema:name "Jason Momoa" .
@@ -1977,29 +1969,45 @@
     a           schema:Person ;
     schema:name "Jessica Alba" .
 
-:JonFavreau
+:JoeJohnston
     a           schema:Person ;
-    schema:name "Jon Favreau" .
+    schema:name "Joe Johnston" .
 
-:JonWatts
+:JoelSchumacher
     a           schema:Person ;
-    schema:name "Jon Watts" .
+    schema:name "Joel Schumacher" .
+
+:JonathanHensleigh
+    a           schema:Person ;
+    schema:name "Jonathan Hensleigh" .
+
+:JoshBoone
+    a           schema:Person ;
+    schema:name "Josh Boone" .
 
 :JoshBrolin
     a           schema:Person ;
     schema:name "Josh Brolin" .
 
-:JossWhedon
+:JoshTrank
     a           schema:Person ;
-    schema:name "Joss Whedon" .
+    schema:name "Josh Trank" .
+
+:KennethBranagh
+    a           schema:Person ;
+    schema:name "Kenneth Branagh" .
+
+:LexiAlexander
+    a           schema:Person ;
+    schema:name "Lexi Alexander" .
 
 :LouisJourdan
     a           schema:Person ;
     schema:name "Louis Jourdan" .
 
-:MarcWebb
+:LouisLeterrier
     a           schema:Person ;
-    schema:name "Marc Webb" .
+    schema:name "Louis Leterrier" .
 
 :MargotRobbie
     a           schema:Person ;
@@ -2009,13 +2017,13 @@
     a           schema:Person ;
     schema:name "Marisa Tomei" .
 
-:MarkStevenJohnson
-    a           schema:Person ;
-    schema:name "Mark Steven Johnson" .
-
 :MarkStrong
     a           schema:Person ;
     schema:name "Mark Strong" .
+
+:MatthewVaughn
+    a           schema:Person ;
+    schema:name "Matthew Vaughn" .
 
 :MichaelBJordan
     a           schema:Person ;
@@ -2049,21 +2057,61 @@
     a           schema:Person ;
     schema:name "Patrick Wilson" .
 
+:PattyJenkins
+    a           schema:Person ;
+    schema:name "Patty Jenkins" .
+
 :PaulRudd
     a           schema:Person ;
     schema:name "Paul Rudd" .
 
-:PeytonReed
+:RichardLester
     a           schema:Person ;
-    schema:name "Peyton Reed" .
+    schema:name "Richard Lester" .
+
+:RobBowman
+    a           schema:Person ;
+    schema:name "Rob Bowman" .
+
+:RubenFleischer
+    a           schema:Person ;
+    schema:name "Ruben Fleischer" .
+
+:RyanCoogler
+    a           schema:Person ;
+    schema:name "Ryan Coogler" .
 
 :SamElliott
     a           schema:Person ;
     schema:name "Sam Elliott" .
 
-:TimStory
+:ScottDerrickson
     a           schema:Person ;
-    schema:name "Tim Story" .
+    schema:name "Scott Derrickson" .
+
+:ShaneBlack
+    a           schema:Person ;
+    schema:name "Shane Black" .
+
+:SimonKinberg
+    a           schema:Person ;
+    schema:name "Simon Kinberg" .
+
+:StephenNorrington
+    a           schema:Person ;
+    schema:name "Stephen Norrington" .
+
+:TaikaWaititi
+    a           schema:Person ;
+    schema:name "Taika Waititi" .
+
+:TimBurton
+    a           schema:Person ;
+    schema:name "Tim Burton" .
+
+:TimMiller
+    a           schema:Person ;
+    schema:name "Tim Miller" .
 
 :TomHardy
     a           schema:Person ;
@@ -2080,6 +2128,10 @@
 :WillYunLee
     a           schema:Person ;
     schema:name "Will Yun Lee" .
+
+:WillardHuyck
+    a           schema:Person ;
+    schema:name "Willard Huyck" .
 
 :WillemDafoe
     a           schema:Person ;
@@ -2101,6 +2153,10 @@ f_schema:Mystery
 :ChristianBale
     a           schema:Person ;
     schema:name "Christian Bale" .
+
+:ChristopherNolan
+    a           schema:Person ;
+    schema:name "Christopher Nolan" .
 
 :GalGadot
     a           schema:Person ;
@@ -2138,10 +2194,6 @@ f_schema:Mystery
     a           schema:Person ;
     schema:name "Michael Keaton" .
 
-:SamRaimi
-    a           schema:Person ;
-    schema:name "Sam Raimi" .
-
 :ScarlettJohansson
     a           schema:Person ;
     schema:name "Scarlett Johansson" .
@@ -2158,13 +2210,21 @@ f_schema:Mystery
     a           schema:Person ;
     schema:name "Wesley Snipes" .
 
-:BryanSinger
+:AnthonyRusso
     a           schema:Person ;
-    schema:name "Bryan Singer" .
+    schema:name "Anthony Russo" .
 
 :ChristopherReeve
     a           schema:Person ;
     schema:name "Christopher Reeve" .
+
+:JamesGunn
+    a           schema:Person ;
+    schema:name "James Gunn" .
+
+:JamesMangold
+    a           schema:Person ;
+    schema:name "James Mangold" .
 
 :JamesMcAvoy
     a           schema:Person ;
@@ -2174,6 +2234,22 @@ f_schema:Mystery
     a           schema:Person ;
     schema:name "Joe Russo" .
 
+:JonFavreau
+    a           schema:Person ;
+    schema:name "Jon Favreau" .
+
+:JonWatts
+    a           schema:Person ;
+    schema:name "Jon Watts" .
+
+:JossWhedon
+    a           schema:Person ;
+    schema:name "Joss Whedon" .
+
+:MarcWebb
+    a           schema:Person ;
+    schema:name "Marc Webb" .
+
 :MargotKidder
     a           schema:Person ;
     schema:name "Margot Kidder" .
@@ -2182,13 +2258,29 @@ f_schema:Mystery
     a           schema:Person ;
     schema:name "Mark Ruffalo" .
 
+:MarkStevenJohnson
+    a           schema:Person ;
+    schema:name "Mark Steven Johnson" .
+
 :MichaelFassbender
     a           schema:Person ;
     schema:name "Michael Fassbender" .
 
+:PeytonReed
+    a           schema:Person ;
+    schema:name "Peyton Reed" .
+
 :SamuelLJackson
     a           schema:Person ;
     schema:name "Samuel L. Jackson" .
+
+:TimStory
+    a           schema:Person ;
+    schema:name "Tim Story" .
+
+:ZackSnyder
+    a           schema:Person ;
+    schema:name "Zack Snyder" .
 
 f_schema:Thriller
     a              skos:Concept ;
@@ -2212,9 +2304,17 @@ f_schema:Horror
     a           schema:Person ;
     schema:name "Chris Hemsworth" .
 
+:SamRaimi
+    a           schema:Person ;
+    schema:name "Sam Raimi" .
+
 :HughJackman
     a           schema:Person ;
     schema:name "Hugh Jackman" .
+
+:BryanSinger
+    a           schema:Person ;
+    schema:name "Bryan Singer" .
 
 :ChrisEvans
     a           schema:Person ;
