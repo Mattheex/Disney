@@ -1,5 +1,6 @@
 @prefix :         <http://projet.fr/films_data/> .
 @prefix f_schema: <http://projet.fr/films_schema/> .
+@prefix ns1:      <http://projet.fr/films_schema/22-rdf-syntax-ns#> .
 @prefix owl:      <http://www.w3.org/2002/07/owl#> .
 @prefix p_data:   <http://projet.fr/perso_data/> .
 @prefix p_schema: <http://projet.fr/perso_schema/> .
@@ -1952,20 +1953,21 @@
     schema:name "Zazie Beetz" .
 
 :26
-    a                        schema:Movie ;
-    f_schema:castmember      :DominicCooper, :HayleyAtwell, :HugoWeaving, :NealMcDon, :SebastianStan, :TommyLeeJones ;
-    f_schema:entity          f_schema:MARVEL ;
-    f_schema:genre           f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
-    f_schema:gross           1.7665e+08 ;
-    f_schema:publicationdate "2011-07-29"^^xsd:date ;
-    f_schema:rating          6.9e+00 ;
-    f_schema:stars           :ChrisEvans, :HayleyAtwell, :HugoWeaving, :JoeJohnston, :SamuelLJackson ;
-    f_schema:vote            7.64786e+05 ;
-    f_schema:year            "2011"^^xsd:gYear ;
-    owl:sameAs               "http://dbpedia.org/resource/Captain_America:_The_First_Avenger"^^xsd:anyURI ;
-    schema:character         :BuckyBarnes, :SteveRogers ;
-    schema:director          :JoeJohnston ;
-    schema:name              "Captain America: The First Avenger"@en .
+    a                    schema:Movie ;
+    ns1:type             :Node ;
+    f_schema:castmember  :DominicCooper, :HayleyAtwell, :HugoWeaving, :NealMcDon, :SebastianStan, :TommyLeeJones ;
+    f_schema:entity      f_schema:MARVEL ;
+    f_schema:genre       f_schema:Action, f_schema:Adventure, f_schema:SciFi ;
+    f_schema:gross       1.7665e+08 ;
+    f_schema:rating      6.9e+00 ;
+    f_schema:stars       :ChrisEvans, :HayleyAtwell, :HugoWeaving, :JoeJohnston, :SamuelLJackson ;
+    f_schema:vote        7.64786e+05 ;
+    f_schema:year        "2011"^^xsd:gYear ;
+    owl:sameAs           "http://dbpedia.org/resource/Captain_America:_The_First_Avenger"^^xsd:anyURI ;
+    schema:character     :BuckyBarnes, :SteveRogers ;
+    schema:datePublished "2011-07-29"^^xsd:date ;
+    schema:director      :JoeJohnston ;
+    schema:name          "Captain America: The First Avenger"@en .
 
 :AlanTaylor
     a           p_schema:Real, schema:Person ;

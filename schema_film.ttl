@@ -8,7 +8,7 @@
 @prefix perso:  <http://projet.fr/perso_schema/> .
 @prefix schema: <http://schema.org/>.
 
-:CreativeWorkShape
+:MovieShape
     a              sh:NodeShape ;
     sh:property    [ sh:path     :director ;
                      sh:minCount 1 ] ;
@@ -47,7 +47,7 @@ schema:character
     rdfs:label             "film characters" ;
     rdfs:domain            schema:Movie ;
     rdfs:range             perso:Character ;
-    owl:propertyChainAxiom ( :characters rdfs:seeAlso ) .
+    owl:propertyChainAxiom ( schema:character rdfs:seeAlso ) .
 
 :conflict
     a           owl:ObjectProperty ;

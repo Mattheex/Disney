@@ -10,7 +10,7 @@
 
 <http://projet.fr/films_schema/22-rdf-syntax-ns#type> a owl:ObjectProperty .
 
-:CreativeWorkShape a sh:NodeShape ;
+:MovieShape a sh:NodeShape ;
     sh:property [ sh:minCount 1 ;
             sh:path :director ],
         [ sh:minInclusive 0 ;
@@ -34,7 +34,7 @@
     rdfs:label "film characters" ;
     rdfs:domain schema1:Movie ;
     rdfs:range perso:Character ;
-    owl:propertyChainAxiom ( :characters rdfs:seeAlso ) .
+    owl:propertyChainAxiom ( schema1:character rdfs:seeAlso ) .
 
 :conflict a owl:ObjectProperty ;
     rdfs:label "film characters" ;
